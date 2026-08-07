@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chapter-6 on My New Hugo Project</title>
-    <link>https://example.org/tags/chapter-6/</link>
-    <description>Recent content in Chapter-6 on My New Hugo Project</description>
+    <title>Chapter-6 on Epidemiology 流行病學</title>
+    <link>https://b101108063-ops.github.io/epidemiology/tags/chapter-6/</link>
+    <description>Recent content in Chapter-6 on Epidemiology 流行病學</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://example.org/tags/chapter-6/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-TW</language>
+    <atom:link href="https://b101108063-ops.github.io/epidemiology/tags/chapter-6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>疾病的自然史：預後表示法</title>
-      <link>https://example.org/docs/ch6_natural_history_prognosis/</link>
+      <link>https://b101108063-ops.github.io/epidemiology/docs/ch6_natural_history_prognosis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/docs/ch6_natural_history_prognosis/</guid>
+      <guid>https://b101108063-ops.github.io/epidemiology/docs/ch6_natural_history_prognosis/</guid>
       <description>&lt;h1 id=&#34;疾病的自然史預後表示法&#34;&gt;疾病的自然史：預後表示法&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;原文章節：&lt;/strong&gt; The Natural History of Disease: Ways of Expressing Prognosis&lt;/p&gt;&#xA;&lt;h2 id=&#34;-學習目標&#34;&gt;📚 學習目標&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To compare ive different ways of describing the natural history of disease: case-fatality, ive-year survival, observed survival, median survival time, and relative survival.&lt;/li&gt;&#xA;&lt;li&gt;To describe two approaches for calculating observed survival over time: the life table approach and the Kaplan-Meier method.&lt;/li&gt;&#xA;&lt;li&gt;To illustrate the use of life tables for examining changes in survival.&lt;/li&gt;&#xA;&lt;li&gt;To describe how improvements in available diagnostic methods may affect the estimation of prognosis (stage migration).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;內容概要&#34;&gt;內容概要&lt;/h2&gt;&#xA;&lt;p&gt;At this point, we have learned how diagnostic and&#xA;screening tests permit the categorization of sick and&#xA;healthy individuals. Once a person is identiied as&#xA;having a disease, the question arises, “How can we&#xA;characterize the &lt;strong&gt;natural history&lt;/strong&gt; of the disease in&#xA;quantitative terms?” Such quantiication is impor-&#xA;tant for several reasons. First, it is necessary to&#xA;describe the severity of a disease to establish priori-&#xA;ties for clinical services and public health programs.&#xA;Second, patients often ask questions about progno-&#xA;sis (Fig. 6-1). Third, such quantiication is impor-&#xA;tant to establish a baseline for &lt;strong&gt;natural history&lt;/strong&gt;, so&#xA;that as new treatments become available, the effects&#xA;of these treatments can be compared with the&#xA;expected outcome without them. Furthermore, if&#xA;different types of therapy are available for a given&#xA;disease, such as surgical or medical treatments or&#xA;two different types of surgical procedures, we want&#xA;to be able to compare the effectiveness of the&#xA;various types of therapy. Therefore, to allow such&#xA;a comparison, we need a quantitative means of&#xA;expressing the &lt;strong&gt;prognosis&lt;/strong&gt; in groups receiving differ-&#xA;ent treatments.&lt;/p&gt;</description>
     </item>
   </channel>

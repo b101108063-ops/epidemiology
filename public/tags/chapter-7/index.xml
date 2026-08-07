@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chapter-7 on My New Hugo Project</title>
-    <link>https://example.org/tags/chapter-7/</link>
-    <description>Recent content in Chapter-7 on My New Hugo Project</description>
+    <title>Chapter-7 on Epidemiology 流行病學</title>
+    <link>https://b101108063-ops.github.io/epidemiology/tags/chapter-7/</link>
+    <description>Recent content in Chapter-7 on Epidemiology 流行病學</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://example.org/tags/chapter-7/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-TW</language>
+    <atom:link href="https://b101108063-ops.github.io/epidemiology/tags/chapter-7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>評估預防與治療措施：隨機試驗</title>
-      <link>https://example.org/docs/ch7_randomized_trials/</link>
+      <link>https://b101108063-ops.github.io/epidemiology/docs/ch7_randomized_trials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/docs/ch7_randomized_trials/</guid>
+      <guid>https://b101108063-ops.github.io/epidemiology/docs/ch7_randomized_trials/</guid>
       <description>&lt;h1 id=&#34;評估預防與治療措施隨機試驗&#34;&gt;評估預防與治療措施：隨機試驗&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;原文章節：&lt;/strong&gt; Assessing Preventive and Therapeutic Measures: Randomized Trials&lt;/p&gt;&#xA;&lt;h2 id=&#34;-學習目標&#34;&gt;📚 學習目標&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To describe the important elements of randomized trials.&lt;/li&gt;&#xA;&lt;li&gt;To deﬁne the purpose of randomization and of masking.&lt;/li&gt;&#xA;&lt;li&gt;To introduce design issues related to randomized trials, including stratiﬁed randomization, planned and unplanned crossovers, and factorial design.&lt;/li&gt;&#xA;&lt;li&gt;To illustrate the problems posed by noncompliance in randomized trials.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;內容概要&#34;&gt;內容概要&lt;/h2&gt;&#xA;&lt;p&gt;All who drink of this treatment recover in a short time,&#xA;Except those whom it does not help, who all die,&#xA;It is obvious, therefore, that it fails only in incurable cases.&lt;/p&gt;</description>
     </item>
   </channel>
