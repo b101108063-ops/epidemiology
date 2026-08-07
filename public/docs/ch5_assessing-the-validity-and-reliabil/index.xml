@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>第5章：診斷與篩檢試驗的有效性與可靠性評估 on My New Hugo Project</title>
+    <link>https://example.org/docs/ch5_assessing-the-validity-and-reliabil/</link>
+    <description>Recent content in 第5章：診斷與篩檢試驗的有效性與可靠性評估 on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://example.org/docs/ch5_assessing-the-validity-and-reliabil/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
