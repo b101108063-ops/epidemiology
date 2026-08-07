@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter-8 on My New Hugo Project</title>
+    <link>https://example.org/tags/chapter-8/</link>
+    <description>Recent content in Chapter-8 on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/tags/chapter-8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>隨機試驗：進一步議題</title>
+      <link>https://example.org/docs/ch8_randomized_trials_further/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/ch8_randomized_trials_further/</guid>
+      <description>&lt;h1 id=&#34;隨機試驗進一步議題&#34;&gt;隨機試驗：進一步議題&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;原文章節：&lt;/strong&gt; Randomized Trials: Some Further Issues&lt;/p&gt;&#xA;&lt;h2 id=&#34;-學習目標&#34;&gt;📚 學習目標&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To deine key concepts of epidemiologic study design in the context of randomized trials: sample size, type I error, type II error, power, generalizability (external validity), and internal validity.&lt;/li&gt;&#xA;&lt;li&gt;To calculate and interpret eficacy in a randomized trial.&lt;/li&gt;&#xA;&lt;li&gt;To describe the design and results of ive important randomized trials.&lt;/li&gt;&#xA;&lt;li&gt;To deine the four major phases of randomized trials that are used by the Federal Drug Administration for evaluating new drugs in the United States.&lt;/li&gt;&#xA;&lt;li&gt;To introduce several ethical considerations as they relate to randomized trials.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;內容概要&#34;&gt;內容概要&lt;/h2&gt;&#xA;&lt;p&gt;To discuss the rationale for requiring the&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

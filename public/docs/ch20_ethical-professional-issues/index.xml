@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>第20章：流行病學中的倫理與專業議題 on My New Hugo Project</title>
+    <link>https://example.org/docs/ch20_ethical-professional-issues/</link>
+    <description>Recent content in 第20章：流行病學中的倫理與專業議題 on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://example.org/docs/ch20_ethical-professional-issues/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

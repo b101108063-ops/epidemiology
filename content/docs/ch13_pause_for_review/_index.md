@@ -1,0 +1,2611 @@
+---
+title: "Chapter 13: A Pause for Review: Comparing Cohort and Case-Control Studies"
+titleTC: "回顧與比較：隊列研究與病例對照研究"
+description: "Gordis Epidemiology Chapter 13 - A Pause for Review: Comparing Cohort and Case-Control Studies"
+draft: false
+---
+
+# Chapter 13: A Pause for Review: Comparing Cohort and Case-Control Studies
+## 回顧與比較：隊列研究與病例對照研究
+
+## Learning Objectives | 學習目標
+
+Learning Objectives
+- To describe a frequent sequence of study
+designs used to address questions of etiology
+designs used to address questions of etiology
+in human populations.
+in human populations.
+- To differentiate between real and
+spurious associations in observational
+spurious associations in observational
+studies.
+studies.
+- To deine necessary and suficient in the
+context of causal relationships.
+context of causal relationships.
+- To present guidelines for judging whether
+an association is causal based on the
+an association is causal based on the
+guidelines set forth by the U.S. Surgeon
+guidelines set forth by the U.S. Surgeon
+General, and to discuss the application of
+General, and to discuss the application of
+these guidelines to broader questions of
+these guidelines to broader questions of
+causal inference.
+causal inference.
+- To describe how the guidelines for causation
+originally proposed by the Surgeon General
+originally proposed by the Surgeon General
+have been modiied and utilized by the
+have been modiied and utilized by the
+U.S. Public Health Service and the U.S.
+U.S. Public Health Service and the U.S.
+Preventive Services Task Force.
+Preventive Services Task Force.
+In the previous chapters, we discussed the designs
+In the previous chapters, we discussed the designs
+of epidemiologic studies that are used to determine
+of epidemiologic studies that are used to determine
+whether an association exists between an exposure
+whether an association exists between an exposure
+and a disease (Fig. 14-1A). We then addressed different types of risk measurement that are used to
+and a disease (Fig. 14-1A). We then addressed different types of risk measurement that are used to
+quantitatively express an excess in risk. If we determine that an exposure is associated with a disease,
+quantitatively express an excess in risk. If we determine that an exposure is associated with a disease,
+the next question is whether the observed association relects a causal relationship (Fig. 14-1B).
+the next question is whether the observed association relects a causal relationship (Fig. 14-1B).
+Although Figures 14-1A and B refer to an environmental exposure, they could just as well have
+Although Figures 14-1A and B refer to an environmental exposure, they could just as well have
+speciied a genetic characteristic or characteristics
+speciied a genetic characteristic or characteristics
+or a speciic combination of environmental and
+or a speciic combination of environmental and
+genetic factors. As we shall see in Chapter 16, studies
+genetic factors. As we shall see in Chapter 16, studies
+of disease etiology generally address the contributions of both genetic and environmental factors
+of disease etiology generally address the contributions of both genetic and environmental factors
+and their interactions.
+and their interactions.
+This chapter discusses the derivation of causal
+This chapter discusses the derivation of causal
+inferences in epidemiology. Let us begin by asking,
+inferences in epidemiology. Let us begin by asking,
+“What approaches are available for studying the
+“What approaches are available for studying the
+etiology of disease?”
+etiology of disease?”
+Environmental
+Environmental
+Exposure or Host
+Exposure or Host
+Characteristic
+Characteristic
+Environmental
+Environmental
+Exposure or Host
+Exposure or Host
+Characteristic
+Characteristic
+An Association
+An Association
+is Observed
+is Observed
+Is the Observed
+Is the Observed
+Association
+Association
+Causal?
+Causal?
+Disease or
+Disease or
+Other Health
+Other Health
+Outcome
+Outcome
+B
+B
+Disease or
+Disease or
+Other Health
+Other Health
+Outcome
+Outcome
+Is an
+Is an
+Association
+Association
+Observed?
+Observed?
+A
+A
+Figure 14-1. A, Do we observe an association between exposure and disease? B, Is the observed association between exposure
+Figure 14-1. A, Do we observe an association between exposure and disease? B, Is the observed association between exposure
+and disease causal?
+and disease causal?
+243
+243
+244
+244
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+APPROACHES FOR STUDYING
+APPROACHES FOR STUDYING
+DISEASE ETIOLOGY
+DISEASE ETIOLOGY
+If we are interested in whether a certain substance
+If we are interested in whether a certain substance
+is carcinogenic in human beings, a irst step in the
+is carcinogenic in human beings, a irst step in the
+study of the substance’s effect might be to expose
+study of the substance’s effect might be to expose
+animals to the carcinogen in a controlled laboratory
+animals to the carcinogen in a controlled laboratory
+environment. Although such animal studies afford
+environment. Although such animal studies afford
+us the opportunity to control the exposure dose
+us the opportunity to control the exposure dose
+and other environmental conditions and genetic
+and other environmental conditions and genetic
+factors precisely, and to keep loss to follow-up to a
+factors precisely, and to keep loss to follow-up to a
+minimum, at the conclusion of the study we are left
+minimum, at the conclusion of the study we are left
+with the problem of having to extrapolate data
+with the problem of having to extrapolate data
+across species, from animal to human populations.
+across species, from animal to human populations.
+Certain diseases seen in humans have neither
+Certain diseases seen in humans have neither
+occurred nor been produced in animals. It is also
+occurred nor been produced in animals. It is also
+dificult to extrapolate animal doses to human
+dificult to extrapolate animal doses to human
+doses, and species differ in their responses. Thus,
+doses, and species differ in their responses. Thus,
+although such toxicologic studies can be very useful,
+although such toxicologic studies can be very useful,
+they still leave a gnawing uncertainty as to whether
+they still leave a gnawing uncertainty as to whether
+the animal indings can be generalized to human
+the animal indings can be generalized to human
+beings.
+beings.
+We can also use in vitro systems, such as cell
+We can also use in vitro systems, such as cell
+culture or organ culture. However, because these
+culture or organ culture. However, because these
+are artiicial systems, we are again left with the dificulty of extrapolating from artiicial systems to
+are artiicial systems, we are again left with the dificulty of extrapolating from artiicial systems to
+intact, whole human organisms.
+intact, whole human organisms.
+In view of these limitations, if we want to be able
+In view of these limitations, if we want to be able
+to draw a conclusion as to whether a substance
+to draw a conclusion as to whether a substance
+causes disease in human beings, we need to make
+causes disease in human beings, we need to make
+observations in human populations. Because we
+observations in human populations. Because we
+cannot ethically or practically randomize human
+cannot ethically or practically randomize human
+beings to exposure to a suspected carcinogen, we
+beings to exposure to a suspected carcinogen, we
+are dependent on nonrandomized observations,
+are dependent on nonrandomized observations,
+such as those made in case-control and cohort
+such as those made in case-control and cohort
+studies.
+studies.
+Approaches to Etiology
+Approaches to Etiology
+in Human Populations
+in Human Populations
+Epidemiology capitalizes on what have been called
+Epidemiology capitalizes on what have been called
+“unplanned” or “natural” experiments. (Some
+“unplanned” or “natural” experiments. (Some
+think that this phrase is a contradiction in terms, in
+think that this phrase is a contradiction in terms, in
+that the word “experiment” implies a planned exposure.) What we mean by unplanned or natural
+that the word “experiment” implies a planned exposure.) What we mean by unplanned or natural
+experiments is that we take advantage of groups of
+experiments is that we take advantage of groups of
+people who have been exposed for nonstudy purposes, such as occupational cohorts in speciic
+people who have been exposed for nonstudy purposes, such as occupational cohorts in speciic
+industries or persons exposed to toxic chemicals.
+industries or persons exposed to toxic chemicals.
+Examples include people affected by the poison gas
+Examples include people affected by the poison gas
+leak disaster at a pesticide manufacturing plant in
+leak disaster at a pesticide manufacturing plant in
+Bhopal, India, in 1984 and residents of Hiroshima
+Bhopal, India, in 1984 and residents of Hiroshima
+and Nagasaki, Japan, who were exposed to radiation
+and Nagasaki, Japan, who were exposed to radiation
+from the atomic bombs dropped on both cities in
+from the atomic bombs dropped on both cities in
+1945. Each of these exposed groups can be compared to a nonexposed group to determine whether
+1945. Each of these exposed groups can be compared to a nonexposed group to determine whether
+there is an increased risk of a certain adverse effect
+there is an increased risk of a certain adverse effect
+in persons who have been exposed.
+in persons who have been exposed.
+In conducting human studies, the sequence
+In conducting human studies, the sequence
+shown in Figure 14-2 is frequently followed:
+shown in Figure 14-2 is frequently followed:
+The initial step may consist of clinical observations at the bedside. For example, when the surgeon
+The initial step may consist of clinical observations at the bedside. For example, when the surgeon
+Alton Ochsner observed that virtually every patient
+Alton Ochsner observed that virtually every patient
+on whom he operated for lung cancer gave a history
+on whom he operated for lung cancer gave a history
+of cigarette smoking, he was among the irst to
+of cigarette smoking, he was among the irst to
+suggest a possible causal relationship.2 A second
+suggest a possible causal relationship.2 A second
+step is to try to identify routinely available data, the
+step is to try to identify routinely available data, the
+analysis of which might shed light on the question.
+analysis of which might shed light on the question.
+We can then carry out new studies such as the
+We can then carry out new studies such as the
+cohort and case-control studies discussed in Chapters 9 and 10, which are speciically designed to
+cohort and case-control studies discussed in Chapters 9 and 10, which are speciically designed to
+determine whether there is an association between
+determine whether there is an association between
+an exposure and a disease, and whether a causal
+an exposure and a disease, and whether a causal
+relationship exists.
+relationship exists.
+The usual irst step in carrying out new studies
+The usual irst step in carrying out new studies
+to explore a relationship is often a case-control
+to explore a relationship is often a case-control
+study. For example, if Ochsner had wanted to
+study. For example, if Ochsner had wanted to
+further explore his suggestion
+further explore his suggestion
+that cigarette
+that cigarette
+smoking may be associated with lung cancer, he
+smoking may be associated with lung cancer, he
+would have compared the smoking histories of a
+would have compared the smoking histories of a
+group of his patients with lung cancer with those
+group of his patients with lung cancer with those
+of a group of patients without lung cancer—a
+of a group of patients without lung cancer—a
+case-control study.
+case-control study.
+If a case-control study yields evidence that a
+If a case-control study yields evidence that a
+certain exposure is suspect, we might next do a
+certain exposure is suspect, we might next do a
+cohort study (e.g., comparing smokers and nonsmokers and determining the rate of lung cancer in
+cohort study (e.g., comparing smokers and nonsmokers and determining the rate of lung cancer in
+each group or comparing workers exposed to an
+each group or comparing workers exposed to an
+Clinical Observations
+Clinical Observations
+Available Data
+Available Data
+Case-Control Studies
+Case-Control Studies
+Cohort Studies
+Cohort Studies
+Randomized Trials
+Randomized Trials
+Figure 14-2. A frequent sequence of studies in human
+Figure 14-2. A frequent sequence of studies in human
+populations.
+populations.
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+245
+245
+Figure 14-3. Another example of association or causation. (DILBERT © 2011 Scott Adams. Used by permission of UNIVERSAL
+Figure 14-3. Another example of association or causation. (DILBERT © 2011 Scott Adams. Used by permission of UNIVERSAL
+UCLICK. All rights reserved.)
+UCLICK. All rights reserved.)
+industrial toxin with workers without such an
+industrial toxin with workers without such an
+exposure). Although, in theory, a randomized trial
+exposure). Although, in theory, a randomized trial
+might be the next step, as discussed earlier, randomized trials are almost never used to study the
+might be the next step, as discussed earlier, randomized trials are almost never used to study the
+effects of putative toxins or carcinogens and are
+effects of putative toxins or carcinogens and are
+generally used only for studying potentially beneicial agents.
+generally used only for studying potentially beneicial agents.
+Conceptually, a two-step process is followed in
+Conceptually, a two-step process is followed in
+carrying out studies and evaluating evidence.
+carrying out studies and evaluating evidence.
+However, in practice, this process often becomes
+However, in practice, this process often becomes
+interactive and deviates from a ixed sequence:
+interactive and deviates from a ixed sequence:
+1. We determine whether there is an association or
+1. We determine whether there is an association or
+correlation between an exposure or characteristic and the risk of a disease (Fig. 14-3). To do so,
+correlation between an exposure or characteristic and the risk of a disease (Fig. 14-3). To do so,
+we use:
+we use:
+a. Studies of group characteristics: ecologic
+a. Studies of group characteristics: ecologic
+studies (discussed in Chapter 10, p. 208)
+studies (discussed in Chapter 10, p. 208)
+b. Studies of individual characteristics: cohort,
+b. Studies of individual characteristics: cohort,
+case-control, and other types of studies
+case-control, and other types of studies
+2. If an association is demonstrated, we determine
+2. If an association is demonstrated, we determine
+whether the observed association is likely to be
+whether the observed association is likely to be
+a causal one.
+a causal one.
+be a true association, but only a result of the study
+be a true association, but only a result of the study
+design. Recall that this issue was raised in Chapter
+design. Recall that this issue was raised in Chapter
+10 regarding a study of coffee consumption and
+10 regarding a study of coffee consumption and
+cancer of the pancreas. The possibility was suggested that the controls selected for the study had a
+cancer of the pancreas. The possibility was suggested that the controls selected for the study had a
+lower rate of coffee consumption than was found
+lower rate of coffee consumption than was found
+in the general population.
+in the general population.
+Interpreting Real Associations
+Interpreting Real Associations
+If the observed association is real, is it causal? Figure
+If the observed association is real, is it causal? Figure
+14-4 shows two possibilities. Figure 14-4A shows a
+14-4 shows two possibilities. Figure 14-4A shows a
+causal association: we observe an association of
+causal association: we observe an association of
+exposure and disease, as indicated by the bracket,
+exposure and disease, as indicated by the bracket,
+and the exposure induces development of the
+and the exposure induces development of the
+disease, as indicated by the arrow. Figure 14-4B
+disease, as indicated by the arrow. Figure 14-4B
+shows the same observed association of exposure
+shows the same observed association of exposure
+and disease, but they are associated only because
+and disease, but they are associated only because
+they are both linked to a third factor, designated
+they are both linked to a third factor, designated
+here as factor X. This association is a result of
+here as factor X. This association is a result of
+confounding and is noncausal. Confounding is
+confounding and is noncausal. Confounding is
+discussed in greater detail in Chapter 15.
+discussed in greater detail in Chapter 15.
+In Chapter 10 we discussed this issue in relation
+In Chapter 10 we discussed this issue in relation
+to McMahon’s study of coffee and cancer of the
+to McMahon’s study of coffee and cancer of the
+TYPES OF ASSOCIATIONS
+TYPES OF ASSOCIATIONS
+Real or Spurious Associations
+Real or Spurious Associations
+Let us turn next to the types of associations that we
+Let us turn next to the types of associations that we
+might observe in a cohort or case-control study. If
+might observe in a cohort or case-control study. If
+we observe an association, we start by asking the
+we observe an association, we start by asking the
+question, “Is it a true (real) association or a false
+question, “Is it a true (real) association or a false
+(spurious) one?” For example, if we designed a
+(spurious) one?” For example, if we designed a
+study to select controls in such a way that they
+study to select controls in such a way that they
+tended to be nonexposed, we might observe an
+tended to be nonexposed, we might observe an
+association of exposure with disease (i.e., more
+association of exposure with disease (i.e., more
+exposure in cases than in controls). This would not
+exposure in cases than in controls). This would not
+n
+n
+o
+o
+i
+i
+t
+t
+a
+a
+i
+i
+c
+c
+o
+o
+s
+s
+s
+s
+A
+A
+d
+d
+e
+e
+v
+v
+r
+r
+e
+e
+s
+s
+b
+b
+O
+O
+A. Causal
+A. Causal
+B. Due to Confounding
+B. Due to Confounding
+Characteristic
+Characteristic
+Under Study
+Under Study
+Characteristic
+Characteristic
+Under Study
+Under Study
+Factor X
+Factor X
+O
+O
+b
+b
+s
+s
+e
+e
+r
+r
+v
+v
+e
+e
+d
+d
+A
+A
+s
+s
+s
+s
+o
+o
+c
+c
+i
+i
+a
+a
+t
+t
+i
+i
+o
+o
+n
+n
+Disease
+Disease
+Disease
+Disease
+Figure 14-4. Types of associations.
+Figure 14-4. Types of associations.
+246
+246
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+A. Causal
+A. Causal
+B. Due to Confounding
+B. Due to Confounding
+Increased
+Increased
+Coffee Drinking
+Coffee Drinking
+Increased
+Increased
+Coffee Drinking
+Coffee Drinking
+Smoking
+Smoking
+Increased Risk
+Increased Risk
+of Pancreatic
+of Pancreatic
+Cancer
+Cancer
+Increased Risk
+Increased Risk
+of Pancreatic
+of Pancreatic
+Cancer
+Cancer
+O
+O
+b
+b
+s
+s
+e
+e
+r
+r
+v
+v
+e
+e
+d
+d
+A
+A
+s
+s
+s
+s
+o
+o
+c
+c
+i
+i
+a
+a
+t
+t
+i
+i
+o
+o
+n
+n
+n
+n
+o
+o
+i
+i
+t
+t
+a
+a
+i
+i
+c
+c
+o
+o
+s
+s
+s
+s
+A
+A
+d
+d
+e
+e
+v
+v
+r
+r
+e
+e
+s
+s
+b
+b
+O
+O
+Figure 14-5.
+Figure 14-5.
+Interpreting an observed association between
+Interpreting an observed association between
+increased coffee drinking and increased risk of pancreatic cancer.
+increased coffee drinking and increased risk of pancreatic cancer.
+pancreas. McMahon observed an association of
+pancreas. McMahon observed an association of
+coffee consumption with risk of pancreatic cancer.
+coffee consumption with risk of pancreatic cancer.
+Cigarette smoking was known to be associated with
+Cigarette smoking was known to be associated with
+pancreatic cancer, and coffee drinking and cigarette
+pancreatic cancer, and coffee drinking and cigarette
+smoking are closely associated (few smokers do
+smoking are closely associated (few smokers do
+not drink coffee) (Fig. 14-5). Therefore, was the
+not drink coffee) (Fig. 14-5). Therefore, was the
+observed association of coffee drinking and cancer
+observed association of coffee drinking and cancer
+of the pancreas likely to be a causal relationship, or
+of the pancreas likely to be a causal relationship, or
+could the association be due to the fact that coffee
+could the association be due to the fact that coffee
+and cigarette smoking are associated, and that cigarette smoking is a known risk factor for cancer of
+and cigarette smoking are associated, and that cigarette smoking is a known risk factor for cancer of
+the pancreas?
+the pancreas?
+The same issue is exempliied by the observed
+The same issue is exempliied by the observed
+association of increased serum cholesterol level and
+association of increased serum cholesterol level and
+risk of coronary heart disease (CHD) (Fig. 14-6). Is
+risk of coronary heart disease (CHD) (Fig. 14-6). Is
+increased cholesterol a causal factor for increased
+increased cholesterol a causal factor for increased
+risk of CHD, or is the observed association due to
+risk of CHD, or is the observed association due to
+confounding? That is, are we observing an association of increased cholesterol and CHD because
+confounding? That is, are we observing an association of increased cholesterol and CHD because
+both are associated with a factor X (such as a particular genetic proile), which might cause people
+both are associated with a factor X (such as a particular genetic proile), which might cause people
+to have both increased levels of cholesterol and an
+to have both increased levels of cholesterol and an
+increased risk of CHD?
+increased risk of CHD?
+Is this distinction really important? What difference does it make? The answer is that it makes a
+Is this distinction really important? What difference does it make? The answer is that it makes a
+tremendous difference from both clinical and
+tremendous difference from both clinical and
+public health standpoints. If the relationship is
+public health standpoints. If the relationship is
+causal, we will succeed in reducing the risk of CHD
+causal, we will succeed in reducing the risk of CHD
+if we lower cholesterol levels. However, if the relationship is due to confounding, then the increased
+if we lower cholesterol levels. However, if the relationship is due to confounding, then the increased
+risk of CHD is caused by factor X. Therefore,
+risk of CHD is caused by factor X. Therefore,
+changes in the level of serum cholesterol will have
+changes in the level of serum cholesterol will have
+no effect on the risk of CHD. Thus, it is extremely
+no effect on the risk of CHD. Thus, it is extremely
+important for us to be able to distinguish between
+important for us to be able to distinguish between
+an association due to a causal relationship and an
+an association due to a causal relationship and an
+association due to confounding (noncausal).
+association due to confounding (noncausal).
+Let us look at another example. For many years
+Let us look at another example. For many years
+it has been known that cigarette smoking by pregnant women is associated with low birth weight in
+it has been known that cigarette smoking by pregnant women is associated with low birth weight in
+their infants. As seen in Figure 14-7, the effect is not
+their infants. As seen in Figure 14-7, the effect is not
+just the result of the birth of a few low-birth-weight
+just the result of the birth of a few low-birth-weight
+babies in this group of women. Rather, the entire
+babies in this group of women. Rather, the entire
+weight distribution curve is shifted to the left in the
+weight distribution curve is shifted to the left in the
+babies born to smokers. The reduction in birth
+babies born to smokers. The reduction in birth
+weight is also not a result of shorter pregnancies.
+weight is also not a result of shorter pregnancies.
+The babies of smokers are smaller than those of
+The babies of smokers are smaller than those of
+nonsmokers at each gestational age (Fig. 14-8). A
+nonsmokers at each gestational age (Fig. 14-8). A
+dose-response relationship is also seen (Fig. 14-9).
+dose-response relationship is also seen (Fig. 14-9).
+The more a woman smokes, the greater her risk of
+The more a woman smokes, the greater her risk of
+having a low-birth-weight baby. For many years the
+having a low-birth-weight baby. For many years the
+interpretation of this association was the subject of
+interpretation of this association was the subject of
+great controversy. Many believed the association
+great controversy. Many believed the association
+relected a causal relation. Others, including a
+relected a causal relation. Others, including a
+leading statistician, Jacob Yerushalmy, believed the
+leading statistician, Jacob Yerushalmy, believed the
+association was due to confounding and was not
+association was due to confounding and was not
+causal. He wrote as follows:
+causal. He wrote as follows:
+A comparison of smokers and nonsmokers shows
+A comparison of smokers and nonsmokers shows
+that the two differ markedly along many environmental, behavioral and biologic variables. For
+that the two differ markedly along many environmental, behavioral and biologic variables. For
+example, smokers are less likely to use contraceptives and to plan the pregnancy. Smokers are more
+example, smokers are less likely to use contraceptives and to plan the pregnancy. Smokers are more
+likely to drink coffee, beer and whiskey and the
+likely to drink coffee, beer and whiskey and the
+nonsmoker, tea, milk and wine. The smoker is
+nonsmoker, tea, milk and wine. The smoker is
+more likely than the nonsmoker to indulge in these
+more likely than the nonsmoker to indulge in these
+habits to excess. In general, the nonsmokers are
+habits to excess. In general, the nonsmokers are
+revealed to be more moderate than the smokers
+revealed to be more moderate than the smokers
+who are shown to be more extreme and carefree in
+who are shown to be more extreme and carefree in
+their mode of life. Some biologic differences are
+their mode of life. Some biologic differences are
+also noted between them: Thus smokers have a
+also noted between them: Thus smokers have a
+higher twinning rate only in whites and their age
+higher twinning rate only in whites and their age
+for menarche is lower than for nonsmokers.3
+for menarche is lower than for nonsmokers.3
+A. Causal
+A. Causal
+B. Due to Confounding
+B. Due to Confounding
+Increased
+Increased
+Cholesterol
+Cholesterol
+Increased
+Increased
+Cholesterol
+Cholesterol
+Factor X
+Factor X
+Increased
+Increased
+Risk of CHD
+Risk of CHD
+Increased
+Increased
+Risk of CHD
+Risk of CHD
+O
+O
+b
+b
+s
+s
+e
+e
+r
+r
+v
+v
+e
+e
+d
+d
+A
+A
+s
+s
+s
+s
+o
+o
+c
+c
+i
+i
+a
+a
+t
+t
+i
+i
+o
+o
+n
+n
+n
+n
+o
+o
+i
+i
+t
+t
+a
+a
+i
+i
+c
+c
+o
+o
+s
+s
+s
+s
+A
+A
+d
+d
+e
+e
+v
+v
+r
+r
+e
+e
+s
+s
+b
+b
+O
+O
+Figure 14-6.
+Figure 14-6.
+Interpreting an observed association between
+Interpreting an observed association between
+increased cholesterol level and increased risk of coronary heart
+increased cholesterol level and increased risk of coronary heart
+disease (CHD).
+disease (CHD).
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+247
+247
+Figure 14-7. Percentage distribution by birth weight of infants of
+Figure 14-7. Percentage distribution by birth weight of infants of
+mothers who did not smoke during
+mothers who did not smoke during
+pregnancy and of those mothers who
+pregnancy and of those mothers who
+smoked 1 pack of cigarettes or more per
+smoked 1 pack of cigarettes or more per
+day. (From U.S. Department of Health,
+day. (From U.S. Department of Health,
+Education, and Welfare: The Health
+Education, and Welfare: The Health
+Consequences of Smoking. Washington, DC, Public Health Service, 1973,
+Consequences of Smoking. Washington, DC, Public Health Service, 1973,
+p 105.)
+p 105.)
+Figure 14-8. Mean birth
+Figure 14-8. Mean birth
+weight for week of gestation acto maternal smoking
+weight for week of gestation acto maternal smoking
+cording
+cording
+habit. (From U.S. Department of
+habit. (From U.S. Department of
+Health, Education, and Welfare:
+Health, Education, and Welfare:
+The Health Consequences of
+The Health Consequences of
+Smoking. Washington, DC, Public
+Smoking. Washington, DC, Public
+Health Service, 1973, p 104.)
+Health Service, 1973, p 104.)
+Figure 14-9. Percentage of pregnancies (n = 50,267) with
+Figure 14-9. Percentage of pregnancies (n = 50,267) with
+infant weighing less than 2,500 g, by maternal cigarette smoking
+infant weighing less than 2,500 g, by maternal cigarette smoking
+category. (Redrawn from Ontario Department of Health: Second
+category. (Redrawn from Ontario Department of Health: Second
+Report of the Perinatal Mortality Study in Ten University Teaching
+Report of the Perinatal Mortality Study in Ten University Teaching
+Hospitals. Toronto, Ontario, Department of Health, Ontario Perinatal Mortality Study Committee, Vol. I, 1967, p 275.)
+Hospitals. Toronto, Ontario, Department of Health, Ontario Perinatal Mortality Study Committee, Vol. I, 1967, p 275.)
+248
+248
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+Figure 14-10. Percentage of lowbirth-weight
+Figure 14-10. Percentage of lowbirth-weight
+infants by smoking
+infants by smoking
+status of their mothers (*P < .01;
+status of their mothers (*P < .01;
+**P < .02). (Redrawn from Yerushalmy J: Infants with low birth weight
+**P < .02). (Redrawn from Yerushalmy J: Infants with low birth weight
+born before their mothers started to
+born before their mothers started to
+smoke cigarettes. Am J Obstet Gynecol 112:277–284, 1972.)
+smoke cigarettes. Am J Obstet Gynecol 112:277–284, 1972.)
+In view of these many differences between
+In view of these many differences between
+smokers and nonsmokers, Yerushalmy believed that
+smokers and nonsmokers, Yerushalmy believed that
+it was not the smoking that caused the low birth
+it was not the smoking that caused the low birth
+weight, but rather that the low weight was attributable to other characteristics of the smokers. It is interesting to examine a study that Yerushalmy carried
+weight, but rather that the low weight was attributable to other characteristics of the smokers. It is interesting to examine a study that Yerushalmy carried
+out to support his position at the time (Fig. 14-10).3
+out to support his position at the time (Fig. 14-10).3
+Yerushalmy examined the results of one pregnancy (the study pregnancy) in a population of
+Yerushalmy examined the results of one pregnancy (the study pregnancy) in a population of
+women who had had several pregnancies. The rate
+women who had had several pregnancies. The rate
+of low-birth-weight babies in the study pregnancy
+of low-birth-weight babies in the study pregnancy
+was 5.3% for women who were nonsmokers in all
+was 5.3% for women who were nonsmokers in all
+of their pregnancies. However, if they were smokers
+of their pregnancies. However, if they were smokers
+in all of their pregnancies, the rate of low birth
+in all of their pregnancies, the rate of low birth
+weight in the study pregnancy was almost 9%.
+weight in the study pregnancy was almost 9%.
+When he examined pregnancies of women who
+When he examined pregnancies of women who
+were nonsmokers during the study pregnancy, but
+were nonsmokers during the study pregnancy, but
+who later became smokers, he found that their rate
+who later became smokers, he found that their rate
+of low-birth-weight babies was about equal to that
+of low-birth-weight babies was about equal to that
+of women who smoked in all pregnancies. When he
+of women who smoked in all pregnancies. When he
+examined pregnancies of women who were smokers
+examined pregnancies of women who were smokers
+in the study pregnancy, but who subsequently
+in the study pregnancy, but who subsequently
+stopped smoking, he found that their rate of low
+stopped smoking, he found that their rate of low
+birth weight in the study pregnancy was similar to
+birth weight in the study pregnancy was similar to
+that of women who were nonsmokers in all of their
+that of women who were nonsmokers in all of their
+pregnancies.
+pregnancies.
+On the basis of these data, Yerushalmy came to
+On the basis of these data, Yerushalmy came to
+the conclusion that it was not the smoking but
+the conclusion that it was not the smoking but
+rather some characteristic of the smoker that caused
+rather some characteristic of the smoker that caused
+the low birth weight. Today, however, it is virtually
+the low birth weight. Today, however, it is virtually
+universally accepted that smoking is a cause of low
+universally accepted that smoking is a cause of low
+birth weight. The causal nature of this relation has
+birth weight. The causal nature of this relation has
+also been demonstrated in randomized trials that
+also been demonstrated in randomized trials that
+have reduced the frequency of low birth weight
+have reduced the frequency of low birth weight
+by initiating programs for smoking cessation in
+by initiating programs for smoking cessation in
+pregnant women. Although this issue has now
+pregnant women. Although this issue has now
+largely been resolved, it is illuminating to review
+largely been resolved, it is illuminating to review
+both the controversy and the study, as they exemplify the reasoning that is necessary in trying to
+both the controversy and the study, as they exemplify the reasoning that is necessary in trying to
+distinguish causal from noncausal interpretations
+distinguish causal from noncausal interpretations
+of observed associations.
+of observed associations.
+TYPES OF CAUSAL RELATIONSHIPS
+TYPES OF CAUSAL RELATIONSHIPS
+A causal pathway can be either direct or indirect
+A causal pathway can be either direct or indirect
+(Fig. 14-11). In direct causation, a factor directly
+(Fig. 14-11). In direct causation, a factor directly
+Figure 14-11. Direct versus indirect causes of
+Figure 14-11. Direct versus indirect causes of
+disease.
+disease.
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+249
+249
+Figure 14-12. Types of causal relationships: I. Factor A is
+Figure 14-12. Types of causal relationships: I. Factor A is
+both necessary and suficient.
+both necessary and suficient.
+Figure 14-14. Types of causal relationships: III. Each factor
+Figure 14-14. Types of causal relationships: III. Each factor
+is suficient, but not necessary.
+is suficient, but not necessary.
+Figure 14-13. Types of causal relationships: II. Each factor
+Figure 14-13. Types of causal relationships: II. Each factor
+is necessary, but not suficient.
+is necessary, but not suficient.
+causes a disease without any intermediate step. In
+causes a disease without any intermediate step. In
+indirect causation, a factor causes a disease, but only
+indirect causation, a factor causes a disease, but only
+through an intermediate step or steps. In human
+through an intermediate step or steps. In human
+biology, intermediate steps are virtually always
+biology, intermediate steps are virtually always
+present in any causal process.
+present in any causal process.
+If a relationship is causal, four types of causal
+If a relationship is causal, four types of causal
+relationships are possible: (1) necessary and suficient; (2) necessary, but not suficient; (3) suficient,
+relationships are possible: (1) necessary and suficient; (2) necessary, but not suficient; (3) suficient,
+but not necessary; and (4) neither suficient nor
+but not necessary; and (4) neither suficient nor
+necessary.
+necessary.
+Necessary and Suficient
+Necessary and Suficient
+In the irst type of causal relationship, a factor is
+In the irst type of causal relationship, a factor is
+both necessary and suficient for producing the
+both necessary and suficient for producing the
+disease. Without that factor, the disease never develops (the factor is necessary), and in the presence
+disease. Without that factor, the disease never develops (the factor is necessary), and in the presence
+of that factor, the disease always develops (the factor
+of that factor, the disease always develops (the factor
+is suficient) (Fig. 14-12). This situation rarely if
+is suficient) (Fig. 14-12). This situation rarely if
+ever occurs. For example, in most infectious diseases, a number of people are exposed, some of
+ever occurs. For example, in most infectious diseases, a number of people are exposed, some of
+whom will manifest the disease and others who
+whom will manifest the disease and others who
+will not. Members of households of a person with
+will not. Members of households of a person with
+tuberculosis do not uniformly acquire the disease
+tuberculosis do not uniformly acquire the disease
+from the index case. If the exposure dose is assumed
+from the index case. If the exposure dose is assumed
+to be the same, there are likely differences in immune
+to be the same, there are likely differences in immune
+status, genetic susceptibility, or other characteristics
+status, genetic susceptibility, or other characteristics
+that determine who develops the disease and who
+that determine who develops the disease and who
+does not. A one-to-one relationship of exposure
+does not. A one-to-one relationship of exposure
+to disease, which is a consequence of a necessary
+to disease, which is a consequence of a necessary
+and suficient relationship, rarely if ever occurs.
+and suficient relationship, rarely if ever occurs.
+Necessary, But Not Suficient
+Necessary, But Not Suficient
+In another model, each factor is necessary, but
+In another model, each factor is necessary, but
+not, in itself, suficient to cause the disease
+not, in itself, suficient to cause the disease
+(Fig. 14-13). Thus, multiple factors are required,
+(Fig. 14-13). Thus, multiple factors are required,
+often in a speciic temporal sequence. For example,
+often in a speciic temporal sequence. For example,
+Figure 14-15. Types of causal relationships: IV. Each factor
+Figure 14-15. Types of causal relationships: IV. Each factor
+is neither suficient nor necessary.
+is neither suficient nor necessary.
+carcinogenesis is considered to be a multistage
+carcinogenesis is considered to be a multistage
+process involving both initiation and promotion.
+process involving both initiation and promotion.
+For cancer to result, a promoter must act after an
+For cancer to result, a promoter must act after an
+initiator has acted. Action of an initiator or a promoter alone will not produce a cancer.
+initiator has acted. Action of an initiator or a promoter alone will not produce a cancer.
+Again, in tuberculosis, the tubercle bacillus is
+Again, in tuberculosis, the tubercle bacillus is
+clearly a necessary factor, even though its presence
+clearly a necessary factor, even though its presence
+may not be suficient to produce the disease in
+may not be suficient to produce the disease in
+every infected individual.
+every infected individual.
+Suficient, But Not Necessary
+Suficient, But Not Necessary
+In this model, the factor alone can produce the
+In this model, the factor alone can produce the
+disease, but so can other factors that are acting
+disease, but so can other factors that are acting
+alone (Fig. 14-14). Thus, either radiation exposure
+alone (Fig. 14-14). Thus, either radiation exposure
+or benzene exposure can each produce leukemia
+or benzene exposure can each produce leukemia
+without the presence of the other. Even in this situation, however, cancer does not develop in everyone
+without the presence of the other. Even in this situation, however, cancer does not develop in everyone
+who has experienced radiation or benzene exposure, so although both factors are not needed, other
+who has experienced radiation or benzene exposure, so although both factors are not needed, other
+cofactors probably are. Thus, the criterion of suficient is rarely met by a single factor.
+cofactors probably are. Thus, the criterion of suficient is rarely met by a single factor.
+Neither Suficient Nor Necessary
+Neither Suficient Nor Necessary
+In the fourth model, a factor, by itself, is neither
+In the fourth model, a factor, by itself, is neither
+suficient nor necessary to produce disease (Fig.
+suficient nor necessary to produce disease (Fig.
+14-15). This is a more complex model, which
+14-15). This is a more complex model, which
+probably most accurately represents the causal relationships that operate in most chronic diseases.
+probably most accurately represents the causal relationships that operate in most chronic diseases.
+250
+250
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+EVIDENCE FOR A CAUSAL RELATIONSHIP
+EVIDENCE FOR A CAUSAL RELATIONSHIP
+Many years ago, when the major disease problems
+Many years ago, when the major disease problems
+faced by man were infectious in origin, the question
+faced by man were infectious in origin, the question
+arose as to what evidence would be necessary to
+arose as to what evidence would be necessary to
+prove that an organism causes a disease. In 1840,
+prove that an organism causes a disease. In 1840,
+Henle proposed postulates for causation that were
+Henle proposed postulates for causation that were
+expanded by Koch in the 1880s.4 The postulates for
+expanded by Koch in the 1880s.4 The postulates for
+causation were as follows:
+causation were as follows:
+1. The organism is always found with the disease.
+1. The organism is always found with the disease.
+2. The organism is not found with any other
+2. The organism is not found with any other
+disease.
+disease.
+3. The organism, when isolated from one who has
+3. The organism, when isolated from one who has
+the disease, and cultured through several generations, produces the disease (in experimental
+the disease, and cultured through several generations, produces the disease (in experimental
+animals).
+animals).
+Koch added that “Even when an infectious
+Koch added that “Even when an infectious
+disease cannot be transmitted to animals, the
+disease cannot be transmitted to animals, the
+‘regular’ and ‘exclusive’ presence of the organism
+‘regular’ and ‘exclusive’ presence of the organism
+[postulates 1 and 2] proves a causal relationship.”4
+[postulates 1 and 2] proves a causal relationship.”4
+These postulates, though not perfect, proved
+These postulates, though not perfect, proved
+very useful for infectious diseases. However, as
+very useful for infectious diseases. However, as
+apparently noninfectious diseases assumed increasing importance toward the middle of the 20th
+apparently noninfectious diseases assumed increasing importance toward the middle of the 20th
+century, the issue arose as to what would represent
+century, the issue arose as to what would represent
+strong evidence of causation in diseases that were
+strong evidence of causation in diseases that were
+generally not of infectious origin. In such disease
+generally not of infectious origin. In such disease
+Figure 14-16. The mean concentration of airborne particles (µg/m3) from the four inner monitoring stations in London
+Figure 14-16. The mean concentration of airborne particles (µg/m3) from the four inner monitoring stations in London
+and the count of daily deaths in the London Administrative
+and the count of daily deaths in the London Administrative
+County during the beginning of December 1952. (From
+County during the beginning of December 1952. (From
+Schwartz J: Air pollution and daily mortality: A review and meta
+Schwartz J: Air pollution and daily mortality: A review and meta
+analysis. Environ Res 64:36–52, 1994.)
+analysis. Environ Res 64:36–52, 1994.)
+TABLE 14-1. Guidelines for Judging
+TABLE 14-1. Guidelines for Judging
+Whether an Observed
+Whether an Observed
+Association Is Causal
+Association Is Causal
+1. Temporal relationship
+1. Temporal relationship
+2. Strength of the association
+2. Strength of the association
+3. Dose-response relationship
+3. Dose-response relationship
+4. Replication of the indings
+4. Replication of the indings
+5. Biologic plausibility
+5. Biologic plausibility
+6. Consideration of alternate explanations
+6. Consideration of alternate explanations
+7. Cessation of exposure
+7. Cessation of exposure
+8. Consistency with other knowledge
+8. Consistency with other knowledge
+9. Speciicity of the association
+9. Speciicity of the association
+there was no organism that could be cultured and
+there was no organism that could be cultured and
+grown in animals. Speciically, as attention was
+grown in animals. Speciically, as attention was
+directed to a possible relationship between smoking
+directed to a possible relationship between smoking
+and lung cancer, the U.S. Surgeon General appointed
+and lung cancer, the U.S. Surgeon General appointed
+an expert committee to review the evidence. The
+an expert committee to review the evidence. The
+committee developed a set of guidelines,5 which
+committee developed a set of guidelines,5 which
+have been revised over the years. The next few
+have been revised over the years. The next few
+pages present a modiied list of these guidelines
+pages present a modiied list of these guidelines
+(Table 14-1) with some brief comments.
+(Table 14-1) with some brief comments.
+GUIDELINES FOR JUDGING WHETHER AN
+GUIDELINES FOR JUDGING WHETHER AN
+OBSERVED ASSOCIATION IS CAUSAL
+OBSERVED ASSOCIATION IS CAUSAL
+1. Temporal Relationship. It is clear that if a
+1. Temporal Relationship. It is clear that if a
+factor is believed to be the cause of a disease, exposure to the factor must have occurred before
+factor is believed to be the cause of a disease, exposure to the factor must have occurred before
+the disease developed. Figure 14-16 shows the
+the disease developed. Figure 14-16 shows the
+number of deaths per day and the mean concentration of airborne particles in London in early
+number of deaths per day and the mean concentration of airborne particles in London in early
+December 1952.6 The pattern of a rise in particle
+December 1952.6 The pattern of a rise in particle
+concentration followed by a rise in mortality and
+concentration followed by a rise in mortality and
+a subsequent decline in particle concentration followed by a decline in mortality strongly supported
+a subsequent decline in particle concentration followed by a decline in mortality strongly supported
+the increase in mortality being due to the increase
+the increase in mortality being due to the increase
+in air pollution. This example demonstrates the
+in air pollution. This example demonstrates the
+use of ecologic data for exploring a temporal relationship. Further investigation revealed that the
+use of ecologic data for exploring a temporal relationship. Further investigation revealed that the
+increased mortality consisted almost entirely of
+increased mortality consisted almost entirely of
+respiratory and cardiovascular deaths and was
+respiratory and cardiovascular deaths and was
+highest in the elderly.
+highest in the elderly.
+It is often easier to establish a temporal relationship in a prospective cohort study than in a casecontrol study or a retrospective cohort study. In the
+It is often easier to establish a temporal relationship in a prospective cohort study than in a casecontrol study or a retrospective cohort study. In the
+last two types of studies, exposure information may
+last two types of studies, exposure information may
+need to be obtained or re-created from past records
+need to be obtained or re-created from past records
+and the timing may therefore be imprecise.
+and the timing may therefore be imprecise.
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+251
+251
+Figure 14-17. Age-standardized death rates
+Figure 14-17. Age-standardized death rates
+due to well-established cases of bronchogenic
+due to well-established cases of bronchogenic
+carcinoma (exclusive of adenocarcinoma) by
+carcinoma (exclusive of adenocarcinoma) by
+current amount of smoking. (Adapted from
+current amount of smoking. (Adapted from
+Hammond EC, Horn D: Smoking and death
+Hammond EC, Horn D: Smoking and death
+rates: Report on 44 months of follow-up of
+rates: Report on 44 months of follow-up of
+187,783 men: II. Death rates by cause. JAMA
+187,783 men: II. Death rates by cause. JAMA
+166:1294–1508, 1958. Copyright 1958, American Medical Association.)
+166:1294–1508, 1958. Copyright 1958, American Medical Association.)
+The temporal relationship of exposure and
+The temporal relationship of exposure and
+disease is important not only for clarifying the
+disease is important not only for clarifying the
+order in which the two occur but also in regard to
+order in which the two occur but also in regard to
+the length of the interval between exposure and
+the length of the interval between exposure and
+disease. For example, asbestos has been clearly
+disease. For example, asbestos has been clearly
+linked to increased risk of lung cancer, but the
+linked to increased risk of lung cancer, but the
+latent period between the exposure and the appearance of lung cancer is at least 15 to 20 years. Therefore, if, for example, lung cancer develops after only
+latent period between the exposure and the appearance of lung cancer is at least 15 to 20 years. Therefore, if, for example, lung cancer develops after only
+3 years since the asbestos exposure, it is safe to
+3 years since the asbestos exposure, it is safe to
+conclude that the lung cancer was not a result of
+conclude that the lung cancer was not a result of
+this exposure.
+this exposure.
+2. Strength of the Association. The strength of
+2. Strength of the Association. The strength of
+the association is measured by the relative risk (or
+the association is measured by the relative risk (or
+odds ratio). The stronger the association, the more
+odds ratio). The stronger the association, the more
+likely it is that the relation is causal.
+likely it is that the relation is causal.
+3. Dose-Response Relationship. As the dose of
+3. Dose-Response Relationship. As the dose of
+exposure increases, the risk of disease also increases.
+exposure increases, the risk of disease also increases.
+Figure 14-17 shows an example of the dose-response
+Figure 14-17 shows an example of the dose-response
+relationship for cigarette smoking and lung cancer.
+relationship for cigarette smoking and lung cancer.
+If a dose-response relationship is present, it is strong
+If a dose-response relationship is present, it is strong
+evidence for a causal relationship. However, the
+evidence for a causal relationship. However, the
+absence of a dose-response relationship does not
+absence of a dose-response relationship does not
+necessarily rule out a causal relationship. In some
+necessarily rule out a causal relationship. In some
+cases in which a threshold may exist, no disease may
+cases in which a threshold may exist, no disease may
+develop up to a certain level of exposure (a threshold); above this level, disease may develop.
+develop up to a certain level of exposure (a threshold); above this level, disease may develop.
+4. Replication of the Findings. If the relationship is causal, we would expect to ind it consistently in different studies and in different
+4. Replication of the Findings. If the relationship is causal, we would expect to ind it consistently in different studies and in different
+populations. Replication of indings is particularly
+populations. Replication of indings is particularly
+important in epidemiology. If an association is
+important in epidemiology. If an association is
+observed, we would also expect it to be seen
+observed, we would also expect it to be seen
+consistently within subgroups of the population
+consistently within subgroups of the population
+and in different populations, unless there is a
+and in different populations, unless there is a
+clear reason to expect different results.
+clear reason to expect different results.
+5. Biologic Plausibility. Biologic plausibility
+5. Biologic Plausibility. Biologic plausibility
+refers to coherence with the current body of
+refers to coherence with the current body of
+biologic knowledge. Examples may be cited to demonstrate that epidemiologic observations have
+biologic knowledge. Examples may be cited to demonstrate that epidemiologic observations have
+sometimes preceded biologic knowledge. Thus, as
+sometimes preceded biologic knowledge. Thus, as
+discussed in an earlier chapter, Gregg’s observations
+discussed in an earlier chapter, Gregg’s observations
+on rubella and congenital cataracts preceded any
+on rubella and congenital cataracts preceded any
+knowledge of teratogenic viruses. Similarly, the
+knowledge of teratogenic viruses. Similarly, the
+implication of high oxygen concentration in the
+implication of high oxygen concentration in the
+causation of retrolental ibroplasia, a form of blindness that occurs in premature infants, preceded any
+causation of retrolental ibroplasia, a form of blindness that occurs in premature infants, preceded any
+biologic knowledge supporting such a relationship.
+biologic knowledge supporting such a relationship.
+Nevertheless, we seek consistency of the epidemiologic indings with existing biologic knowledge, and
+Nevertheless, we seek consistency of the epidemiologic indings with existing biologic knowledge, and
+when this is not the case, interpreting the meaning
+when this is not the case, interpreting the meaning
+of the observed association may be dificult. We
+of the observed association may be dificult. We
+may then be more demanding in our requirements
+may then be more demanding in our requirements
+about the size and signiicance of any differences
+about the size and signiicance of any differences
+observed and in having the study replicated by
+observed and in having the study replicated by
+other investigators in other populations.
+other investigators in other populations.
+6. Consideration of Alternate Explanations.
+6. Consideration of Alternate Explanations.
+We have discussed the problem in interpreting an
+We have discussed the problem in interpreting an
+observed association in regard to whether a relationship is causal or is the result of confounding. In
+observed association in regard to whether a relationship is causal or is the result of confounding. In
+judging whether a reported association is causal,
+judging whether a reported association is causal,
+the extent to which the investigators have taken
+the extent to which the investigators have taken
+other possible explanations into account and the
+other possible explanations into account and the
+extent to which they have ruled out such explanations are important considerations.
+extent to which they have ruled out such explanations are important considerations.
+7. Cessation of Exposure. If a factor is a cause
+7. Cessation of Exposure. If a factor is a cause
+of a disease, we would expect the risk of the disease
+of a disease, we would expect the risk of the disease
+to decline when exposure to the factor is reduced
+to decline when exposure to the factor is reduced
+252
+252
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+Figure 14-18. Effects of terminating exposure: lung cancer death rates, standardized for age
+Figure 14-18. Effects of terminating exposure: lung cancer death rates, standardized for age
+and amount smoked, among men continuing to
+and amount smoked, among men continuing to
+smoke cigarettes and men who gave up smoking
+smoke cigarettes and men who gave up smoking
+for different periods. The corresponding rate for
+for different periods. The corresponding rate for
+nonsmokers was 0.07 per 1,000. (Adapted from
+nonsmokers was 0.07 per 1,000. (Adapted from
+Doll R, Hill AB: Mortality in relation to smoking:
+Doll R, Hill AB: Mortality in relation to smoking:
+Ten years’ observations of British doctors. BMJ
+Ten years’ observations of British doctors. BMJ
+1:1399–1410, 1964.)
+1:1399–1410, 1964.)
+or eliminated. Figure 14-18 shows such data for
+or eliminated. Figure 14-18 shows such data for
+cigarette smoking and lung cancer.
+cigarette smoking and lung cancer.
+Eosinophilia-myalgia syndrome (EMS) reached
+Eosinophilia-myalgia syndrome (EMS) reached
+epidemic proportions in 1989. Characterized by
+epidemic proportions in 1989. Characterized by
+severe muscle pain and a high blood eosinophil
+severe muscle pain and a high blood eosinophil
+count, the syndrome was found to be associated
+count, the syndrome was found to be associated
+with manufactured preparations of L-tryptophan.
+with manufactured preparations of L-tryptophan.
+In November 1989, a nationwide recall by the Food
+In November 1989, a nationwide recall by the Food
+and Drug Administration of over-the-counter
+and Drug Administration of over-the-counter
+preparations of L-tryptophan was followed by dramatic reductions in numbers of cases of EMS
+preparations of L-tryptophan was followed by dramatic reductions in numbers of cases of EMS
+reported each month (Fig. 14-19). This is another
+reported each month (Fig. 14-19). This is another
+example of a reduction in incidence being related
+example of a reduction in incidence being related
+to cessation of exposure, which adds to the strength
+to cessation of exposure, which adds to the strength
+of the causal inference regarding the exposure.
+of the causal inference regarding the exposure.
+When cessation data are available, they provide
+When cessation data are available, they provide
+helpful supporting evidence for a causal association.
+helpful supporting evidence for a causal association.
+However, in certain cases, the pathogenic process
+However, in certain cases, the pathogenic process
+may have been irreversibly initiated, and the disease
+may have been irreversibly initiated, and the disease
+occurrence may have been determined by the time
+occurrence may have been determined by the time
+the exposure is removed. Emphysema is not reversed
+the exposure is removed. Emphysema is not reversed
+with cessation of smoking, but its progression is
+with cessation of smoking, but its progression is
+reduced.
+reduced.
+8. Consistency with Other Knowledge. If a
+8. Consistency with Other Knowledge. If a
+relationship is causal, we would expect the indings
+relationship is causal, we would expect the indings
+to be consistent with other data. For example,
+to be consistent with other data. For example,
+Figure 14-20 shows data regarding lung cancer rates
+Figure 14-20 shows data regarding lung cancer rates
+in men and women and cigarette smoking in men
+in men and women and cigarette smoking in men
+and women.
+and women.
+We see a consistent direction in the curves, with
+We see a consistent direction in the curves, with
+the increase in lung cancer rates following the
+the increase in lung cancer rates following the
+increase in cigarette sales in both men and women.
+increase in cigarette sales in both men and women.
+These data are consistent with what we would
+These data are consistent with what we would
+expect if the relationship between smoking and
+expect if the relationship between smoking and
+lung cancer is established as a causal one. Although
+lung cancer is established as a causal one. Although
+the absence of such consistency would not completely rule out this hypothesis, if we observed
+the absence of such consistency would not completely rule out this hypothesis, if we observed
+rising lung cancer rates after a period of declining
+rising lung cancer rates after a period of declining
+Figure 14-19. Reported dates of
+Figure 14-19. Reported dates of
+illness onset by month and year for
+illness onset by month and year for
+cases of eosinophilia-myalgia syndrome, as reported to the Centers for
+cases of eosinophilia-myalgia syndrome, as reported to the Centers for
+Disease Control and Prevention,
+Disease Control and Prevention,
+Atlanta, as of July 10, 1990. (Adapted
+Atlanta, as of July 10, 1990. (Adapted
+from Swygert LA, Maes EF, Sewell
+from Swygert LA, Maes EF, Sewell
+LE, et al: Eosinophilia-myalgia syndrome: Results of national surveillance. JAMA 264:1698–1703, 1990.
+LE, et al: Eosinophilia-myalgia syndrome: Results of national surveillance. JAMA 264:1698–1703, 1990.
+Copyright 1990, American Medical
+Copyright 1990, American Medical
+Association.)
+Association.)
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+253
+253
+Figure 14-20. Parallel trends
+Figure 14-20. Parallel trends
+between cigarette consumption
+between cigarette consumption
+and lung cancer in men (two
+and lung cancer in men (two
+curves on left) and in women
+curves on left) and in women
+(two curves on right), in England
+(two curves on right), in England
+and Wales. (From Cairns J: The
+and Wales. (From Cairns J: The
+cancer problem. Sci Am 233:64–
+cancer problem. Sci Am 233:64–
+72, 77–78, 1975.)
+72, 77–78, 1975.)
+cigarette sales, for example, we would need to
+cigarette sales, for example, we would need to
+explain how this observation could be consistent
+explain how this observation could be consistent
+with a causal hypothesis.
+with a causal hypothesis.
+9. Speciicity of the Association. An association is speciic when a certain exposure is associated with only one disease; this is the weakest
+9. Speciicity of the Association. An association is speciic when a certain exposure is associated with only one disease; this is the weakest
+of all the guidelines and should probably be deleted
+of all the guidelines and should probably be deleted
+from the list. Cigarette manufacturers have pointed
+from the list. Cigarette manufacturers have pointed
+out that the diseases attributed to cigarette smoking
+out that the diseases attributed to cigarette smoking
+do not meet the requirements of this guideline,
+do not meet the requirements of this guideline,
+because cigarette smoking has been linked to lung
+because cigarette smoking has been linked to lung
+cancer, pancreatic cancer, bladder cancer, heart
+cancer, pancreatic cancer, bladder cancer, heart
+disease, emphysema, and other conditions.
+disease, emphysema, and other conditions.
+The possibility of such multiple effects from a
+The possibility of such multiple effects from a
+single factor is not, in fact, surprising: regardless of
+single factor is not, in fact, surprising: regardless of
+the tissue that comprises them, all cells have
+the tissue that comprises them, all cells have
+common characteristics, including DNA, RNA, and
+common characteristics, including DNA, RNA, and
+various subcellular structures, so a single agent
+various subcellular structures, so a single agent
+could have effects in multiple tissues. Furthermore,
+could have effects in multiple tissues. Furthermore,
+cigarettes are not a single factor but constitute a
+cigarettes are not a single factor but constitute a
+mixture of a
+mixture of a
+large number of compounds;
+large number of compounds;
+consequently, a large number of effects might be
+consequently, a large number of effects might be
+anticipated.
+anticipated.
+When speciicity of an association is found, it
+When speciicity of an association is found, it
+provides additional support for a causal inference.
+provides additional support for a causal inference.
+However, as with a dose-response relationship,
+However, as with a dose-response relationship,
+absence of speciicity in no way negates a causal
+absence of speciicity in no way negates a causal
+relationship.
+relationship.
+Any conclusion that an observed association is
+Any conclusion that an observed association is
+causal is greatly strengthened when different types
+causal is greatly strengthened when different types
+of evidence from multiple sources support such
+of evidence from multiple sources support such
+reasoning. Thus, it is not so much a count of the
+reasoning. Thus, it is not so much a count of the
+number of guidelines present that is relevant to
+number of guidelines present that is relevant to
+causal inference but rather an assessment of the total
+causal inference but rather an assessment of the total
+pattern of evidence observed that may be consistent
+pattern of evidence observed that may be consistent
+with one or more of the guidelines. Sir Austin Bradford Hill eloquently expressed this sentiment in an
+with one or more of the guidelines. Sir Austin Bradford Hill eloquently expressed this sentiment in an
+essay written in 1965:
+essay written in 1965:
+Here then are nine different viewpoints [guidelines] from all of which we should study association before we cry causation. What I do not
+Here then are nine different viewpoints [guidelines] from all of which we should study association before we cry causation. What I do not
+believe—and this has been suggested—that we
+believe—and this has been suggested—that we
+can usefully lay down some hard-and-fast rules of
+can usefully lay down some hard-and-fast rules of
+evidence that must be obeyed before we can accept
+evidence that must be obeyed before we can accept
+cause and effect. None of my nine viewpoints can
+cause and effect. None of my nine viewpoints can
+bring indisputable evidence for or against the
+bring indisputable evidence for or against the
+cause-and-effect hypothesis and none can be
+cause-and-effect hypothesis and none can be
+required as a sine qua non. What they can do, with
+required as a sine qua non. What they can do, with
+greater or less strength, is to help us to make up
+greater or less strength, is to help us to make up
+our minds on the fundamental question—is there
+our minds on the fundamental question—is there
+any other way of explaining the set of facts before
+any other way of explaining the set of facts before
+us, is there any other answer equally, or more,
+us, is there any other answer equally, or more,
+likely than cause and effect?7
+likely than cause and effect?7
+DERIVING CAUSAL INFERENCES:
+DERIVING CAUSAL INFERENCES:
+TWO EXAMPLES
+TWO EXAMPLES
+Peptic Ulcers and Gastric Cancer in Relation
+Peptic Ulcers and Gastric Cancer in Relation
+to Infection with Helicobacter pylori
+to Infection with Helicobacter pylori
+Although the preceding guidelines do not permit a
+Although the preceding guidelines do not permit a
+quantitative estimation of whether or not an
+quantitative estimation of whether or not an
+254
+254
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+association is causal, they can nevertheless be very
+association is causal, they can nevertheless be very
+helpful, as seen in the following examples:
+helpful, as seen in the following examples:
+Until the 1980s, the major causes of peptic
+Until the 1980s, the major causes of peptic
+ulcer disease were considered to be stress and
+ulcer disease were considered to be stress and
+lifestyle factors, including smoking. Peptic ulcer
+lifestyle factors, including smoking. Peptic ulcer
+disease had long been attributed to the effects of
+disease had long been attributed to the effects of
+gastric acid. Susceptibility to gastric acid had been
+gastric acid. Susceptibility to gastric acid had been
+linked to cigarette smoking, alcohol consumption,
+linked to cigarette smoking, alcohol consumption,
+and use of nonsteroidal anti-inlammatory agents.
+and use of nonsteroidal anti-inlammatory agents.
+Therapy was primarily directed at inhibiting acid
+Therapy was primarily directed at inhibiting acid
+secretion and protecting mucosal surfaces from
+secretion and protecting mucosal surfaces from
+acid. Although these therapies helped healing,
+acid. Although these therapies helped healing,
+relapses were common.
+relapses were common.
+In 1984, Australian physicians Drs. Barry J. Marshall and J. Robin Warren reported that they had
+In 1984, Australian physicians Drs. Barry J. Marshall and J. Robin Warren reported that they had
+observed small curved bacteria colonizing the lower
+observed small curved bacteria colonizing the lower
+part of the stomach in patients with gastritis and
+part of the stomach in patients with gastritis and
+peptic ulcers.8 After several attempts, Marshall succeeded in cultivating a hitherto unknown bacterial
+peptic ulcers.8 After several attempts, Marshall succeeded in cultivating a hitherto unknown bacterial
+species (later named Helicobacter pylori) from
+species (later named Helicobacter pylori) from
+several of these biopsies (Fig. 14-21). Together they
+several of these biopsies (Fig. 14-21). Together they
+found that the organism was present in almost all
+found that the organism was present in almost all
+patients with gastric inlammation or peptic ulcer.
+patients with gastric inlammation or peptic ulcer.
+Many of these patients had biopsies performed
+Many of these patients had biopsies performed
+which showed evidence of inlammation present in
+which showed evidence of inlammation present in
+the gastric mucosa close to where the bacteria were
+the gastric mucosa close to where the bacteria were
+seen. Based on these results, they proposed that
+seen. Based on these results, they proposed that
+Helicobacter pylori is involved in the etiology of
+Helicobacter pylori is involved in the etiology of
+these diseases. It was subsequently shown that the
+these diseases. It was subsequently shown that the
+ulcer was often not cured until Helicobacter pylori
+ulcer was often not cured until Helicobacter pylori
+had been eliminated.
+had been eliminated.
+It is now irmly established that Helicobacter
+It is now irmly established that Helicobacter
+pylori causes more than 90% of duodenal ulcers
+pylori causes more than 90% of duodenal ulcers
+and up to 80% of gastric ulcers. The link between
+and up to 80% of gastric ulcers. The link between
+Helicobacter pylori infection and subsequent gastritis and peptic ulcer disease has been established
+Helicobacter pylori infection and subsequent gastritis and peptic ulcer disease has been established
+through studies of human volunteers, antibiotic
+through studies of human volunteers, antibiotic
+treatment studies, and epidemiological studies.
+treatment studies, and epidemiological studies.
+Thus, many of the study designs discussed in previous chapters and many of the guidelines for causal
+Thus, many of the study designs discussed in previous chapters and many of the guidelines for causal
+inferences discussed earlier in this chapter were
+inferences discussed earlier in this chapter were
+involved in elucidating the role of Helicobacter
+involved in elucidating the role of Helicobacter
+pylori in peptic ulcer and gastritis. In 2005, the
+pylori in peptic ulcer and gastritis. In 2005, the
+Nobel Prize for Physiology or Medicine was shared
+Nobel Prize for Physiology or Medicine was shared
+by Drs. Marshall and Warren, “for their discovery
+by Drs. Marshall and Warren, “for their discovery
+of the bacterium Helicobacter pylori and its role in
+of the bacterium Helicobacter pylori and its role in
+gastritis and peptic ulcer disease.”
+gastritis and peptic ulcer disease.”
+Table 14-2 categorizes this evidence according to
+Table 14-2 categorizes this evidence according to
+several of the guidelines for causation just discussed. Thus, as seen here, the guidelines can be
+several of the guidelines for causation just discussed. Thus, as seen here, the guidelines can be
+extremely helpful in characterizing the evidence
+extremely helpful in characterizing the evidence
+supporting a causal relationship.
+supporting a causal relationship.
+Figure 14-21. Helicobacter pylori [Photograph]. (Encyclopædia Britannica Online. http://www.britannica.com/
+Figure 14-21. Helicobacter pylori [Photograph]. (Encyclopædia Britannica Online. http://www.britannica.com/
+EBchecked/topic/450889/peptic-ulcer?overlay=true&assembl
+EBchecked/topic/450889/peptic-ulcer?overlay=true&assembl
+yId=94921. Accessed August 15, 2013.)
+yId=94921. Accessed August 15, 2013.)
+Increasing evidence now also supports the
+Increasing evidence now also supports the
+association of Helicobacter pylori infection and the
+association of Helicobacter pylori infection and the
+development of gastric cancer. Uemura and coworkers9 prospectively studied 1,526 Japanese patients
+development of gastric cancer. Uemura and coworkers9 prospectively studied 1,526 Japanese patients
+who had duodenal or gastric ulcers, gastric hyperplasia, or nonulcer hyperplasia. Of this group, 1,246
+who had duodenal or gastric ulcers, gastric hyperplasia, or nonulcer hyperplasia. Of this group, 1,246
+had Helicobacter pylori infection and 280 did not.
+had Helicobacter pylori infection and 280 did not.
+The mean follow-up period was 7.8 years. Gastric
+The mean follow-up period was 7.8 years. Gastric
+cancers developed in 36 (2.9%) of the infected
+cancers developed in 36 (2.9%) of the infected
+patients, but in none of the noninfected patients.
+patients, but in none of the noninfected patients.
+Individuals who carry antibodies to Helicobacter
+Individuals who carry antibodies to Helicobacter
+pylori may have a 2 to 3 times higher risk of stomach
+pylori may have a 2 to 3 times higher risk of stomach
+cancer than those who do not (Fig. 14-22). The risk
+cancer than those who do not (Fig. 14-22). The risk
+of stomach cancer also appears to be related to the
+of stomach cancer also appears to be related to the
+type of strain of Helicobacter pylori which is infecting a person. Evidence is accumulating to support
+type of strain of Helicobacter pylori which is infecting a person. Evidence is accumulating to support
+the idea that therapy against Helicobacter pylori may
+the idea that therapy against Helicobacter pylori may
+prevent gastric cancer. In the future, gastric cancer
+prevent gastric cancer. In the future, gastric cancer
+may come to be viewed as a largely preventable
+may come to be viewed as a largely preventable
+cancer of infectious origin.
+cancer of infectious origin.
+Age of Onset of Alcohol Use and Lifetime
+Age of Onset of Alcohol Use and Lifetime
+Alcohol Abuse
+Alcohol Abuse
+In 1997, Grant and Dawson10 reported data on the
+In 1997, Grant and Dawson10 reported data on the
+relationship of age at irst use of alcohol and prevalence of lifetime alcohol dependence and abuse.
+relationship of age at irst use of alcohol and prevalence of lifetime alcohol dependence and abuse.
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+255
+255
+TABLE 14-2. Assessment of the Evidence Suggesting Helicobacter pylori as a Causative Agent
+TABLE 14-2. Assessment of the Evidence Suggesting Helicobacter pylori as a Causative Agent
+of Duodenal Ulcers
+of Duodenal Ulcers
+1. Temporal relationship.
+1. Temporal relationship.
+• Helicobacter pylori is clearly linked to chronic gastritis. About 11% of chronic gastritis patients will go on to
+• Helicobacter pylori is clearly linked to chronic gastritis. About 11% of chronic gastritis patients will go on to
+have duodenal ulcers over a 10-year period.
+have duodenal ulcers over a 10-year period.
+• In one study of 454 patients who underwent endoscopy 10 years earlier, 34 of 321 patients who had been
+• In one study of 454 patients who underwent endoscopy 10 years earlier, 34 of 321 patients who had been
+positive for Helicobacter pylori (11%) had duodenal ulcer compared with 1 of 133 Helicobacter pylori–negative
+positive for Helicobacter pylori (11%) had duodenal ulcer compared with 1 of 133 Helicobacter pylori–negative
+patients (0.8%).
+patients (0.8%).
+2. Strength of the association.
+2. Strength of the association.
+• Helicobacter pylori is found in at least 90% of patients with duodenal ulcer. In at least one population
+• Helicobacter pylori is found in at least 90% of patients with duodenal ulcer. In at least one population
+reported to lack duodenal ulcers, a northern Australian aboriginal tribe that is isolated from other people,
+reported to lack duodenal ulcers, a northern Australian aboriginal tribe that is isolated from other people,
+it has never been found.
+it has never been found.
+3. Dose-response relationship.
+3. Dose-response relationship.
+• Density of Helicobacter pylori per square millimeter of gastric mucosa is higher in patients with duodenal
+• Density of Helicobacter pylori per square millimeter of gastric mucosa is higher in patients with duodenal
+ulcer than in patients without duodenal ulcer. Also see item 2 above.
+ulcer than in patients without duodenal ulcer. Also see item 2 above.
+4. Replication of the indings.
+4. Replication of the indings.
+• Many of the observations regarding Helicobacter pylori have been replicated repeatedly.
+• Many of the observations regarding Helicobacter pylori have been replicated repeatedly.
+5. Biologic plausibility.
+5. Biologic plausibility.
+• Although originally it was dificult to envision a bacterium that infects the stomach antrum causing ulcers in
+• Although originally it was dificult to envision a bacterium that infects the stomach antrum causing ulcers in
+the duodenum, it is now recognized that Helicobacter pylori has binding sites on antral cells and can follow
+the duodenum, it is now recognized that Helicobacter pylori has binding sites on antral cells and can follow
+these cells into the duodenum.
+these cells into the duodenum.
+• Helicobacter pylori also induces mediators of inlammation.
+• Helicobacter pylori also induces mediators of inlammation.
+• Helicobacter pylori–infected mucosa is weakened and is susceptible to the damaging effects of acid.
+• Helicobacter pylori–infected mucosa is weakened and is susceptible to the damaging effects of acid.
+6. Consideration of alternate explanations.
+6. Consideration of alternate explanations.
+• Data suggest that smoking can increase the risk of duodenal ulcer in Helicobacter pylori–infected patients but
+• Data suggest that smoking can increase the risk of duodenal ulcer in Helicobacter pylori–infected patients but
+is not a risk factor in patients in whom Helicobacter pylori has been eradicated.
+is not a risk factor in patients in whom Helicobacter pylori has been eradicated.
+7. Cessation of exposure.
+7. Cessation of exposure.
+• Eradication of Helicobacter pylori heals duodenal ulcers at the same rate as histamine receptor antagonists.
+• Eradication of Helicobacter pylori heals duodenal ulcers at the same rate as histamine receptor antagonists.
+• Long-term ulcer recurrence rates were zero after Helicobacter pylori was eradicated using triple-antimicrobial
+• Long-term ulcer recurrence rates were zero after Helicobacter pylori was eradicated using triple-antimicrobial
+therapy, compared with a 60% to 80% relapse rate often found in patients with duodenal ulcers treated with
+therapy, compared with a 60% to 80% relapse rate often found in patients with duodenal ulcers treated with
+histamine receptor antagonists.
+histamine receptor antagonists.
+8. Consistency with other knowledge.
+8. Consistency with other knowledge.
+• Prevalence of Helicobacter pylori infection is the same in men as in women. The incidence of duodenal ulcer,
+• Prevalence of Helicobacter pylori infection is the same in men as in women. The incidence of duodenal ulcer,
+which in earlier years was believed to be higher in men than in women, has been equal in recent years.
+which in earlier years was believed to be higher in men than in women, has been equal in recent years.
+• The prevalence of ulcer disease is believed to have peaked in the latter part of the 19th century, and the
+• The prevalence of ulcer disease is believed to have peaked in the latter part of the 19th century, and the
+prevalence of Helicobacter pylori may have been much higher at that time because of poor living conditions.
+prevalence of Helicobacter pylori may have been much higher at that time because of poor living conditions.
+This reasoning is also based on observations today that the prevalence of Helicobacter pylori is much higher
+This reasoning is also based on observations today that the prevalence of Helicobacter pylori is much higher
+in developing countries.
+in developing countries.
+9. Speciicity of the association.
+9. Speciicity of the association.
+• Prevalence of Helicobacter pylori in patients with duodenal ulcers is 90% to 100%. However, it is found in
+• Prevalence of Helicobacter pylori in patients with duodenal ulcers is 90% to 100%. However, it is found in
+some patients with gastric ulcer and even in asymptomatic individuals.
+some patients with gastric ulcer and even in asymptomatic individuals.
+Data from Megraud F, Lamouliatte H: Helicobacter pylori and duodenal ulcer: Evidence suggesting causation. Dig Dis Sci
+Data from Megraud F, Lamouliatte H: Helicobacter pylori and duodenal ulcer: Evidence suggesting causation. Dig Dis Sci
+37:769–772, 1992; and DeCross AJ, Marshall BJ: The role of Helicobacter pylori in acid-peptic disease. Am J Med Sci 306:
+37:769–772, 1992; and DeCross AJ, Marshall BJ: The role of Helicobacter pylori in acid-peptic disease. Am J Med Sci 306:
+381–392, 1993.
+381–392, 1993.
+They analyzed data from 27,616 current and former
+They analyzed data from 27,616 current and former
+drinkers who were interviewed as part of the
+drinkers who were interviewed as part of the
+1992 National Longitudinal Alcohol Epidemiologic
+1992 National Longitudinal Alcohol Epidemiologic
+Survey. The rates of lifetime dependence decreased
+Survey. The rates of lifetime dependence decreased
+from more than 40% among individuals who began
+from more than 40% among individuals who began
+drinking at age 14 years or younger to about 10%
+drinking at age 14 years or younger to about 10%
+among those who started drinking at age 20 years
+among those who started drinking at age 20 years
+or older (Fig. 14-23). The coniguration of the
+or older (Fig. 14-23). The coniguration of the
+curve in Figure 14-23 suggests a dose-response relationship as has been observed for longer duration
+curve in Figure 14-23 suggests a dose-response relationship as has been observed for longer duration
+of smoking associated with increased risk of lung
+of smoking associated with increased risk of lung
+cancer. However, the data may also point to a period
+cancer. However, the data may also point to a period
+of particularly high susceptibility, namely, that
+of particularly high susceptibility, namely, that
+the period of preadolescence and early adolescence
+the period of preadolescence and early adolescence
+is a period of increased risk for developing a
+is a period of increased risk for developing a
+disorder of alcohol use. Therefore, interventions
+disorder of alcohol use. Therefore, interventions
+256
+256
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+Figure 14-22. Kaplan-Meier analysis of the proportion of Helicobacter pylori–positive and Helicobacter pylori–negative patients
+Figure 14-22. Kaplan-Meier analysis of the proportion of Helicobacter pylori–positive and Helicobacter pylori–negative patients
+who remained free of gastric cancer. During follow-up, gastric cancer developed in 36 of the 1,246 H. pylori–infected patients (2.9%),
+who remained free of gastric cancer. During follow-up, gastric cancer developed in 36 of the 1,246 H. pylori–infected patients (2.9%),
+but in none of the 280 uninfected patients (P < .001). (From Uemura N, Okamoto S, Yamomoto S, et al: Helicobacter pylori infection
+but in none of the 280 uninfected patients (P < .001). (From Uemura N, Okamoto S, Yamomoto S, et al: Helicobacter pylori infection
+and the development of gastric cancer. N Engl J Med 345:784–789, 2001.)
+and the development of gastric cancer. N Engl J Med 345:784–789, 2001.)
+dependence. Another possible explanation is that
+dependence. Another possible explanation is that
+those who are destined for lifetime alcohol dependence tend to begin drinking earlier, but that the
+those who are destined for lifetime alcohol dependence tend to begin drinking earlier, but that the
+earlier age at drinking onset is not necessarily a
+earlier age at drinking onset is not necessarily a
+cause of the later dependence. Further research is
+cause of the later dependence. Further research is
+therefore needed to explain the intriguing association that has been observed. We shall return to this
+therefore needed to explain the intriguing association that has been observed. We shall return to this
+example in Chapter 16.
+example in Chapter 16.
+MODIFICATIONS OF THE GUIDELINES FOR
+MODIFICATIONS OF THE GUIDELINES FOR
+CAUSAL INFERENCES
+CAUSAL INFERENCES
+In 1986, the U.S. Public Health Service brought
+In 1986, the U.S. Public Health Service brought
+together a group of 19 experts to examine the scientiic basis of the content of prenatal care and to
+together a group of 19 experts to examine the scientiic basis of the content of prenatal care and to
+answer the question: Which measures implemented
+answer the question: Which measures implemented
+during prenatal care have actually been demonstrated to be associated with improved outcome?
+during prenatal care have actually been demonstrated to be associated with improved outcome?
+The panel’s report was issued in 1989 and served as
+The panel’s report was issued in 1989 and served as
+the basis of a comprehensive report.11 As the panel
+the basis of a comprehensive report.11 As the panel
+began its deliberations, it became clear that questions of causation were at the heart of the panel’s
+began its deliberations, it became clear that questions of causation were at the heart of the panel’s
+task, and that guidelines were needed for assessing
+task, and that guidelines were needed for assessing
+the relationship of prenatal measures to health
+the relationship of prenatal measures to health
+outcomes. A subcommittee reviewed the current
+outcomes. A subcommittee reviewed the current
+guidelines (just enumerated in the preceding text)
+guidelines (just enumerated in the preceding text)
+and deined a process for using evidence that
+and deined a process for using evidence that
+includes (1) categorization of the evidence by the
+includes (1) categorization of the evidence by the
+Figure 14-23. Relation of age of onset of alcohol use to
+Figure 14-23. Relation of age of onset of alcohol use to
+prevalence of lifetime alcohol abuse. (Adapted from Grant BF,
+prevalence of lifetime alcohol abuse. (Adapted from Grant BF,
+Dawson DA: Age at onset of alcohol use and its association with
+Dawson DA: Age at onset of alcohol use and its association with
+DSM-IV alcohol abuse and dependence: Results from the
+DSM-IV alcohol abuse and dependence: Results from the
+National Longitudinal Alcohol Epidemiologic Survey. J Subst
+National Longitudinal Alcohol Epidemiologic Survey. J Subst
+Abuse 9:103–110, 1997.)
+Abuse 9:103–110, 1997.)
+should be targeted to this group in the hope of
+should be targeted to this group in the hope of
+delaying drinking onset. However, adopting such
+delaying drinking onset. However, adopting such
+an approach assumes that the relationship between
+an approach assumes that the relationship between
+early onset of drinking and subsequent lifetime
+early onset of drinking and subsequent lifetime
+abuse is a causal one, so that delaying age at onset
+abuse is a causal one, so that delaying age at onset
+of drinking would reduce the risk of lifetime alcohol
+of drinking would reduce the risk of lifetime alcohol
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+257
+257
+TABLE 14-3. The Process for Using the Evidence in Developing Recommendations on the
+TABLE 14-3. The Process for Using the Evidence in Developing Recommendations on the
+Effectiveness of Prenatal Interventions
+Effectiveness of Prenatal Interventions
+Stage I: Categorizing the Evidence by the Quality of Its Source. (In each category, studies are listed in
+Stage I: Categorizing the Evidence by the Quality of Its Source. (In each category, studies are listed in
+descending order of quality.)
+descending order of quality.)
+1. Trials (planned interventions with contemporaneous assignment of treatment and nontreatment)
+1. Trials (planned interventions with contemporaneous assignment of treatment and nontreatment)
+a. Randomized, double-blind, placebo-controlled with suficient power appropriately analyzed.
+a. Randomized, double-blind, placebo-controlled with suficient power appropriately analyzed.
+b. Randomized, but blindness not achieved.
+b. Randomized, but blindness not achieved.
+c. Nonrandomized trials with good control of confounding, that are well conducted in other respects.
+c. Nonrandomized trials with good control of confounding, that are well conducted in other respects.
+d. Randomized, but with deiciencies in execution or analysis (insuficient power, major losses to follow-up,
+d. Randomized, but with deiciencies in execution or analysis (insuficient power, major losses to follow-up,
+suspect randomization, analysis with exclusions).
+suspect randomization, analysis with exclusions).
+e. Nonrandomized trials with deiciencies in execution or analysis.
+e. Nonrandomized trials with deiciencies in execution or analysis.
+2. Cohort or case-control studies
+2. Cohort or case-control studies
+a. Hypothesis speciied before analysis, good data, confounders accounted for.
+a. Hypothesis speciied before analysis, good data, confounders accounted for.
+b. As above, but hypothesis not speciied before analysis.
+b. As above, but hypothesis not speciied before analysis.
+c. Post hoc, with problem(s) in the data or the analysis.
+c. Post hoc, with problem(s) in the data or the analysis.
+3. Time-series studies
+3. Time-series studies
+a. Analyses that take confounding into account.
+a. Analyses that take confounding into account.
+b. Analyses that do not consider confounding.
+b. Analyses that do not consider confounding.
+4. Case-series studies: Series of case reports without any speciic comparison group
+4. Case-series studies: Series of case reports without any speciic comparison group
+Among other issues that must be considered in reviewing the evidence are the precision of deinition of the
+Among other issues that must be considered in reviewing the evidence are the precision of deinition of the
+outcome being measured, the degree to which the study methodology has been described, adequacy of the sample
+outcome being measured, the degree to which the study methodology has been described, adequacy of the sample
+size, and the degree to which characteristics of the population studied and of the intervention being evaluated
+size, and the degree to which characteristics of the population studied and of the intervention being evaluated
+have been described.
+have been described.
+A study can be well designed and carried out in an exemplary fashion (internal validity), but if the population
+A study can be well designed and carried out in an exemplary fashion (internal validity), but if the population
+studied is an unusual or highly selected one, the results may not be generalizable (external validity).
+studied is an unusual or highly selected one, the results may not be generalizable (external validity).
+Stage II: Guidelines for Evaluating the Evidence of a Causal Relationship. (In each category, studies are listed in
+Stage II: Guidelines for Evaluating the Evidence of a Causal Relationship. (In each category, studies are listed in
+descending priority order.)
+descending priority order.)
+1. Major criteria
+1. Major criteria
+a. Temporal relationship: An intervention can be considered evidence of a reduction in risk of disease or
+a. Temporal relationship: An intervention can be considered evidence of a reduction in risk of disease or
+abnormality only if the intervention was applied before the time the disease or abnormality would have
+abnormality only if the intervention was applied before the time the disease or abnormality would have
+developed.
+developed.
+b. Biological plausibility: A biologically plausible mechanism should be able to explain why such a relationship
+b. Biological plausibility: A biologically plausible mechanism should be able to explain why such a relationship
+would be expected to occur.
+would be expected to occur.
+c. Consistency: Single studies are rarely deinitive. Study indings that are replicated in different populations
+c. Consistency: Single studies are rarely deinitive. Study indings that are replicated in different populations
+and by different investigators carry more weight than those that are not. If the indings of studies are
+and by different investigators carry more weight than those that are not. If the indings of studies are
+inconsistent, the inconsistency must be explained.
+inconsistent, the inconsistency must be explained.
+d. Alternative explanations (confounding): The extent to which alternative explanations have been explored is
+d. Alternative explanations (confounding): The extent to which alternative explanations have been explored is
+an important criterion in judging causality.
+an important criterion in judging causality.
+2. Other considerations
+2. Other considerations
+a. Dose-response relationship: If a factor is indeed the cause of a disease, usually (but not invariably) the
+a. Dose-response relationship: If a factor is indeed the cause of a disease, usually (but not invariably) the
+greater the exposure to the factor, the greater the risk of the disease. Such a dose-response relationship may
+greater the exposure to the factor, the greater the risk of the disease. Such a dose-response relationship may
+not always be seen because many important biologic relationships are dichotomous, and reach a threshold
+not always be seen because many important biologic relationships are dichotomous, and reach a threshold
+level for observed effects.
+level for observed effects.
+b. Strength of the association: The strength of the association is usually measured by the extent to which the
+b. Strength of the association: The strength of the association is usually measured by the extent to which the
+relative risk or odds depart from unity, either above 1 (in the case of disease-causing exposures) or below 1
+relative risk or odds depart from unity, either above 1 (in the case of disease-causing exposures) or below 1
+(in the case of preventive interventions).
+(in the case of preventive interventions).
+c. Cessation effects: If an intervention has a beneicial effect, then the beneit should cease when it is removed
+c. Cessation effects: If an intervention has a beneicial effect, then the beneit should cease when it is removed
+from a population (unless carryover effect is operant).
+from a population (unless carryover effect is operant).
+Adapted from Gordis L, Kleinman JC, Klerman LV, et al: Criteria for evaluating evidence regarding the effectiveness of prenatal
+Adapted from Gordis L, Kleinman JC, Klerman LV, et al: Criteria for evaluating evidence regarding the effectiveness of prenatal
+interventions. In Merkatz IR, Thompson JE (eds): New Perspectives on Prenatal Care. New York, Elsevier, 1990, pp 31–38.
+interventions. In Merkatz IR, Thompson JE (eds): New Perspectives on Prenatal Care. New York, Elsevier, 1990, pp 31–38.
+258
+258
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+quality of its sources, and (2) evaluation of the evidence of a causal relationship using standardized
+quality of its sources, and (2) evaluation of the evidence of a causal relationship using standardized
+guidelines.12 These recommendations are excerpted
+guidelines.12 These recommendations are excerpted
+in Table 14-3. Although these modiied guidelines
+in Table 14-3. Although these modiied guidelines
+clearly use the original components, they establish
+clearly use the original components, they establish
+reasonable priorities in weighting them. They thus
+reasonable priorities in weighting them. They thus
+deine an approach for looking at causation that
+deine an approach for looking at causation that
+may have applicability far beyond questions of the
+may have applicability far beyond questions of the
+effectiveness of prenatal measures.
+effectiveness of prenatal measures.
+A similar approach, ranking studies by the
+A similar approach, ranking studies by the
+quality of the study and its evidence, is used by
+quality of the study and its evidence, is used by
+the U.S. Preventive Services Task Force, which is
+the U.S. Preventive Services Task Force, which is
+responsible for developing clinical practice guidelines for prevention and screening (Table 14-4).13
+responsible for developing clinical practice guidelines for prevention and screening (Table 14-4).13
+The Task Force is an independent committee
+The Task Force is an independent committee
+of experts supported by the U.S. Government.
+of experts supported by the U.S. Government.
+Members include experts in primary care, prevention, evidence-based medicine, and research
+Members include experts in primary care, prevention, evidence-based medicine, and research
+methods. Various clinical areas and experience in
+methods. Various clinical areas and experience in
+preventive medicine, public health, and health
+preventive medicine, public health, and health
+policy are also represented.
+policy are also represented.
+For each topic the Task Force considers, it
+For each topic the Task Force considers, it
+deines the questions that need to be addressed
+deines the questions that need to be addressed
+and identiies and retrieves the relevant evidence.
+and identiies and retrieves the relevant evidence.
+The quality of each individual study is assessed
+The quality of each individual study is assessed
+after which the strength of the totality of available
+after which the strength of the totality of available
+evidence is judged. Estimates are made of the
+evidence is judged. Estimates are made of the
+balance of beneits and harms. This balance is
+balance of beneits and harms. This balance is
+expressed as the net beneit (the difference between
+expressed as the net beneit (the difference between
+beneits and harms). The Task Force prepares recommendations for preventive interventions based
+beneits and harms). The Task Force prepares recommendations for preventive interventions based
+on these considerations.
+on these considerations.
+Figure 14-24 shows a generic example of the
+Figure 14-24 shows a generic example of the
+analytic plan which is prepared by the Task Force
+analytic plan which is prepared by the Task Force
+as a framework for evaluating the evidence for a
+as a framework for evaluating the evidence for a
+screening program. The straight arrows show possible pathways of beneit, and the blue curved
+screening program. The straight arrows show possible pathways of beneit, and the blue curved
+arrows show possible adverse effects relating to different stages. The primary question (question 1 in
+arrows show possible adverse effects relating to different stages. The primary question (question 1 in
+the igure) is generally one of whether screening is
+the igure) is generally one of whether screening is
+effective in reducing the risk of an adverse outcome
+effective in reducing the risk of an adverse outcome
+such as mortality and if so, to what extent.
+such as mortality and if so, to what extent.
+Generally, few if any studies have examined this
+Generally, few if any studies have examined this
+overarching question so that the deliberations of
+overarching question so that the deliberations of
+the Task Force often deal with the different steps or
+the Task Force often deal with the different steps or
+linkages that comprise this overall pathway. The
+linkages that comprise this overall pathway. The
+TABLE 14-4. U.S. Preventive Services Task Force Levels of Certainty* Regarding Net Beneit
+TABLE 14-4. U.S. Preventive Services Task Force Levels of Certainty* Regarding Net Beneit
+HIGH
+HIGH
+The available evidence usually includes consistent results from well-designed, well-conducted
+The available evidence usually includes consistent results from well-designed, well-conducted
+studies in representative primary care populations. These studies assess the effects of the
+studies in representative primary care populations. These studies assess the effects of the
+preventive service on health outcomes. This conclusion is therefore unlikely to be strongly
+preventive service on health outcomes. This conclusion is therefore unlikely to be strongly
+affected by the results of future studies.
+affected by the results of future studies.
+MODERATE
+MODERATE
+The available evidence is suficient to determine the effects of the preventive service on health
+The available evidence is suficient to determine the effects of the preventive service on health
+outcomes, but conidence in the estimate is constrained by such factors as:
+outcomes, but conidence in the estimate is constrained by such factors as:
+• The number, size, or quality of individual studies.
+• The number, size, or quality of individual studies.
+• Inconsistency of indings across individual studies.
+• Inconsistency of indings across individual studies.
+• Limited generalizability of indings to routine primary care practice.
+• Limited generalizability of indings to routine primary care practice.
+• Lack of coherence in the chain of evidence.
+• Lack of coherence in the chain of evidence.
+As more information becomes available, the magnitude or direction of the observed effect
+As more information becomes available, the magnitude or direction of the observed effect
+could change, and this change may be large enough to alter the conclusion.
+could change, and this change may be large enough to alter the conclusion.
+LOW
+LOW
+The available evidence is insuficient to assess effects on health outcomes. Evidence is
+The available evidence is insuficient to assess effects on health outcomes. Evidence is
+insuficient because of:
+insuficient because of:
+• The limited number or size of studies.
+• The limited number or size of studies.
+• Important laws in study design or methods.
+• Important laws in study design or methods.
+• Inconsistency of indings across individual studies.
+• Inconsistency of indings across individual studies.
+• Gaps in the chain of evidence.
+• Gaps in the chain of evidence.
+• Findings not generalizable to routine primary care practice.
+• Findings not generalizable to routine primary care practice.
+• A lack of information on important health outcomes.
+• A lack of information on important health outcomes.
+More information may allow an estimation of effects on health outcomes.
+More information may allow an estimation of effects on health outcomes.
+*The USPSTF deines certainty as “likelihood that the USPSTF assessment of the net beneit of a preventive service is correct.”
+*The USPSTF deines certainty as “likelihood that the USPSTF assessment of the net beneit of a preventive service is correct.”
+The net beneit is deined as beneit minus harm of the preventive service as implemented in a general, primary care
+The net beneit is deined as beneit minus harm of the preventive service as implemented in a general, primary care
+population. The USPSTF assigns a certainty level based on the nature of the overall evidence available to assess the net beneit
+population. The USPSTF assigns a certainty level based on the nature of the overall evidence available to assess the net beneit
+of a preventive service.
+of a preventive service.
+From the U.S. Preventive Services Task Force Procedure Manual. AHRQ Publication No. 08-05118-EF, July 2008. http://
+From the U.S. Preventive Services Task Force Procedure Manual. AHRQ Publication No. 08-05118-EF, July 2008. http://
+www.uspreventiveservicestaskforce.org/uspstf08/methods/procmanual.htm/. Accessed August 15, 2013.
+www.uspreventiveservicestaskforce.org/uspstf08/methods/procmanual.htm/. Accessed August 15, 2013.
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+259
+259
+Figure 14-24. Generic analytic framework for screening topics used by the U.S. Preventive Services Task Force. Numbers refer to
+Figure 14-24. Generic analytic framework for screening topics used by the U.S. Preventive Services Task Force. Numbers refer to
+key questions in the igure. (1) Does screening for X reduce morbidity and/or mortality? (2) Can a group at high risk for X be identiied on clinical grounds? (3) Are there accurate (i.e., sensitive and speciic) screening tests available? (4) Are treatments available that
+key questions in the igure. (1) Does screening for X reduce morbidity and/or mortality? (2) Can a group at high risk for X be identiied on clinical grounds? (3) Are there accurate (i.e., sensitive and speciic) screening tests available? (4) Are treatments available that
+make a difference in intermediate outcomes when the disease is caught early, or detected by screening? (5) Are treatments available
+make a difference in intermediate outcomes when the disease is caught early, or detected by screening? (5) Are treatments available
+that make a difference in morbidity or mortality when the disease is caught early, or detected by screening? (6) How strong is the
+that make a difference in morbidity or mortality when the disease is caught early, or detected by screening? (6) How strong is the
+association between the intermediate outcomes and patient outcomes? (7) What are the harms of the screening test? (8) What are the
+association between the intermediate outcomes and patient outcomes? (7) What are the harms of the screening test? (8) What are the
+harms of the treatment? (Adapted from U.S. Preventive Services Task Force Procedure Manual. AHRQ Publication No. 08-05118-EF,
+harms of the treatment? (Adapted from U.S. Preventive Services Task Force Procedure Manual. AHRQ Publication No. 08-05118-EF,
+July 2008. http://www.uspreventiveservicestaskforce.org/uspstf08/methods/procmanual.htm. Accessed August 15, 2013.)
+July 2008. http://www.uspreventiveservicestaskforce.org/uspstf08/methods/procmanual.htm. Accessed August 15, 2013.)
+purple arrow in the igure (step 5) shows the relation of treatment to outcome. Red arrows in the
+purple arrow in the igure (step 5) shows the relation of treatment to outcome. Red arrows in the
+igure, steps 3, 4, and 6, show individual components of question 1. These assessments generally
+igure, steps 3, 4, and 6, show individual components of question 1. These assessments generally
+depend on a review of relevant randomized trials
+depend on a review of relevant randomized trials
+in order to prepare a chain of supporting evidence
+in order to prepare a chain of supporting evidence
+on which to base an answer to question 1. The
+on which to base an answer to question 1. The
+evidence for each linkage is summarized in the evidence review and then summarized across the different linkages to provide an overall assessment of
+evidence for each linkage is summarized in the evidence review and then summarized across the different linkages to provide an overall assessment of
+the supporting evidence for the preventive service
+the supporting evidence for the preventive service
+being evaluated.
+being evaluated.
+The certainty of net beneit is graded on a
+The certainty of net beneit is graded on a
+3-point scale: high, moderate, or low (see Table
+3-point scale: high, moderate, or low (see Table
+14-4). The recommendations of the Task Force are
+14-4). The recommendations of the Task Force are
+based on a combined consideration of the certainty
+based on a combined consideration of the certainty
+and the magnitude of the net beneit as shown in
+and the magnitude of the net beneit as shown in
+the matrix in Figure 14-25, in which a grading
+the matrix in Figure 14-25, in which a grading
+system of A, B, C, D, and I is used. The meaning of
+system of A, B, C, D, and I is used. The meaning of
+each letter grade is explained in Table 14-5.
+each letter grade is explained in Table 14-5.
+The work of the Task Force has dealt with screening for many diseases and conditions. Some examples will illustrate the breadth of the Task Force’s
+The work of the Task Force has dealt with screening for many diseases and conditions. Some examples will illustrate the breadth of the Task Force’s
+activities. It has reviewed the evidence for screening
+activities. It has reviewed the evidence for screening
+for different cancers, for cardiovascular diseases
+for different cancers, for cardiovascular diseases
+including hypertension, coronary heart disease, and
+including hypertension, coronary heart disease, and
+abdominal aortic aneurysm, for infectious diseases,
+abdominal aortic aneurysm, for infectious diseases,
+such as gonorrhea, Chlamydia, and hepatitis B and
+such as gonorrhea, Chlamydia, and hepatitis B and
+C, and for mental conditions such as dementia,
+C, and for mental conditions such as dementia,
+depression, and suicide risk, and screening for glaucoma and for type 2 diabetes. The Task Force has
+depression, and suicide risk, and screening for glaucoma and for type 2 diabetes. The Task Force has
+Certainty
+Certainty
+of Net
+of Net
+Benefit
+Benefit
+High
+High
+Moderate
+Moderate
+Low
+Low
+Magnitude of Net Benefit
+Magnitude of Net Benefit
+Substantial Moderate
+Substantial Moderate
+Small
+Small
+A
+A
+B
+B
+B
+B
+B
+B
+C
+C
+C
+C
+Insufficient Evidence
+Insufficient Evidence
+Zero/
+Zero/
+Negative
+Negative
+D
+D
+D
+D
+Figure 14-25. Grid used by the U.S Preventive Services Task
+Figure 14-25. Grid used by the U.S Preventive Services Task
+Force for assessing the certainty of beneit and the magnitude of
+Force for assessing the certainty of beneit and the magnitude of
+net beneit in determining the grade of its recommendations.
+net beneit in determining the grade of its recommendations.
+(Adapted from U.S. Preventive Services Task Force Procedure
+(Adapted from U.S. Preventive Services Task Force Procedure
+Manual. AHRQ Publication No. 08-05118-EF, July 2008. http://
+Manual. AHRQ Publication No. 08-05118-EF, July 2008. http://
+www.uspreventiveservicestaskforce.org/uspstf08/methods/
+www.uspreventiveservicestaskforce.org/uspstf08/methods/
+procmanual.htm. Accessed August 15, 2013.)
+procmanual.htm. Accessed August 15, 2013.)
+also reviewed the evidence for the effectiveness of
+also reviewed the evidence for the effectiveness of
+counseling for many conditions such as counseling
+counseling for many conditions such as counseling
+to prevent tobacco use and tobacco-related diseases,
+to prevent tobacco use and tobacco-related diseases,
+counseling to prevent alcohol misuse, counseling to
+counseling to prevent alcohol misuse, counseling to
+promote a healthy diet, and counseling to promote
+promote a healthy diet, and counseling to promote
+physical activity. The above issues have been
+physical activity. The above issues have been
+addressed in adults, but childhood conditions have
+addressed in adults, but childhood conditions have
+also been reviewed by the Task Force including prevention of dental caries in preschool children,
+also been reviewed by the Task Force including prevention of dental caries in preschool children,
+screening for scoliosis in adolescents, newborn
+screening for scoliosis in adolescents, newborn
+hearing screening, screening for visual impairment
+hearing screening, screening for visual impairment
+in children younger than 5 years of age, and screening for obesity in children and adolescents. These
+in children younger than 5 years of age, and screening for obesity in children and adolescents. These
+and many more evidence reviews and recommendations of the Task Force can be found on the
+and many more evidence reviews and recommendations of the Task Force can be found on the
+website of the Agency for Health Care Research and
+website of the Agency for Health Care Research and
+260
+260
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
+TABLE 14-5. What the USPSTF Grades Mean and Suggestions for Practice
+TABLE 14-5. What the USPSTF Grades Mean and Suggestions for Practice
+Grade
+Grade
+Grade Deinitions
+Grade Deinitions
+Suggestions for Practice
+Suggestions for Practice
+A
+A
+B
+B
+C
+C
+D
+D
+I
+I
+The USPSTF recommends the service. There is high
+The USPSTF recommends the service. There is high
+Offer/provide this service.
+Offer/provide this service.
+certainty that the net beneit is substantial.
+certainty that the net beneit is substantial.
+The USPSTF recommends the service. There is high
+The USPSTF recommends the service. There is high
+Offer/provide this service.
+Offer/provide this service.
+certainty that the net beneit is moderate or there is
+certainty that the net beneit is moderate or there is
+moderate certainty that the net beneit is moderate
+moderate certainty that the net beneit is moderate
+to substantial.
+to substantial.
+The USPSTF recommends against routinely providing
+The USPSTF recommends against routinely providing
+Offer/provide this service only if there are
+Offer/provide this service only if there are
+the service. There may be considerations that
+the service. There may be considerations that
+support providing the service in an individual
+support providing the service in an individual
+patient. There is at least moderate certainty that the
+patient. There is at least moderate certainty that the
+net beneit is small.
+net beneit is small.
+The USPSTF recommends against the service. There
+The USPSTF recommends against the service. There
+is moderate or high certainty that the service has
+is moderate or high certainty that the service has
+no net beneit or that the harms outweigh the
+no net beneit or that the harms outweigh the
+beneits.
+beneits.
+The USPSTF concludes that the current evidence is
+The USPSTF concludes that the current evidence is
+insuficient to assess the balance of beneits and
+insuficient to assess the balance of beneits and
+harms of the service. Evidence is lacking, of poor
+harms of the service. Evidence is lacking, of poor
+quality, or conlicting, and the balance of beneits
+quality, or conlicting, and the balance of beneits
+and harms cannot be determined.
+and harms cannot be determined.
+other considerations in support of
+other considerations in support of
+offering/providing the service in an
+offering/providing the service in an
+individual patient.
+individual patient.
+Discourage the use of this service.
+Discourage the use of this service.
+Read “Clinical Considerations” section of
+Read “Clinical Considerations” section of
+USPSTF Recommendation Statement.
+USPSTF Recommendation Statement.
+If offered, patients should understand
+If offered, patients should understand
+the uncertainty about the balance of
+the uncertainty about the balance of
+beneits and harms.
+beneits and harms.
+From the U.S. Preventive Services Task Force Procedure Manual. AHRQ Publication No. 08-05118-EF, July 2008. http://www.
+From the U.S. Preventive Services Task Force Procedure Manual. AHRQ Publication No. 08-05118-EF, July 2008. http://www.
+uspreventiveservicestaskforce.org/uspstf08/methods/procmanual.htm. Accessed August 15, 2013.
+uspreventiveservicestaskforce.org/uspstf08/methods/procmanual.htm. Accessed August 15, 2013.
+Quality (www.ahrq.gov). The deliberations and
+Quality (www.ahrq.gov). The deliberations and
+recommendations of the Task Force provide a
+recommendations of the Task Force provide a
+highly useful model of assessing the strength of the
+highly useful model of assessing the strength of the
+evidence and moving from causal inferences to
+evidence and moving from causal inferences to
+policy recommendations.
+policy recommendations.
+
+## Conclusion | 結論
+
+Although causal guidelines discussed in this chapter
+are often referred to as criteria, this term does not
+seem entirely appropriate. Although it may be a
+desirable goal to place causal inferences on a irm
+quantitative and structural foundation, at present
+we generally do not have all the information needed
+for doing so. The preceding list should therefore be
+considered to be only guidelines that can be of most
+value when coupled with reasoned judgment about
+the entire body of available evidence, in making
+decisions about causation.
+In the next chapter, we address several additional
+issues that need to be considered in deriving causal
+inferences from epidemiologic studies.
+
+## References | 參考文獻
+
+REFERENCES
+1. Cameron WB: Informal Sociology: A Casual Introduction
+to Sociological Thinking. New York, Random House, 1963,
+p 13. (This quotation was also attributed to Albert Einstein
+some years later.)
+2. Ochsner A, DeBakey M: Primary pulmonary malignancy.
+Surg Gynecol Obstet 68:435, 1939.
+3. Yerushalmy J: Infants with low birth weight born before
+their mothers started to smoke cigarettes. Am J Obstet
+Gynecol 112:277–284, 1972.
+4. Evans AS: Causation and Disease: A Chronological Journey.
+New York, Plenum, 1993, pp 13–39.
+6. Schwartz J: Air pollution and daily mortality: A review and
+meta analysis. Environ Res 64:36–52, 1994.
+7. Hill AB: The environment and disease: Association or causation? Proceedings of the Royal Society of Medicine,
+58:295–300, 1965.
+8. Marshall BJ, Warren JR: Unidentiied curved bacilli in the
+stomachs of patients with gastritis and peptic ulceration.
+Lancet 1:1311–1315, 1984.
+9. Uemura N, Okamoto S, Yamamoto S, et al: Helicobacter
+pylori infection and the development of gastric cancer.
+N Engl J Med 345:784–789, 2001.
+5. U.S. Department of Health, Education and Welfare:
+Smoking and Health: Report of the Advisory Committee to
+the Surgeon General. Washington, DC, Public Health
+Service, 1964.
+10. Grant BF, Dawson DA: Age at onset of alcohol use and its
+association with DSM-IV alcohol abuse and dependence:
+Results from the National Longitudinal Alcohol Epidemiologic Survey. J Subst Abuse 9:103–110, 1997.
+Chapter 14 From Association to Causation: Deriving Inferences from Epidemiologic Studies
+261
+11. Merkatz IR, Thompson JE (eds): New Perspectives on
+Prenatal Care. New York, Elsevier, 1990.
+12. Gordis L, Kleinman JC, Klerman LV, et al: Criteria for
+evaluating evidence regarding the effectiveness of prenatal
+interventions. In Merkatz IR, Thompson JE (eds): New
+Perspectives on Prenatal Care. New York, Elsevier, 1990,
+pp 31–38.
+13. U.S. Preventive Services Task Force Procedure Manual.
+AHRQ Publication No. 08-05118-EF, July 2008. http://
+www.uspreventiveservicestaskforce.org/uspstf08/methods/
+procmanual.htm. Accessed August 15, 2013.
+
+## Review Questions | 複習問題
+
+REVIEW QUESTIONS FOR CHAPTER 14
+1. In a large case-control study of patients with
+pancreatic cancer, 17% of the patients were
+found to be diabetic at the time of diagnosis,
+compared to 4% of a well-matched control
+group (matched by age, sex, ethnic group, and
+several other characteristics) that was examined
+for diabetes at the same time as the cases were
+diagnosed. It was concluded that the diabetes
+played a causal role in the pancreatic cancer. This
+conclusion:
+a. Is correct
+b. May be incorrect because there is no control
+or comparison group
+c. May be incorrect because of failure to establish the time sequence between onset of the
+diabetes and diagnosis of pancreatic cancer
+d. May be incorrect because of less complete
+ascertainment of diabetes in the pancreatic
+cancer cases
+e. May be incorrect because of more complete
+ascertainment of pancreatic cancer in nondiabetic persons
+2. An investigator examined cases of fetal death in
+27,000 pregnancies and classiied mothers
+according to whether they had experienced
+sexual intercourse within 1 month before delivery. It was found that 11% of the mothers of
+fetuses that died and 2.5% of the mothers of
+fetuses that survived had had sexual intercourse
+during the period. It was concluded that intercourse during the month preceding delivery
+caused the fetal deaths. This conclusion:
+a. May be incorrect because mothers who had
+intercourse during the month before childbirth may differ in other important characteristics from those who did not
+b. May be incorrect because there is no comparison group
+c. May be incorrect because prevalence rates are
+used where incidence rates are needed
+d. May be incorrect because of failure to achieve
+a high level of statistical signiicance
+e. Both b and c
+3. All of the following are important criteria when
+making causal inferences except:
+a. Consistency with existing knowledge
+b. Dose-response relationship
+c. Consistency of association in several studies
+d. Strength of association
+e. Predictive value
+Questions 4 and 5 are based on the following
+information.
+Factor A, B, or C can each individually cause a
+certain disease without the other two factors, but
+only when followed by exposure to factor X. Exposure to factor X alone is not followed by the disease,
+but the disease never occurs in the absence of exposure to factor X.
+4. Factor X is:
+a. A necessary and suficient cause
+b. A necessary, but not suficient, cause
+c. A suficient, but not necessary, cause
+d. Neither necessary nor suficient
+e. None of the above
+5. Factor A is:
+a. A necessary and suficient cause
+b. A necessary, but not suficient, cause
+c. A suficient, but not necessary, cause
+d. Neither necessary nor suficient
+e. None of the above
