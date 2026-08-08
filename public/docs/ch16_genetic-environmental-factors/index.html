@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第16章：遺傳與環境因素在疾病成因中的角色 - Epidemiology 流行病學</title>
+<style>
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, sans-serif; max-width: 900px; margin: 0 auto; padding: 0 1rem; line-height: 1.7; color: #333; }
+header { border-bottom: 3px solid #1a5276; padding: 1rem 0; margin-bottom: 2rem; }
+header h1 { margin: 0; font-size: 1.5rem; }
+header h1 a { color: #1a5276; text-decoration: none; }
+nav { background: #f4f4f4; padding: 0.75rem 1rem; border-radius: 5px; margin-bottom: 1.5rem; }
+nav a { color: #2874a6; text-decoration: none; margin-right: 1.5rem; font-size: 0.95rem; }
+nav a:hover { text-decoration: underline; }
+h1 { color: #1a5276; border-bottom: 2px solid #ddd; padding-bottom: 0.5rem; }
+h2 { color: #2874a6; margin-top: 2rem; }
+h3 { color: #1a6a8a; margin-top: 1.5rem; }
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+th { background: #eaf2f8; color: #1a5276; }
+tr:nth-child(even) { background: #f9f9f9; }
+blockquote { background: #fef9e7; border-left: 4px solid #f39c12; padding: 0.75rem 1rem; margin: 1rem 0; border-radius: 0 5px 5px 0; }
+blockquote p { margin: 0.3rem 0; }
+code { background: #f4f4f4; padding: 0.15rem 0.4rem; border-radius: 3px; font-size: 0.9em; }
+pre { background: #2c3e50; color: #ecf0f1; padding: 1rem; overflow-x: auto; border-radius: 5px; font-size: 0.85rem; }
+pre code { background: none; padding: 0; color: inherit; }
+img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+figure { margin: 1.5rem 0; text-align: center; }
+figcaption { font-size: 0.85rem; color: #666; margin-top: 0.3rem; font-style: italic; }
+.key-point { background: #eaf2f8; border-left-color: #1a5276; border-left-width: 4px; padding: 0.75rem 1rem; margin: 1rem 0; }
+ul, ol { padding-left: 1.5rem; }
+li { margin: 0.3rem 0; }
+footer { border-top: 1px solid #ddd; padding: 1.5rem 0; margin-top: 3rem; text-align: center; color: #888; font-size: 0.85rem; }
+.chapter-nav { display: flex; justify-content: space-between; margin: 2rem 0; padding: 1rem; background: #eaf2f8; border-radius: 5px; }
+.chapter-nav a { color: #1a5276; text-decoration: none; font-weight: 500; }
+.chapter-nav a:hover { text-decoration: underline; }
+hr { border: none; border-top: 1px solid #eee; margin: 2rem 0; }
+</style>
+</head>
+<body>
+<header>
+<h1><a href="https://b101108063-ops.github.io/epidemiology/">Epidemiology 流行病學</a></h1>
+</header>
+<nav>
+<a href="https://b101108063-ops.github.io/epidemiology/">首頁</a>
+<a href="https://b101108063-ops.github.io/epidemiology/docs/">所有章節</a>
+</nav>
+<main>
+
+<main>
+<h1>第16章：遺傳與環境因素在疾病成因中的角色</h1>
+<h1 id="第16章identifying-the-roles-of-genetic-and-environmental-factors-in-disease-causation">第16章：Identifying the Roles of Genetic and Environmental Factors in Disease Causation</h1>
+<p><strong>遺傳與環境因素在疾病成因中的角色</strong></p>
+<blockquote>
+<p><strong>Gordis Epidemiology</strong> 第五版 | Chapter 16
+本章探討 遺傳與環境因素在疾病成因中的角色 的核心概念與應用</p>
+</blockquote>
+<hr>
+<h2 id="-學習目標">🎯 學習目標</h2>
+<p>完成本章學習後，您將能夠：</p>
+<ul>
+<li>To illustrate how the occurrence of</li>
+<li>To show how genetic markers are used in</li>
+<li>To examine how epidemiologic designs, such</li>
+<li>To discuss how combining innovative</li>
+</ul>
+<h2 id="-重要術語">📋 重要術語</h2>
+<table>
+  <thead>
+      <tr>
+          <th>英文術語</th>
+          <th>中文翻譯</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Genetic factors</td>
+          <td>遺傳因素</td>
+      </tr>
+      <tr>
+          <td>Environmental factors</td>
+          <td>環境因素</td>
+      </tr>
+      <tr>
+          <td>Gene-environment interaction</td>
+          <td>基因與環境交互作用</td>
+      </tr>
+      <tr>
+          <td>Heritability</td>
+          <td>遺傳率</td>
+      </tr>
+      <tr>
+          <td>Twin studies</td>
+          <td>雙胞胎研究</td>
+      </tr>
+      <tr>
+          <td>Adoption studies</td>
+          <td>收養研究</td>
+      </tr>
+      <tr>
+          <td>Family studies</td>
+          <td>家族研究</td>
+      </tr>
+      <tr>
+          <td>Concordance rate</td>
+          <td>一致率</td>
+      </tr>
+      <tr>
+          <td>BRCA1/BRCA2</td>
+          <td>BRCA1/BRCA2（乳腺癌基因突變）</td>
+      </tr>
+      <tr>
+          <td>Haplotype</td>
+          <td>單倍體型</td>
+      </tr>
+      <tr>
+          <td>Penetrance</td>
+          <td>外顯率</td>
+      </tr>
+      <tr>
+          <td>Genotype</td>
+          <td>基因型</td>
+      </tr>
+      <tr>
+          <td>Phenotype</td>
+          <td>表現型</td>
+      </tr>
+      <tr>
+          <td>Chromosomal abnormalities</td>
+          <td>染色體異常</td>
+      </tr>
+      <tr>
+          <td>Migrant studies</td>
+          <td>移民研究</td>
+      </tr>
+      <tr>
+          <td>SNP</td>
+          <td>單核苷酸多態性</td>
+      </tr>
+      <tr>
+          <td>de novo mutations</td>
+          <td>新生突變</td>
+      </tr>
+      <tr>
+          <td>Autism spectrum disorders (ASD)</td>
+          <td>自閉症類群障礙（ASD）</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="-核心概念">🔑 核心概念</h2>
+<ul>
+<li>
+<p><strong>基因與環境的交互作用</strong>：許多疾病的發生是遺傳傾向與環境因素共同作用的結果。</p>
+</li>
+<li>
+<p><strong>研究方法</strong>：家族研究、雙胞胎研究、收養研究可用於區分遺傳與環境因素的貢獻。</p>
+</li>
+<li>
+<p><strong>一致性率</strong>：在同卵雙胞胎與異卵雙胞胎中比較疾病一致性，可估計遺傳率。</p>
+</li>
+<li>
+<p><strong>移民研究</strong>：比較不同環境中移民群體的疾病風險，有助於識別環境因素。</p>
+</li>
+<li>
+<p><strong>BRCA 基因突變</strong>：BRCA1/BRCA2 突變攜帶者的乳腺癌終生風險約為 50-85%。</p>
+</li>
+</ul>
+<h2 id="-重要表格">📊 重要表格</h2>
+<p><strong>TABLE 16-1. Examples of Conditions</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>項目</th>
+          <th>內容</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Associated with Diseases of</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Known Genetic Origin</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Leukemia and Down syndrome</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Alzheimer’s disease and Down syndrome</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Breast cancer in men and Klinefelter’s syndrome</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>(XXY syndrome)</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Colon cancer and familial adenomatous polyposis</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Atherosclerosis and homocystinuria</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>homocystinuria is linked to thrombosis and athero-</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>sclerosis. But if we ind such an association between</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>a condition of interest and a disease that has known</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>genetic etiology, it does not prove that the condi-</td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>TABLE 16-2. HLA Disease Associations</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>項目</th>
+          <th>內容</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Disease and HLA Type</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Race</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Patients (% Positive)</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Controls (%)</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Odds Ratio*</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ankylosing Spondylitis</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>B27</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>White</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>9</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>69.1</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>B27</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Asian</td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>TABLE 16-3. Age Distribution in Published Clinical Reports of Childhood Leukemia in Twins,</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>項目</th>
+          <th>內容</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1928–1974</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>MONOZYGOTIC PAIRS</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>DIZYGOTIC PAIRS</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Concordant</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Discordant</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Concordant</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Discordant</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Perinatal-congenital</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Age 2–7 yr</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>13</td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="-複習問題">📝 複習問題</h2>
+<blockquote>
+<p>以下問題可幫助您複習本章內容：</p>
+</blockquote>
+<ol>
+<li>A reasonable conclusion to be drawn from these
+data is:
+a. Genetic factors are unimportant in the etiol-
+ogy of schizophrenia
+b. The data suggest a potentially important
+genetic component
+c. The inc</li>
+<li>If an association is found between the incidence
+of a disease and a certain genetically determined
+characteristic:
+a. The disease is clearly genetic in origin
+b. Genetic factors are at least implica</li>
+<li>These indings suggest that:
+a. Environmental factors are the major determi-
+nants of these SMRs
+b. Genetic factors are the major determinants of
+these SMRs
+c. Environmental factors associated with th</li>
+</ol>
+<hr>
+<blockquote>
+<p>📚 <strong>Gordis Epidemiology</strong> 第五版 | Chapter 16 | Identifying the Roles of Genetic and Environmental Factors in Disease Causation</p>
+</blockquote>
+
+</main>
+
+</main>
+<footer>
+<p>Epidemiology 流行病學 | Gordis Epidemiology 5th Edition 繁體中文學習指南</p>
+</footer>
+</body>
+</html>

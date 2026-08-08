@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第18章：流行病學方法在篩檢計畫評估中的應用 - Epidemiology 流行病學</title>
+<style>
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, sans-serif; max-width: 900px; margin: 0 auto; padding: 0 1rem; line-height: 1.7; color: #333; }
+header { border-bottom: 3px solid #1a5276; padding: 1rem 0; margin-bottom: 2rem; }
+header h1 { margin: 0; font-size: 1.5rem; }
+header h1 a { color: #1a5276; text-decoration: none; }
+nav { background: #f4f4f4; padding: 0.75rem 1rem; border-radius: 5px; margin-bottom: 1.5rem; }
+nav a { color: #2874a6; text-decoration: none; margin-right: 1.5rem; font-size: 0.95rem; }
+nav a:hover { text-decoration: underline; }
+h1 { color: #1a5276; border-bottom: 2px solid #ddd; padding-bottom: 0.5rem; }
+h2 { color: #2874a6; margin-top: 2rem; }
+h3 { color: #1a6a8a; margin-top: 1.5rem; }
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+th { background: #eaf2f8; color: #1a5276; }
+tr:nth-child(even) { background: #f9f9f9; }
+blockquote { background: #fef9e7; border-left: 4px solid #f39c12; padding: 0.75rem 1rem; margin: 1rem 0; border-radius: 0 5px 5px 0; }
+blockquote p { margin: 0.3rem 0; }
+code { background: #f4f4f4; padding: 0.15rem 0.4rem; border-radius: 3px; font-size: 0.9em; }
+pre { background: #2c3e50; color: #ecf0f1; padding: 1rem; overflow-x: auto; border-radius: 5px; font-size: 0.85rem; }
+pre code { background: none; padding: 0; color: inherit; }
+img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+figure { margin: 1.5rem 0; text-align: center; }
+figcaption { font-size: 0.85rem; color: #666; margin-top: 0.3rem; font-style: italic; }
+.key-point { background: #eaf2f8; border-left-color: #1a5276; border-left-width: 4px; padding: 0.75rem 1rem; margin: 1rem 0; }
+ul, ol { padding-left: 1.5rem; }
+li { margin: 0.3rem 0; }
+footer { border-top: 1px solid #ddd; padding: 1.5rem 0; margin-top: 3rem; text-align: center; color: #888; font-size: 0.85rem; }
+.chapter-nav { display: flex; justify-content: space-between; margin: 2rem 0; padding: 1rem; background: #eaf2f8; border-radius: 5px; }
+.chapter-nav a { color: #1a5276; text-decoration: none; font-weight: 500; }
+.chapter-nav a:hover { text-decoration: underline; }
+hr { border: none; border-top: 1px solid #eee; margin: 2rem 0; }
+</style>
+</head>
+<body>
+<header>
+<h1><a href="https://b101108063-ops.github.io/epidemiology/">Epidemiology 流行病學</a></h1>
+</header>
+<nav>
+<a href="https://b101108063-ops.github.io/epidemiology/">首頁</a>
+<a href="https://b101108063-ops.github.io/epidemiology/docs/">所有章節</a>
+</nav>
+<main>
+
+<main>
+<h1>第18章：流行病學方法在篩檢計畫評估中的應用</h1>
+<h1 id="第18章the-epidemiologic-approach-to-evaluating-screening-programs">第18章：The Epidemiologic Approach to Evaluating Screening Programs</h1>
+<p><strong>流行病學方法在篩檢計畫評估中的應用</strong></p>
+<blockquote>
+<p><strong>Gordis Epidemiology</strong> 第五版 | Chapter 18
+本章探討 流行病學方法在篩檢計畫評估中的應用 的核心概念與應用</p>
+</blockquote>
+<hr>
+<h2 id="-學習目標">🎯 學習目標</h2>
+<p>完成本章學習後，您將能夠：</p>
+<ul>
+<li>To build on the discussion of the validity</li>
+<li>To revisit the natural history of disease and</li>
+<li>To describe the major sources of bias that</li>
+<li>To discuss different study designs for</li>
+<li>To discuss problems in assessing the sensi-</li>
+<li>To introduce issues associated with cost-</li>
+</ul>
+<h2 id="-重要術語">📋 重要術語</h2>
+<table>
+  <thead>
+      <tr>
+          <th>英文術語</th>
+          <th>中文翻譯</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Screening</td>
+          <td>篩檢</td>
+      </tr>
+      <tr>
+          <td>Lead time</td>
+          <td>領先時間</td>
+      </tr>
+      <tr>
+          <td>Length bias</td>
+          <td>病程延長偏差</td>
+      </tr>
+      <tr>
+          <td>Sensitivity</td>
+          <td>敏感度</td>
+      </tr>
+      <tr>
+          <td>Specificity</td>
+          <td>特異度</td>
+      </tr>
+      <tr>
+          <td>Positive predictive value (PPV)</td>
+          <td>陽性預測值（PPV）</td>
+      </tr>
+      <tr>
+          <td>Negative predictive value (NPV)</td>
+          <td>陰性預測值（NPV）</td>
+      </tr>
+      <tr>
+          <td>Natural history of disease</td>
+          <td>疾病自然史</td>
+      </tr>
+      <tr>
+          <td>Preclinical detectable period</td>
+          <td>臨床前期可偵測期</td>
+      </tr>
+      <tr>
+          <td>Overdiagnosis</td>
+          <td>過度診斷</td>
+      </tr>
+      <tr>
+          <td>Selection bias</td>
+          <td>選擇偏差</td>
+      </tr>
+      <tr>
+          <td>Progression</td>
+          <td>進展</td>
+      </tr>
+      <tr>
+          <td>Regression</td>
+          <td>退化</td>
+      </tr>
+      <tr>
+          <td>Benefit-harm balance</td>
+          <td>益處與危害平衡</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="-核心概念">🔑 核心概念</h2>
+<ul>
+<li>
+<p><strong>領先時間（Lead time）</strong>：早期篩檢發現疾病的優勢時間，了解此概念有助於解釋篩檢的效益。</p>
+</li>
+<li>
+<p><strong>病程延長偏差（Length bias）</strong>：較慢進展的疾病更容易被篩檢發現，影響篩檢效益評估。</p>
+</li>
+<li>
+<p><strong>敏感度與特異度</strong>：影響陽性預測值與陰性預測值，進而影響篩檢計畫的效益。</p>
+</li>
+<li>
+<p><strong>過度診斷（Overdiagnosis）</strong>：某些情況下，篩檢可能發現不會造成症狀或死亡的疾病。</p>
+</li>
+</ul>
+<h2 id="-重要表格">📊 重要表格</h2>
+<p><strong>TABLE 18-1. Assessing the Effectiveness</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>項目</th>
+          <th>內容</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>of Screening Programs</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Using Operational Measures</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>1. Number of people screened</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>2. Proportion of target populations screened and</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>number of times screened</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>3. Detected prevalence of preclinical disease</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>4. Total costs of the program</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>5. Costs per case found</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>6. Costs per previously unknown case found</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>7. Proportion of positive screenees brought to inal</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>diagnosis and treatment</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>8. Predictive value of a positive test in population</td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>TABLE 18-4. Rate of Death from Neuroblastoma by 8 Years of Age in the</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>項目</th>
+          <th>內容</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Screened Quebec Cohort, as Compared with the Rates in Unscreened</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Canadian Cohorts*</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Control Cohort</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Number of Deaths Expected in Quebec</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>on the Basis of the Control Cohort</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Standardized Mortality</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Ratio for Quebec (95% CI)</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Historical cohorts</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Quebec</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>22.5</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>0.98 (0.54–1.77)</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Canada</td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>TABLE 18-5. Criteria Used by the</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>項目</th>
+          <th>內容</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>American Cancer Society</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>for Recommendations on</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Cancer-Related Check-ups</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>1. There must be good evidence that each test or</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>procedure recommended is medically effective in</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>reducing morbidity or mortality.</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>2. The medical beneits must outweigh the risks.</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>3. The cost of each test or procedure must be</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>reasonable compared with its expected beneits.</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>4. The recommended actions must be practical and</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>feasible.</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>detection of disease, any of the following interpre-</td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="-複習問題">📝 複習問題</h2>
+<blockquote>
+<p>以下問題可幫助您複習本章內容：</p>
+</blockquote>
+<ol>
+<li>Warner E: Breast-cancer screening. N Engl J Med 365:1025–
+1032, 2011.</li>
+<li>Tuchman M, Lemieux B, Woods WG: Screening for neuro-
+blastoma in infants: Investigate or implement? Pediatrics
+86:791–793, 1990.</li>
+<li>Woods WG, Gao R, Shuster JJ, et al: Screening of infants
+and mortality due to neuroblastoma. N Engl J Med 346:
+1041–1046, 2002.</li>
+<li>Schilling FH, Spix C, Berthold F, et al: Neuroblastoma
+screening at one year of age. N Engl J Med 346:1047–1053,</li>
+<li>
+<ol start="19">
+<li>Smith RA, Mettlin CJ, David KJ, et al: American Cancer
+Society guidelines for the early detection of cancer.
+CA Cancer J Clin 50:34–49, 2000.</li>
+</ol>
+</li>
+</ol>
+<hr>
+<blockquote>
+<p>📚 <strong>Gordis Epidemiology</strong> 第五版 | Chapter 18 | The Epidemiologic Approach to Evaluating Screening Programs</p>
+</blockquote>
+
+</main>
+
+</main>
+<footer>
+<p>Epidemiology 流行病學 | Gordis Epidemiology 5th Edition 繁體中文學習指南</p>
+</footer>
+</body>
+</html>
