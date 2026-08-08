@@ -52,3805 +52,507 @@ hr { border: none; border-top: 1px solid #eee; margin: 2rem 0; }
 <h1>Chapter 15: More on Causal Inferences: Bias, Confounding, and Interaction</h1>
 <h1 id="chapter-15-more-on-causal-inferences-bias-confounding-and-interaction">Chapter 15: More on Causal Inferences: Bias, Confounding, and Interaction</h1>
 <h2 id="因果推論深入探討偏差混雜與交互作用">因果推論深入探討：偏差、混雜與交互作用</h2>
-<h2 id="review-questions--複習問題">Review Questions | 複習問題</h2>
-<p>REVIEW QUESTIONS FOR CHAPTER 15</p>
-<ol>
-<li>Which of the following is an approach to handling confounding?
-a. Individual matching
-b. Stratiication
-c. Group matching
-d. Adjustment
-e. All of the above</li>
-<li>It has been suggested that physicians may
-examine women who use oral contraceptives
-more often or more thoroughly than women
-who do not. If so, and if an association is
-observed between phlebitis and oral contraceptive use, the association may be due to:
-a. Selection bias
-b. Interviewer bias
-c. Surveillance bias
-d. Nonresponse bias
-e. Recall bias
-Questions 3 through 6 are based on the information given below:
-Factor A
-{</li>
-</ol>
-<ul>
-<li></li>
-</ul>
-<p>7
-−
-3
-8
-−
-+
-{
-Factor B
-3. Fill in the blank cell in the irst table using the
-additive model of interaction: ______
-4. Fill in the blank cell in the irst table using the
-multiplicative model of interaction: ______
-Convert the numbers in the above table to
-attributable risks for the additive model (below,
-left) and relative risks for the multiplicative model
-(below, right).
-ADDITIVE MODEL
-MULTIPLICATIVE MODEL
-Factor A
-+
-−
-Factor A
-+
-−
-Factor B
-0
-−
-+
-Factor B
-1
-−
-+
-5. Fill in the bottom right cell of the table at the
-bottom of the left column for the attributable
-risk of having both factors A and B (additive
-model): ______
-6. Fill in the bottom right cell of the table at the
-bottom of the left column for the relative risk of
-having both factors A and B (multiplicative
-model): ______
-Question 7 is based on the information given
-below:
-In a case-control study of the relationship of
-radiation exposure and thyroid cancer, 50 cases
-admitted for thyroid cancer and 100 “controls”
-admitted during the same period for treatment of
-hernias were studied. Only the cases were interviewed, and 20 of the cases were found to have been
-exposed to x-ray therapy in the past, based on the
-interviews and medical records. The controls were
-not interviewed, but a review of their hospital
-records when they were admitted for hernia surgery
-revealed that only 2 controls had been exposed to
-x-ray therapy in the past.
-7. Based on the description given above, what
-source of bias is least likely to be present in
-this study?
-a. Recall bias
-b. Bias due to controls being nonrepresentative
-of the nondiseased population
-c. Bias due to use of different methods of
-ascertainment of exposure in the cases and
-controls
-d. Bias due to loss of subjects from the control
-group over time
-e. Selection bias for exposure to x-ray therapy
-in the past
-Additional review question on the next page.
-278
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-8. In 1990, a case-control study was conducted
-to investigate the positive association between
-artiicial sweetener use and bladder cancer.
-Controls were selected from a hospital sample
-of patients diagnosed with obesity-related
-conditions. Obesity-related conditions have
-been positively associated with artiicial sweetener use. How would the use of these patients as
-controls affect the estimate of the association
-between artiicial sweetener use and bladder
-cancer?
-a. The estimate of association would accurately
-relect the true association regardless of the
-association between artiicial sweetener use
-and obesity-related conditions
-b. The estimate of association would tend to
-underestimate the true association
-c. More information is needed on the strength
-of association between artiicial sweetener
-use and obesity-related conditions before any
-judgment can be made
-d. The estimate of association would tend to
-overestimate the true association
-e. More information is needed on the strength
-of association between artiicial sweetener
-use and bladder cancer before any judgment
-can be made
-Chapter 16
-Identifying the Roles of Genetic
-and Environmental Factors
-in Disease Causation
-To produce another Wolfgang Amadeus Mozart, we would need not only
-Wolfgang’s genome but his mother’s uterus, his father’s music lessons, his
-parents’ friends and his own, the state of music in 18th century Austria, Haydn’s
-patronage, and on and on, in ever-widening circles. Without Mozart’s set of
-genes, the rest would not sufice; there was, after all, only one Wolfgang Amadeus
-Mozart. But we have no right to the converse assumption: that his genome,
-cultivated in another world at another time, would result in the same musical
-genius. If a particular strain of wheat yields different harvests under different
-conditions of climate, soil and cultivation, how can we assume that so much
-more complex a genome as that of a human being would yield its desired crop
-of operas, symphonies and chamber music under different circumstances of
-nurture?1
-—Leon Eisenberg, MD, DSc, child psychiatrist, social psychiatrist, and
-medical educator (1922–2009)</p>
 <h2 id="learning-objectives--學習目標">Learning Objectives | 學習目標</h2>
-<p>Learning Objectives</p>
+<p>By the end of this chapter, you should be able to:</p>
 <ul>
-<li>To illustrate how the occurrence of
-disease relects an interaction between
-disease relects an interaction between
-environmental and genetic factors.
-environmental and genetic factors.</li>
-<li>To show how genetic markers are used in
-assessing the genetic basis of different
-assessing the genetic basis of different
-diseases.
-diseases.</li>
-<li>To examine how epidemiologic designs, such
-as studies of age of onset of a disease, family
-as studies of age of onset of a disease, family
-studies, and migrant studies can help clarify
-studies, and migrant studies can help clarify
-the roles of genetic and environmental
-the roles of genetic and environmental
-factors in disease causation.
-factors in disease causation.</li>
-<li>To discuss how combining innovative
-epidemiologic and molecular biology
-epidemiologic and molecular biology
-methods, including the mapping of the
-methods, including the mapping of the
-human genome, can help to deine the
-human genome, can help to deine the
-etiologic roles of environmental and
-etiologic roles of environmental and
-genetic factors and potentially permit the
-genetic factors and potentially permit the
-development of individualized treatments of
-development of individualized treatments of
-disease for people with serious illnesses.
-disease for people with serious illnesses.
-In previous chapters we discussed study designs for
-In previous chapters we discussed study designs for
-identifying the causes of disease and focused primarily on the possible etiologic role of environmental factors. However, in order to prevent disease,
-identifying the causes of disease and focused primarily on the possible etiologic role of environmental factors. However, in order to prevent disease,
-we must also take into account the major part
-we must also take into account the major part
-played by genetic factors and look at the interaction
-played by genetic factors and look at the interaction
-of genetic susceptibility and exposure to environmental factors. Human beings clearly differ from
-of genetic susceptibility and exposure to environmental factors. Human beings clearly differ from
-one another in physical characteristics, personality,
-one another in physical characteristics, personality,
-and other factors. They also differ in genetically
-and other factors. They also differ in genetically
-determined susceptibility to disease. When we
-determined susceptibility to disease. When we
-investigate the etiology of a disease, we are explicitly
-investigate the etiology of a disease, we are explicitly
-or implicitly asking the question: How much of the
-or implicitly asking the question: How much of the
-incidence of the disease is due to genetic factors,
-incidence of the disease is due to genetic factors,
-how much is due to environmental factors, and
-how much is due to environmental factors, and
-how do these types of factors interact with each
-how do these types of factors interact with each
-other to increase or decrease the risk of disease?
-other to increase or decrease the risk of disease?
-Clearly, disease does not necessarily develop in
-Clearly, disease does not necessarily develop in
-everyone exposed to an environmental risk factor.
-everyone exposed to an environmental risk factor.
-Even if the relative risk for exposure to a speciic
-Even if the relative risk for exposure to a speciic
-factor and developing a disease is very high, the
-factor and developing a disease is very high, the
-279
-279
-280
-280
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-notion of attributable risk conveys the message that
-notion of attributable risk conveys the message that
-not all occurrence of a disease is due only to the
-not all occurrence of a disease is due only to the
-speciic exposure in question. For example, the relationship of cigarette smoking and lung cancer has
-speciic exposure in question. For example, the relationship of cigarette smoking and lung cancer has
-been clearly demonstrated. However, lung cancer
-been clearly demonstrated. However, lung cancer
-does not develop in everyone who smokes, and it
-does not develop in everyone who smokes, and it
-does develop in some nonsmokers. Either another
-does develop in some nonsmokers. Either another
-environment cofactor is needed in addition to cigarette smoking or individuals differ in their genetic
-environment cofactor is needed in addition to cigarette smoking or individuals differ in their genetic
-susceptibility or both.
-susceptibility or both.
-People often adopt a fatalistic approach when
-People often adopt a fatalistic approach when
-they are told that a disease is primarily genetic in
-they are told that a disease is primarily genetic in
-origin. But even in diseases that are primarily of
-origin. But even in diseases that are primarily of
-genetic origin, a tremendous amount of environmental interaction often occurs. For example,
-genetic origin, a tremendous amount of environmental interaction often occurs. For example,
-phenylketonuria is characterized by a genetically
-phenylketonuria is characterized by a genetically
-determined deiciency of phenylalanine hydroxylase; the affected child cannot metabolize the essential amino acid phenylalanine, and the result of the
-determined deiciency of phenylalanine hydroxylase; the affected child cannot metabolize the essential amino acid phenylalanine, and the result of the
-excessive phenylalanine accumulation is irreversible mental retardation. Can we prevent the genetic
-excessive phenylalanine accumulation is irreversible mental retardation. Can we prevent the genetic
-abnormality? No, we cannot. Can we reduce the
-abnormality? No, we cannot. Can we reduce the
-likelihood that a child aflicted with this genetic
-likelihood that a child aflicted with this genetic
-abnormality will manifest mental retardation? Yes,
-abnormality will manifest mental retardation? Yes,
-we can do so by reducing or eliminating the child’s
-we can do so by reducing or eliminating the child’s
-exposure to phenylalanine by providing a diet that
-exposure to phenylalanine by providing a diet that
-is low in phenylalanine. In this example, the adverse
-is low in phenylalanine. In this example, the adverse
-effects of a genetic disease can be prevented by controlling the affected person’s environment so that
-effects of a genetic disease can be prevented by controlling the affected person’s environment so that
-the manifestations are not expressed. Thus, from
-the manifestations are not expressed. Thus, from
-standpoints of both clinical medicine and public
-standpoints of both clinical medicine and public
-health, it is important to keep in mind the interrelationships between genetic and environmental
-health, it is important to keep in mind the interrelationships between genetic and environmental
-factors in disease causation and expression.
-factors in disease causation and expression.
-Another example is Down syndrome, in which
-Another example is Down syndrome, in which
-a trisomy of chromosome 21 occurs in one of two
-a trisomy of chromosome 21 occurs in one of two
-forms: either a nondisjunction occurs—that is, the
-forms: either a nondisjunction occurs—that is, the
-chromosomes fail to separate during cell division,
-chromosomes fail to separate during cell division,
-or a translocation of chromosome 21 is passed on
-or a translocation of chromosome 21 is passed on
-together with a normal chromosome 21 from a balanced carrier. Nondisjunction is more common in
-together with a normal chromosome 21 from a balanced carrier. Nondisjunction is more common in
-older women. Thus nondisjunction Down syndrome is more common in babies born to women
-older women. Thus nondisjunction Down syndrome is more common in babies born to women
-who are older than 35 years at the time of pregnancy. Why is there a greater likelihood of nondisjunction in babies of women who are in their late
-who are older than 35 years at the time of pregnancy. Why is there a greater likelihood of nondisjunction in babies of women who are in their late
-30s than in those of women who are in their late
-30s than in those of women who are in their late
-20s? Something must happen to cause the increased
-20s? Something must happen to cause the increased
-risk—possibly an accumulation of environmental
-risk—possibly an accumulation of environmental
-insults or some other manifestation of biologic
-insults or some other manifestation of biologic
-aging. To say that Down syndrome is genetic does
-aging. To say that Down syndrome is genetic does
-not account for the age-related change in risk,
-not account for the age-related change in risk,
-which may well relect the interrelation of genetic
-which may well relect the interrelation of genetic
-and environmental factors.
-and environmental factors.
-In 2012, Kong et al. reported the results of a
-In 2012, Kong et al. reported the results of a
-study that was part of a large whole-genome
-study that was part of a large whole-genome
-sequencing study in Iceland. In this study, which
-sequencing study in Iceland. In this study, which
-included 78 Icelandic parents-offspring trios, older
-included 78 Icelandic parents-offspring trios, older
-men were more likely than younger men to have
-men were more likely than younger men to have
-children who developed autism spectrum disorders
-children who developed autism spectrum disorders
-(ASD) or schizophrenia as a result of accumulations of de novo random mutations that are more
-(ASD) or schizophrenia as a result of accumulations of de novo random mutations that are more
-frequent with older age. The investigators were able
-frequent with older age. The investigators were able
-to quantify the increasing risk with paternal age of
-to quantify the increasing risk with paternal age of
-a father passing on such mutations to his offspring.
-a father passing on such mutations to his offspring.
-They also found that the ages of the mothers did
-They also found that the ages of the mothers did
-not inluence the frequency of schizophrenia or
-not inluence the frequency of schizophrenia or
-ASD in the children.2
-ASD in the children.2
-The interaction of genetic and environmental
-The interaction of genetic and environmental
-factors was succinctly described many years ago by
-factors was succinctly described many years ago by
-Lancelot Hogben, who wrote:
-Lancelot Hogben, who wrote:
-Our genes cannot make bricks without straw. The
-Our genes cannot make bricks without straw. The
-individual differences which men and women
-individual differences which men and women
-display are partly due to the fact that they receive
-display are partly due to the fact that they receive
-different genes from their parents and partly due
-different genes from their parents and partly due
-to the fact that the same genes live in different
-to the fact that the same genes live in different
-houses.3
-houses.3
-In this chapter, we discuss some of the approaches
-In this chapter, we discuss some of the approaches
-used by epidemiologists to distinguish the relative
-used by epidemiologists to distinguish the relative
-contributions of genetic and environmental factors
-contributions of genetic and environmental factors
-to disease causation. The discussion covers the use
-to disease causation. The discussion covers the use
-of classical epidemiologic methods and also introduces some of the newer approaches that have been
-of classical epidemiologic methods and also introduces some of the newer approaches that have been
-made possible by the mapping of the human
-made possible by the mapping of the human
-genome and by related advances in laboratory
-genome and by related advances in laboratory
-genetic research and in molecular biology.
-genetic research and in molecular biology.
-ASSOCIATION WITH KNOWN
-ASSOCIATION WITH KNOWN
-GENETIC DISEASES
-GENETIC DISEASES
-If we are interested in whether a certain condition
-If we are interested in whether a certain condition
-or disease has a strong genetic component, one
-or disease has a strong genetic component, one
-question we can ask is whether that condition is
-question we can ask is whether that condition is
-associated with another disease that is known to
-associated with another disease that is known to
-have strong genetic components. Several examples
-have strong genetic components. Several examples
-are seen in Table 16-1. Children with Down syndrome are known to be at high risk for leukemia.
-are seen in Table 16-1. Children with Down syndrome are known to be at high risk for leukemia.
-Down syndrome has also shown to be associated
-Down syndrome has also shown to be associated
-with Alzheimer’s disease. Breast cancer is known to
-with Alzheimer’s disease. Breast cancer is known to
-have a high incidence in males with Klinefelter’s
-have a high incidence in males with Klinefelter’s
-syndrome (XXY syndrome). Familial adenomatous
-syndrome (XXY syndrome). Familial adenomatous
-polyposis is associated with colon cancer, and
-polyposis is associated with colon cancer, and
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-281
-281
-TABLE 16-1. Examples of Conditions
-TABLE 16-1. Examples of Conditions
-Associated with Diseases of
-Associated with Diseases of
-Known Genetic Origin
-Known Genetic Origin
-Leukemia and Down syndrome
-Leukemia and Down syndrome
-Alzheimer’s disease and Down syndrome
-Alzheimer’s disease and Down syndrome
-Breast cancer in men and Klinefelter’s syndrome
-Breast cancer in men and Klinefelter’s syndrome
-(XXY syndrome)
-(XXY syndrome)
-Colon cancer and familial adenomatous polyposis
-Colon cancer and familial adenomatous polyposis
-Atherosclerosis and homocystinuria
-Atherosclerosis and homocystinuria
-homocystinuria is linked to thrombosis and atherosclerosis. But if we ind such an association between
-homocystinuria is linked to thrombosis and atherosclerosis. But if we ind such an association between
-a condition of interest and a disease that has known
-a condition of interest and a disease that has known
-genetic etiology, it does not prove that the condition is genetically determined. However, it does
-genetic etiology, it does not prove that the condition is genetically determined. However, it does
-indicate that at least some components of the causation of the condition or some cases of this condition are likely to involve genetic factors.
-indicate that at least some components of the causation of the condition or some cases of this condition are likely to involve genetic factors.
-A related approach when a disease occurs in
-A related approach when a disease occurs in
-both hereditary and nonhereditary forms is to try
-both hereditary and nonhereditary forms is to try
-to identify genes responsible for the hereditary
-to identify genes responsible for the hereditary
-form in the hope that such identiication will
-form in the hope that such identiication will
-provide a clue to the role of genetic factors in nonhereditary cases. In 1994, Miki and coworkers identiied a gene designated BRCA1 (Breast Cancer 1)
-provide a clue to the role of genetic factors in nonhereditary cases. In 1994, Miki and coworkers identiied a gene designated BRCA1 (Breast Cancer 1)
-that when mutated appeared to be responsible for
-that when mutated appeared to be responsible for
-most hereditary breast cancer cases as well as for
-most hereditary breast cancer cases as well as for
-ovarian cancer cases.4
-ovarian cancer cases.4
-Studies of breast cancer pedigrees not linked to
-Studies of breast cancer pedigrees not linked to
-BRCA1 subsequently led to the discovery of the
-BRCA1 subsequently led to the discovery of the
-BRCA2 gene. While the relative risk of early onset
-BRCA2 gene. While the relative risk of early onset
-breast cancer is increased in women with BRCA2
-breast cancer is increased in women with BRCA2
-mutations, it is lower than in women with BRCA1
-mutations, it is lower than in women with BRCA1
-mutations. Although the risk for ovarian cancer is
-mutations. Although the risk for ovarian cancer is
-also increased, it appears to be lower in women with
-also increased, it appears to be lower in women with
-BRCA2 than in women with BRCA1 mutations.
-BRCA2 than in women with BRCA1 mutations.
-Small increases in prostate and pancreatic cancers
-Small increases in prostate and pancreatic cancers
-have also been seen in BRCA2 pedigrees. About half
-have also been seen in BRCA2 pedigrees. About half
-of all inherited cases of breast cancer (5% of all
-of all inherited cases of breast cancer (5% of all
-breast cancer cases) seem to result from mutations in
-breast cancer cases) seem to result from mutations in
-BRCA1 or BRCA2. In Ashkenazi Jewish women, two
-BRCA1 or BRCA2. In Ashkenazi Jewish women, two
-mutations in BRCA1 and one in BRCA2 appear to
-mutations in BRCA1 and one in BRCA2 appear to
-account for about 25% of early onset breast cancer.
-account for about 25% of early onset breast cancer.
-With the isolation of these candidate genes, the
-With the isolation of these candidate genes, the
-prospects for improved understanding of the role
-prospects for improved understanding of the role
-of genetic factors in nonhereditary cases of breast
-of genetic factors in nonhereditary cases of breast
-cancer seemed greatly enhanced. However, in contrast to mutations in other tumor-suppressor genes,
-cancer seemed greatly enhanced. However, in contrast to mutations in other tumor-suppressor genes,
-BRCA1 and BRCA2 mutations are rarely seen in
-BRCA1 and BRCA2 mutations are rarely seen in
-noninherited forms of breast cancer, suggesting
-noninherited forms of breast cancer, suggesting
-that the genetic pathways or mechanisms operating
-that the genetic pathways or mechanisms operating
-in inherited breast cancers may differ from those
-in inherited breast cancers may differ from those
-operating in noninherited cases.
-operating in noninherited cases.
-It has been estimated that the lifetime risk of
-It has been estimated that the lifetime risk of
-breast cancer in women with a BRCA1 or BRCA2
-breast cancer in women with a BRCA1 or BRCA2
-mutation ranges from about 50% to 85%, compared to 12% in the general population. Up to 40%
-mutation ranges from about 50% to 85%, compared to 12% in the general population. Up to 40%
-of women with a BRCA1 mutation and 20% of
-of women with a BRCA1 mutation and 20% of
-women with a BRCA2 mutation will develop
-women with a BRCA2 mutation will develop
-ovarian cancer, compared to 1.5% in the general
-ovarian cancer, compared to 1.5% in the general
-population. The indings regarding BRCA1 and
-population. The indings regarding BRCA1 and
-BRCA2 have suggested the possibility that genetic
-BRCA2 have suggested the possibility that genetic
-testing might be recommended for certain highrisk population subgroups such as Ashkenazi Jews.
-testing might be recommended for certain highrisk population subgroups such as Ashkenazi Jews.
-However, many ethical and policy issues arise relating to possible genetic testing in such groups, and
-However, many ethical and policy issues arise relating to possible genetic testing in such groups, and
-these have been further complicated by the fact that
-these have been further complicated by the fact that
-over time, the risk estimates reported for these
-over time, the risk estimates reported for these
-mutations have tended to be lower than those originally reported, probably because the original estimates were generated in high-risk families with
-mutations have tended to be lower than those originally reported, probably because the original estimates were generated in high-risk families with
-strong family histories. Multiple family members
-strong family histories. Multiple family members
-were affected, often with an early age at onset. The
-were affected, often with an early age at onset. The
-more recent lower estimates were derived from
-more recent lower estimates were derived from
-studies in less selected populations and from a
-studies in less selected populations and from a
-population-based study in Washington, DC.5 Thus,
-population-based study in Washington, DC.5 Thus,
-deinitive recommendations regarding screening
-deinitive recommendations regarding screening
-for these mutations in Ashkenazi Jewish women not
-for these mutations in Ashkenazi Jewish women not
-selected for family history of breast cancer must
-selected for family history of breast cancer must
-await better data regarding the level of risk associated with these mutations in populations not
-await better data regarding the level of risk associated with these mutations in populations not
-selected on the basis of family history.
-selected on the basis of family history.
-In 1995, Savitsky and associates, working with
-In 1995, Savitsky and associates, working with
-others on a team led by Shiloh, discovered a gene
-others on a team led by Shiloh, discovered a gene
-that when mutated causes the serious and rare
-that when mutated causes the serious and rare
-autosomal recessive disorder, ataxia telangiectasia
-autosomal recessive disorder, ataxia telangiectasia
-(AT).6 The gene called ATM (for AT, mutated) may
-(AT).6 The gene called ATM (for AT, mutated) may
-also be the most important cause of hereditary
-also be the most important cause of hereditary
-breast cancer. This possibility is based on epidemiologic evidence from studies of relatives of AT
-breast cancer. This possibility is based on epidemiologic evidence from studies of relatives of AT
-patients that suggest that the risk of breast cancer
-patients that suggest that the risk of breast cancer
-is increased ivefold in female carriers of the ATM
-is increased ivefold in female carriers of the ATM
-gene. Identiication of the ATM gene permits study
-gene. Identiication of the ATM gene permits study
-of its role in cases of hereditary breast cancer that
-of its role in cases of hereditary breast cancer that
-have not been linked to other breast cancer genes
-have not been linked to other breast cancer genes
-such as BRCA1. Although AT is a rare disease, about
-such as BRCA1. Although AT is a rare disease, about
-0.5% to 1.4% of the population carries one defective gene, so that the gene could account for up to
-0.5% to 1.4% of the population carries one defective gene, so that the gene could account for up to
-8% of all breast cancers.7 In 2008, Begg et al.
-8% of all breast cancers.7 In 2008, Begg et al.
-reported that, in carriers of BRCA1 and BRCA2
-reported that, in carriers of BRCA1 and BRCA2
-mutations, there is a broad variation in risk of
-mutations, there is a broad variation in risk of
-breast cancer.8
-breast cancer.8
-282
-282
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-GENETIC ADVANCES AND
-GENETIC ADVANCES AND
-THEIR RELATIONSHIP TO
-THEIR RELATIONSHIP TO
-EPIDEMIOLOGIC APPROACHES
-EPIDEMIOLOGIC APPROACHES
-The Human Genome Project
-The Human Genome Project
-A major recent advance has been the Human
-A major recent advance has been the Human
-Genome Project (HGP), which has produced vast
-Genome Project (HGP), which has produced vast
-amounts of information about the DNA sequence
-amounts of information about the DNA sequence
-of the human genome. The goal of HGP was to
-of the human genome. The goal of HGP was to
-generate a high-quality reference sequence for the
-generate a high-quality reference sequence for the
-human genome’s 3 billion base pairs and to identify
-human genome’s 3 billion base pairs and to identify
-all human genes. The project was initiated in 1990
-all human genes. The project was initiated in 1990
-and its main elements were completed in 2003.The
-and its main elements were completed in 2003.The
-irst working draft of the entire human genome was
-irst working draft of the entire human genome was
-published in April 2003, on the 50th anniversary of
-published in April 2003, on the 50th anniversary of
-Watson and Crick’s original publication of DNA
-Watson and Crick’s original publication of DNA
-structure. In May 2006, HGP researchers announced
-structure. In May 2006, HGP researchers announced
-completion of the DNA sequence for all of the
-completion of the DNA sequence for all of the
-human chromosomes. In DNA sequencing, the
-human chromosomes. In DNA sequencing, the
-exact order of the bases was determined. These
-exact order of the bases was determined. These
-bases (also called nucleotides) are abbreviated A
-bases (also called nucleotides) are abbreviated A
-(Adenine), T (Thymine), C (Cytosine), and G
-(Adenine), T (Thymine), C (Cytosine), and G
-(Guanine). A, T, C and G are the building blocks
-(Guanine). A, T, C and G are the building blocks
-of DNA in human chromosomes (Fig. 16-1). The
-of DNA in human chromosomes (Fig. 16-1). The
-human genome consists of approximately 22,000
-human genome consists of approximately 22,000
-genes.
-genes.
-The initial human genome reference sequences
-The initial human genome reference sequences
-were obtained from relatively small groups of
-were obtained from relatively small groups of
-people whose blood or semen samples were pooled
-people whose blood or semen samples were pooled
-so that more global characterizations of human
-so that more global characterizations of human
-populations would be possible. Over the years since
-populations would be possible. Over the years since
-the project began, many major improvements have
-the project began, many major improvements have
-occurred in laboratory methodology and together
-occurred in laboratory methodology and together
-with other technical advances they have permitted
-with other technical advances they have permitted
-human DNA to be sequenced at faster speeds and
-human DNA to be sequenced at faster speeds and
-lower costs than ever before. As a result, only in very
-lower costs than ever before. As a result, only in very
-recent years has it become possible to carry out
-recent years has it become possible to carry out
-detailed sequencing of many individual human
-detailed sequencing of many individual human
-beings who might, for example, have certain diseases, certain family histories, or certain environmental exposures. Their sequences can then be
-beings who might, for example, have certain diseases, certain family histories, or certain environmental exposures. Their sequences can then be
-compared with those of individuals without such
-compared with those of individuals without such
-characteristics.
-characteristics.
-Use of Genetic Markers
-Use of Genetic Markers
-Genetic markers are genes or DNA sequences that
-Genetic markers are genes or DNA sequences that
-can be evaluated by laboratory methods. Transmission of markers from parent to offspring is observable, and the chromosomal location of genetic
-can be evaluated by laboratory methods. Transmission of markers from parent to offspring is observable, and the chromosomal location of genetic
-markers is often known. Different types of genetic
-markers is often known. Different types of genetic
-markers can now be tested for in the laboratory
-markers can now be tested for in the laboratory
-as the direct result of revolutionary advances in
-as the direct result of revolutionary advances in
-molecular biology. Small regions of DNA that vary
-molecular biology. Small regions of DNA that vary
-from one individual to another are called polymorphisms, most of which are single nucleotide polymorphisms (SNPs). Most SNPs do not appear to
-from one individual to another are called polymorphisms, most of which are single nucleotide polymorphisms (SNPs). Most SNPs do not appear to
-Figure 16-1. Drawing of the DNA double helix. Genetic
-Figure 16-1. Drawing of the DNA double helix. Genetic
-information is encoded in the sequence of the four base pairs:
-information is encoded in the sequence of the four base pairs:
-Adenine (A), Thymine (T), Guanine (G), and Cytosine (C).
-Adenine (A), Thymine (T), Guanine (G), and Cytosine (C).
-(Courtesy of The National Library of Medicine.)
-(Courtesy of The National Library of Medicine.)
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-283
-283
-have signiicant physiologic effects, but a very small
-have signiicant physiologic effects, but a very small
-minority may affect an individual’s susceptibility to
-minority may affect an individual’s susceptibility to
-disease and that person’s response to medical treatments. Research to identify patterns of groups of
-disease and that person’s response to medical treatments. Research to identify patterns of groups of
-SNPs (called haplotypes or “haps”) is continuing in
-SNPs (called haplotypes or “haps”) is continuing in
-the International HapMap Project.
-the International HapMap Project.
-In addition to studying DNA markers, a second
-In addition to studying DNA markers, a second
-approach for studying genetic disease in the laboratory is analysis of gene products, namely, proteins.
-approach for studying genetic disease in the laboratory is analysis of gene products, namely, proteins.
-DNA codes for the production of amino acids and
-DNA codes for the production of amino acids and
-proteins. Protein synthesis comprises two steps:
-proteins. Protein synthesis comprises two steps:
-(Step 1) transcription and (Step 2) translation. In
-(Step 1) transcription and (Step 2) translation. In
-step 1, transcription, one strand of a DNA double
-step 1, transcription, one strand of a DNA double
-helix serves as a template for the synthesis of a messenger RNA (mRNA) by an enzyme, mRNA polymerase. In step 2, translation, the mRNA guides
-helix serves as a template for the synthesis of a messenger RNA (mRNA) by an enzyme, mRNA polymerase. In step 2, translation, the mRNA guides
-synthesis of the protein by adding amino acids
-synthesis of the protein by adding amino acids
-one by one, as originally determined by the DNA
-one by one, as originally determined by the DNA
-sequences and represented by the messenger RNA.9
-sequences and represented by the messenger RNA.9
-If a genetic mutation in DNA results in a protein
-If a genetic mutation in DNA results in a protein
-that does not function well, or does not even function at all, genetic disease may result.
-that does not function well, or does not even function at all, genetic disease may result.
-Gene Expression
-Gene Expression
-Another important issue aside from differences in
-Another important issue aside from differences in
-structure is how genes are turned on and off. Virtually every cell in the body has a full set of chromosomes and identical genes, but in any speciic type
-structure is how genes are turned on and off. Virtually every cell in the body has a full set of chromosomes and identical genes, but in any speciic type
-of cell, only a small subset of these genes is turned
-of cell, only a small subset of these genes is turned
-on. These “expressed” genes confer unique properties on each cell type. Gene expression is regulated
-on. These “expressed” genes confer unique properties on each cell type. Gene expression is regulated
-both by an “on and off ” switch and by a “volume
-both by an “on and off ” switch and by a “volume
-control” that increases or decreases the level of
-control” that increases or decreases the level of
-expression of various genes as needed. By studying
-expression of various genes as needed. By studying
-the kinds and amounts of mRNA produced by a
-the kinds and amounts of mRNA produced by a
-cell, we can determine which genes are expressed
-cell, we can determine which genes are expressed
-and to what extent each is expressed. In this way,
-and to what extent each is expressed. In this way,
-we can gain insight into how the cell responds to
-we can gain insight into how the cell responds to
-changing demands, including those resulting from
-changing demands, including those resulting from
-environmental challenges.
-environmental challenges.
-Genome-Wide Association Studies (GWAS)
-Genome-Wide Association Studies (GWAS)
-The possibility of studying the entire genome to
-The possibility of studying the entire genome to
-identify genetic associations, in the form of genomewide association studies (GWAS), has changed the
-identify genetic associations, in the form of genomewide association studies (GWAS), has changed the
-overall approach for studying associations between
-overall approach for studying associations between
-genetic markers (most often SNPs) and disease.
-genetic markers (most often SNPs) and disease.
-Before GWAS, a common approach was based on
-Before GWAS, a common approach was based on
-identifying candidate genes, or pre-speciied genes
-identifying candidate genes, or pre-speciied genes
-that were hypothesized to be related to a given
-that were hypothesized to be related to a given
-disease based on the known function of the protein
-disease based on the known function of the protein
-coded for by those genes. In 2010, Siontis et al.
-coded for by those genes. In 2010, Siontis et al.
-reported a study designed to determine whether the
-reported a study designed to determine whether the
-associations that had originally been reported in
-associations that had originally been reported in
-the thousands of candidate genetic association
-the thousands of candidate genetic association
-studies that had been performed in the years before
-studies that had been performed in the years before
-the development of the GWAS approach had been
-the development of the GWAS approach had been
-later conirmed by the GWAS studies. They found
-later conirmed by the GWAS studies. They found
-that overall few of the numerous genetic associations that had been proposed in the candidate gene
-that overall few of the numerous genetic associations that had been proposed in the candidate gene
-era have been replicated in GWAS studies. However,
-era have been replicated in GWAS studies. However,
-those that have been conclusively replicated appear
-those that have been conclusively replicated appear
-to have large genetic effects, which the authors recommend should receive further attention because
-to have large genetic effects, which the authors recommend should receive further attention because
-of their potential importance.10
-of their potential importance.10
-The Promise of the Human Genome Project
-The Promise of the Human Genome Project
-The Human Genome Project discussed above is
-The Human Genome Project discussed above is
-particularly exciting because of its promise of deepening our understanding of the origins of many
-particularly exciting because of its promise of deepening our understanding of the origins of many
-diseases and also for its potential for facilitating the
-diseases and also for its potential for facilitating the
-development of so-called “personalized treatments”
-development of so-called “personalized treatments”
-in the care of individual patients. In Chapter 8, we
-in the care of individual patients. In Chapter 8, we
-discussed some limitations of randomized trials
-discussed some limitations of randomized trials
-in developing new treatment modalities, particularly because the trials generally deal with groups
-in developing new treatment modalities, particularly because the trials generally deal with groups
-rather than with individuals. As was pointed out in
-rather than with individuals. As was pointed out in
-Chapter 8, the study results are often given for
-Chapter 8, the study results are often given for
-groups and leave the treating physician without
-groups and leave the treating physician without
-information regarding how likely is it that a given
-information regarding how likely is it that a given
-individual whom she is treating will beneit from
-individual whom she is treating will beneit from
-the new drug, or whether the patient will develop
-the new drug, or whether the patient will develop
-serious side effects from it. With the advent of the
-serious side effects from it. With the advent of the
-current new era in human genetics, however, the
-current new era in human genetics, however, the
-hope has been that we will be able to develop therapies that are tailor-made for the individual patient
-hope has been that we will be able to develop therapies that are tailor-made for the individual patient
-on the basis of the characteristics of his or her
-on the basis of the characteristics of his or her
-genome. Unfortunately, thus far, progress in moving
-genome. Unfortunately, thus far, progress in moving
-the exciting research accomplishments from the
-the exciting research accomplishments from the
-laboratory into the realm of care for individual
-laboratory into the realm of care for individual
-patients has been extremely slow, and in most situations it is still a hope for the future as further
-patients has been extremely slow, and in most situations it is still a hope for the future as further
-progress is made.
-progress is made.
-THE IMPORTANCE OF EPIDEMIOLOGIC
-THE IMPORTANCE OF EPIDEMIOLOGIC
-APPROACHES IN APPLYING GENETIC
-APPROACHES IN APPLYING GENETIC
-METHODS TO HUMAN DISEASE
-METHODS TO HUMAN DISEASE
-The methods discussed above are potentially
-The methods discussed above are potentially
-important, and their link to epidemiologic thinking
-important, and their link to epidemiologic thinking
-and approaches is often quite clear. For example,
-and approaches is often quite clear. For example,
-considerable interest has focused on HLA (human
-considerable interest has focused on HLA (human
-leukocyte antigen) types, which are genetically
-leukocyte antigen) types, which are genetically
-determined. Certain diseases have been shown to
-determined. Certain diseases have been shown to
-284
-284
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-TABLE 16-2. HLA Disease Associations
-TABLE 16-2. HLA Disease Associations
-Disease and HLA Type
-Disease and HLA Type
-Race
-Race
-Patients (% Positive)
-Patients (% Positive)
-Controls (%)
-Controls (%)
-Odds Ratio*
-Odds Ratio*
-Ankylosing Spondylitis
-Ankylosing Spondylitis
-B27
-B27
-B27
-B27
-B27
-B27
-Idiopathic Hemochromatosis
-Idiopathic Hemochromatosis
-A3
-A3
-B7
-B7
-B14
-B14
-White
-White
-Asian
-Asian
-Black
-Black
-White
-White
-White
-White
-White
-White
-Insulin-Dependent Diabetes Mellitus
-Insulin-Dependent Diabetes Mellitus
-White
-White
-B8
-B8
-White
-White
-B15
-B15
-White
-White
-DR3
-DR3
-White
-White
-DR4
-DR4
-White
-White
-DR2
-DR2
-Rheumatoid Arthritis
-Rheumatoid Arthritis
-DR4
-DR4
-Celiac Disease
-Celiac Disease
-B8
-B8
-DR3
-DR3
-DR7
-DR7
-Multiple Sclerosis
-Multiple Sclerosis
-B7
-B7
-DR2
-DR2
-Narcolepsy
-Narcolepsy
-DR2
-DR2
-DR2
-DR2
-White
-White
-White
-White
-White
-White
-White
-White
-White
-White
-White
-White
-White
-White
-Asian
-Asian
-89
-89
-85
-85
-58
-58
-72
-72
-48
-48
-19
-19
-40
-40
-22
-22
-52
-52
-74
-74
-4
-4
-68
-68
-68
-68
-79
-79
-60
-60
-37
-37
-51
-51
-100
-100
-100
-100
-9
-9
-15
-15
-4
-4
-28
-28
-26
-26
-6
-6
-21
-21
-14
-14
-22
-22
-24
-24
-29
-29
-25
-25
-22
-22
-22
-22
-15
-15
-24
-24
-27
-27
-22
-22
-34
-34
-69.1
-69.1
-207.9
-207.9
-54.4
-54.4
-6.7
-6.7
-2.9
-2.9
-2.7
-2.7
-2.5
-2.5
-2.1
-2.1
-3.8
-3.8
-9.0
-9.0
-0.1
-0.1
-3.8
-3.8
-7.6
-7.6
-11.6
-11.6
-7.7
-7.7
-1.8
-1.8
-2.7
-2.7
-129.8
-129.8
-358.1
-358.1
-*Odds ratio values are combined estimates from a number of studies and cannot be directly calculated from the table.
-*Odds ratio values are combined estimates from a number of studies and cannot be directly calculated from the table.
-Data from Tiwari JL, Terasaki PI: HLA and Disease Associations. New York, Springer-Verlag, 1985; and from Thomson G, Robinson
-Data from Tiwari JL, Terasaki PI: HLA and Disease Associations. New York, Springer-Verlag, 1985; and from Thomson G, Robinson
-WP, Kuhner MK, et al: Genetic heterogeneity, modes of inheritance, and risk estimates for a joint study of Caucasians with
-WP, Kuhner MK, et al: Genetic heterogeneity, modes of inheritance, and risk estimates for a joint study of Caucasians with
-insulin-dependent diabetes mellitus. Am J Hum Genet 43:799–816, 1988 (as cited in Thomson G: HLA disease associations: Models
-insulin-dependent diabetes mellitus. Am J Hum Genet 43:799–816, 1988 (as cited in Thomson G: HLA disease associations: Models
-for insulin-dependent diabetes mellitus and the study of complex human genetic disorders. Ann Rev Genet 22:31–50, 1988).
-for insulin-dependent diabetes mellitus and the study of complex human genetic disorders. Ann Rev Genet 22:31–50, 1988).
-be associated with certain HLA antigens as seen in
-be associated with certain HLA antigens as seen in
-Table 16-2. For example, ankylosing spondylitis (an
-Table 16-2. For example, ankylosing spondylitis (an
-inlammatory disease that can result in the fusing
-inlammatory disease that can result in the fusing
-of vertebrae in the spine) has a strong association
-of vertebrae in the spine) has a strong association
-with HLA type B27. Interest in such associations is
-with HLA type B27. Interest in such associations is
-strong for two reasons: irst, such an association
-strong for two reasons: irst, such an association
-may cast light on the pathogenetic mechanisms
-may cast light on the pathogenetic mechanisms
-involved, and second, the possibility arises of using
-involved, and second, the possibility arises of using
-HLA as a marker to identify subsets of the population who may be at increased risk. Furthermore, if
-HLA as a marker to identify subsets of the population who may be at increased risk. Furthermore, if
-ankylosing spondylitis is associated with a certain
-ankylosing spondylitis is associated with a certain
-HLA antigen that is known to be genetically determined, could it be because ankylosing spondylitis
-HLA antigen that is known to be genetically determined, could it be because ankylosing spondylitis
-itself is also genetically determined?
-itself is also genetically determined?
-Some of the problems in methodology and interpretation of results that were addressed in earlier
-Some of the problems in methodology and interpretation of results that were addressed in earlier
-chapters apply to identifying associations between
-chapters apply to identifying associations between
-diseases and particular gene products. For example,
-diseases and particular gene products. For example,
-cancer of the pancreas has been reported to be associated with blood group A. How would we design
-cancer of the pancreas has been reported to be associated with blood group A. How would we design
-a study to determine whether cancer of the pancreas
-a study to determine whether cancer of the pancreas
-is in fact associated with blood group A? We could
-is in fact associated with blood group A? We could
-determine the blood group distri bution in a group
-determine the blood group distri bution in a group
-of patients with cancer of the pancreas (cases), but
-of patients with cancer of the pancreas (cases), but
-how do we obtain an “expected rate” of the prevalence of blood group A in the general population
-how do we obtain an “expected rate” of the prevalence of blood group A in the general population
-from which these cases were drawn? This is again
-from which these cases were drawn? This is again
-the dificult problem of control selection, as was
-the dificult problem of control selection, as was
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-285
-285
-discussed earlier in Chapter 10. Investigators have
-discussed earlier in Chapter 10. Investigators have
-used blood donors at blood banks for comparison,
-used blood donors at blood banks for comparison,
-but even decades ago, it was recognized that there
-but even decades ago, it was recognized that there
-were major selection biases in groups who donated
-were major selection biases in groups who donated
-blood compared with those who did not; the group
-blood compared with those who did not; the group
-of persons who donated blood was not representative of the general population. Today, with
-of persons who donated blood was not representative of the general population. Today, with
-human immunodeiciency virus (HIV) and acquired immunodeiciency syndrome (AIDS) presenting such a major problem, there is even greater
-human immunodeiciency virus (HIV) and acquired immunodeiciency syndrome (AIDS) presenting such a major problem, there is even greater
-selection bias in those who donate blood, so that it
-selection bias in those who donate blood, so that it
-is even more dificult to interpret the results when
-is even more dificult to interpret the results when
-such a group is used as a control group.
-such a group is used as a control group.
-Another approach for studying the possible association of a certain blood group with cancer of the
-Another approach for studying the possible association of a certain blood group with cancer of the
-pancreas is to conduct a case-control study of pancreatic cancer, in which blood group is one of the
-pancreas is to conduct a case-control study of pancreatic cancer, in which blood group is one of the
-“exposures” studied. In such a study, the problem
-“exposures” studied. In such a study, the problem
-of selecting appropriate controls is an important
-of selecting appropriate controls is an important
-one. When presented with a list of associations with
-one. When presented with a list of associations with
-blood groups, we should ask how were the conclusions regarding such associations arrived at and
-blood groups, we should ask how were the conclusions regarding such associations arrived at and
-what comparison groups were used for generating
-what comparison groups were used for generating
-the expected rates? Thus, the methodologic issues
-the expected rates? Thus, the methodologic issues
-we have discussed in earlier chapters in the context
-we have discussed in earlier chapters in the context
-of different types of epidemiologic study designs
-of different types of epidemiologic study designs
-are often highly relevant not only when examining
-are often highly relevant not only when examining
-the role of environmental exposures in causing
-the role of environmental exposures in causing
-human diseases but also when investigating the ways
-human diseases but also when investigating the ways
-in which genetic factors relate to these diseases.
-in which genetic factors relate to these diseases.
-AGE AT ONSET
-AGE AT ONSET
-Epidemiologic observations can be useful
-Epidemiologic observations can be useful
-in
-in
-elucidating or conirming biologic or genetic
-elucidating or conirming biologic or genetic
-mechanisms. An example is age at onset of a disease.
-mechanisms. An example is age at onset of a disease.
-Consider retinoblastoma, a tumor of the eye in
-Consider retinoblastoma, a tumor of the eye in
-children. This tumor occurs in two forms: unilateral
-children. This tumor occurs in two forms: unilateral
-and bilateral. The unilateral form (about 60%
-and bilateral. The unilateral form (about 60%
-of cases) generally has a low rate of heritability
-of cases) generally has a low rate of heritability
-with little familial pattern, whereas the bilateral
-with little familial pattern, whereas the bilateral
-form (40% of cases) has a strong familial predisposition and is often transmitted from parents to
-form (40% of cases) has a strong familial predisposition and is often transmitted from parents to
-children.
-children.
-Children who survive retinoblastoma have an
-Children who survive retinoblastoma have an
-increased risk of developing a second primary
-increased risk of developing a second primary
-tumor at another site, usually osteogenic sarcoma
-tumor at another site, usually osteogenic sarcoma
-(a bone tumor). In a large series of patients who
-(a bone tumor). In a large series of patients who
-survived hereditary retinoblastoma, more than
-survived hereditary retinoblastoma, more than
-50% developed a second primary tumor during the
-50% developed a second primary tumor during the
-subsequent 30 years, and most of these tumors were
-subsequent 30 years, and most of these tumors were
-osteogenic sarcomas. Although it was initially suggested that these tumors might be a result of the
-osteogenic sarcomas. Although it was initially suggested that these tumors might be a result of the
-radiation therapy that had been given, it was subsequently shown that these tumors may occur at
-radiation therapy that had been given, it was subsequently shown that these tumors may occur at
-sites distant from the ield of radiation, which
-sites distant from the ield of radiation, which
-suggests an underlying susceptibility to the development of osteogenic sarcoma. Moreover, some
-suggests an underlying susceptibility to the development of osteogenic sarcoma. Moreover, some
-families of retinoblastoma patients include relatives
-families of retinoblastoma patients include relatives
-who have osteogenic sarcoma and who have never
-who have osteogenic sarcoma and who have never
-had retinoblastoma. These observations suggest the
-had retinoblastoma. These observations suggest the
-presence of a genetically determined pattern of
-presence of a genetically determined pattern of
-tumor susceptibility that is speciic to the type of
-tumor susceptibility that is speciic to the type of
-tumor. Clearly, such issues become very important
-tumor. Clearly, such issues become very important
-considerations when we design studies to investigate the etiology of such conditions.
-considerations when we design studies to investigate the etiology of such conditions.
-When we look at the age at onset of familial and
-When we look at the age at onset of familial and
-non-familial retinoblastomas, we see that nonfamilial tumors are distributed throughout childhood, with most occurring in early childhood,
-non-familial retinoblastomas, we see that nonfamilial tumors are distributed throughout childhood, with most occurring in early childhood,
-whereas almost all familial tumors tend to occur
-whereas almost all familial tumors tend to occur
-only in very early childhood (Fig. 16-2).
-only in very early childhood (Fig. 16-2).
-Figure 16-2. Retinoblastoma: age at
-Figure 16-2. Retinoblastoma: age at
-onset of symptoms. (From Aherne GE,
-onset of symptoms. (From Aherne GE,
-Roberts DF: Retinoblastoma: A clinical
-Roberts DF: Retinoblastoma: A clinical
-survey and its genetic implications. Clin
-survey and its genetic implications. Clin
-Genet 8:275–290, 1975.)
-Genet 8:275–290, 1975.)
-286
-286
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-This age-related pattern is commonly observed
-This age-related pattern is commonly observed
-in other diseases: When a disease occurs in both
-in other diseases: When a disease occurs in both
-genetic and non-genetic forms, the genetic form
-genetic and non-genetic forms, the genetic form
-develops in patients at much earlier ages than does
-develops in patients at much earlier ages than does
-the non-genetic form. This observation seems reasonable, for a disease that is not primarily genetic
-the non-genetic form. This observation seems reasonable, for a disease that is not primarily genetic
-in origin requires an accumulation of environmental insults or exposures that can only build up over
-in origin requires an accumulation of environmental insults or exposures that can only build up over
-time. Consequently, it takes longer for such diseases
-time. Consequently, it takes longer for such diseases
-to develop than for those that are primarily genetic
-to develop than for those that are primarily genetic
-in origin.
-in origin.
-Retinoblastoma has been studied extensively. In
-Retinoblastoma has been studied extensively. In
-1971, Knudson reviewed the clinical and epidemiologic information regarding retinoblastoma—
-1971, Knudson reviewed the clinical and epidemiologic information regarding retinoblastoma—
-speciically, the age distribution of the tumor—and
-speciically, the age distribution of the tumor—and
-on the basis of a statistical study proposed what has
-on the basis of a statistical study proposed what has
-become known as the “two-hit” hypothesis for the
-become known as the “two-hit” hypothesis for the
-development of retinoblastoma11 (Fig. 16-3).
-development of retinoblastoma11 (Fig. 16-3).
-According to this model, two mutations in the
-According to this model, two mutations in the
-same cell of the retina are required for the development of cancer. In the genetically determined form
-same cell of the retina are required for the development of cancer. In the genetically determined form
-of retinoblastoma, a child is born with one mutation in the germ cells. Therefore, only one more
-of retinoblastoma, a child is born with one mutation in the germ cells. Therefore, only one more
-(somatic) mutation is needed for cancer to develop.
-(somatic) mutation is needed for cancer to develop.
-However, in the non-familial form, a child is born
-However, in the non-familial form, a child is born
-without any germ cell mutation. Consequently, for
-without any germ cell mutation. Consequently, for
-a retinoblastoma to develop, two mutations in a
-a retinoblastoma to develop, two mutations in a
-somatic retinal cell are needed. Because these events
-somatic retinal cell are needed. Because these events
-are very rare, cases of genetically determined retinoblastoma occur at earlier ages than do nongenetic cases. Thus, epidemiologic observations
-are very rare, cases of genetically determined retinoblastoma occur at earlier ages than do nongenetic cases. Thus, epidemiologic observations
-about age at onset can be linked to current hypothFigure 16-3. Two-hit model for the development of retinoblastoma. (Adapted from Knudson AG Jr: The genetics of childhood cancer. Cancer 35 [Suppl 3]:1022–1026, 1975. Copyright
-about age at onset can be linked to current hypothFigure 16-3. Two-hit model for the development of retinoblastoma. (Adapted from Knudson AG Jr: The genetics of childhood cancer. Cancer 35 [Suppl 3]:1022–1026, 1975. Copyright
-© 1975 American Cancer Society. Adapted by permission of
-© 1975 American Cancer Society. Adapted by permission of
-Wiley-Liss, Inc., a subsidiary of John Wiley &amp; Sons, Inc.)
-Wiley-Liss, Inc., a subsidiary of John Wiley &amp; Sons, Inc.)
-eses about biological mechanisms in the development of cancer.
-eses about biological mechanisms in the development of cancer.
-Retinoblastoma has been shown to be associated
-Retinoblastoma has been shown to be associated
-with a deletion on the long arm of chromosome 13
-with a deletion on the long arm of chromosome 13
-(13q14). In 1983 Cavenee and coworkers suggested
-(13q14). In 1983 Cavenee and coworkers suggested
-that homozygosity for a mutant allele at this location is probably needed for development of retinoblastoma; this would in effect constitute a loss of
-that homozygosity for a mutant allele at this location is probably needed for development of retinoblastoma; this would in effect constitute a loss of
-the normal tumor suppressor activity at this locus.12
-the normal tumor suppressor activity at this locus.12
-A gene responsible for the development of both
-A gene responsible for the development of both
-retinoblastoma and osteogenic sarcoma was identiied and isolated in 1988.13
-retinoblastoma and osteogenic sarcoma was identiied and isolated in 1988.13
-Figure 16-4 shows another example of different age distributions in genetic and non-genetic
-Figure 16-4 shows another example of different age distributions in genetic and non-genetic
-forms of a disease. Cumulative age distributions
-forms of a disease. Cumulative age distributions
-are shown for patients with basal or squamous
-are shown for patients with basal or squamous
-cell skin cancer in the U.S. population and in
-cell skin cancer in the U.S. population and in
-84 persons with basal cell cancer who also have
-84 persons with basal cell cancer who also have
-a genetically determined condition—xeroderma
-a genetically determined condition—xeroderma
-pigmentosum—in which a defect in DNA repair
-pigmentosum—in which a defect in DNA repair
-predisposes them to cancer. Age at onset is clearly
-predisposes them to cancer. Age at onset is clearly
-earlier in patients with the genetically determined
-earlier in patients with the genetically determined
-form of the disease.
-form of the disease.
-Another example relates to age of onset. Evidence has conirmed a role for the APO lipoprotein
-Another example relates to age of onset. Evidence has conirmed a role for the APO lipoprotein
-E (APOE) locus on chromosome 19 in late onset
-E (APOE) locus on chromosome 19 in late onset
-Alzheimer’s disease. APOE has three alleles: APOEε2, APOE-ε3, and APOE-ε4. APOE-ε4 has been
-Alzheimer’s disease. APOE has three alleles: APOEε2, APOE-ε3, and APOE-ε4. APOE-ε4 has been
-implicated in the etiology of at least half of all
-implicated in the etiology of at least half of all
-Alzheimer’s disease cases. In a study of 42 families
-Alzheimer’s disease cases. In a study of 42 families
-with late-onset Alzheimer’s disease, Corder and colleagues14 found that the risk for Alzheimer’s disease
-with late-onset Alzheimer’s disease, Corder and colleagues14 found that the risk for Alzheimer’s disease
-increased with the number of APO-ε4 alleles, from
-increased with the number of APO-ε4 alleles, from
-20% for individuals with no APO-ε4 alleles, to 47%
-20% for individuals with no APO-ε4 alleles, to 47%
-of individuals with one such allele, and to 91% of
-of individuals with one such allele, and to 91% of
-individuals with two such alleles (the 4/4 genotype). Figure 16-5 shows the age at onset for subjects with 0, 1, and 2 APO-ε4 alleles. The more
-individuals with two such alleles (the 4/4 genotype). Figure 16-5 shows the age at onset for subjects with 0, 1, and 2 APO-ε4 alleles. The more
-alleles that are present, the younger the age at onset.
-alleles that are present, the younger the age at onset.
-For example, at age 75, about 24% of individuals
-For example, at age 75, about 24% of individuals
-with no APO-ε4 alleles were diagnosed with
-with no APO-ε4 alleles were diagnosed with
-Alzheimer’s disease, compared to 61% of those with
-Alzheimer’s disease, compared to 61% of those with
-one APO-ε4 allele and 86% of those with 2 APO-ε4
-one APO-ε4 allele and 86% of those with 2 APO-ε4
-alleles.
-alleles.
-Childs and Scriver analyzed the age at onset of
-Childs and Scriver analyzed the age at onset of
-many genetic and non-genetic diseases and also
-many genetic and non-genetic diseases and also
-found a pattern of earlier age at onset of genetic
-found a pattern of earlier age at onset of genetic
-diseases.15 Presumably, disease develops relatively
-diseases.15 Presumably, disease develops relatively
-rapidly in genetically susceptible persons; hence,
-rapidly in genetically susceptible persons; hence,
-the early age at onset. An accumulation of environmental insults over time is required for development of the remaining diseases.
-the early age at onset. An accumulation of environmental insults over time is required for development of the remaining diseases.
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-287
-287
-Figure 16-4. Cumulative age distribution of patients with skin cancer. (From Kraemer KH, Lee MM, Scotto J: Early onset of skin
-Figure 16-4. Cumulative age distribution of patients with skin cancer. (From Kraemer KH, Lee MM, Scotto J: Early onset of skin
-and oral cavity neoplasms in xeroderma pigmentosum [letter]. Lancet 1:56–57, 1982.)
-and oral cavity neoplasms in xeroderma pigmentosum [letter]. Lancet 1:56–57, 1982.)
-FAMILY STUDIES
-FAMILY STUDIES
-When a disease aggregates in families, what does
-When a disease aggregates in families, what does
-it tell us about the relative contributions of genetic
-it tell us about the relative contributions of genetic
-and environmental factors to its causation? Such
-and environmental factors to its causation? Such
-aggregation could be a result of genetic determination. But could familial aggregation be observed
-aggregation could be a result of genetic determination. But could familial aggregation be observed
-if the disease were environmentally determined?
-if the disease were environmentally determined?
-Yes, because certain environmental exposures are
-Yes, because certain environmental exposures are
-also shared by families. Let us examine the
-also shared by families. Let us examine the
-methods used to study familial aggregation and
-methods used to study familial aggregation and
-the approaches used to interpret the data from
-the approaches used to interpret the data from
-such studies.
-such studies.
-Risk of the Disease in First-Degree Relatives
-Risk of the Disease in First-Degree Relatives
-When a person with a certain disease is identiied,
-When a person with a certain disease is identiied,
-it is valuable to examine his or her irst-degree relatives for evidence of a greater-than-expected prevalence of disease. Such an excess in irst-degree
-it is valuable to examine his or her irst-degree relatives for evidence of a greater-than-expected prevalence of disease. Such an excess in irst-degree
-relatives would suggest, though not prove, a genetic
-relatives would suggest, though not prove, a genetic
-component. It is also possible to examine family
-component. It is also possible to examine family
-pedigrees such as the one shown in Figure 16-6,
-pedigrees such as the one shown in Figure 16-6,
-which shows a family with retinoblastoma in four
-which shows a family with retinoblastoma in four
-successive generations. Such pedigrees not only give
-successive generations. Such pedigrees not only give
-a visual picture of the familial impact of the disease,
-a visual picture of the familial impact of the disease,
-but can also be used to estimate the genetic
-but can also be used to estimate the genetic
-component in the causation of the disease. This
-component in the causation of the disease. This
-Figure 16-5. Kaplan-Meier curves of age at onset of
-Figure 16-5. Kaplan-Meier curves of age at onset of
-Alzheimer’s disease for subjects with 0, 1, and 2 APO-ε4 alleles.
-Alzheimer’s disease for subjects with 0, 1, and 2 APO-ε4 alleles.
-Each curve is labeled with the number 0, 1, or 2 to indicate the
-Each curve is labeled with the number 0, 1, or 2 to indicate the
-number of alleles. (From Corder EH, Saunders AM, Strittmatter
-number of alleles. (From Corder EH, Saunders AM, Strittmatter
-WJ, et al: Gene dose of apolipoprotein E type 4 allele and the
-WJ, et al: Gene dose of apolipoprotein E type 4 allele and the
-risk of Alzheimer’s disease in late onset families. Science
-risk of Alzheimer’s disease in late onset families. Science
-261:921–923, 1993.)
-261:921–923, 1993.)
-288
-288
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Figure 16-6. Pedigree of family reported
-Figure 16-6. Pedigree of family reported
-with retinoblastoma occurring in four successive generations. Squares, men; circles,
-with retinoblastoma occurring in four successive generations. Squares, men; circles,
-women. (From Migdal C: Retinoblastoma
-women. (From Migdal C: Retinoblastoma
-occurring in four successive generations. Br J
-occurring in four successive generations. Br J
-Ophthalmol 60:151–152, 1976.)
-Ophthalmol 60:151–152, 1976.)
-pedigree also demonstrates that the disease or susceptibility to it may skip generations and may be
-pedigree also demonstrates that the disease or susceptibility to it may skip generations and may be
-transmitted by individuals who are not affected
-transmitted by individuals who are not affected
-themselves because other factors may inluence
-themselves because other factors may inluence
-expression.
-expression.
-When a person has a disease and there is spousal
-When a person has a disease and there is spousal
-concordance—that is, husbands and wives of the
-concordance—that is, husbands and wives of the
-persons with the disease tend also to have the
-persons with the disease tend also to have the
-disease—environmental factors are implicated, as
-disease—environmental factors are implicated, as
-spouses are generally not genetically linked (except
-spouses are generally not genetically linked (except
-in unusually inbred populations).
-in unusually inbred populations).
-Applying Molecular Biological Methods
-Applying Molecular Biological Methods
-to Family Studies
-to Family Studies
-If familial aggregation of disease is observed, the
-If familial aggregation of disease is observed, the
-techniques of epidemiology can be coupled with
-techniques of epidemiology can be coupled with
-those of molecular biology to determine whether
-those of molecular biology to determine whether
-there is a major identiiable gene transmitted from
-there is a major identiiable gene transmitted from
-parent to child that is associated with an increased
-parent to child that is associated with an increased
-risk of disease. The techniques involve exploring the
-risk of disease. The techniques involve exploring the
-observed familial aggregation by using segregation
-observed familial aggregation by using segregation
-analyses and linkage analyses.
-analyses and linkage analyses.
-Segregation analyses test whether the observed
-Segregation analyses test whether the observed
-pattern of a disease in families is compatible with a
-pattern of a disease in families is compatible with a
-Mendelian model of inheritance (for example,
-Mendelian model of inheritance (for example,
-autosomal dominant inheritance). This is done by
-autosomal dominant inheritance). This is done by
-statistically testing competing models.16
-statistically testing competing models.16
-Linkage analyses seek to determine whether
-Linkage analyses seek to determine whether
-alleles from two loci segregate together in a family
-alleles from two loci segregate together in a family
-and are passed as a unit from parent to child. Genes
-and are passed as a unit from parent to child. Genes
-that are physically near each other on the same chromosome tend to be transmitted together. Linkage
-that are physically near each other on the same chromosome tend to be transmitted together. Linkage
-can only be identiied through family studies.
-can only be identiied through family studies.
-However, even when linkage is demonstrated, it does
-However, even when linkage is demonstrated, it does
-not necessarily imply a causal relationship.
-not necessarily imply a causal relationship.
-The ultimate purpose of these analyses is to
-The ultimate purpose of these analyses is to
-identify and isolate the genes associated with susceptibility to the disease in order to enhance our
-identify and isolate the genes associated with susceptibility to the disease in order to enhance our
-understanding of disease pathogenesis and to facilitate the development of appropriate preventive
-understanding of disease pathogenesis and to facilitate the development of appropriate preventive
-strategies. The search for disease susceptibility
-strategies. The search for disease susceptibility
-genes uses two approaches:
-genes uses two approaches:</li>
+<li>Define and identify <strong>selection bias</strong> and <strong>information bias</strong></li>
+<li>Understand <strong>confounding</strong> and methods to address it</li>
+<li>Recognize <strong>interaction (effect modification)</strong> and its implications</li>
+<li>Apply strategies to minimize bias in study design and analysis</li>
 </ul>
+<hr>
+<h2 id="introduction--導論">Introduction | 導論</h2>
+<p>上一章節我們討論了判斷因果關係的九項指南。然而，要正確應用這些指南，我們必須首先確保研究本身沒有<strong>系統性錯誤</strong>。</p>
+<blockquote>
+<p><strong>偏差 (Bias)</strong> 會系統性地扭曲研究結果，導致錯誤的因果推論。</p>
+</blockquote>
+<p>本章深入探討三個關鍵主題：</p>
 <ol>
-<li>Search for an association between an allele and a</li>
-<li>Search for an association between an allele and a
-disease using the methods for studying genetic
-disease using the methods for studying genetic
-markers discussed earlier in this chapter:
-markers discussed earlier in this chapter:
-a. Analysis of DNA polymorphisms
-a. Analysis of DNA polymorphisms
-b. Analysis of gene products or their phenotypic
-b. Analysis of gene products or their phenotypic
-expression
-expression
-These two steps (a and b) should be
-These two steps (a and b) should be
-viewed in the context of the progression from
-viewed in the context of the progression from
-genotype to phenotype shown schematically
-genotype to phenotype shown schematically
-in Figure 16-7. As discussed earlier in this
-in Figure 16-7. As discussed earlier in this
-chapter, DNA polymorphisms (for example,
-chapter, DNA polymorphisms (for example,
-SNPs) may be sought in order to identify
-SNPs) may be sought in order to identify
-genetic contributions to disease, even before
-genetic contributions to disease, even before
-the speciic gene products underlying the
-the speciic gene products underlying the
-disease are known.
-disease are known.</li>
-<li>Use of family studies to identify a linkage or</li>
-<li>Use of family studies to identify a linkage or
-co-segregation between a certain locus and a possible disease locus.16 The coinheritance of genetic
-co-segregation between a certain locus and a possible disease locus.16 The coinheritance of genetic
-markers and disease is used to localize defective
-markers and disease is used to localize defective
-genes to a speciic chromosome location.
-genes to a speciic chromosome location.
-Linkage often casts light on the biologic mechanisms underlying the transmission and pathogenesis of disease. Linkage can be demonstrated using
-Linkage often casts light on the biologic mechanisms underlying the transmission and pathogenesis of disease. Linkage can be demonstrated using
-the statistical methods of linkage analysis or various
-the statistical methods of linkage analysis or various
-laboratory techniques.
-laboratory techniques.
-For example, the gene for polycystic kidney disorder, an autosomal dominant disease, has been
-For example, the gene for polycystic kidney disorder, an autosomal dominant disease, has been
-characterized. As seen in the family shown in Figure
-characterized. As seen in the family shown in Figure
-16-8, the 1-allele has been demonstrated to be
-16-8, the 1-allele has been demonstrated to be
-linked with the appearance of the condition and is
-linked with the appearance of the condition and is
-seen in the father and two of the offspring, all of
-seen in the father and two of the offspring, all of
-whom were affected. In the case of cystic ibrosis
-whom were affected. In the case of cystic ibrosis
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-289
-289
-Figure 16-7. Approaches used for
-Figure 16-7. Approaches used for
-assessing each step from genotype to
-assessing each step from genotype to
-phenotype. (From Taylor HA, Schroer
-phenotype. (From Taylor HA, Schroer
-RJ, Phelan MC, et al: Counseling Aids
-RJ, Phelan MC, et al: Counseling Aids
-for Geneticists, 2nd ed. Greenwood, SC,
-for Geneticists, 2nd ed. Greenwood, SC,
-Greenwood Genetic Center, 1989.)
-Greenwood Genetic Center, 1989.)
-Figure 16-8. DNA analysis of autosomal dominant disorders. Example: Polycystic kidney disorder. (From Taylor HA, Schroer RJ,
-Figure 16-8. DNA analysis of autosomal dominant disorders. Example: Polycystic kidney disorder. (From Taylor HA, Schroer RJ,
-Phelan MC, et al: Counseling Aids for Geneticists, 2nd ed. Greenwood, SC, Greenwood Genetic Center, 1989.)
-Phelan MC, et al: Counseling Aids for Geneticists, 2nd ed. Greenwood, SC, Greenwood Genetic Center, 1989.)
-(Fig. 16-9), an autosomal recessive condition, the
-(Fig. 16-9), an autosomal recessive condition, the
-1 4/ combination is needed for expression of the
-1 4/ combination is needed for expression of the
-disease and must be inherited from both the father
-disease and must be inherited from both the father
-and the mother. Thus, the disease is not seen in
-and the mother. Thus, the disease is not seen in
-either parent, but only in the child who has both
-either parent, but only in the child who has both
-alleles.
-alleles.
-Twin Studies
-Twin Studies
-Studies of twins have been of great value in enriching our understanding of the relative contributions
-Studies of twins have been of great value in enriching our understanding of the relative contributions
-of genetic and environmental factors to the causation of human disease. There are two types
-of genetic and environmental factors to the causation of human disease. There are two types
-of twins: monozygotic (identical) and dizygotic
-of twins: monozygotic (identical) and dizygotic
-(fraternal). Monozygotic twins arise from the
-(fraternal). Monozygotic twins arise from the
-same fertilized ovum and share 100% of their
-same fertilized ovum and share 100% of their
-genetic material. However, dizygotic twins are like
-genetic material. However, dizygotic twins are like
-ordinary siblings who just happened to develop
-ordinary siblings who just happened to develop
-in the uterus at the same time. Like ordinary
-in the uterus at the same time. Like ordinary
-siblings, they share, on the average, 50% of their
-siblings, they share, on the average, 50% of their
-genetic material.
-genetic material.
-290
-290
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Figure 16-9. DNA analysis of autosomal recessive disorders. Example: Cystic ibrosis. (From Taylor HA, Schroer RJ, Phelan MC,
-Figure 16-9. DNA analysis of autosomal recessive disorders. Example: Cystic ibrosis. (From Taylor HA, Schroer RJ, Phelan MC,
-et al: Counseling Aids for Geneticists, 2nd ed. Greenwood, SC, Greenwood Genetic Center, 1989.)
-et al: Counseling Aids for Geneticists, 2nd ed. Greenwood, SC, Greenwood Genetic Center, 1989.)
-If we look at the occurrence of a disease in identical twins—who, in effect, have identical genetic
-If we look at the occurrence of a disease in identical twins—who, in effect, have identical genetic
-material—what are the possible indings? Both
-material—what are the possible indings? Both
-twins (twin A and twin B) may have the disease, or
-twins (twin A and twin B) may have the disease, or
-both twins may not have the disease—that is, the
-both twins may not have the disease—that is, the
-members of the pair may be concordant for the
-members of the pair may be concordant for the
-disease. It is also possible that we ind that twin A
-disease. It is also possible that we ind that twin A
-has the disease and twin B does not or that twin B
-has the disease and twin B does not or that twin B
-has the disease and twin A does not; in this case, the
-has the disease and twin A does not; in this case, the
-twin pairs are discordant for the disease.
-twin pairs are discordant for the disease.
-If monozygotic twins are concordant for a
-If monozygotic twins are concordant for a
-disease, what does that tell us about the role of
-disease, what does that tell us about the role of
-genetic factors? Could the disease be genetic? Yes,
-genetic factors? Could the disease be genetic? Yes,
-because the twins have identical genetic material.
-because the twins have identical genetic material.
-Could it be environmental? Yes, because it is well
-Could it be environmental? Yes, because it is well
-recognized that parents often raise identical twins
-recognized that parents often raise identical twins
-in a similar fashion, so that they are exposed to
-in a similar fashion, so that they are exposed to
-many of the same environmental factors. So an
-many of the same environmental factors. So an
-observed concordance in monozygotic twins does
-observed concordance in monozygotic twins does
-not clearly indicate whether a disease is genetic or
-not clearly indicate whether a disease is genetic or
-environmental in origin.
-environmental in origin.
-What if monozygotic twins are discordant for a
-What if monozygotic twins are discordant for a
-certain disease; that is, one has the disease and the
-certain disease; that is, one has the disease and the
-other does not? Is this observation consistent with
-other does not? Is this observation consistent with
-a genetic hypothesis? No. Because the discordant
-a genetic hypothesis? No. Because the discordant
-twins share the same genetic material but have a
-twins share the same genetic material but have a
-different disease experience, the disease would have
-different disease experience, the disease would have
-to be mainly environmental in origin.
-to be mainly environmental in origin.
-In dizygotic twins, both environmental and
-In dizygotic twins, both environmental and
-genetic factors are operant. If a disease is genetic,
-genetic factors are operant. If a disease is genetic,
-we would expect less concordance in dizygotic
-we would expect less concordance in dizygotic
-twins than in monozygotic twins.
-twins than in monozygotic twins.
-How do we calculate the rates of concordance
-How do we calculate the rates of concordance
-and of discordance in twins? Figure 16-10 shows a
-and of discordance in twins? Figure 16-10 shows a
-cross-tabulation of twins 1 and 2. The numbers in
-cross-tabulation of twins 1 and 2. The numbers in
-each cell are therefore numbers of twin pairs: thus,
-each cell are therefore numbers of twin pairs: thus,
-there are a pairs (in which both twin 1 and 2 have
-there are a pairs (in which both twin 1 and 2 have
-the disease); d pairs (in which neither twin 1 nor 2
-the disease); d pairs (in which neither twin 1 nor 2
-has the disease); b pairs (in which twin 1 does
-has the disease); b pairs (in which twin 1 does
-not have the disease but twin 2 does); and c
-not have the disease but twin 2 does); and c
-pairs (in which twin 1 has the disease but twin 2
-pairs (in which twin 1 has the disease but twin 2
-does not).
-does not).
-If we want to calculate the concordance rate in
-If we want to calculate the concordance rate in
-twins, most twins will fall into the d category—that
-twins, most twins will fall into the d category—that
-is, neither will have the disease. We therefore usually
-is, neither will have the disease. We therefore usually
-look at the other three cells—those twin pairs in
-look at the other three cells—those twin pairs in
-which at least one of the twins has the disease. We
-which at least one of the twins has the disease. We
-can calculate the concordance rate in twin pairs in
-can calculate the concordance rate in twin pairs in
-which at least one twin has the disease as follows:
-which at least one twin has the disease as follows:
-Concordance rate =
-Concordance rate =
-a
-a
-a b c
-a b c</li>
+<li><strong>偏差 (Bias)</strong> — 研究設計與執行中的系統性錯誤</li>
+<li><strong>混雜 (Confounding)</strong> — 第三因子造成的虛假關聯</li>
+<li><strong>交互作用 (Interaction)</strong> — 兩因子如何共同影響疾病風險</li>
 </ol>
+<hr>
+<h2 id="bias--偏差">Bias | 偏差</h2>
+<p><strong>Bias 定義：</strong> 研究設計、執行或分析中的任何系統性錯誤，導致對暴露與疾病風險關係的錯誤估計。</p>
+<h3 id="table-15-1-major-types-of-bias">Table 15-1: Major Types of Bias</h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Definition</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Selection Bias</strong></td>
+<td>Systematic error in selecting study subjects</td>
+<td>Distorts exposure-disease relationship</td>
+</tr>
+<tr>
+<td><strong>Information Bias</strong></td>
+<td>Systematic error in measuring exposure/disease</td>
+<td>Misclassification of subjects</td>
+</tr>
+<tr>
+<td><strong>Confounding</strong> (a form of bias)</td>
+<td>Third factor distorts the true relationship</td>
+<td>Can falsely suggest or mask causality</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="selection-bias--選擇偏差">Selection Bias | 選擇偏差</h2>
+<h3 id="definition--定義">Definition | 定義</h3>
+<p>Selection bias 發生在研究對象的選擇方式導致即使現實中暴露與疾病無關，卻觀察到明顯關聯時。</p>
+<h3 id="non-response-bias--無回應偏差">Non-Response Bias | 無回應偏差</h3>
+<p><strong>Example:</strong> Swedish asthma study (Ronmark et al., 1999)</p>
 <ul>
-<li>
+<li>9,132人受邀參與問卷調查</li>
+<li>回應率85%</li>
+<li><strong>無回應者中：吸菸者比例更高、呼吸症狀更多</strong></li>
+</ul>
+<blockquote>
+<p>這說明不回應者與回應者有系統性差異，可能引入偏差。</p>
+</blockquote>
+<h3 id="how-to-minimize--如何減少">How to Minimize | 如何減少</h3>
+<table>
+<thead>
+<tr>
+<th>Strategy</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maximize response rate</td>
+<td>Keep participation attractive</td>
+</tr>
+<tr>
+<td>Characterize non-responders</td>
+<td>Use available data to compare</td>
+</tr>
+<tr>
+<td>Document differences</td>
+<td>Report potential impact</td>
+</tr>
+</tbody>
+</table>
+<h3 id="exclusion-bias--排除偏差">Exclusion Bias | 排除偏差</h3>
+<p><strong>The Reserpine and Breast Cancer Example (1974)</strong></p>
+<p>Table 15-2: Reserpine-BC Matched-Pairs Analysis</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Controls (+)</th>
+<th>Controls (−)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cases (+)</strong></td>
+<td>8</td>
+<td>45</td>
+</tr>
+<tr>
+<td><strong>Cases (−)</strong></td>
+<td>23</td>
+<td>362</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Matched OR = 45/23 = 1.96</strong></p>
+<p><strong>Problem Identified:</strong></p>
 <ul>
-<li></li>
+<li>Controls excluded patients with certain conditions (cholecystectomy, cardiac surgery)</li>
+<li>These exclusions NOT applied to cases</li>
+<li>Result: Artificially low reserpine use in controls</li>
 </ul>
-</li>
-<li>
+<p><strong>When Horwitz &amp; Feinstein replicated with proper controls:</strong></p>
 <ul>
-<li></li>
+<li>OR including all women = 1.1</li>
+<li>OR excluding cardiovascular disease = 2.5</li>
 </ul>
-</li>
-</ul>
-<p>Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-291
-291
-Figure 16-10. Concordance in twins for a dichotomous variable, such as leukemia.
-Figure 16-10. Concordance in twins for a dichotomous variable, such as leukemia.
-We can also calculate the discordance rate in
-We can also calculate the discordance rate in
-all twin pairs in which at least one twin has the
-all twin pairs in which at least one twin has the
-disease as:
-disease as:
-Discordance rate =
-Discordance rate =
-b c
-b c
-+
-+
-a b c
-a b c</p>
+<blockquote>
+<p>This demonstrated the original OR of 1.96 was due to <strong>exclusion bias</strong>.</p>
+</blockquote>
+<hr>
+<h2 id="information-bias--資訊偏差">Information Bias | 資訊偏差</h2>
+<h3 id="definition--定義-1">Definition | 定義</h3>
+<p>Information bias 發生在獲取研究資訊的方法不完善時，導致暴露和/或疾病狀態的錯誤分類。</p>
+<h3 id="misclassification--錯誤分類">Misclassification | 錯誤分類</h3>
+<p><strong>Types of Misclassification:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Definition</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Differential</strong></td>
+<td>Misclassification rate differs between groups</td>
+<td>Can create OR bias in either direction</td>
+</tr>
+<tr>
+<td><strong>Non-differential</strong></td>
+<td>Same misclassification rate in all groups</td>
+<td>Usually dilutes OR toward 1.0</td>
+</tr>
+</tbody>
+</table>
+<h3 id="table-15-3-sources-of-information-bias">Table 15-3: Sources of Information Bias</h3>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Record abstraction bias</td>
+<td>Errors in reading medical records</td>
+</tr>
+<tr>
+<td>Interviewer bias</td>
+<td>Systematic differences in how questions are asked</td>
+</tr>
+<tr>
+<td>Surrogate bias</td>
+<td>Using family members as proxy respondents</td>
+</tr>
+<tr>
+<td>Surveillance bias</td>
+<td>More intense monitoring in exposed group</td>
+</tr>
+<tr>
+<td>Recall bias</td>
+<td>Cases remember exposures differently</td>
+</tr>
+<tr>
+<td>Reporting bias</td>
+<td>Reluctance to report sensitive information</td>
+</tr>
+<tr>
+<td>Wish bias</td>
+<td>Patients seek reasons for their illness</td>
+</tr>
+</tbody>
+</table>
+<h3 id="recall-bias--回憶偏差">Recall Bias | 回憶偏差</h3>
+<p><strong>Case-Control Study Example:</strong></p>
 <ul>
-<li>
+<li>Mothers of infants with malformations recalled prenatal infections more accurately</li>
+<li>Cases (affected) → Enhanced recall of exposure</li>
+<li>Controls (unaffected) → Less accurate recall</li>
+</ul>
+<blockquote>
+<p><strong>Differential misclassification</strong> occurred → False association appeared.</p>
+</blockquote>
+<h3 id="surveillance-bias--監測偏差">Surveillance Bias | 監測偏差</h3>
+<p><strong>Example: Oral Contraceptives and Thrombophlebitis</strong></p>
+<p>Physicians monitored OC users more closely → Identified more thrombophlebitis cases</p>
+<blockquote>
+<p>This created a <strong>spurious association</strong> through better case ascertainment.</p>
+</blockquote>
+<h3 id="wish-bias--心願偏差">Wish Bias | 心願偏差</h3>
+<p>Patients who develop disease may:</p>
 <ul>
-<li></li>
+<li>Deny lifestyle exposures (&ldquo;It wasn&rsquo;t my fault&rdquo;)</li>
+<li>Emphasize occupational exposures (if litigation pending)</li>
 </ul>
-</li>
-<li>
+<hr>
+<h2 id="confounding--混雜">Confounding | 混雜</h2>
+<h3 id="definition--定義-2">Definition | 定義</h3>
+<p><strong>Confounding 發生在：</strong></p>
+<p>因子 X 是疾病 B 的已知風險因子，且因子 X 與暴露 A 相關（但不是暴露 A 的結果），卻造成暴露 A 與疾病 B 的虛假關聯。</p>
+<h3 id="table-15-4-criteria-for-a-confounder">Table 15-4: Criteria for a Confounder</h3>
+<table>
+<thead>
+<tr>
+<th>Criterion</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Must be associated with the exposure</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Must be an independent risk factor for the disease</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Must NOT be on the causal pathway between exposure and disease</td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-classic-example-coffee-and-pancreatic-cancer">The Classic Example: Coffee and Pancreatic Cancer</h3>
+<p><strong>Confounder: Smoking</strong></p>
+<table>
+<thead>
+<tr>
+<th>Criterion</th>
+<th>Smoking (X) vs. Coffee (A)</th>
+<th>Pancreatic Cancer (B)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Associated with exposure?</td>
+<td>✓ Smokers drink more coffee</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Risk factor for disease?</td>
+<td>✓ Known cause of pancreatic cancer</td>
+<td>—</td>
+</tr>
+<tr>
+<td>On causal pathway?</td>
+<td>✗ Coffee doesn&rsquo;t cause smoking</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Result:</strong> Coffee-BC association may be due to confounding by smoking.</p>
+<h3 id="figure-15-1-confounding-diagram">Figure 15-1: Confounding Diagram</h3>
+<pre tabindex="0"><code>Panel A: True Causal
+Coffee → Pancreatic Cancer
+
+Panel B: Due to Confounding
+Coffee ← Smoking → Pancreatic Cancer
+         ↑
+    Confounder
+</code></pre><h3 id="addressing-confounding--處理混雜">Addressing Confounding | 處理混雜</h3>
+<p><strong>In Study Design:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Randomization</strong></td>
+<td>Randomly assign exposure (eliminates confounding)</td>
+</tr>
+<tr>
+<td><strong>Restriction</strong></td>
+<td>Limit to specific subgroup</td>
+</tr>
+<tr>
+<td><strong>Matching</strong></td>
+<td>Match cases/controls on confounder</td>
+</tr>
+</tbody>
+</table>
+<p><strong>In Data Analysis:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Stratification</strong></td>
+<td>Analyze within strata of confounder</td>
+</tr>
+<tr>
+<td><strong>Statistical adjustment</strong></td>
+<td>Regression models (adjust for confounders)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="stratification-example--分層分析範例">Stratification Example | 分層分析範例</h3>
+<p><strong>Unadjusted OR = 1.95</strong> (confounded by age)</p>
+<p>After stratification by age:</p>
+<table>
+<thead>
+<tr>
+<th>Stratum</th>
+<th>OR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Age &lt; 40</td>
+<td>1.0</td>
+</tr>
+<tr>
+<td>Age ≥ 40</td>
+<td>1.0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Conclusion:</strong> Age was the confounder. True OR = 1.0 (no association)</p>
+<hr>
+<h2 id="interaction-effect-modification--交互作用">Interaction (Effect Modification) | 交互作用</h2>
+<h3 id="definition--定義-3">Definition | 定義</h3>
+<p><strong>Interaction</strong> occurs when the effect of one exposure on disease risk is modified by the presence of another factor.</p>
+<blockquote>
+<p>也稱為 <strong>Effect Modifier (效應修飾因子)</strong> 或 <strong>Synergism (协同作用)</strong>。</p>
+</blockquote>
+<h3 id="additive-vs-multiplicative-models--加法與乘法模型">Additive vs. Multiplicative Models | 加法與乘法模型</h3>
+<p><strong>Table 15-5: Interaction Models</strong></p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Additive</strong></td>
+<td>Is the combined effect greater than sum of individual effects?</td>
+</tr>
+<tr>
+<td><strong>Multiplicative</strong></td>
+<td>Is the combined effect greater than product of individual effects?</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example-smoking-and-asbestos">Example: Smoking and Asbestos</h3>
+<table>
+<thead>
+<tr>
+<th>Exposure</th>
+<th>Lung Cancer Risk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Neither</td>
+<td>1.0 (baseline)</td>
+</tr>
+<tr>
+<td>Smoking only</td>
+<td>RR = 5</td>
+</tr>
+<tr>
+<td>Asbestos only</td>
+<td>RR = 10</td>
+</tr>
+<tr>
+<td>Both</td>
+<td>RR = 50</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Additive check:</strong> 50 vs. 5 + 10 = 15 → <strong>Synergistic (greater than additive)</strong>
+<strong>Multiplicative check:</strong> 50 vs. 5 × 10 = 50 → <strong>Exactly multiplicative</strong></p>
+<blockquote>
+<p>吸菸與石棉的組合效應遠大於兩者單獨效應之和。</p>
+</blockquote>
+<h3 id="identifying-interaction--識別交互作用">Identifying Interaction | 識別交互作用</h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stratified analysis</td>
+<td>Compare stratum-specific ORs/RRs</td>
+</tr>
+<tr>
+<td>Statistical test</td>
+<td>Test for homogeneity across strata</td>
+</tr>
+<tr>
+<td>Regression models</td>
+<td>Include interaction term</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="summary--摘要">Summary | 摘要</h2>
+<h3 id="bias">Bias</h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Selection bias</td>
+<td>Careful study design, representativeness</td>
+</tr>
+<tr>
+<td>Information bias</td>
+<td>Valid measurement tools, blinding</td>
+</tr>
+<tr>
+<td>Recall bias</td>
+<td>Use records, reduce differential</td>
+</tr>
+</tbody>
+</table>
+<h3 id="confounding">Confounding</h3>
+<table>
+<thead>
+<tr>
+<th>Prevention</th>
+<th>Control</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Randomization</td>
+<td>Stratification</td>
+</tr>
+<tr>
+<td>Matching</td>
+<td>Statistical adjustment</td>
+</tr>
+<tr>
+<td>Restriction</td>
+<td>Multivariable analysis</td>
+</tr>
+</tbody>
+</table>
+<h3 id="interaction">Interaction</h3>
 <ul>
-<li></li>
+<li>Effect modification rather than bias</li>
+<li>Stratify to identify homogeneous subgroups</li>
+<li>Report stratum-specific estimates</li>
 </ul>
-</li>
-</ul>
-<p>Table 16-3 shows concordance data for leukemia
-Table 16-3 shows concordance data for leukemia
-in monozygotic and dizygotic twin pairs. We see
-in monozygotic and dizygotic twin pairs. We see
-that the percentage of concordant pairs is notably
-that the percentage of concordant pairs is notably
-high for congenital leukemia, which strongly suggests a major genetic component in causation when
-high for congenital leukemia, which strongly suggests a major genetic component in causation when
-the disease occurs near the time of birth.
-the disease occurs near the time of birth.
-How are concordance data used? Let us look at
-How are concordance data used? Let us look at
-a few examples. Table 16-4 shows reported concordance rates for alcoholism in monozygotic and
-a few examples. Table 16-4 shows reported concordance rates for alcoholism in monozygotic and
-dizygotic twins reported in several studies.17–20
-dizygotic twins reported in several studies.17–20
-Almost all of the reported studies show higher concordance rates for monozygotic than for dizygotic
-Almost all of the reported studies show higher concordance rates for monozygotic than for dizygotic
-twins; the indings from only one study of a relatively small number of twins were not consistent
-twins; the indings from only one study of a relatively small number of twins were not consistent
-with the indings of the other studies. Thus, in
-with the indings of the other studies. Thus, in
-general, the data reported in the literature strongly
-general, the data reported in the literature strongly
-suggest a genetic component in the etiology of
-suggest a genetic component in the etiology of
-alcoholism.
-alcoholism.
-Table 16-5 shows concordance rates in New York
-Table 16-5 shows concordance rates in New York
-State for neural tube defects (anencephaly and
-State for neural tube defects (anencephaly and
-spina biida). Notice that the table refers only to
-spina biida). Notice that the table refers only to
-co-twins and does not distinguish between monozygotic and dizygotic twins. The reason for this is
-co-twins and does not distinguish between monozygotic and dizygotic twins. The reason for this is
-that the data were obtained from birth certiicates
-that the data were obtained from birth certiicates
-in which zygosity data are generally not available.
-in which zygosity data are generally not available.
-No contacts were made with individuals and families. As seen in this study, routinely available data
-No contacts were made with individuals and families. As seen in this study, routinely available data
-may be useful for certain studies, but because they
-may be useful for certain studies, but because they
-are not gathered for study purposes, such data often
-are not gathered for study purposes, such data often
-are limited in the detail needed to answer speciic
-are limited in the detail needed to answer speciic
-questions. It should be pointed out that good evidence of zygosity is often not obtained in many
-questions. It should be pointed out that good evidence of zygosity is often not obtained in many
-twin studies, and when examining data such as
-twin studies, and when examining data such as
-those shown in Tables 16-2 and 16-3, we must
-those shown in Tables 16-2 and 16-3, we must
-ask on what basis were the twin pairs labelled
-ask on what basis were the twin pairs labelled
-TABLE 16-3. Age Distribution in Published Clinical Reports of Childhood Leukemia in Twins,
-TABLE 16-3. Age Distribution in Published Clinical Reports of Childhood Leukemia in Twins,
-1928–1974
-1928–1974
-MONOZYGOTIC PAIRS
-MONOZYGOTIC PAIRS
-DIZYGOTIC PAIRS
-DIZYGOTIC PAIRS
-Concordant
-Concordant
-Discordant
-Discordant
-Concordant
-Concordant
-Discordant
-Discordant
-Perinatal-congenital
-Perinatal-congenital
-Age 2–7 yr
-Age 2–7 yr
-Age 7–12 yr
-Age 7–12 yr
-Age 12 yr and older
-Age 12 yr and older
-Total
-Total
-14
-14
-6
-6
-1
-1
-5
-5
-26
-26
-1
-1
-13
-13
-8
-8
-14
-14
-36
-36
-1
-1
-3
-3
-–
-–
-0
-0
-4
-4
-1
-1
-5
-5
-1
-1
-3
-3
-10
-10
-From Keith L, Brown ER, Ames B, et al: Leukemia in twins: Antenatal and postnatal factors. Acta Genet Med Gemellol
-From Keith L, Brown ER, Ames B, et al: Leukemia in twins: Antenatal and postnatal factors. Acta Genet Med Gemellol
-25:336–341, 1976.
-25:336–341, 1976.
-292
-292
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-TABLE 16-4. Concordance for Alcoholism in Monozygotic (MZ) and Dizygotic (DZ) Twin Pairs
-TABLE 16-4. Concordance for Alcoholism in Monozygotic (MZ) and Dizygotic (DZ) Twin Pairs
-Identiied through an Alcoholic Member
-Identiied through an Alcoholic Member
-CONCORDANCE
-CONCORDANCE
-Author (Year)
-Author (Year)
-Number of Twin Pairs
-Number of Twin Pairs
-MZ (%)
-MZ (%)
-DZ (%)
-DZ (%)
-Ratio of MZ : DZ Concordance
-Ratio of MZ : DZ Concordance
-Kaij (1960)
-Kaij (1960)
-Hrubec et al. (1981)
-Hrubec et al. (1981)
-Murray et al. (1983)
-Murray et al. (1983)
-Pickens et al. (1991)
-Pickens et al. (1991)
-174
-174
-15,924
-15,924
-56
-56
-86 (M)
-86 (M)
-44 (F)
-44 (F)
-71
-71
-26
-26
-21
-21
-59
-59
-25
-25
-32
-32
-13
-13
-25
-25
-36
-36
-5
-5
-2.2
-2.2
-2.0
-2.0
-0.8
-0.8
-1.6
-1.6
-5.0
-5.0
-Adapted from Lumeng L, Crabb DW: Genetic aspects and risk factors in alcoholism and alcoholic liver disease. Gastroenterology
-Adapted from Lumeng L, Crabb DW: Genetic aspects and risk factors in alcoholism and alcoholic liver disease. Gastroenterology
-107:572–578, 1994.
-107:572–578, 1994.
-TABLE 16-5. Concordance Rates of
-TABLE 16-5. Concordance Rates of
-Anencephaly and Spina Biida
-Anencephaly and Spina Biida
-(ASB) in New York State,
-(ASB) in New York State,
-1955–1974
-1955–1974
-Incidence of ASB
-Incidence of ASB
-Concordance rates
-Concordance rates
-Among co-twins
-Among co-twins
-Among full siblings
-Among full siblings
-Among half siblings
-Among half siblings
-1.3/1,000
-1.3/1,000
-4/59 (6.8%)
-4/59 (6.8%)
-19/1,037 (1.8%)
-19/1,037 (1.8%)
-1/133 (0.8%)
-1/133 (0.8%)
-From Janerich DT, Piper J: Shifting genetic patterns in
-From Janerich DT, Piper J: Shifting genetic patterns in
-anencephaly and spina biida. J Med Genet 15:101–105,
-anencephaly and spina biida. J Med Genet 15:101–105,
-1978.
-1978.
-monozygotic or dizygotic? (Remember the caveat
-monozygotic or dizygotic? (Remember the caveat
-discussed earlier: If you are shown differences
-discussed earlier: If you are shown differences
-between groups or changes over time, the irst question to ask is, Are they real? If you are convinced
-between groups or changes over time, the irst question to ask is, Are they real? If you are convinced
-that a difference or change is real and not artifactual, then and only then should you proceed to
-that a difference or change is real and not artifactual, then and only then should you proceed to
-interpret the indings.)
-interpret the indings.)
-One problem in interpreting concordance data
-One problem in interpreting concordance data
-is publication bias—that is, a selection bias related
-is publication bias—that is, a selection bias related
-to which cases are reported and which are ultimately accepted for publication by a journal. An
-to which cases are reported and which are ultimately accepted for publication by a journal. An
-observation of an infrequent or unusual disease in
-observation of an infrequent or unusual disease in
-both members of a pair of twins is often clinically
-both members of a pair of twins is often clinically
-striking. A clinician is therefore much more likely
-striking. A clinician is therefore much more likely
-to report such a concordant pair than to report a
-to report such a concordant pair than to report a
-discordant pair. Journals may also be more likely to
-discordant pair. Journals may also be more likely to
-accept reports of concordant twin pairs for publication than they are to accept reports of discordant
-accept reports of concordant twin pairs for publication than they are to accept reports of discordant
-twin pairs. Therefore, many discordant pairs that
-twin pairs. Therefore, many discordant pairs that
-are never reported are probably missing in tables
-are never reported are probably missing in tables
-that summarize data from the literature.
-that summarize data from the literature.
-Figure 16-11. Concordance in twins for a continuous variable, such as systolic blood pressure.
-Figure 16-11. Concordance in twins for a continuous variable, such as systolic blood pressure.
-So far, we have discussed concordance for a discrete variable, such as leukemia or schizophrenia,
-So far, we have discussed concordance for a discrete variable, such as leukemia or schizophrenia,
-that is either present or absent. However, we are
-that is either present or absent. However, we are
-often interested in determining concordance for a
-often interested in determining concordance for a
-continuous variable, such as blood pressure. In this
-continuous variable, such as blood pressure. In this
-case, we would plot the data for twin 1 against the
-case, we would plot the data for twin 1 against the
-data for twin 2 for all twin pairs and calculate the
-data for twin 2 for all twin pairs and calculate the
-correlation coeficient (r), as seen in Figure 16-11.
-correlation coeficient (r), as seen in Figure 16-11.
-The correlation coeficient can range from −1 to
-The correlation coeficient can range from −1 to
-+1. A correlation coeficient of +1 indicates a full
-+1. A correlation coeficient of +1 indicates a full
-positive correlation, 0 indicates no correlation, and
-positive correlation, 0 indicates no correlation, and
-−1 indicates a full inverse correlation. If we plot
-−1 indicates a full inverse correlation. If we plot
-such data for monozygotic twin pairs and for dizygotic twin pairs, as shown in Figure 16-12, we
-such data for monozygotic twin pairs and for dizygotic twin pairs, as shown in Figure 16-12, we
-would expect to ind a stronger correlation for
-would expect to ind a stronger correlation for
-monozygotic twins than for dizygotic twins if the
-monozygotic twins than for dizygotic twins if the
-disease or characteristic is genetically determined.
-disease or characteristic is genetically determined.
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-293
-293
-Figure 16-12. Use of concordance rates
-Figure 16-12. Use of concordance rates
-for continuous variables, such as blood pressure (BP), to explore the etiologic role of
-for continuous variables, such as blood pressure (BP), to explore the etiologic role of
-genetic factors.
-genetic factors.
-Table 16-6 shows correlation coeficients for systolic blood pressure among relatives. The highest
-Table 16-6 shows correlation coeficients for systolic blood pressure among relatives. The highest
-coeficient is seen in monozygotic twins; the values
-coeficient is seen in monozygotic twins; the values
-for dizygotic twins and ordinary siblings are close.
-for dizygotic twins and ordinary siblings are close.
-Also of interest is that virtually no correlation exists
-Also of interest is that virtually no correlation exists
-between spouses. A strong correlation between
-between spouses. A strong correlation between
-spouses (who are not biologically related) would
-spouses (who are not biologically related) would
-suggest a role for environmental factors. (An alternate suggestion, however, could be that people seek
-suggest a role for environmental factors. (An alternate suggestion, however, could be that people seek
-out individuals like themselves for marriage. Thus,
-out individuals like themselves for marriage. Thus,
-individuals with type A personalities, for example,
-individuals with type A personalities, for example,
-may seek out other individuals with type A personalities for marriage. In such a situation we might
-may seek out other individuals with type A personalities for marriage. In such a situation we might
-arrive at a high spousal correlation even for conditions that are not environmentally determined.)
-arrive at a high spousal correlation even for conditions that are not environmentally determined.)
-Another example of the value of family studies
-Another example of the value of family studies
-and twin studies in assessing the relative contributions of genetic and environmental factors to
-and twin studies in assessing the relative contributions of genetic and environmental factors to
-disease causation is seen in the case of Hodgkin’s
-disease causation is seen in the case of Hodgkin’s
-disease. Years ago the incidence of Hodgkin’s disease
-disease. Years ago the incidence of Hodgkin’s disease
-was shown to be bimodal when plotted against age:
-was shown to be bimodal when plotted against age:
-TABLE 16-6. Correlation among Relatives
-TABLE 16-6. Correlation among Relatives
-for Systolic Blood Pressure
-for Systolic Blood Pressure
-Relatives Compared
-Relatives Compared
-Correlation Coeficients
-Correlation Coeficients
-Monozygotic twins
-Monozygotic twins
-Dizygotic twins
-Dizygotic twins
-Siblings
-Siblings
-Parents and offspring
-Parents and offspring
-Spouses
-Spouses
-0.55
-0.55
-0.25
-0.25
-0.18
-0.18
-0.34
-0.34
-0.07
-0.07
-Adapted from Feinleib M, Garrison MS, Borhani N, et al:
-Adapted from Feinleib M, Garrison MS, Borhani N, et al:
-Studies of hypertension in twins. In Paul O (ed):
-Studies of hypertension in twins. In Paul O (ed):
-Epidemiology and Control of Hypertension. New York,
-Epidemiology and Control of Hypertension. New York,
-Grune &amp; Stratton, 1975, pp 3–20.
-Grune &amp; Stratton, 1975, pp 3–20.
-one peak occurred in the 20s and a second occurred
-one peak occurred in the 20s and a second occurred
-at about age 70 years21 (Fig. 16-13). Data suggest
-at about age 70 years21 (Fig. 16-13). Data suggest
-that the histologic type of disease varies by age: the
-that the histologic type of disease varies by age: the
-young adult form of the disease is mainly the
-young adult form of the disease is mainly the
-nodular sclerosing form, and the mixed-cell type
-nodular sclerosing form, and the mixed-cell type
-increases with increasing age.22
-increases with increasing age.22
-Over the years a large number of studies have
-Over the years a large number of studies have
-implicated both environmental and genetic factors
-implicated both environmental and genetic factors
-in causation of disease. Environmentally, small
-in causation of disease. Environmentally, small
-number of siblings and higher socioeconomic
-number of siblings and higher socioeconomic
-status have been associated with increased risk
-status have been associated with increased risk
-of Hodgkin’s disease, suggesting that Hodgkin’s
-of Hodgkin’s disease, suggesting that Hodgkin’s
-disease may be a rare sequel to a common childhood infection.23 Epstein-Barr virus infection has
-disease may be a rare sequel to a common childhood infection.23 Epstein-Barr virus infection has
-been implicated. At the same time, familial clusters
-been implicated. At the same time, familial clusters
-and increased risk of the disease among siblings of
-and increased risk of the disease among siblings of
-Hodgkin’s disease patients have suggested a strong
-Hodgkin’s disease patients have suggested a strong
-genetic component. In 1995, Mack and coworkers
-genetic component. In 1995, Mack and coworkers
-reported a study of concordance for Hodgkin’s
-reported a study of concordance for Hodgkin’s
-disease in monozygotic and dizygotic twin pairs
-disease in monozygotic and dizygotic twin pairs
-that had been identiied by Hodgkin’s disease in one
-that had been identiied by Hodgkin’s disease in one
-of its members.24 As indicated in Table 16-7, 6% of
-of its members.24 As indicated in Table 16-7, 6% of
-the monozygotic twin pairs were concordant for
-the monozygotic twin pairs were concordant for
-Hodgkin’s disease compared with 0% of the dizygotic pairs.
-Hodgkin’s disease compared with 0% of the dizygotic pairs.
-The median age at diagnosis of the concordant
-The median age at diagnosis of the concordant
-twins was 25.5 years, and most of the cases in the
-twins was 25.5 years, and most of the cases in the
-concordant pairs for whom information was available were of the nodular sclerosing histologic
-concordant pairs for whom information was available were of the nodular sclerosing histologic
-subtype. Most of the previously reported sibships
-subtype. Most of the previously reported sibships
-with multiple cases were also of this subtype.
-with multiple cases were also of this subtype.
-Although these data suggest a genetic susceptibility
-Although these data suggest a genetic susceptibility
-to Hodgkin’s disease, such a susceptibility does not
-to Hodgkin’s disease, such a susceptibility does not
-itself appear to account fully for all cases of the
-itself appear to account fully for all cases of the
-disease. The indings are therefore also consistent
-disease. The indings are therefore also consistent
-with a role for, and possibly an interaction with,
-with a role for, and possibly an interaction with,
-environmental factors such as infection.
-environmental factors such as infection.
-294
-294
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Figure 16-13.
-Figure 16-13.
-Incidence of Hodgkin’s disease in the white population of Brooklyn, 1943–1957. (From MacMahon B: Epidemiological evidence of the nature of Hodgkin’s disease. Cancer 10:1045–1054, 1957. Copyright © 1957 American Cancer Society. Reprinted
-Incidence of Hodgkin’s disease in the white population of Brooklyn, 1943–1957. (From MacMahon B: Epidemiological evidence of the nature of Hodgkin’s disease. Cancer 10:1045–1054, 1957. Copyright © 1957 American Cancer Society. Reprinted
-by permission of Wiley-Liss, Inc., a subsidiary of John Wiley &amp; Sons, Inc.)
-by permission of Wiley-Liss, Inc., a subsidiary of John Wiley &amp; Sons, Inc.)
-TABLE 16-7. Concordance Rates for Hodgkin’s Disease in Twin Pairs with an Affected Member
-TABLE 16-7. Concordance Rates for Hodgkin’s Disease in Twin Pairs with an Affected Member
-Types of Pairs
-Types of Pairs
-Monozygotic
-Monozygotic
-Dizygotic
-Dizygotic
-Number of Pairs
-Number of Pairs
-179
-179
-187
-187
-Number
-Number
-10
-10
-0
-0
-%
-%
-6
-6
-0
-0
-Adapted from Mack TM, Cozen W, Shibata DK, et al: Concordance for Hodgkin’s disease in identical twins suggesting genetic
-Adapted from Mack TM, Cozen W, Shibata DK, et al: Concordance for Hodgkin’s disease in identical twins suggesting genetic
-susceptibility to the young-adult form of the disease. N Engl J Med 332:413–418, 1995.
-susceptibility to the young-adult form of the disease. N Engl J Med 332:413–418, 1995.
-CONCORDANT PAIRS
-CONCORDANT PAIRS
-Another example is from research on Parkinson’s disease (PD), a neurodegenerative disease that
-Another example is from research on Parkinson’s disease (PD), a neurodegenerative disease that
-affects a half million to a million adults in the
-affects a half million to a million adults in the
-United States. About 90% of cases develop after age
-United States. About 90% of cases develop after age
-50. The etiology is not known, nor are the relative
-50. The etiology is not known, nor are the relative
-contributions of genetic and environmental factors.
-contributions of genetic and environmental factors.
-An intriguing study was published in 1999 by
-An intriguing study was published in 1999 by
-Tanner and coworkers who investigated concordance and discordance rates for PD in both monozygotic and dizygotic twins.25 Almost 20,000 white
-Tanner and coworkers who investigated concordance and discordance rates for PD in both monozygotic and dizygotic twins.25 Almost 20,000 white
-male twins enrolled in the National Academy of
-male twins enrolled in the National Academy of
-Science/National Research Council World War II
-Science/National Research Council World War II
-Veteran Twins Registry were screened for PD by
-Veteran Twins Registry were screened for PD by
-physical examination and questionnaires. Zygosity
-physical examination and questionnaires. Zygosity
-was established by DNA analysis or questionnaire.
-was established by DNA analysis or questionnaire.
-Since all twins listed in the registry were studied,
-Since all twins listed in the registry were studied,
-the possibility of selection bias was reduced or
-the possibility of selection bias was reduced or
-eliminated.
-eliminated.
-In 161 twin pairs at least one twin had PD; 71 of
-In 161 twin pairs at least one twin had PD; 71 of
-these pairs were monozygotic and 90 were dizygotic. As seen in Table 16-8 (top), the concordance
-these pairs were monozygotic and 90 were dizygotic. As seen in Table 16-8 (top), the concordance
-rate was 15.5% for monozygotic twins and 11.1%
-rate was 15.5% for monozygotic twins and 11.1%
-for dizygotic twins. However, when the twin pairs
-for dizygotic twins. However, when the twin pairs
-were stratiied according to age of onset of the irst
-were stratiied according to age of onset of the irst
-case of PD, an interesting difference was found:
-case of PD, an interesting difference was found:
-When the irst twin developed PD before age 50,
-When the irst twin developed PD before age 50,
-100% of the monozygotic twin pairs were concordant compared with only 16.7% of the dizygotic
-100% of the monozygotic twin pairs were concordant compared with only 16.7% of the dizygotic
-pairs (see Table 16-8, middle). In contrast, when the
-pairs (see Table 16-8, middle). In contrast, when the
-irst twin developed PD after age 50, there was no
-irst twin developed PD after age 50, there was no
-difference in concordance rates between monozygotic and dizygotic twins (see Table 16-8, bottom).
-difference in concordance rates between monozygotic and dizygotic twins (see Table 16-8, bottom).
-The numbers of affected twin pairs were small, and
-The numbers of affected twin pairs were small, and
-the study remains to be replicated and its indings
-the study remains to be replicated and its indings
-conirmed. Nevertheless, the results suggest that
-conirmed. Nevertheless, the results suggest that
-genetic factors may play a signiicant role in PD that
-genetic factors may play a signiicant role in PD that
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-295
-295
-TABLE 16-8. Concordance Rates for
-TABLE 16-8. Concordance Rates for
-Parkinson’s Disease (PD) in
-Parkinson’s Disease (PD) in
-Twin Pairs with at Least
-Twin Pairs with at Least
-One Affected Member
-One Affected Member
-Types of Pairs
-Types of Pairs
-Number
-Number
-of Pairs
-of Pairs
-All twin pairs
-All twin pairs
-Monozygotic
-Monozygotic
-Dizygotic
-Dizygotic
-Onset before age 50 yr
-Onset before age 50 yr
-Monozygotic
-Monozygotic
-Dizygotic
-Dizygotic
-Onset after age 50 yr
-Onset after age 50 yr
-Monozygotic
-Monozygotic
-Dizygotic
-Dizygotic
-71
-71
-90
-90
-4
-4
-12
-12
-65
-65
-76
-76
-CONCORDANT
-CONCORDANT
-PAIRS
-PAIRS
-Number
-Number
-%
-%
-11
-11
-10
-10
-4
-4
-2
-2
-7
-7
-8
-8
-15.5
-15.5
-11.1
-11.1
-100.0
-100.0
-16.7
-16.7
-10.8
-10.8
-10.5
-10.5
-From Tanner CM, Ottman R, Goldman SM, et al: Parkinson
-From Tanner CM, Ottman R, Goldman SM, et al: Parkinson
-disease in twins: An etiologic study. JAMA 281:341–346,
-disease in twins: An etiologic study. JAMA 281:341–346,
-1999.
-1999.
-develops before age 50, but that in cases developing
-develops before age 50, but that in cases developing
-after age 50, genetic factors may be less important
-after age 50, genetic factors may be less important
-and the role of environmental factors should be
-and the role of environmental factors should be
-explored.
-explored.
-A large twin study was reported by Lichtenstein
-A large twin study was reported by Lichtenstein
-and colleagues in 2000.26 This study was conducted
-and colleagues in 2000.26 This study was conducted
-to estimate the relative contributions of environmental and heritable factors in the causation of
-to estimate the relative contributions of environmental and heritable factors in the causation of
-cancer. Data from 44,788 twin pairs listed in the
-cancer. Data from 44,788 twin pairs listed in the
-Swedish, Danish, and Finnish twin registries were
-Swedish, Danish, and Finnish twin registries were
-used to assess cancer risks at 28 anatomic sites in
-used to assess cancer risks at 28 anatomic sites in
-twins of people with cancer. Twins of persons with
-twins of people with cancer. Twins of persons with
-stomach, colorectal, lung, breast, and prostate
-stomach, colorectal, lung, breast, and prostate
-cancer had an increased risk of developing the same
-cancer had an increased risk of developing the same
-type of cancer. The large effect of heritability at
-type of cancer. The large effect of heritability at
-those sites (for example, heritable factors accounted
-those sites (for example, heritable factors accounted
-for 42% of the risk of prostate cancer) contrasted
-for 42% of the risk of prostate cancer) contrasted
-with the picture for most cancers in which genetic
-with the picture for most cancers in which genetic
-factors made a relatively minor contribution to susceptibility. The indings of this and other studies
-factors made a relatively minor contribution to susceptibility. The indings of this and other studies
-emphasize the need to consider the effects of
-emphasize the need to consider the effects of
-both genetic and environmental factors and their
-both genetic and environmental factors and their
-interactions in addressing the etiology of different
-interactions in addressing the etiology of different
-cancers.
-cancers.
-Adoption Studies
-Adoption Studies
-We have said that one problem in interpreting the
-We have said that one problem in interpreting the
-indings from twin studies is that even monozygotic
-indings from twin studies is that even monozygotic
-twins who share the same genetic constitution also
-twins who share the same genetic constitution also
-share much of the same environment. In such
-share much of the same environment. In such
-studies, it is therefore dificult to tease out the relative contributions of genetic and environmental
-studies, it is therefore dificult to tease out the relative contributions of genetic and environmental
-factors to the cause of disease. One approach to
-factors to the cause of disease. One approach to
-addressing this problem would be to identify twin
-addressing this problem would be to identify twin
-pairs in which one twin was adopted by another
-pairs in which one twin was adopted by another
-family and the other was not, so that they do not
-family and the other was not, so that they do not
-share a common environment. This is the basis for
-share a common environment. This is the basis for
-adoption studies. However, because such twins are
-adoption studies. However, because such twins are
-dificult to ind, a frequently used approach is to
-dificult to ind, a frequently used approach is to
-compare different groups of adopted children as
-compare different groups of adopted children as
-follows:
-follows:
-Suppose we are interested in whether schizophrenia is primarily genetic or environmental
-Suppose we are interested in whether schizophrenia is primarily genetic or environmental
-in origin, and we are considering conducting a
-in origin, and we are considering conducting a
-study using adopted children (Table 16-9). We can
-study using adopted children (Table 16-9). We can
-examine offspring of normal biologic parents who
-examine offspring of normal biologic parents who
-are adopted and reared by schizophrenic parents. If
-are adopted and reared by schizophrenic parents. If
-the disease is genetic in origin, what would we
-the disease is genetic in origin, what would we
-expect the risk of schizophrenia to be in these children? It should approximate what is seen in the rest
-expect the risk of schizophrenia to be in these children? It should approximate what is seen in the rest
-of the population because the environment would
-of the population because the environment would
-not have an effect in increasing the risk. If the
-not have an effect in increasing the risk. If the
-disease is largely environmental, we would expect
-disease is largely environmental, we would expect
-that being reared in an environment with schizophrenic adoptive parents would increase the risk
-that being reared in an environment with schizophrenic adoptive parents would increase the risk
-of schizophrenia in these children. We could also
-of schizophrenia in these children. We could also
-examine offspring of normal biologic parents reared
-examine offspring of normal biologic parents reared
-by normal adoptive parents and we would expect
-by normal adoptive parents and we would expect
-them to have the usual rate of schizophrenia.
-them to have the usual rate of schizophrenia.
-We could also examine the offspring of biologic
-We could also examine the offspring of biologic
-parents with schizophrenia who have been adopted
-parents with schizophrenia who have been adopted
-and reared by normal parents. In this case, if the
-and reared by normal parents. In this case, if the
-disease is genetic, we would expect the children to
-disease is genetic, we would expect the children to
-be at increased risk for schizophrenia. If the disease
-be at increased risk for schizophrenia. If the disease
-is environmental, we would expect them to have the
-is environmental, we would expect them to have the
-usual rate of schizophrenia.
-usual rate of schizophrenia.
-When interpreting data from adoption studies,
-When interpreting data from adoption studies,
-certain factors need to be kept in mind. The irst is
-certain factors need to be kept in mind. The irst is
-TABLE 16-9. Types of Subjects Compared
-TABLE 16-9. Types of Subjects Compared
-in Studies of Schizophrenia
-in Studies of Schizophrenia
-in Adopted Offspring
-in Adopted Offspring</p>
+<hr>
+<h2 id="review-questions--複習問題">Review Questions | 複習問題</h2>
 <ol>
-<li>Offspring of normal biologic parents reared by</li>
-<li>Offspring of normal biologic parents reared by
-schizophrenic adopting parents
-schizophrenic adopting parents</li>
-<li>Offspring of normal biologic parents reared by</li>
-<li>Offspring of normal biologic parents reared by
-normal adopting parents
-normal adopting parents</li>
-<li>Offspring of schizophrenic biologic parents reared</li>
-<li>Offspring of schizophrenic biologic parents reared
-by normal adopting parents
-by normal adopting parents
-296
-296
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-TABLE 16-10. Schizophrenia in Biologic and Adoptive Relatives of Adoptees Who Became
-TABLE 16-10. Schizophrenia in Biologic and Adoptive Relatives of Adoptees Who Became
-Schizophrenic (National Study of Adoptees in Denmark)
-Schizophrenic (National Study of Adoptees in Denmark)
-BIOLOGIC RELATIVES
-BIOLOGIC RELATIVES
-ADOPTIVE RELATIVES
-ADOPTIVE RELATIVES
-Schizophrenic
-Schizophrenic
-Schizophrenic
-Schizophrenic
-Total Number
-Total Number
-Number
-Number
-275
-275
-253
-253
-14
-14
-1
-1
-%
-%
-5.0
-5.0
-0.4
-0.4
-Total Number
-Total Number
-Number
-Number
-%
-%
-111
-111
-124
-124
-0
-0
-0
-0
-0
-0
-0
-0
-Adoptees who became
-Adoptees who became
-schizophrenic (N = 34)
-schizophrenic (N = 34)
-Control adoptees (no serious
-Control adoptees (no serious
-mental disease) (N = 34)
-mental disease) (N = 34)
-From Kety SS, Ingraham LJ: Genetic transmission and improved diagnosis of schizophrenia from pedigrees of adoptees.
-From Kety SS, Ingraham LJ: Genetic transmission and improved diagnosis of schizophrenia from pedigrees of adoptees.
-J Psychiatr Res 26:247–255, 1992.
-J Psychiatr Res 26:247–255, 1992.
-the age at which the adoption took place. For
-the age at which the adoption took place. For
-example, if the adoption occurred in late childhood, part of the child’s environment may have
-example, if the adoption occurred in late childhood, part of the child’s environment may have
-been that of the biologic parents. Ideally, we would
-been that of the biologic parents. Ideally, we would
-like to study children who are adopted at birth.
-like to study children who are adopted at birth.
-Another complicating issue is that, after adoption,
-Another complicating issue is that, after adoption,
-some children maintain relationships with their
-some children maintain relationships with their
-biologic parents, including visits and other exposures to the environment of the biologic parents, so
-biologic parents, including visits and other exposures to the environment of the biologic parents, so
-that the separation between the environment of the
-that the separation between the environment of the
-biologic parents and that of the adoptive parents is
-biologic parents and that of the adoptive parents is
-not complete.
-not complete.
-Many ine adoption studies have been conducted
-Many ine adoption studies have been conducted
-in Scandinavian countries, which have excellent
-in Scandinavian countries, which have excellent
-disease registries and record linkage systems. They
-disease registries and record linkage systems. They
-also have adoption registries and psychiatric registries. As an example, Table 16-10 shows data from
-also have adoption registries and psychiatric registries. As an example, Table 16-10 shows data from
-a study of schizophrenia carried out by Kety and
-a study of schizophrenia carried out by Kety and
-Ingraham in which they studied rates of schizophrenia in biologic and in adoptive relatives of
-Ingraham in which they studied rates of schizophrenia in biologic and in adoptive relatives of
-adopted children.27 Using the adoption registry and
-adopted children.27 Using the adoption registry and
-the psychiatric registry, they identiied 34 adoptees
-the psychiatric registry, they identiied 34 adoptees
-who later became schizophrenic and also identiied
-who later became schizophrenic and also identiied
-34 adoptees without serious mental disease. They
-34 adoptees without serious mental disease. They
-then examined the rates of schizophrenia in the
-then examined the rates of schizophrenia in the
-biologic and in the adoptive relatives of the schizophrenic adoptees and in the control adoptees. The
-biologic and in the adoptive relatives of the schizophrenic adoptees and in the control adoptees. The
-rate of schizophrenia in the biologic relatives of the
-rate of schizophrenia in the biologic relatives of the
-schizophrenic adoptees was 5.0%, compared with
-schizophrenic adoptees was 5.0%, compared with
-0.4% in the biologic relatives of control adoptees
-0.4% in the biologic relatives of control adoptees
-without serious mental disease. The indings
-without serious mental disease. The indings
-strongly suggest that there is a signiicant genetic
-strongly suggest that there is a signiicant genetic
-component in the cause of schizophrenia.
-component in the cause of schizophrenia.
-Table 16-11 shows correlation coeficients for
-Table 16-11 shows correlation coeficients for
-parent-child aggregation of blood pressure, comparing biologic children with adopted children.
-parent-child aggregation of blood pressure, comparing biologic children with adopted children.
-TABLE 16-11. Correlation Coeficients for
-TABLE 16-11. Correlation Coeficients for
-Parent-Child Aggregation of
-Parent-Child Aggregation of
-Blood Pressure
-Blood Pressure
-BETWEEN PARENTS AND
-BETWEEN PARENTS AND
-Biologic Child
-Biologic Child
-Adopted Child
-Adopted Child
-Systolic
-Systolic
-Diastolic
-Diastolic
-0.32 (P &lt; .001)
-0.32 (P &lt; .001)
-0.37 (P &lt; .001)
-0.37 (P &lt; .001)
-0.09 (NS)
-0.09 (NS)
-0.10 (NS)
-0.10 (NS)
-NS, not signiicant.
-NS, not signiicant.
-Adapted from Biron P, Mongeau JG, Bertrand D: Familial
-Adapted from Biron P, Mongeau JG, Bertrand D: Familial
-aggregation of blood pressure in 558 adopted children. Can
-aggregation of blood pressure in 558 adopted children. Can
-Med Assoc J 115:773–774, 1976.
-Med Assoc J 115:773–774, 1976.
-Clearly, the correlations are much weaker (and
-Clearly, the correlations are much weaker (and
-approach 0) for correlations between parents and
-approach 0) for correlations between parents and
-adopted children than between parents and biologic children. The indings strongly suggest a
-adopted children than between parents and biologic children. The indings strongly suggest a
-genetic component in the determination of blood
-genetic component in the determination of blood
-pressure.
-pressure.
-TIME TRENDS IN DISEASE INCIDENCE
-TIME TRENDS IN DISEASE INCIDENCE
-If we observe time trends in disease, with incidence
-If we observe time trends in disease, with incidence
-either increasing or decreasing over a period of
-either increasing or decreasing over a period of
-time, and if we are convinced that the trend is real,
-time, and if we are convinced that the trend is real,
-the observation implicates environmental factors in
-the observation implicates environmental factors in
-the causation of the disease. Clearly, genetic characteristics of human populations generally do not
-the causation of the disease. Clearly, genetic characteristics of human populations generally do not
-change over relatively short periods. Thus the
-change over relatively short periods. Thus the
-change in mortality from coronary heart disease in
-change in mortality from coronary heart disease in
-men from 1979 to 2004 seen in Figure 16-14 is
-men from 1979 to 2004 seen in Figure 16-14 is
-primarily due to changes in exposure to environmental factors.
-primarily due to changes in exposure to environmental factors.
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-297
-297
-Figure 16-14. Cardiovascular disease mortality trends for men and women, United States: 1979–2000. (From CDC and NCHS.
-Figure 16-14. Cardiovascular disease mortality trends for men and women, United States: 1979–2000. (From CDC and NCHS.
-Cited by the American Heart Association: Heart Disease and Stroke Statistics, 2003 Update. Dallas, American Heart Association, 2002.)
-Cited by the American Heart Association: Heart Disease and Stroke Statistics, 2003 Update. Dallas, American Heart Association, 2002.)
-INTERNATIONAL STUDIES
-INTERNATIONAL STUDIES
-Figure 16-15 shows age-adjusted death rates for
-Figure 16-15 shows age-adjusted death rates for
-stomach cancer in men in several countries. The
-stomach cancer in men in several countries. The
-highest rate is seen in Japan, and the rates in the
-highest rate is seen in Japan, and the rates in the
-United States are quite low. Are these differences
-United States are quite low. Are these differences
-real? Could they be due to differences in quality of
-real? Could they be due to differences in quality of
-medical care or in access to medical care in different
-medical care or in access to medical care in different
-countries? Could they be due to international differences in how death certiicates are completed?
-countries? Could they be due to international differences in how death certiicates are completed?
-Results of other studies suggest that these differences are real.
-Results of other studies suggest that these differences are real.
-Figure 16-16 shows comparable data for breast
-Figure 16-16 shows comparable data for breast
-cancer in women. Here we see that one of the lowest
-cancer in women. Here we see that one of the lowest
-rates in the world is in Japan. Are differences
-rates in the world is in Japan. Are differences
-between countries due to environmental or to
-between countries due to environmental or to
-genetic factors? The answer is probably both. How
-genetic factors? The answer is probably both. How
-can we tease apart the relative contributions of
-can we tease apart the relative contributions of
-genetic and environmental factors to international
-genetic and environmental factors to international
-differences in risk of disease? We can do so by
-differences in risk of disease? We can do so by
-studying migrants in a manner analogous to that
-studying migrants in a manner analogous to that
-just described for studying adoptees.
-just described for studying adoptees.
-Migrant Studies
-Migrant Studies
-Let us assume that a Japanese individual living in
-Let us assume that a Japanese individual living in
-Japan, a country with a high risk for stomach
-Japan, a country with a high risk for stomach
-cancer, moves to the United States, a country with
-cancer, moves to the United States, a country with
-a low risk of stomach cancer. What would we expect
-a low risk of stomach cancer. What would we expect
-to happen to this person’s risk of stomach cancer?
-to happen to this person’s risk of stomach cancer?
-If the disease is primarily genetic in origin, we
-If the disease is primarily genetic in origin, we
-would expect the high risk of stomach cancer to be
-would expect the high risk of stomach cancer to be
-retained even when people move from a high-risk
-retained even when people move from a high-risk
-Figure 16-15. Age-adjusted death rates per 100,000 for
-Figure 16-15. Age-adjusted death rates per 100,000 for
-stomach cancer in 20 countries, men, 1976–1977. (Data from
-stomach cancer in 20 countries, men, 1976–1977. (Data from
-Page HS, Asire AJ: Cancer Rates and Risks, 3rd ed. Washington,
-Page HS, Asire AJ: Cancer Rates and Risks, 3rd ed. Washington,
-DC, NIH Publication No. 85–691, 1985.)
-DC, NIH Publication No. 85–691, 1985.)
-Figure 16-16. Age-adjusted death rates per 100,000 for
-Figure 16-16. Age-adjusted death rates per 100,000 for
-breast cancer in 20 countries, women, 1976–1977. (Data from
-breast cancer in 20 countries, women, 1976–1977. (Data from
-Page HS, Asire AJ: Cancer Rates and Risks, 3rd ed. Washington,
-Page HS, Asire AJ: Cancer Rates and Risks, 3rd ed. Washington,
-DC, NIH Publication No. 85–691, 1985.)
-DC, NIH Publication No. 85–691, 1985.)
-298
-298
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-to a low-risk area. However, if the disease is environmental in origin, we would expect that over
-to a low-risk area. However, if the disease is environmental in origin, we would expect that over
-time the risk for such a migrant group would shift
-time the risk for such a migrant group would shift
-toward the lower risk of the adoptive country.
-toward the lower risk of the adoptive country.
-Table 16-12 shows standardized mortality ratios
-Table 16-12 shows standardized mortality ratios
-(SMRs) for stomach cancer in Japanese men living
-(SMRs) for stomach cancer in Japanese men living
-in Japan, Japanese men who migrated to the United
-in Japan, Japanese men who migrated to the United
-States (Issei), and the children of the Japanese
-States (Issei), and the children of the Japanese
-migrants (Nisei) born in the United States, compared with SMRs of U.S. white males. We see that
-migrants (Nisei) born in the United States, compared with SMRs of U.S. white males. We see that
-the SMRs progressively shift toward the lower SMR
-the SMRs progressively shift toward the lower SMR
-of U.S. white males. These data strongly suggest that
-of U.S. white males. These data strongly suggest that
-a signiicant environmental component is involved.
-a signiicant environmental component is involved.
-We should bear in mind that when people
-We should bear in mind that when people
-migrate to their country of adoption, they and their
-migrate to their country of adoption, they and their
-families do not immediately shed the environment
-families do not immediately shed the environment
-of their country of origin. Many aspects of their
-of their country of origin. Many aspects of their
-original culture are retained, including certain
-original culture are retained, including certain
-dietary preferences. Thus, the microenvironment of
-dietary preferences. Thus, the microenvironment of
-the migrant, particularly environmental characteristics related to lifestyle, are generally a combination of those of the country of origin and those of
-the migrant, particularly environmental characteristics related to lifestyle, are generally a combination of those of the country of origin and those of
-the country of adoption. Another important consideration is the age at which the person migrated;
-the country of adoption. Another important consideration is the age at which the person migrated;
-in interpreting the indings from migrant studies, it
-in interpreting the indings from migrant studies, it
-is important to know how much of the person’s life
-is important to know how much of the person’s life
-was spent in the country of origin and how much
-was spent in the country of origin and how much
-in the country of adoption.
-in the country of adoption.
-Let us turn to another example. The risk of
-Let us turn to another example. The risk of
-multiple sclerosis has been shown to be related to
-multiple sclerosis has been shown to be related to
-latitude: the greater the distance from the equator,
-latitude: the greater the distance from the equator,
-the greater the risk. This observation is very intriguing and has stimulated much research. However,
-the greater the risk. This observation is very intriguing and has stimulated much research. However,
-questions remain about the extent to which the
-questions remain about the extent to which the
-relationship to latitude is a result of environmental
-relationship to latitude is a result of environmental
-factors as well as about how we can determine
-factors as well as about how we can determine
-which environmental factors might be involved.
-which environmental factors might be involved.
-Studies of people who have migrated from highrisk to low-risk areas are ideally suited to answering
-Studies of people who have migrated from highrisk to low-risk areas are ideally suited to answering
-some of these questions. One country that lent
-some of these questions. One country that lent
-itself nicely to such a study is Israel, which, by latitude, is a low-risk country for multiple sclerosis.
-itself nicely to such a study is Israel, which, by latitude, is a low-risk country for multiple sclerosis.
-Israel had successive waves of immigration during
-Israel had successive waves of immigration during
-the 20th century. Some of the migrants came from
-the 20th century. Some of the migrants came from
-high-risk areas, such as the relatively northerly latitudes of the United States, Canada, and Northern
-high-risk areas, such as the relatively northerly latitudes of the United States, Canada, and Northern
-Europe, whereas others came from low-risk latitudes closer to the equator, including areas of North
-Europe, whereas others came from low-risk latitudes closer to the equator, including areas of North
-Africa and the Arabian Peninsula.
-Africa and the Arabian Peninsula.
-Table 16-13 shows data for incidence of multiple
-Table 16-13 shows data for incidence of multiple
-sclerosis in European, African, and Asian migrants
-sclerosis in European, African, and Asian migrants
-to Israel. The disease is not common; therefore, the
-to Israel. The disease is not common; therefore, the
-sample sizes were small.
-sample sizes were small.
-First let us look at the rates for African and Asian
-First let us look at the rates for African and Asian
-migrants who moved from one low-risk area to
-migrants who moved from one low-risk area to
-another. Their risk remained low. Now examine the
-another. Their risk remained low. Now examine the
-data for European migrants who migrated from a
-data for European migrants who migrated from a
-high-risk area (Europe) to a low-risk area (Israel).
-high-risk area (Europe) to a low-risk area (Israel).
-Europeans who migrated before age 15 years (top
-Europeans who migrated before age 15 years (top
-row) had a low rate, similar to that of African and
-row) had a low rate, similar to that of African and
-Asian migrants. However, Europeans who migrated
-Asian migrants. However, Europeans who migrated
-after age 15 years tended to retain the high rate of
-after age 15 years tended to retain the high rate of
-their country of origin. These indings suggested
-their country of origin. These indings suggested
-that the risk of multiple sclerosis is determined in
-that the risk of multiple sclerosis is determined in
-childhood and that the critical factor is whether
-childhood and that the critical factor is whether
-childhood years are spent in a high-risk or a lowrisk area. A person who spent childhood years in a
-childhood years are spent in a high-risk or a lowrisk area. A person who spent childhood years in a
-low-risk area retains a low risk; one who spent
-low-risk area retains a low risk; one who spent
-TABLE 16-12. Standardized Mortality Ratios
-TABLE 16-12. Standardized Mortality Ratios
-for Cancer of the Stomach
-for Cancer of the Stomach
-in Japanese Men, Issei, Nisei,
-in Japanese Men, Issei, Nisei,
-and U.S. White Men
-and U.S. White Men
-Group
-Group
-Standardized Mortality Ratio
-Standardized Mortality Ratio
-Japanese men
-Japanese men
-Issei*
-Issei*
-Nisei*
-Nisei*
-U.S. white men
-U.S. white men
-100
-100
-72
-72
-38
-38
-17
-17
-*Issei and Nisei are irst- and second-generation Japanese
-*Issei and Nisei are irst- and second-generation Japanese
-migrants, respectively.
-migrants, respectively.
-From Haenszel W, Kurihara M: Studies of Japanese
-From Haenszel W, Kurihara M: Studies of Japanese
-migrants: I. Mortality from cancer and other disease among
-migrants: I. Mortality from cancer and other disease among
-Japanese in the United States. J Natl Cancer Inst 40:43–68,
-Japanese in the United States. J Natl Cancer Inst 40:43–68,</li>
-<li></li>
-<li></li>
-</ol>
-<p>TABLE 16-13. Incidence of Multiple
-TABLE 16-13. Incidence of Multiple
-Sclerosis (MS) per 100,000
-Sclerosis (MS) per 100,000
-among European, African,
-among European, African,
-and Asian Immigrants to Israel
-and Asian Immigrants to Israel
-by Age at Immigration
-by Age at Immigration
-INCIDENCE OF MS IN MIGRANTS
-INCIDENCE OF MS IN MIGRANTS
-European
-European
-African and Asian
-African and Asian
-0.76
-0.76
-3.54
-3.54
-1.35
-1.35
-0.65
-0.65
-0.40
-0.40
-0.26
-0.26
-Age at
-Age at
-Immigration
-Immigration
-&lt;15 yr
-&lt;15 yr
-15–29 yr
-15–29 yr
-30–34 yr
-30–34 yr
-Adapted from Alter M, Leibowitz U, Speer J: Risk of
-Adapted from Alter M, Leibowitz U, Speer J: Risk of
-multiple sclerosis related to age at immigration to Israel.
-multiple sclerosis related to age at immigration to Israel.
-Arch Neurol 15:234–237, 1966.
-Arch Neurol 15:234–237, 1966.
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-299
-299
-TABLE 16-14. Issues in Interpreting the Results of Adoption and Migrant Studies
-TABLE 16-14. Issues in Interpreting the Results of Adoption and Migrant Studies
-Adoption Studies
-Adoption Studies
-Migrant Studies
-Migrant Studies
-• Adoptees are highly selected.
-• Adoptees are highly selected.
-• Age at adoption varies.
-• Age at adoption varies.
-• Adoptees may retain various degrees of
-• Adoptees may retain various degrees of
-contact with their biologic parent(s).
-contact with their biologic parent(s).
-• Migrants are highly selected.
-• Migrants are highly selected.
-• Age at migration varies.
-• Age at migration varies.
-• Migrants may retain many elements of their original
-• Migrants may retain many elements of their original
-environment, particularly those related to culture and lifestyle.
-environment, particularly those related to culture and lifestyle.
-childhood years in a high-risk area retains a high
-childhood years in a high-risk area retains a high
-risk, even after later migration to a low-risk area.
-risk, even after later migration to a low-risk area.
-This has suggested that some event in childhood,
-This has suggested that some event in childhood,
-possibly infectious in origin, may be of importance
-possibly infectious in origin, may be of importance
-in the causation of multiple sclerosis; this has led to
-in the causation of multiple sclerosis; this has led to
-research on slow virus infections as a possible etiologic agent in this disease.
-research on slow virus infections as a possible etiologic agent in this disease.
-factors,
-factors,
-including
-including
-What are the problems with migrant studies?
-What are the problems with migrant studies?
-First, migrants are not representative of the populations of their countries of origin. Therefore, we
-First, migrants are not representative of the populations of their countries of origin. Therefore, we
-must ask what factors led certain people to migrate
-must ask what factors led certain people to migrate
-(selection factors)? For example, people who are
-(selection factors)? For example, people who are
-seriously ill or disabled generally do not migrate.
-seriously ill or disabled generally do not migrate.
-socioeconomic and
-socioeconomic and
-Other
-Other
-cultural characteristics, are also related to which
-cultural characteristics, are also related to which
-persons are likely to migrate and which persons are
-persons are likely to migrate and which persons are
-not. Consequently, given this problem of selection,
-not. Consequently, given this problem of selection,
-we must ask whether we can legitimately compare
-we must ask whether we can legitimately compare
-the rates of stomach cancer in Issei and Nisei with
-the rates of stomach cancer in Issei and Nisei with
-the rates in native Japanese. Second, we need to ask
-the rates in native Japanese. Second, we need to ask
-what was the age at migration. How many years did
-what was the age at migration. How many years did
-the migrants spend in their country of origin and
-the migrants spend in their country of origin and
-how many in their country of adoption? Third, we
-how many in their country of adoption? Third, we
-should remember that migrants do not completely
-should remember that migrants do not completely
-shed the environment of their country of origin
-shed the environment of their country of origin
-after they migrate.
-after they migrate.
-that in diseases in which most of the cases are
-that in diseases in which most of the cases are
-environmentally determined, heritability of the
-environmentally determined, heritability of the
-disease is seen as low. As environmental causes
-disease is seen as low. As environmental causes
-are successfully addressed and removed, however,
-are successfully addressed and removed, however,
-we are left with a core of cases in which genetic
-we are left with a core of cases in which genetic
-factors play the major role.28 He cites lung cancer
-factors play the major role.28 He cites lung cancer
-as an example. Most cases of lung cancer are in
-as an example. Most cases of lung cancer are in
-smokers and are thus environmentally determined
-smokers and are thus environmentally determined
-so that the overall heritability of lung cancer today
-so that the overall heritability of lung cancer today
-is low. The incidence of lung cancer is decreasing
-is low. The incidence of lung cancer is decreasing
-as effective measures are put in place to reduce
-as effective measures are put in place to reduce
-smoking. As time goes on, the remaining cases
-smoking. As time goes on, the remaining cases
-will largely be familial cases and the heritability
-will largely be familial cases and the heritability
-of lung cancer as seen in new cases will appear
-of lung cancer as seen in new cases will appear
-to be increasing over time.
-to be increasing over time.
-However, the question of genetic susceptibility
-However, the question of genetic susceptibility
-to environmental factors and the possibility of
-to environmental factors and the possibility of
-interaction between them must also be addressed.
-interaction between them must also be addressed.
-In Chapter 14, we discussed the study by Grant
-In Chapter 14, we discussed the study by Grant
-and Dawson that described an association of earlier
-and Dawson that described an association of earlier
-age at onset of alcohol consumption to prevalence
-age at onset of alcohol consumption to prevalence
-of lifetime alcohol abuse (Fig. 16-17). As seen in
-of lifetime alcohol abuse (Fig. 16-17). As seen in
-These and other factors need to be considered in
-These and other factors need to be considered in
-interpreting the results of migrant studies. There is
-interpreting the results of migrant studies. There is
-an obvious parallel with adoption studies, and as
-an obvious parallel with adoption studies, and as
-seen in Table 16-14, many of the issues that arise in
-seen in Table 16-14, many of the issues that arise in
-interpreting the indings are similar for the two
-interpreting the indings are similar for the two
-types of studies.
-types of studies.
-INTERACTION OF GENETIC AND
-INTERACTION OF GENETIC AND
-ENVIRONMENTAL FACTORS
-ENVIRONMENTAL FACTORS
-When both genetic and environmental factors are
-When both genetic and environmental factors are
-found to have roles in the development of disease,
-found to have roles in the development of disease,
-the nature of the relationship of the two types
-the nature of the relationship of the two types
-of factors must be elucidated. Certain diseases
-of factors must be elucidated. Certain diseases
-are largely environmental, whereas others are
-are largely environmental, whereas others are
-largely genetic. The distinguished geneticist and
-largely genetic. The distinguished geneticist and
-pediatrician Dr. Barton Childs has pointed out
-pediatrician Dr. Barton Childs has pointed out
-Figure 16-17. Prevalence of lifetime alcohol dependence by
-Figure 16-17. Prevalence of lifetime alcohol dependence by
-age at drinking onset. (Adapted from Grant BF, Dawson DA: Age
-age at drinking onset. (Adapted from Grant BF, Dawson DA: Age
-at onset of alcohol use and its association with DSM-IV alcohol
-at onset of alcohol use and its association with DSM-IV alcohol
-abuse and dependence: Results from the National Longitudinal
-abuse and dependence: Results from the National Longitudinal
-Alcohol Epidemiologic Survey. J Substance Abuse 9:103–110,
-Alcohol Epidemiologic Survey. J Substance Abuse 9:103–110,
-1997.)
-1997.)
-300
-300
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-venous thrombosis. Vandenbroucke and colleagues
-venous thrombosis. Vandenbroucke and colleagues
-studied the question of whether the factor V Leiden
-studied the question of whether the factor V Leiden
-mutation, which is known to enhance susceptibility
-mutation, which is known to enhance susceptibility
-to thrombosis, might play a role in the increased
-to thrombosis, might play a role in the increased
-risk of thrombosis in women who use oral contraceptives.30 They conducted a case-control study of
-risk of thrombosis in women who use oral contraceptives.30 They conducted a case-control study of
-155 premenopausal women who had developed
-155 premenopausal women who had developed
-deep venous thrombosis and 169 population-based
-deep venous thrombosis and 169 population-based
-controls.
-controls.
-As seen in Table 16-15, the risk of thrombosis
-As seen in Table 16-15, the risk of thrombosis
-among carriers of the mutation was increased
-among carriers of the mutation was increased
-about sevenfold to ninefold compared with the risk
-about sevenfold to ninefold compared with the risk
-in those without the mutation. Compared with
-in those without the mutation. Compared with
-women who were noncarriers of the factor V Leiden
-women who were noncarriers of the factor V Leiden
-mutation and did not use oral contraceptives,
-mutation and did not use oral contraceptives,
-women who were both carriers of the mutation and
-women who were both carriers of the mutation and
-users of oral contraceptives had nearly a 30-fold
-users of oral contraceptives had nearly a 30-fold
-increase in risk. Because the indings slightly exceed
-increase in risk. Because the indings slightly exceed
-what would be expected in a multiplicative model,
-what would be expected in a multiplicative model,
-they suggest interaction.
-they suggest interaction.
-In 1995, Brennan and colleagues reported a
-In 1995, Brennan and colleagues reported a
-study of cigarette smoking and squamous cell
-study of cigarette smoking and squamous cell
-cancer of the head and neck.31 They found that in
-cancer of the head and neck.31 They found that in
-patients with invasive cancer of the head and neck,
-patients with invasive cancer of the head and neck,
-smoking was associated with a marked increase in
-smoking was associated with a marked increase in
-mutations in the p53 gene, normally a tumor suppressor. Such mutations are likely to contribute to
-mutations in the p53 gene, normally a tumor suppressor. Such mutations are likely to contribute to
-both the inception and growth of cancers. The
-both the inception and growth of cancers. The
-investigators studied tumor samples from 127
-investigators studied tumor samples from 127
-patients with head and neck cancer and found p53
-patients with head and neck cancer and found p53
-mutations in 42% (54 of 127) of the patients.
-mutations in 42% (54 of 127) of the patients.
-Patients who smoked at least 1 pack per day for at
-Patients who smoked at least 1 pack per day for at
-least 20 years were more than twice as likely to have
-least 20 years were more than twice as likely to have
-mutations in p53 as patients who were nonsmokers.
-mutations in p53 as patients who were nonsmokers.
-Patients who smoked and drank more than 1 oz of
-Patients who smoked and drank more than 1 oz of
-hard alcohol per day were 3.5 times as likely to have
-hard alcohol per day were 3.5 times as likely to have
-mutations in p53 than patients who neither smoked
-mutations in p53 than patients who neither smoked
-nor drank. As seen in Figure 16-19, p53 mutations
-nor drank. As seen in Figure 16-19, p53 mutations
-Figure 16-18. Prevalence of lifetime alcohol dependence by
-Figure 16-18. Prevalence of lifetime alcohol dependence by
-age at drinking onset and family history of alcoholism. FHN,
-age at drinking onset and family history of alcoholism. FHN,
-Family history negative; FHP, family history positive. (Adapted
-Family history negative; FHP, family history positive. (Adapted
-from Grant BF: The impact of a family history of alcoholism on
-from Grant BF: The impact of a family history of alcoholism on
-the relationship between age at onset of alcohol use and DSM-IV
-the relationship between age at onset of alcohol use and DSM-IV
-alcohol dependence: Results from the National Longitudinal
-alcohol dependence: Results from the National Longitudinal
-Alcohol Epidemiologic Survey. Alcohol Health Res World
-Alcohol Epidemiologic Survey. Alcohol Health Res World
-22:144–147, 1998.)
-22:144–147, 1998.)
-Figure 16-18, when the subjects were divided into
-Figure 16-18, when the subjects were divided into
-those with a positive family history of alcoholism
-those with a positive family history of alcoholism
-and those with a negative history, the relationship
-and those with a negative history, the relationship
-still held, although the prevalence increased when
-still held, although the prevalence increased when
-family history was positive and decreased when
-family history was positive and decreased when
-family history was negative.29 This observation suggests that, although the observed relationship of
-family history was negative.29 This observation suggests that, although the observed relationship of
-risk of lifetime alcohol abuse to age at onset of
-risk of lifetime alcohol abuse to age at onset of
-alcohol consumption may relect environmental
-alcohol consumption may relect environmental
-inluences, the effect of family history may suggest
-inluences, the effect of family history may suggest
-either an interaction with genetic factors or the
-either an interaction with genetic factors or the
-inluence of child rearing related to family history
-inluence of child rearing related to family history
-of alcohol abuse.
-of alcohol abuse.
-Advances in molecular biology have facilitated
-Advances in molecular biology have facilitated
-the integration of epidemiology and laboratory
-the integration of epidemiology and laboratory
-genetics. For example, oral contraceptive use has
-genetics. For example, oral contraceptive use has
-long been known to increase a woman’s risk of
-long been known to increase a woman’s risk of
-TABLE 16-15. Estimated Population Incidence per 10,000 Person-Years of First Venous
-TABLE 16-15. Estimated Population Incidence per 10,000 Person-Years of First Venous
-Thrombosis in Women Aged 15 to 49 Years According to Presence of Factor V
-Thrombosis in Women Aged 15 to 49 Years According to Presence of Factor V
-Leiden Mutation and Use of Oral Contraceptives
-Leiden Mutation and Use of Oral Contraceptives
-Did not use oral contraceptives
-Did not use oral contraceptives
-Used oral contraceptives
-Used oral contraceptives
-FACTOR V LEIDEN MUTATION
-FACTOR V LEIDEN MUTATION
-Absent
-Absent
-0.8
-0.8
-3.0
-3.0
-Present
-Present
-5.7
-5.7
-28.5
-28.5
-Adapted from Vandenbroucke JP, Koster T, Bríët E, et al: Increased risk of venous thrombosis in oral contraceptive users who are
-Adapted from Vandenbroucke JP, Koster T, Bríët E, et al: Increased risk of venous thrombosis in oral contraceptive users who are
-carriers of factor V Leiden mutation. Lancet 344:1453–1457, 1994.
-carriers of factor V Leiden mutation. Lancet 344:1453–1457, 1994.
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-301
-301
-Figure 16-19. Association of p53 gene mutations
-Figure 16-19. Association of p53 gene mutations
-with cigarette smoking and alcohol consumption in
-with cigarette smoking and alcohol consumption in
-129 patients with squamous cell carcinoma of the head
-129 patients with squamous cell carcinoma of the head
-and neck. (From Brennan JA, Boyle JO, Koch WM,
-and neck. (From Brennan JA, Boyle JO, Koch WM,
-et al: Association between cigarette smoking and
-et al: Association between cigarette smoking and
-mutation of the p53 gene in squamous cell carcinoma
-mutation of the p53 gene in squamous cell carcinoma
-of the head and neck. N Engl J Med 332:712–717,
-of the head and neck. N Engl J Med 332:712–717,
-1995.)
-1995.)
-were found in 58% of patients who both smoked
-were found in 58% of patients who both smoked
-and drank, in 33% of patients who smoked but did
-and drank, in 33% of patients who smoked but did
-not drink, and in 17% of patients who neither
-not drink, and in 17% of patients who neither
-smoked nor drank. Furthermore, the type of mutation found in patients who neither smoked nor
-smoked nor drank. Furthermore, the type of mutation found in patients who neither smoked nor
-drank seemed likely to be endogenous rather than
-drank seemed likely to be endogenous rather than
-exogenous, i.e., caused by environmental mutagens.
-exogenous, i.e., caused by environmental mutagens.
-The indings suggest that cigarette smoking may
-The indings suggest that cigarette smoking may
-tend to inactivate the p53 tumor suppressor gene
-tend to inactivate the p53 tumor suppressor gene
-and thus provide a molecular basis for the wellrecognized relationship of cigarette smoking and
-and thus provide a molecular basis for the wellrecognized relationship of cigarette smoking and
-head and neck cancer.
-head and neck cancer.
-A further step in this approach is to identify a
-A further step in this approach is to identify a
-speciic gene defect that is associated with a certain
-speciic gene defect that is associated with a certain
-environmental exposure. An example is seen in
-environmental exposure. An example is seen in
-indings linking a speciic defect in the p53 gene to
-indings linking a speciic defect in the p53 gene to
-alatoxin exposure in patients with hepatocellular
-alatoxin exposure in patients with hepatocellular
-carcinoma (HCC). In Chapter 15, the positive synergism of hepatitis B virus (HBV) and alatoxin B1
-carcinoma (HCC). In Chapter 15, the positive synergism of hepatitis B virus (HBV) and alatoxin B1
-exposure in increasing the risk of HCC is discussed.
-exposure in increasing the risk of HCC is discussed.
-To determine whether the frequency of a speciic
-To determine whether the frequency of a speciic
-mutation in the p53 tumor suppressor gene (a “hot
-mutation in the p53 tumor suppressor gene (a “hot
-spot” mutation at codon 249) was related to the
-spot” mutation at codon 249) was related to the
-risk of alatoxin exposure, Bressac and coworkers
-risk of alatoxin exposure, Bressac and coworkers
-screened HCC samples from 14 countries.32 The
-screened HCC samples from 14 countries.32 The
-mutation was found in 17% (12/72) of tumor
-mutation was found in 17% (12/72) of tumor
-samples from four countries in southern Africa and
-samples from four countries in southern Africa and
-the southeast coast of Asia but in none of 95 samples
-the southeast coast of Asia but in none of 95 samples
-from other geographic locations including North
-from other geographic locations including North
-America, Europe, the Middle East, and Japan. The
-America, Europe, the Middle East, and Japan. The
-four countries in which the mutation was found,
-four countries in which the mutation was found,
-China, Vietnam, South Africa, and Mozambique,
-China, Vietnam, South Africa, and Mozambique,
-have most of the cases of HCC in the world and
-have most of the cases of HCC in the world and
-share a similar warm and humid climate, which
-share a similar warm and humid climate, which
-favors the growth of alatoxin-producing molds.
-favors the growth of alatoxin-producing molds.
-The rate of HBV carriage was high but did not vary
-The rate of HBV carriage was high but did not vary
-signiicantly among the countries studied. However,
-signiicantly among the countries studied. However,
-the risk of alatoxin exposure did vary among these
-the risk of alatoxin exposure did vary among these
-countries and presence of the mutation was found
-countries and presence of the mutation was found
-to correlate with the risk of exposure to alatoxins.
-to correlate with the risk of exposure to alatoxins.
-Further support for these indings was provided
-Further support for these indings was provided
-by Aguilar and colleagues who studied samples of
-by Aguilar and colleagues who studied samples of
-normal liver from three geographic areas that
-normal liver from three geographic areas that
-varied in their risk of alatoxin exposure: negligible
-varied in their risk of alatoxin exposure: negligible
-levels (United States), low levels (Thailand), and
-levels (United States), low levels (Thailand), and
-high levels (Qidong, China).33 The frequency of the
-high levels (Qidong, China).33 The frequency of the
-mutation paralleled the level of alatoxin B1 exposure, suggesting that alatoxin has a causative and
-mutation paralleled the level of alatoxin B1 exposure, suggesting that alatoxin has a causative and
-probably early role in the development of liver
-probably early role in the development of liver
-tumors.
-tumors.
-Thus, studies combining epidemiologic and
-Thus, studies combining epidemiologic and
-molecular methods may prove invaluable in conirming an etiologic role for certain environmental
-molecular methods may prove invaluable in conirming an etiologic role for certain environmental
-agents by demonstrating their speciic gene effects.
-agents by demonstrating their speciic gene effects.
-Moreover, such studies may also suggest biologic
-Moreover, such studies may also suggest biologic
-pathways and mechanisms that may be involved
-pathways and mechanisms that may be involved
-in the development of certain cancers and other
-in the development of certain cancers and other
-diseases. However, combined epidemiologic and
-diseases. However, combined epidemiologic and
-molecular studies may also help determine that a
-molecular studies may also help determine that a
-disease is not primarily caused by environmental
-disease is not primarily caused by environmental
-factors. For example, Harris pointed out that the
-factors. For example, Harris pointed out that the
-exact nature of the p53 mutation can be valuable in
-exact nature of the p53 mutation can be valuable in
-indicating that a certain cancer did not result from
-indicating that a certain cancer did not result from
-an environmental carcinogen but instead was
-an environmental carcinogen but instead was
-caused by endogenous mutagenesis, such as was
-caused by endogenous mutagenesis, such as was
-seen in the study just described of patients with
-seen in the study just described of patients with
-head and neck cancers who were nondrinkers and
-head and neck cancers who were nondrinkers and
-nonsmokers.34 Germ line mutations in p53 can also
-nonsmokers.34 Germ line mutations in p53 can also
-indicate that a person has an increased susceptibility to cancer as originally proposed by Knudson in
-indicate that a person has an increased susceptibility to cancer as originally proposed by Knudson in
-1971 (and discussed earlier in this chapter).11
-1971 (and discussed earlier in this chapter).11
-PROSPECTS FOR THE FUTURE
-PROSPECTS FOR THE FUTURE
-Despite the excitement that accompanies the
-Despite the excitement that accompanies the
-sequencing of the human genome and the results
-sequencing of the human genome and the results
-of studies such as those described above, in most
-of studies such as those described above, in most
-situations in which both genetic and environmental
-situations in which both genetic and environmental
-factors have been implicated, the information currently available is not yet suficient to delineate the
-factors have been implicated, the information currently available is not yet suficient to delineate the
-302
-302
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE
-speciic nature of their relationship in disease causation, particularly for multifactorial chronic diseases. Enhanced understanding of the molecular
-speciic nature of their relationship in disease causation, particularly for multifactorial chronic diseases. Enhanced understanding of the molecular
-changes in cancer resulting from studies of genetic
-changes in cancer resulting from studies of genetic
-changes in cancer cells should improve our understanding of individual susceptibilities to developing
-changes in cancer cells should improve our understanding of individual susceptibilities to developing
-cancers and facilitate the development of speciic
-cancers and facilitate the development of speciic
-therapies for the pathways involved in different
-therapies for the pathways involved in different
-tumors. These therapies have been called “targeted
-tumors. These therapies have been called “targeted
-therapies” or “individualized therapies.” By targeting the speciic molecular pathways involved in different tumors, as well as the points at which tumor
-therapies” or “individualized therapies.” By targeting the speciic molecular pathways involved in different tumors, as well as the points at which tumor
-cells may be particularly vulnerable to certain interventions, such therapies should be more effective.
-cells may be particularly vulnerable to certain interventions, such therapies should be more effective.
-They might also have fewer and less severe side
-They might also have fewer and less severe side
-effects than many therapies that are currently available which are not suficiently speciic in their cytotoxic effects and therefore affect both abnormal and
-effects than many therapies that are currently available which are not suficiently speciic in their cytotoxic effects and therefore affect both abnormal and
-normal cells.
-normal cells.
-Childs articulated a concept that encompasses
-Childs articulated a concept that encompasses
-not only the different characteristics of histologically different tumors or other diseases, but also the
-not only the different characteristics of histologically different tumors or other diseases, but also the
-unique genetic and environmental characteristics
-unique genetic and environmental characteristics
-of different human beings that may lead to vulnerability to such tumors or diseases.35 As a result, what
-of different human beings that may lead to vulnerability to such tumors or diseases.35 As a result, what
-might appear at irst glance to be the same disease
-might appear at irst glance to be the same disease
-occurring in different individuals should perhaps
-occurring in different individuals should perhaps
-be considered different diseases with the same phenotype because disease in a person is a “package” of
-be considered different diseases with the same phenotype because disease in a person is a “package” of
-physical, laboratory, and other abnormalities, combined with a unique set of genetically and environmentally determined host susceptibilities. These
-physical, laboratory, and other abnormalities, combined with a unique set of genetically and environmentally determined host susceptibilities. These
-susceptibilities may often include social and psychological factors in addition to the environmental
-susceptibilities may often include social and psychological factors in addition to the environmental
-factors which are often routinely studied. These
-factors which are often routinely studied. These
-factors may be operating at the level of the individual, the family, the community, or some other
-factors may be operating at the level of the individual, the family, the community, or some other
-social grouping. Although this combination will
-social grouping. Although this combination will
-differ from one individual to another, by current
-differ from one individual to another, by current
-deinitions and classiications of disease, many
-deinitions and classiications of disease, many
-individuals may appear to have the same illness.
-individuals may appear to have the same illness.
-Integration of knowledge of all these divergent
-Integration of knowledge of all these divergent
-areas may well provide the foundation for early
-areas may well provide the foundation for early
-detection of high-risk individuals and may lead to
-detection of high-risk individuals and may lead to
-more effective measures of early prevention in the
-more effective measures of early prevention in the
-coming years.
-coming years.
-In 2000, Childs and Valle wrote:
-In 2000, Childs and Valle wrote:
-The signs and symptoms of a patient today may
-The signs and symptoms of a patient today may
-well have been forged in the developmental and
-well have been forged in the developmental and
-maturational matrix of the past. And in making
-maturational matrix of the past. And in making
-that characterization, we discern the individuality
-that characterization, we discern the individuality
-and heterogeneity of that which we give the name
-and heterogeneity of that which we give the name
-of a disease…
-of a disease…
-In medicine we have trouble accepting this kind
-In medicine we have trouble accepting this kind
-of individuality. When we see a patient, we think
-of individuality. When we see a patient, we think
-irst of the name of a disease and then of the variation expressed in the patient. This way of thinking
-irst of the name of a disease and then of the variation expressed in the patient. This way of thinking
-is typological, and is to be distinguished from
-is typological, and is to be distinguished from
-“population” thinking in which a population, say,
-“population” thinking in which a population, say,
-of patients with the “same” disease, consists of
-of patients with the “same” disease, consists of
-variable individuals.36
-variable individuals.36
-Dalton and Friend published a schematic presentation of the cyclical nature of the process of
-Dalton and Friend published a schematic presentation of the cyclical nature of the process of
-incorporating new knowledge into therapies that
-incorporating new knowledge into therapies that
-are individualized for each patient (Fig. 16-20) and
-are individualized for each patient (Fig. 16-20) and
-the process is described in the caption to this
-the process is described in the caption to this
-igure.37 Although this approach has great potential,
-igure.37 Although this approach has great potential,
-in general, its beneits have not yet been extensively
-in general, its beneits have not yet been extensively
-realized in treatment of patients. However, in the
-realized in treatment of patients. However, in the
-coming years, new technologies at the molecular
-coming years, new technologies at the molecular
-and genetic levels are likely to have profound effects
-and genetic levels are likely to have profound effects
-on health care and on the development of personalized care, which will include new approaches to
-on health care and on the development of personalized care, which will include new approaches to
-disease prevention and treatment of disease that
-disease prevention and treatment of disease that
-will be made possible by technical advances and by
-will be made possible by technical advances and by
-the integration of new information derived from
-the integration of new information derived from
-different biologic and sociologic disciplines.
-different biologic and sociologic disciplines.
-Figure 16-20. Personalized cancer care as a continuous
-Figure 16-20. Personalized cancer care as a continuous
-cycle. The cycle starts with the discovery of speciic molecular
-cycle. The cycle starts with the discovery of speciic molecular
-alterations in tumors that are then linked to speciic patient
-alterations in tumors that are then linked to speciic patient
-outcomes in clinical trials. The ability to capture molecular proiles and clinical information at the level of individual patients
-outcomes in clinical trials. The ability to capture molecular proiles and clinical information at the level of individual patients
-allows translation of the information into more personalized
-allows translation of the information into more personalized
-cancer care. Available relational databases and health information systems ensure more informed delivery of cancer therapies
-cancer care. Available relational databases and health information systems ensure more informed delivery of cancer therapies
-to future patients and can also guide the discovery of new therapies. (From Dalton WS, Friend SH: Cancer biomarkers—An
-to future patients and can also guide the discovery of new therapies. (From Dalton WS, Friend SH: Cancer biomarkers—An
-invitation to the table. Science 312:1165–1168, 2006.)
-invitation to the table. Science 312:1165–1168, 2006.)
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-Chapter 16 Identifying Genetic and Environmental Factors in Disease Causation
-303
-303</p>
-<h2 id="conclusion--結論">Conclusion | 結論</h2>
-<p>This chapter has described some of the epidemiologic approaches used to assess the relative contributions of genetic and environmental factors to the
-cause of human disease. The link of epidemiology
-and genetics has become increasingly recognized,
-and a ield called genetic epidemiology has emerged.16
-Excellent discussions have been published regarding the impact of the genomic era on epidemiologic
-research.38,39
-Most epidemiologic studies are directed at identifying environmental factors in disease, but when
-designing and conducting studies and interpreting
-their results, it is important to bear in mind that
-individuals who are subjects in epidemiologic
-studies differ not only in environmental exposures
-but also in their genetic susceptibilities. When
-appropriate, epidemiologic studies of risk factors,
-including case-control and other types of studies,
-should be expanded to include gathering family
-histories and obtaining biologic samples, if possible. Advances made in the Human Genome Project
-and genetic markers of susceptibility developed in
-the laboratory are proving increasingly valuable in
-epidemiologic studies. They are likely to be increasingly important factors in improving disease prevention in the future.</p>
-<h2 id="references--參考文獻">References | 參考文獻</h2>
-<p>REFERENCES</p>
-<ol>
-<li>Eisenberg L: Would cloned humans really be like sheep?</li>
-<li>Childs B, Scriver CR: Age at onset and causes of disease.
-N Engl J Med 340:471–475, 1999.
-Perspect Biol Med 29:437–460, 1986.</li>
-<li>Kong A, Frigge ML, Masson G, et al: Rate of de-novo mutations and the importance of father’s age to disease risk.
-Nature 488:471–475, 2012.</li>
-<li>Khoury MJ, Beaty TH, Cohen BH: Fundamentals of
-Genetic Epidemiology. New York, Oxford University Press,</li>
-<li></li>
-<li>Hogben L: Nature and Nurture. New York, WW Norton,</li>
-<li>Kaij L: Studies on the Etiology and Sequels of Abuse of</li>
-<li></li>
-<li>Miki Y, Swensen J, Shattuck-Eidens D, et al: A strong candidate for the breast and ovarian cancer susceptibility gene
-BRCA1. Science 266:66–71, 1994.</li>
-<li>Struewing JP, Hartge P, Wacholder S, et al: The risk of cancer
-associated with speciic mutations of BRCA1 and BRCA2
-among Ashkenazi Jews. N Engl J Med 336:1401–1408, 1997.</li>
-<li>Savitsky K, Bar-Shira A, Gilad S, et al: A single ataxia telangiectasia gene with a product similar to PI-3 kinase. Science
-268:1749–1753, 1995.</li>
-<li>Nowak R: Discovery of AT gene sparks biomedical research
-bonanza. Science 268:1700–1701, 1995.</li>
-<li>Begg CB, Haile RW, Borg A, et al: Variation of breast cancer
-risk among BRCA1/2 carriers. JAMA 299:194–201, 2008.</li>
-<li>ESTs: Gene discovery made easier. In Just the Facts: A Basic
-Introduction to the Science Underlying NCBI Resources.
-National Center for Biotechnology Information, March 29,</li>
-<li><a href="http://www.ncbi.nlm.nih.gov/About/primer/est.html">http://www.ncbi.nlm.nih.gov/About/primer/est.html</a>.
-Accessed March 1, 2013.</li>
-<li>Siontis KCM, Patsopoulos NA, Ionnidis JPA: Replication of
-past candidate loci for common diseases and phenotypes in
-100 genome-wide association studies. Eur J Human Genet
-18:832–837, 2010.</li>
-<li>Knudson AG Jr: Mutation and cancer: Statistical study of
-retinoblastoma. Proc Natl Acad Sci USA 68:820–823, 1971.</li>
-<li>Cavenee WK, Dryja TP, Phillips RA, et al: Expression of
-recessive alleles by chromosomal mechanisms in retinoblastoma. Nature 305:779–784, 1983.</li>
-<li>Benedict WF, Fung YK, Murphree AL: The gene responsible
-for the development of retinoblastoma and osteosarcoma.
-Cancer 62:1691–1694, 1988.</li>
-<li>Corder EH, Saunders AM, Strittmatter WJ, et al: Gene dose
-of apolipoprotein E type 4 allele and the risk of Alzheimer’s
-disease in late onset families. Science 261:921–923, 1993.
-Alcohol. Lund, Hakan Ohlssons Boktryckeri, 1960.</li>
-<li>Hrubec Z, Omenn GS: Evidence of genetic predisposition
-to alcoholic cirrhosis and psychosis: Twin concordances
-for alcoholism and its biological end points by zygosity
-among male veterans. Alcohol Clin Exp Res 5:207–215,</li>
-<li></li>
-<li>Murray RM, Clifford C, Gurlin HM: Twin and alcoholism
-studies. In Galanter M (ed): Recent Developments in Alcoholism, Vol. 1. New York, Plenum, 1983, pp 25–47.</li>
-<li>Pickens RW, Svikis DS, McGue M, et al: Heterogeneity in
-the inheritance of alcoholism: A study of male and female
-twins. Arch Gen Psychiatry 48:19–28, 1991.</li>
-<li>MacMahon B: Epidemiology of Hodgkin’s disease. Cancer
-Res 26:1189–1201, 1966.</li>
-<li>Diehl V, Tesch H: Hodgkin’s disease: Environmental or
-genetic? N Engl J Med 332:461–462, 1995.</li>
-<li>Gutensohn N, Cole P: Childhood social environment and
-Hodgkin’s disease. N Engl J Med 304:135–140, 1981.</li>
-<li>Mack TM, Cozen W, Shibata DK, et al: Concordance for
-Hodgkin’s disease in identical twins suggesting genetic susceptibility to the young-adult form of the disease. N Engl J
-Med 332:413–418, 1995.</li>
-<li>Tanner CM, Ottman R, Goldman SM, et al: Parkinson
-disease in twins: An etiologic study. JAMA 281:341–346,</li>
-<li></li>
-<li>Lichtenstein P, Holm NV, Verkasalo PK, et al: Environmental and heritable factors in the causation of cancer: Analyses
-of cohorts of twins from Sweden, Denmark, and Finland.
-N Engl J Med 343:78–85, 2000.</li>
-<li>Kety SS, Ingraham LJ: Genetic transmission and improved
-diagnosis of schizophrenia from pedigrees of adoptees.
-J Psychiatr Res 26:247–255, 1992.</li>
-<li>Childs B: The entry of genetics into medicine. J Urban
-Health: Bull NY Acad Medicine 76:497–508, 1999.
-304
-Section 2 USING EPIDEMIOLOGY TO IDENTIFY THE CAUSES OF DISEASE</li>
-<li>Grant BF: The impact of a family history of alcoholism on
-the relationship between age at onset of alcohol use and
-DSM-IV alcohol dependence: Results from the National
-Longitudinal Alcohol Epidemiologic Survey. Alcohol
-Health Res World 22:144–147, 1998.</li>
-<li>Vandenbroucke JP, Koster T, Bríët E, et al: Increased risk of
-venous thrombosis in oral-contraceptive users who are carriers of factor V Leiden mutation. Lancet 344:1453–1457,</li>
-<li></li>
-<li>Brennan JA, Boyle JO, Koch WM, et al: Association between
-cigarette smoking and mutation of the p53 gene in
-squamous-cell carcinoma of the head and neck. N Engl J
-Med 332:712–717, 1995.</li>
-<li>Bressac B, Puisieux MS, Kew M, et al: p53 mutation in
-hepatocellular carcinoma after alatoxin exposure. Lancet
-338:1356–1359, 1991.</li>
-<li>Aguilar F, Harris CC, Sun T, et al: Geographic variation of
-p53 mutational proile in nonmalignant human liver. Science
-264:1317–1319, 1994.</li>
-<li>Harris C: p53: At the crossroads of molecular carcinogenesis
-and risk assessment. Science 262:1980–1981, 1993.</li>
-<li>Childs B: Genetic Medicine—A Logic of Disease. Baltimore,
-Johns Hopkins University Press, 1999.</li>
-<li>Childs B, Valle D: Genetics, biology and disease. Annu Rev
-Genom Human Genet 1:1–19, 2000.</li>
-<li>Dalton WS, Friend SH: Cancer biomarkers—An invitation
-to the table. Science 312:1165–1168, 2006.</li>
-<li>Millikan R: The changing face of epidemiology in the
-genomics era. Epidemiology 13:472–480, 2002.</li>
-<li>Willett WC: Balancing life-style and genomics research for
-disease prevention. Science 296:695–698, 2002.</li>
+<li>
+<p>What is the difference between selection bias and information bias?</p>
+</li>
+<li>
+<p>Give an example of differential misclassification versus non-differential misclassification.</p>
+</li>
+<li>
+<p>What are the three criteria for a confounder?</p>
+</li>
+<li>
+<p>In the reserpine-breast cancer study, what type of bias was demonstrated?</p>
+</li>
+<li>
+<p>What is the difference between confounding and interaction?</p>
+</li>
+<li>
+<p>If you suspected age was a confounder, how would you address it in analysis?</p>
+</li>
 </ol>
 
 </main>

@@ -54,191 +54,935 @@ hr { border: none; border-top: 1px solid #eee; margin: 2rem 0; }
 <p><strong>流行病學與公共政策</strong></p>
 <blockquote>
 <p><strong>Gordis Epidemiology</strong> 第五版 | Chapter 19
-本章探討 流行病學與公共政策 的核心概念與應用</p>
+本章探討流行病學如何影響公共政策制定，以及風險評估與溝通的核心概念</p>
 </blockquote>
 <hr>
-<h2 id="-學習目標">🎯 學習目標</h2>
+<h2 id="學習目標">學習目標</h2>
 <p>完成本章學習後，您將能夠：</p>
 <ul>
-<li>To review the role of epidemiology in disease</li>
-<li>To deine risk assessment and to discuss the</li>
-<li>To discuss how epidemiology may shape</li>
-<li>To introduce systematic review and meta-</li>
-<li>To identify some possible sources of uncer-</li>
+<li>說明**風險評估（Risk assessment）**的 framework 及其與公共政策的關係</li>
+<li>討論流行病學證據在**政策制定（Policy formulation）**中的角色</li>
+<li>介紹**系統性文獻回顧（Systematic review）<strong>與</strong>統合分析（Meta-analysis）**的概念</li>
+<li>識別流行病學研究中的<strong>不確定性來源（Sources of uncertainty）</strong></li>
+<li>說明**風險溝通（Risk communication）**的原則與挑戰</li>
 </ul>
-<h2 id="-重要術語">📋 重要術語</h2>
+<hr>
+<h2 id="重要術語">重要術語</h2>
 <table>
-  <thead>
-      <tr>
-          <th>英文術語</th>
-          <th>中文翻譯</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Public policy</td>
-          <td>公共政策</td>
-      </tr>
-      <tr>
-          <td>Risk assessment</td>
-          <td>風險評估</td>
-      </tr>
-      <tr>
-          <td>Risk communication</td>
-          <td>風險溝通</td>
-      </tr>
-      <tr>
-          <td>Evidence-based policy</td>
-          <td>實證政策</td>
-      </tr>
-      <tr>
-          <td>Meta-analysis</td>
-          <td>統合分析</td>
-      </tr>
-      <tr>
-          <td>Policy formulation</td>
-          <td>政策制定</td>
-      </tr>
-      <tr>
-          <td>Regulatory agencies</td>
-          <td>監管機構</td>
-      </tr>
-      <tr>
-          <td>Risk management</td>
-          <td>風險管理</td>
-      </tr>
-      <tr>
-          <td>Environmental epidemiology</td>
-          <td>環境流行病學</td>
-      </tr>
-      <tr>
-          <td>Occupational epidemiology</td>
-          <td>職業流行病學</td>
-      </tr>
-      <tr>
-          <td>Multiple Risk Factor Intervention Trial (MRFIT)</td>
-          <td>多重風險因子介入試驗（MRFIT）</td>
-      </tr>
-  </tbody>
+<thead>
+<tr>
+<th>英文術語</th>
+<th>中文翻譯</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Risk assessment</strong></td>
+<td>風險評估</td>
+</tr>
+<tr>
+<td><strong>Risk management</strong></td>
+<td>風險管理</td>
+</tr>
+<tr>
+<td><strong>Risk communication</strong></td>
+<td>風險溝通</td>
+</tr>
+<tr>
+<td><strong>Evidence-based policy</strong></td>
+<td>實證政策</td>
+</tr>
+<tr>
+<td><strong>Systematic review</strong></td>
+<td>系統性文獻回顧</td>
+</tr>
+<tr>
+<td><strong>Meta-analysis</strong></td>
+<td>統合分析</td>
+</tr>
+<tr>
+<td><strong>Policy formulation</strong></td>
+<td>政策制定</td>
+</tr>
+<tr>
+<td><strong>Regulatory agencies</strong></td>
+<td>監管機構</td>
+</tr>
+<tr>
+<td><strong>Environmental epidemiology</strong></td>
+<td>環境流行病學</td>
+</tr>
+<tr>
+<td><strong>Occupational epidemiology</strong></td>
+<td>職業流行病學</td>
+</tr>
+<tr>
+<td><strong>Hazard identification</strong></td>
+<td>危害識別</td>
+</tr>
+<tr>
+<td><strong>Dose-response relationship</strong></td>
+<td>劑量-反應關係</td>
+</tr>
+<tr>
+<td><strong>Exposure assessment</strong></td>
+<td>暴露評估</td>
+</tr>
+<tr>
+<td><strong>Relative risk (RR)</strong></td>
+<td>相對風險</td>
+</tr>
+<tr>
+<td><strong>Attributable risk (AR)</strong></td>
+<td>歸因風險</td>
+</tr>
+<tr>
+<td><strong>Population attributable risk (PAR)</strong></td>
+<td>群體歸因風險</td>
+</tr>
+<tr>
+<td><strong>Precautionary principle</strong></td>
+<td>預警原則</td>
+</tr>
+<tr>
+<td><strong>MRFIT</strong></td>
+<td>多重風險因子介入試驗</td>
+</tr>
+<tr>
+<td><strong>Confounding</strong></td>
+<td>混雜</td>
+</tr>
+<tr>
+<td><strong>Effect modification</strong></td>
+<td>效應修飾</td>
+</tr>
+</tbody>
 </table>
-<h2 id="-核心概念">🔑 核心概念</h2>
+<hr>
+<h2 id="章節摘要">章節摘要</h2>
+<p><strong>公共政策的制定需要扎實的科學證據，而流行病學是提供此類證據的核心工具。</strong> 本章介紹風險評估的 framework、政策制定的流行病學基礎，以及如何將流行病學研究結果轉化為實際政策。同時探討研究中的不確定性來源與風險溝通的挑戰。</p>
+<hr>
+<h2 id="1-風險評估的-framework">1. 風險評估的 framework</h2>
+<h3 id="四步驟模型">四步驟模型</h3>
+<p>風險評估是公共政策的科學基礎，分為四個步驟：</p>
+<table>
+<thead>
+<tr>
+<th>步驟</th>
+<th>名稱</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>危害識別（Hazard identification）</strong></td>
+<td>某物質是否會對健康造成危害？</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>劑量-反應評估（Dose-response assessment）</strong></td>
+<td>暴露量與危害程度之間的關係為何？</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>暴露評估（Exposure assessment）</strong></td>
+<td>實際暴露於該危害物質的程度？</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>風險特徵化（Risk characterization）</strong></td>
+<td>整合前三步，估計特定族群的風險</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>臨床重點</strong>
+風險評估的每一步都涉及不確定性。正確的政策制定需要公開、透明地呈現這些不確定性，而非掩蓋或忽略它們。</p>
+</blockquote>
+<h3 id="危害識別">危害識別</h3>
+<p><strong>危害識別</strong>是確認某物質是否可能對健康造成危害的過程。主要證據來源包括：</p>
 <ul>
-<li>
-<p><strong>風險評估與風險溝通</strong>：流行病學證據是公共政策的基礎，但需有效溝通給決策者和公眾。</p>
-</li>
-<li>
-<p><strong>統合分析（Meta-analysis）</strong>：結合多項研究的結果，提供更精確的效應估計。</p>
-</li>
-<li>
-<p><strong>證據階層</strong>：隨機試驗提供最高等級的證據，但在某些情況下觀察性研究也很有價值。</p>
-</li>
-<li>
-<p><strong>政策制定中的流行病學角色</strong>：從風險識別到政策評估，流行病學在每個階段都有貢獻。</p>
-</li>
+<li><strong>流行病學研究</strong>：族群層級的疾病與暴露關聯</li>
+<li><strong>毒理學研究</strong>：動物實驗與體外試驗</li>
+<li><strong>機械研究</strong>：疾病發生機制的科學理解</li>
 </ul>
-<h2 id="-重要表格">📊 重要表格</h2>
-<p><strong>TABLE 19-1. Sources of Exposure Data</strong></p>
+<hr>
+<h2 id="2-劑量-反應關係">2. 劑量-反應關係</h2>
+<h3 id="核心概念">核心概念</h3>
+<p><strong>劑量-反應關係</strong>描述暴露劑量與健康效應發生率之間的數學關係。</p>
 <table>
-  <thead>
-      <tr>
-          <th>項目</th>
-          <th>內容</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>1. Interviews</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>a. Subject</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>b. Surrogate</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>2. Employment or other records</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>3. Physician records</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>4. Hospital records</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>5. Disease registry records (e.g., cancer registries)</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>6. Death certiicates</td>
-          <td></td>
-      </tr>
-  </tbody>
+<thead>
+<tr>
+<th>劑量類型</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>閾值劑量</strong></td>
+<td>低於此劑量不產生可測量效應</td>
+</tr>
+<tr>
+<td><strong>非閾值劑量</strong></td>
+<td>任何劑量都可能產生風險（線性無閾模型）</td>
+</tr>
+<tr>
+<td><strong>參考劑量（RfD）</strong></td>
+<td>EPA 制定的每日暴露參考劑量</td>
+</tr>
+</tbody>
 </table>
-<p><strong>TABLE 19-2. Examples of Possible Sources of Uncertainty in Epidemiology</strong></p>
+<h3 id="環境污染物範例">環境污染物範例</h3>
 <table>
-  <thead>
-      <tr>
-          <th>項目</th>
-          <th>內容</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>1. Uncertainty resulting from the design of the study</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>a. Study may not have been designed to provide a relevant answer to the question of interest</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>b. Biases that were not recognized or not adequately addressed</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>i. Selection bias</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>ii. Information bias</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>c. Measurement errors which may lead to misclassiication</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>d. Inadequate sample size</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>e. Inappropriate choice of analytic methods</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>f. Failure to take into account potential confounders</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>g. Use of surrogate measures that may not correctly measure the outcomes that are the major dependent</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>variables of interest</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>h. Problems of external validity (generalizability to the population of interest): the conclusions regarding</td>
-          <td></td>
-      </tr>
-  </tbody>
+<thead>
+<tr>
+<th>物質</th>
+<th>健康效應</th>
+<th>劑量-反應特徵</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>石棉</strong></td>
+<td>間皮瘤、肺癌</td>
+<td>線性無閾；無安全暴露水平</td>
+</tr>
+<tr>
+<td><strong>鉛</strong></td>
+<td>神經毒性（兒童）</td>
+<td>閾值效應；血鉛濃度臨界點</td>
+</tr>
+<tr>
+<td><strong>PM2.5</strong></td>
+<td>心肺疾病死亡</td>
+<td>接近線性；每增加 10 μg/m³，死亡風險上升約 4-8%</td>
+</tr>
+<tr>
+<td><strong>二手菸</strong></td>
+<td>肺癌</td>
+<td>被動吸菸風險約為主動吸菸的 20-30%</td>
+</tr>
+</tbody>
 </table>
+<blockquote>
+<p><strong>臨床重點</strong>
+並非所有污染物都有明顯的閾值。<strong>線性無閾模型</strong>假設任何暴露都存在風險，這對於致癌物的風險評估尤其重要。</p>
+</blockquote>
+<hr>
+<h2 id="3-暴露資料來源">3. 暴露資料來源</h2>
+<h3 id="主要來源分類">主要來源分類</h3>
+<table>
+<thead>
+<tr>
+<th>類別</th>
+<th>資料來源</th>
+<th>優點</th>
+<th>限制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>訪談資料</strong></td>
+<td>直接訪談本人或替代回答者</td>
+<td>取得特定暴露資訊</td>
+<td>回憶偏差；替代者資訊可能不準確</td>
+</tr>
+<tr>
+<td><strong>就業與職業紀錄</strong></td>
+<td>工廠紀錄、保險紀錄</td>
+<td>客觀、可驗證</td>
+<td>可能不完整；暴露分類粗糙</td>
+</tr>
+<tr>
+<td><strong>醫師紀錄</strong></td>
+<td>门诊、住院紀錄</td>
+<td>醫療專業記錄</td>
+<td>僅記錄就醫者的暴露</td>
+</tr>
+<tr>
+<td><strong>醫院紀錄</strong></td>
+<td>診斷、處置紀錄</td>
+<td>系統性收集</td>
+<td>可能有編碼誤差</td>
+</tr>
+<tr>
+<td><strong>疾病登記</strong></td>
+<td>癌症登記等</td>
+<td>可追蹤特定疾病</td>
+<td>僅限特定疾病</td>
+</tr>
+<tr>
+<td><strong>死亡證明</strong></td>
+<td>死亡原因的標準化分類</td>
+<td>全國性資料</td>
+<td>死因判斷可能不準確</td>
+</tr>
+</tbody>
+</table>
+<h3 id="暴露測量的誤差來源">暴露測量的誤差來源</h3>
+<table>
+<thead>
+<tr>
+<th>誤差類型</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>隨機誤差</strong></td>
+<td>測量值的隨機變異，降低精確度</td>
+</tr>
+<tr>
+<td><strong>系統性誤差（偏差）</strong></td>
+<td>測量值系統性偏離真實值</td>
+</tr>
+<tr>
+<td><strong>回憶偏差</strong></td>
+<td>病例組比對照組更傾向回憶暴露</td>
+</tr>
+<tr>
+<td><strong>選擇偏差</strong></td>
+<td>研究族群的暴露分布不代表目標族群</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="4-環境流行病學">4. 環境流行病學</h2>
+<h3 id="定義與範圍">定義與範圍</h3>
+<p><strong>環境流行病學</strong>研究環境因素（如空氣污染、水質、土壤污染、噪音、辐射）對人群健康的影響。</p>
+<h3 id="空氣污染與健康">空氣污染與健康</h3>
+<table>
+<thead>
+<tr>
+<th>污染物</th>
+<th>主要來源</th>
+<th>健康效應</th>
+<th>證據強度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PM2.5</strong></td>
+<td>車輛、工廠燃燒</td>
+<td>心肺死亡、肺癌、哮喘惡化</td>
+<td>強（多國多研究一致）</td>
+</tr>
+<tr>
+<td><strong>臭氧（O₃）</strong></td>
+<td>汽車廢氣光化反應</td>
+<td>呼吸道症狀、肺功能下降</td>
+<td>中等</td>
+</tr>
+<tr>
+<td><strong>二氧化硫（SO₂）</strong></td>
+<td>燃煤電廠</td>
+<td>哮喘發作、呼吸症狀</td>
+<td>中等</td>
+</tr>
+<tr>
+<td><strong>二氧化氮（NO₂）</strong></td>
+<td>交通排放</td>
+<td>呼吸道症狀、哮喘</td>
+<td>中等</td>
+</tr>
+<tr>
+<td><strong>一氧化碳（CO）</strong></td>
+<td>汽車廢氣</td>
+<td>頭暈、頭痛、心血管效應</td>
+<td>強（急性暴露）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="全球性環境健康問題">全球性環境健康問題</h3>
+<table>
+<thead>
+<tr>
+<th>問題</th>
+<th>影響</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>氣候變遷</strong></td>
+<td>熱浪死亡、病媒蚊分布改變、空氣品質惡化、食品安全威脅</td>
+</tr>
+<tr>
+<td><strong>空氣污染</strong></td>
+<td>全球約 700 萬人過早死亡/年（WHO 估計）</td>
+</tr>
+<tr>
+<td><strong>水污染</strong></td>
+<td>腹瀉疾病、霍亂、傷寒等水媒傳播疾病</td>
+</tr>
+<tr>
+<td><strong>土壤污染</strong></td>
+<td>重金屬（鉛、鎘、砷）累積對食物鏈的影響</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>臨床重點</strong>
+環境流行病學面臨獨特的挑戰：暴露測量困難（空氣污染物暴露差異大）、長期低劑量暴露效應難以偵測、多因素混合暴露的交互作用。</p>
+</blockquote>
+<hr>
+<h2 id="5-職業流行病學">5. 職業流行病學</h2>
+<h3 id="定義與目標">定義與目標</h3>
+<p><strong>職業流行病學</strong>研究工作場所因素與工人健康之間的關係，是**職場健康與安全（Occupational health）**的科學基礎。</p>
+<h3 id="經典職業病研究">經典職業病研究</h3>
+<table>
+<thead>
+<tr>
+<th>研究</th>
+<th>職業暴露</th>
+<th>健康效應</th>
+<th>發現</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pott（1775）</strong></td>
+<td>掃煙囪工人</td>
+<td>陰囊癌</td>
+<td>首次識別職業性癌症</td>
+</tr>
+<tr>
+<td><strong>Ramazzini（1700s）</strong></td>
+<td>各類工人</td>
+<td>多種職業病</td>
+<td>職業醫學之父</td>
+</tr>
+<tr>
+<td><strong>Hill（1950s）</strong></td>
+<td>染料工廠</td>
+<td>膀胱癌</td>
+<td>聯苯胺職業暴露</td>
+</tr>
+<tr>
+<td>** Doll &amp; Hill（1950s）**</td>
+<td>醫師</td>
+<td>肺癌</td>
+<td>吸菸與肺癌的流行病學證據</td>
+</tr>
+</tbody>
+</table>
+<h3 id="職業癌症的主要暴露">職業癌症的主要暴露</h3>
+<table>
+<thead>
+<tr>
+<th>致癌物</th>
+<th>相關癌症</th>
+<th>主要暴露行業</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>石棉</strong></td>
+<td>肺癌、間皮瘤</td>
+<td>建築、造船、絕緣材料</td>
+</tr>
+<tr>
+<td><strong>苯</strong></td>
+<td>白血病</td>
+<td>石油、化工、橡膠</td>
+</tr>
+<tr>
+<td><strong>甲醛</strong></td>
+<td>鼻咽癌</td>
+<td>化工、建材、防腐</td>
+</tr>
+<tr>
+<td><strong>游離輻射</strong></td>
+<td>肺癌、白血病、甲狀腺癌</td>
+<td>核能、醫療、礦業</td>
+</tr>
+<tr>
+<td><strong>紫外線</strong></td>
+<td>黑色素瘤、皮膚癌</td>
+<td>農業、建築戶外工作者</td>
+</tr>
+<tr>
+<td><strong>柴油廢氣</strong></td>
+<td>肺癌</td>
+<td>礦業、運輸</td>
+</tr>
+</tbody>
+</table>
+<h3 id="多重風險因子介入試驗mrfit">多重風險因子介入試驗（MRFIT）</h3>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>內容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>目的</strong></td>
+<td>測試多重風險因子介入（戒菸、血壓控制、降膽固醇）能否降低冠心病死亡</td>
+</tr>
+<tr>
+<td><strong>設計</strong></td>
+<td>隨機對照試驗</td>
+</tr>
+<tr>
+<td><strong>族群</strong></td>
+<td>35-57 歲男性，高風險者</td>
+</tr>
+<tr>
+<td><strong>主要結果</strong></td>
+<td>介入組與對照組死亡率無顯著差異</td>
+</tr>
+<tr>
+<td><strong>重要發現</strong></td>
+<td>死亡率下降主要來自整體人群風險因子的改善，而非特定介入計畫</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="6-系統性文獻回顧與統合分析">6. 系統性文獻回顧與統合分析</h2>
+<h3 id="系統性文獻回顧systematic-review">系統性文獻回顧（Systematic Review）</h3>
+<p><strong>系統性文獻回顧</strong>是使用明確、系統化方法識別、評價並整合所有相關研究的文獻回顧。</p>
+<table>
+<thead>
+<tr>
+<th>步驟</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>定義研究問題（PICO 格式）</td>
+</tr>
+<tr>
+<td>2</td>
+<td>制定搜尋策略</td>
+</tr>
+<tr>
+<td>3</td>
+<td>篩選相關研究</td>
+</tr>
+<tr>
+<td>4</td>
+<td>評估研究品質</td>
+</tr>
+<tr>
+<td>5</td>
+<td>提取資料</td>
+</tr>
+<tr>
+<td>6</td>
+<td>整合與分析結果</td>
+</tr>
+</tbody>
+</table>
+<h3 id="統合分析meta-analysis">統合分析（Meta-analysis）</h3>
+<p><strong>統合分析</strong>是使用統計方法整合多項研究的定量結果，產生單一效應估計值的技術。</p>
+<table>
+<thead>
+<tr>
+<th>指標</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pooled RR/OR</strong></td>
+<td>統合多研究後的加權平均效應估計</td>
+</tr>
+<tr>
+<td><strong>I² 統計量</strong></td>
+<td>衡量研究間異質性（I² &gt; 50% 表示高度異質）</td>
+</tr>
+<tr>
+<td><strong>發表偏差</strong></td>
+<td>顯著結果較易發表，導致系統性偏差</td>
+</tr>
+<tr>
+<td><strong>漏斗圖</strong></td>
+<td>視覺化檢測發表偏差</td>
+</tr>
+</tbody>
+</table>
+<h3 id="證據等級金字塔">證據等級金字塔</h3>
+<table>
+<thead>
+<tr>
+<th>等級</th>
+<th>研究類型</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Level I</strong></td>
+<td>隨機對照試驗的系統性回顧</td>
+<td>最高等級證據</td>
+</tr>
+<tr>
+<td><strong>Level II</strong></td>
+<td>個別隨機對照試驗</td>
+<td>高品質 RCT</td>
+</tr>
+<tr>
+<td><strong>Level III</strong></td>
+<td>世代研究、病例對照研究</td>
+<td>觀察性研究</td>
+</tr>
+<tr>
+<td><strong>Level IV</strong></td>
+<td>病例系列、專家意見</td>
+<td>較低等級證據</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>臨床重點</strong>
+統合分析可增加統計效力，但**垃圾進、垃圾出（GIGO）**原則依然適用。若統合的研究品質不佳，統合分析的結果也會有問題。</p>
+</blockquote>
+<hr>
+<h2 id="7-政策制定中的流行病學角色">7. 政策制定中的流行病學角色</h2>
+<h3 id="政策制定的階段">政策制定的階段</h3>
+<table>
+<thead>
+<tr>
+<th>階段</th>
+<th>流行病學角色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>問題識別</strong></td>
+<td>識別健康問題，描述疾病分布</td>
+</tr>
+<tr>
+<td><strong>風險評估</strong></td>
+<td>危害識別、劑量-反應評估</td>
+</tr>
+<tr>
+<td><strong>選項開發</strong></td>
+<td>評估不同政策的潛在效益</td>
+</tr>
+<tr>
+<td><strong>決策</strong></td>
+<td>提供成本效益證據</td>
+</tr>
+<tr>
+<td><strong>實施</strong></td>
+<td>監測政策效果</td>
+</tr>
+<tr>
+<td><strong>評估</strong></td>
+<td>評估政策是否達到預期目標</td>
+</tr>
+</tbody>
+</table>
+<h3 id="實證政策的原則">實證政策的原則</h3>
+<table>
+<thead>
+<tr>
+<th>原則</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>透明性</strong></td>
+<td>政策決策的科學依據必須公開</td>
+</tr>
+<tr>
+<td><strong>可重複性</strong></td>
+<td>其他研究者可驗證相同證據</td>
+</tr>
+<tr>
+<td><strong>不確定性的溝通</strong></td>
+<td>明確說明證據的強度與限制</td>
+</tr>
+<tr>
+<td><strong>價值觀納入</strong></td>
+<td>科學無法完全回答價值判斷問題</td>
+</tr>
+</tbody>
+</table>
+<h3 id="監管機構與科學顧問">監管機構與科學顧問</h3>
+<table>
+<thead>
+<tr>
+<th>機構</th>
+<th>角色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>EPA（美國環保署）</strong></td>
+<td>制定環境標準，基於風險評估</td>
+</tr>
+<tr>
+<td><strong>FDA（美國食藥署）</strong></td>
+<td>藥物、醫療器材、食品安全</td>
+</tr>
+<tr>
+<td><strong>OSHA（職業安全衛生署）</strong></td>
+<td>職場安全標準</td>
+</tr>
+<tr>
+<td><strong>WHO（世界衛生組織）</strong></td>
+<td>國際衛生規範、指導方針</td>
+</tr>
+<tr>
+<td><strong>IARC（國際癌症研究中心）</strong></td>
+<td>致癌物分類</td>
+</tr>
+</tbody>
+</table>
+<h3 id="從研究到政策的範例">從研究到政策的範例</h3>
+<table>
+<thead>
+<tr>
+<th>案例</th>
+<th>科學證據</th>
+<th>政策結果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>紙菸與肺癌</strong></td>
+<td>Doll &amp; Hill 1950 年代前瞻研究</td>
+<td>菸盒警示標語、公共場所禁菸</td>
+</tr>
+<tr>
+<td><strong>石棉與間皮瘤</strong></td>
+<td>多國流行病學研究確認</td>
+<td>限制或禁止石棉使用</td>
+</tr>
+<tr>
+<td><strong>PM2.5 空氣污染</strong></td>
+<td>時間序列研究、世代研究</td>
+<td>空氣品質標準（EPA 1997, 2006）</td>
+</tr>
+<tr>
+<td><strong>反式脂肪</strong></td>
+<td>族群研究證實心血管風險</td>
+<td>FDA 禁止部分氫化油</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="8-不確定性的來源">8. 不確定性的來源</h2>
+<h3 id="研究設計相關的不確定性">研究設計相關的不確定性</h3>
+<table>
+<thead>
+<tr>
+<th>來源</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>研究設計不當</strong></td>
+<td>研究可能未針對感興趣問題設計</td>
+</tr>
+<tr>
+<td><strong>偏差</strong></td>
+<td>選擇偏差、資訊偏差、混雜未適當控制</td>
+</tr>
+<tr>
+<td><strong>測量誤差</strong></td>
+<td>暴露測量不準確導致錯誤分類</td>
+</tr>
+<tr>
+<td><strong>樣本量不足</strong></td>
+<td>統計效力不足，無法偵測真實效應</td>
+</tr>
+<tr>
+<td><strong>分析方法不當</strong></td>
+<td>統計方法選擇錯誤</td>
+</tr>
+<tr>
+<td><strong>未考量混雜因素</strong></td>
+<td>重要混雜變數未被控制</td>
+</tr>
+<tr>
+<td><strong>外部效度不足</strong></td>
+<td>研究結果可能無法推論至目標族群</td>
+</tr>
+</tbody>
+</table>
+<h3 id="效應修飾effect-modification">效應修飾（Effect Modification）</h3>
+<p><strong>效應修飾</strong>是指某變數改變了暴露與疾病之間關聯的強度或方向。</p>
+<table>
+<thead>
+<tr>
+<th>情境</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>年齡</strong></td>
+<td>某暴露對年輕人的效應可能與老年人不同</td>
+</tr>
+<tr>
+<td><strong>性別</strong></td>
+<td>激素差異可能影響化學物質的毒性</td>
+</tr>
+<tr>
+<td><strong>遺傳變異</strong></td>
+<td>基因多型性可能影響藥物或毒物代謝</td>
+</tr>
+<tr>
+<td><strong>社會經濟地位</strong></td>
+<td>營養、醫療可近性等可能修飾環境效應</td>
+</tr>
+</tbody>
+</table>
+<h3 id="不確定性的溝通">不確定性的溝通</h3>
+<blockquote>
+<p><strong>臨床重點</strong>
+不確定性不應成為無作為的藉口，但也不應被忽視。政策制定者需要在證據不完整的情況下做出決策，而**預警原則（Precautionary principle）**提供了一個 Framework：在證據不確定但存在嚴重危害可能時，應採取預防措施。</p>
+</blockquote>
+<hr>
+<h2 id="9-風險溝通">9. 風險溝通</h2>
+<h3 id="風險溝通的原則">風險溝通的原則</h3>
+<table>
+<thead>
+<tr>
+<th>原則</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>傾聽</strong></td>
+<td>了解公眾的關切與認知</td>
+</tr>
+<tr>
+<td><strong>誠實</strong></td>
+<td>公開說明風險與不確定性</td>
+</tr>
+<tr>
+<td><strong>清楚</strong></td>
+<td>使用易懂語言，避免專業術語</td>
+</tr>
+<tr>
+<td><strong>可信</strong></td>
+<td>引用可信賴的來源</td>
+</tr>
+<tr>
+<td><strong>持續</strong></td>
+<td>風險溝通是持續過程</td>
+</tr>
+</tbody>
+</table>
+<h3 id="風險比較">風險比較</h3>
+<table>
+<thead>
+<tr>
+<th>風險類型</th>
+<th>終生死亡機率（美國）</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>汽車事故</strong></td>
+<td>約 1/107</td>
+<td>全美主要死因之一</td>
+</tr>
+<tr>
+<td><strong>被閃電击中</strong></td>
+<td>約 1/21,000</td>
+<td>極低</td>
+</tr>
+<tr>
+<td><strong>空氣污染（PM2.5）</strong></td>
+<td>約 1/2,000–1/5,000</td>
+<td>依地區差異</td>
+</tr>
+<tr>
+<td><strong>二手菸暴露</strong></td>
+<td>約 1/10,000</td>
+<td>增加肺癌風險約 20-30%</td>
+</tr>
+<tr>
+<td><strong>吃烤肉</strong></td>
+<td>約 1/50,000</td>
+<td>多環芳香烴暴露</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>臨床重點</strong>
+風險比較有助於公眾理解，但需謹慎使用：選擇性比較可能誤導。例如，「某物質的風險等於吃一片培根」聽起來很嚇人，但可能忽略劑量差異與可控性差異。</p>
+</blockquote>
+<hr>
+<h2 id="10-案例研究空氣污染政策">10. 案例研究：空氣污染政策</h2>
+<h3 id="美國-epa-空氣品質標準的演化">美國 EPA 空氣品質標準的演化</h3>
+<table>
+<thead>
+<tr>
+<th>年份</th>
+<th>標準</th>
+<th>科學基礎</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1971</strong></td>
+<td>初訂 PM 標準</td>
+<td>總懸浮微粒（TSP）</td>
+</tr>
+<tr>
+<td><strong>1987</strong></td>
+<td>轉向 PM10</td>
+<td>粒子大小與沉積位置</td>
+</tr>
+<tr>
+<td><strong>1997</strong></td>
+<td>首訂 PM2.5 標準</td>
+<td>多項流行病學研究證實細微粒健康危害</td>
+</tr>
+<tr>
+<td><strong>2006</strong></td>
+<td>加嚴 PM2.5 標準</td>
+<td>更多世代研究支持</td>
+</tr>
+<tr>
+<td><strong>2012</strong></td>
+<td>維持並微調標準</td>
+<td>持續累積的科學證據</td>
+</tr>
+</tbody>
+</table>
+<h3 id="關鍵科學證據">關鍵科學證據</h3>
+<ul>
+<li><strong>時間序列研究</strong>：短期 PM2.5 增加與每日死亡增加相關</li>
+<li><strong>世代研究</strong>：長期暴露與心肺死亡率上升相關</li>
+<li><strong>干預研究</strong>：大型活動期間（如北京奧運）空氣改善伴隨健康指標改善</li>
+</ul>
+<hr>
+<h2 id="章節總結">章節總結</h2>
+<ol>
+<li>
+<p><strong>風險評估是政策基礎</strong>：四步驟 Framework（危害識別→劑量-反應→暴露評估→風險特徵化）提供結構化方法。</p>
+</li>
+<li>
+<p><strong>流行病學證據需要詮釋</strong>：研究結果受設計、品質、抽樣等因素影響；不確定性是科學過程的正常組成部分。</p>
+</li>
+<li>
+<p><strong>系統性回顧提升證據品質</strong>：統合分析可整合多研究結果，但研究品質是前提。</p>
+</li>
+<li>
+<p><strong>環境與職業流行病學的獨特挑戰</strong>：長期低劑量暴露、多因素混合、暴露測量困難。</p>
+</li>
+<li>
+<p><strong>政策制定需要科學與價值的結合</strong>：科學告訴我們「能夠做什麼」，價值判斷決定「應該做什麼」。</p>
+</li>
+<li>
+<p><strong>風險溝通是雙向對話</strong>：不僅是傳播資訊，更是傾聽與互動的過程。</p>
+</li>
+</ol>
 <hr>
 <blockquote>
 <p>📚 <strong>Gordis Epidemiology</strong> 第五版 | Chapter 19 | Epidemiology and Public Policy</p>

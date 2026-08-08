@@ -4,15 +4,15 @@
     <title>Chapter-8 on Epidemiology 流行病學</title>
     <link>https://b101108063-ops.github.io/epidemiology/tags/chapter-8/</link>
     <description>Recent content in Chapter-8 on Epidemiology 流行病學</description>
-    <generator>Hugo</generator>
-    <language>zh-TW</language>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
     <atom:link href="https://b101108063-ops.github.io/epidemiology/tags/chapter-8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>隨機試驗：進一步議題</title>
       <link>https://b101108063-ops.github.io/epidemiology/docs/ch8_randomized_trials_further/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://b101108063-ops.github.io/epidemiology/docs/ch8_randomized_trials_further/</guid>
-      <description>&lt;h1 id=&#34;隨機試驗進一步議題&#34;&gt;隨機試驗：進一步議題&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;原文章節：&lt;/strong&gt; Randomized Trials: Some Further Issues&lt;/p&gt;&#xA;&lt;h2 id=&#34;-學習目標&#34;&gt;📚 學習目標&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To deine key concepts of epidemiologic study design in the context of randomized trials: sample size, type I error, type II error, power, generalizability (external validity), and internal validity.&lt;/li&gt;&#xA;&lt;li&gt;To calculate and interpret eficacy in a randomized trial.&lt;/li&gt;&#xA;&lt;li&gt;To describe the design and results of ive important randomized trials.&lt;/li&gt;&#xA;&lt;li&gt;To deine the four major phases of randomized trials that are used by the Federal Drug Administration for evaluating new drugs in the United States.&lt;/li&gt;&#xA;&lt;li&gt;To introduce several ethical considerations as they relate to randomized trials.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;內容概要&#34;&gt;內容概要&lt;/h2&gt;&#xA;&lt;p&gt;To discuss the rationale for requiring the&lt;/p&gt;</description>
+      <description>隨機試驗：進一步議題 原文章節： Randomized Trials: Some Further Issues&#xA;📚 學習目標 定義隨機試驗中的關鍵流行病學研究設計概念：sample size（樣本數）、type I error（第一型錯誤）、type II error（第二型錯誤）、power（統計考力）、generalizability（可推廣性）與 internal validity（內部效度） 計算並詮釋隨機試驗的療效（efficacy） 描述三個重要隨機試驗的設計與結果 定義美國 FDA 用於評估新藥的四個主要** phases**（試驗階段） 介紹與隨機試驗相關的倫理考量 Sample Size（樣本數） 核心問題 一位研究者報告：「吃藥後，三分之一的羊明顯好轉，三分之一沒變化，另外三分之一跑了。」&#xA;這個笑話道出了所有研究者都面臨的問題：「我們需要多少受試者？」 答案必須在研究開始前就決定。太多研究做完後才發現一開始樣本數就不夠，無法得到有意義的結果。&#xA;思考邏輯：珠子罐子比喻（Figures 8-1 ~ 8-3） 兩個不透明罐子，各有 100 顆珠子（藍與白）。我們從 A 罐取 10 顆、B 罐取 10 顆，試圖以樣本推斷整體。&#xA;Example 1：A 罐樣本 = 9 藍 + 1 白，B 罐 = 2 藍 + 8 白。能否斷定 A 罐 90% 是藍色？不行，可能只是運氣好剛好抽到這些。 Example 2：兩罐樣本都是 7 藍 + 3 白。能否斷定兩罐分布相同？可能，但若 A 罐實為 90 白 + 10 藍、B 罐為 90 藍 + 10 白，這種抽樣結果仍有可能是偶然。 臨床重點：抽樣的本質——我們只能看到研究中的患者樣本，試圖推論到「所有可能治療的患者」這個更大的群體。很少有研究能真的納入所有患者。</description>
     </item>
   </channel>
 </rss>

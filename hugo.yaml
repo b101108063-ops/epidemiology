@@ -2,6 +2,7 @@ baseURL: "https://b101108063-ops.github.io/epidemiology/"
 languageCode: "zh-TW"
 title: "Epidemiology 流行病學"
 paginate: 20
+defaultContentLanguage: "zh-TW"
 
 languages:
   zh-TW:

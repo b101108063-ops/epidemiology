@@ -54,282 +54,481 @@ hr { border: none; border-top: 1px solid #eee; margin: 2rem 0; }
 <p><strong>流行病學在健康服務評估中的應用</strong></p>
 <blockquote>
 <p><strong>Gordis Epidemiology</strong> 第五版 | Chapter 17
-本章探討 流行病學在健康服務評估中的應用 的核心概念與應用</p>
+本章探討如何應用流行病學方法評估健康服務的成效</p>
 </blockquote>
 <hr>
-<h2 id="-學習目標">🎯 學習目標</h2>
+<h2 id="學習目標">學習目標</h2>
 <p>完成本章學習後，您將能夠：</p>
 <ul>
-<li>To distinguish measures of process from</li>
-<li>To deine eficacy, effectiveness, and efi-</li>
-<li>To compare and contrast epidemiologic</li>
-<li>To discuss outcomes research in the context</li>
-<li>To describe some possible study designs that</li>
+<li>區分<strong>過程指標（process measures）<strong>與</strong>結果指標（outcome measures）</strong></li>
+<li>定義並比較<strong>療效（efficacy）</strong>、<strong>效果（effectiveness）<strong>與</strong>效率（efficiency）</strong></li>
+<li>比較流行病學疾病病因研究與健康服務評估研究的差異</li>
+<li>描述健康服務評估可使用的群體層級與個人層級資料研究設計</li>
 </ul>
-<h2 id="-重要術語">📋 重要術語</h2>
+<hr>
+<h2 id="重要術語">重要術語</h2>
 <table>
-  <thead>
-      <tr>
-          <th>英文術語</th>
-          <th>中文翻譯</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Health services research</td>
-          <td>健康服務研究</td>
-      </tr>
-      <tr>
-          <td>Process measures</td>
-          <td>過程指標</td>
-      </tr>
-      <tr>
-          <td>Outcome measures</td>
-          <td>結果指標</td>
-      </tr>
-      <tr>
-          <td>Efficacy</td>
-          <td>療效</td>
-      </tr>
-      <tr>
-          <td>Effectiveness</td>
-          <td>效果</td>
-      </tr>
-      <tr>
-          <td>Efficiency</td>
-          <td>效率</td>
-      </tr>
-      <tr>
-          <td>Ecologic studies</td>
-          <td>生態學研究</td>
-      </tr>
-      <tr>
-          <td>Confounding</td>
-          <td>混雜</td>
-      </tr>
-      <tr>
-          <td>Randomized trials</td>
-          <td>隨機試驗</td>
-      </tr>
-      <tr>
-          <td>Quality of care</td>
-          <td>照護品質</td>
-      </tr>
-      <tr>
-          <td>Access to care</td>
-          <td>醫療可近性</td>
-      </tr>
-      <tr>
-          <td>Utilization</td>
-          <td>利用率</td>
-      </tr>
-      <tr>
-          <td>Cost-effectiveness</td>
-          <td>成本效益</td>
-      </tr>
-      <tr>
-          <td>Quality improvement</td>
-          <td>品質改善</td>
-      </tr>
-  </tbody>
+<thead>
+<tr>
+<th>英文術語</th>
+<th>中文翻譯</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Health services research</strong></td>
+<td>健康服務研究</td>
+</tr>
+<tr>
+<td><strong>Process measures</strong></td>
+<td>過程指標</td>
+</tr>
+<tr>
+<td><strong>Outcome measures</strong></td>
+<td>結果指標</td>
+</tr>
+<tr>
+<td><strong>Efficacy</strong></td>
+<td>療效（理想條件下的效果）</td>
+</tr>
+<tr>
+<td><strong>Effectiveness</strong></td>
+<td>效果（實際條件下的效果）</td>
+</tr>
+<tr>
+<td><strong>Efficiency</strong></td>
+<td>效率（成本與效益的比值）</td>
+</tr>
+<tr>
+<td><strong>Ecologic studies</strong></td>
+<td>生態學研究</td>
+</tr>
+<tr>
+<td><strong>Confounding</strong></td>
+<td>混雜</td>
+</tr>
+<tr>
+<td><strong>Randomized trials</strong></td>
+<td>隨機試驗</td>
+</tr>
+<tr>
+<td><strong>Quality of care</strong></td>
+<td>照護品質</td>
+</tr>
+<tr>
+<td><strong>Access to care</strong></td>
+<td>醫療可近性</td>
+</tr>
+<tr>
+<td><strong>Utilization</strong></td>
+<td>利用率</td>
+</tr>
+<tr>
+<td><strong>Cost-effectiveness</strong></td>
+<td>成本效益</td>
+</tr>
+<tr>
+<td><strong>Quality improvement</strong></td>
+<td>品質改善</td>
+</tr>
+<tr>
+<td><strong>Outcomes research</strong></td>
+<td>結果研究</td>
+</tr>
+<tr>
+<td><strong>NHDS</strong> (National Hospital Discharge Survey)</td>
+<td>國家醫院出院調查</td>
+</tr>
+<tr>
+<td><strong>NHIS</strong> (National Health Interview Survey)</td>
+<td>國家健康訪談調查</td>
+</tr>
+</tbody>
 </table>
-<h2 id="-核心概念">🔑 核心概念</h2>
-<ul>
-<li>
-<p><strong>過程指標 vs 結果指標</strong>：過程指標測量醫療服務的執行（如篩檢率），結果指標測量健康結果（如死亡率）。</p>
-</li>
-<li>
-<p><strong>療效、效果、效率</strong>：療效（efficacy）為理想條件下的效果；效果（effectiveness）為實際條件下的效果；效率（efficiency）為成本與效益的比值。</p>
-</li>
-<li>
-<p><strong>隨機試驗在健康服務評估中的應用</strong>：可用於評估不同健康服務模式的相對效果。</p>
-</li>
-<li>
-<p><strong>生態學研究</strong>：使用群體層級數據進行比較，需注意生態學謬誤。</p>
-</li>
-</ul>
-<h2 id="-重要表格">📊 重要表格</h2>
-<p><strong>TABLE 17-1. Some Possible Endpoints</strong></p>
-<table>
-  <thead>
-      <tr>
-          <th>項目</th>
-          <th>內容</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>for Measuring Success of</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>a Vaccine Program</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>1. Number (or proportion) of people immunized</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>2. Number (or proportion) of people at (high) risk</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>who are immunized</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>3. Number (or proportion) of people immunized</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>who show serologic response</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>4. Number (or proportion) of people immunized</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>and later exposed in whom clinical disease does</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>not develop</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>5. Number (or proportion) of people immunized</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>and later exposed in whom clinical or subclinical</td>
-          <td></td>
-      </tr>
-  </tbody>
-</table>
-<p><strong>TABLE 17-3. In-Hospital Mortality and Rates for Bypass Surgery during Index</strong></p>
-<table>
-  <thead>
-      <tr>
-          <th>項目</th>
-          <th>內容</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Hospitalization According to Hospital Volume of Angioplasty Procedures</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Each Year</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>NUMBER OF PROCEDURES</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>&lt;50/yr</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>50–100/yr</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>&gt;100/yr</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>In-hospital mortality (%)</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>3.7</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>3.2</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>2.7</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Bypass surgery during index hospitalization (%)</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>5.3</td>
-          <td></td>
-      </tr>
-  </tbody>
-</table>
-<p><strong>TABLE 17-4. Relationship of Neonatal Mortality to History of Prenatal Care, Baltimore</strong></p>
-<table>
-  <thead>
-      <tr>
-          <th>項目</th>
-          <th>內容</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Residents, Younger Than 17 Years, 1960–1961</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Received Prenatal Care</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Did Not Receive Prenatal Care</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Number of births</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>1,397</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Number of neonatal deaths</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>28</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Neonatal deaths per 1,000 live births</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>30.1</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>88.9</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Figure 17-12. Design of a nonrandomized cohort study</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>comparing people eligible with people not eligible for a program.</td>
-          <td></td>
-      </tr>
-  </tbody>
-</table>
-<h2 id="-複習問題">📝 複習問題</h2>
+<hr>
+<h2 id="章節摘要">章節摘要</h2>
+<p><strong>健康服務評估的核心問題是：「這項健康服務真的有效嗎？」</strong> 與疾病病因的流行病學研究不同，健康服務研究將焦點放在健康服務本身作為自變數，以健康結果的改善作為應變數。本章介紹療效與效果的測量方法，以及如何利用現有資料來源進行評估。</p>
+<hr>
+<h2 id="1-評估的歷史背景">1. 評估的歷史背景</h2>
+<h3 id="最早的評估創世紀">最早的評估：創世紀</h3>
 <blockquote>
-<p>以下問題可幫助您複習本章內容：</p>
+<p>「神看光是好的，就把光暗分開了。」
+—創世紀 1:1-4</p>
 </blockquote>
+<p>這個最早的評估描述包含了評估的基本要素：</p>
+<ul>
+<li><strong>基線資料</strong>：初始狀態</li>
+<li><strong>計畫執行</strong>：介入措施的實施</li>
+<li><strong>計畫評估</strong>：結果的評估</li>
+<li><strong>進一步行動</strong>：根據評估結果調整方案</li>
+</ul>
+<h3 id="frost-的前瞻觀點1925-年">Frost 的前瞻觀點（1925 年）</h3>
+<p>Wade Hampton Frost 強調：健康官員如同財務代理人，人民的健康投資應獲得明確的回報。他指出健康服務的「股息」不像金錢收益那樣容易測量——這些收益表現在壽命延長與健康改善，但通常只能獲得死亡與特定疾病的部分且負面記錄。</p>
+<hr>
+<h2 id="2-過程指標與結果指標">2. 過程指標與結果指標</h2>
+<h3 id="過程指標process-measures">過程指標（Process Measures）</h3>
+<p><strong>過程指標</strong>測量醫療服務的執行情況，判斷標準通常由專家小組決定。</p>
+<p><strong>過程指標的問題</strong>：</p>
+<ol>
+<li>無法確定患者是否真正受益</li>
+<li>標準可能隨專家意見改變而改變</li>
+</ol>
+<blockquote>
+<p><strong>臨床重點</strong>
+1940 年代，早產兒的標準照護要求放置在 100% 氧氣保育箱中。但後來發現高濃度氧氣是造成早產兒視網膜病變（retrolental fibroplasia，一種致盲疾病）的主要原因之一。這說明了基於當時專家意見的過程指標可能會造成傷害。</p>
+</blockquote>
+<h3 id="結果指標outcome-measures">結果指標（Outcome Measures）</h3>
+<p><strong>結果指標</strong>測量患者是否從醫療服務中受益。傳統上包括<strong>死亡率</strong>與<strong>發病率</strong>，近年來擴展到：</p>
+<ul>
+<li>患者滿意度</li>
+<li>生活品質</li>
+<li>失能程度</li>
+<li>依賴程度</li>
+</ul>
+<hr>
+<h2 id="3-療效效果與效率">3. 療效、效果與效率</h2>
+<h3 id="三者比較">三者比較</h3>
+<table>
+<thead>
+<tr>
+<th>術語</th>
+<th>定義</th>
+<th>條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Efficacy（療效）</strong></td>
+<td>在理想「實驗室」條件下，干預措施是否有效？</td>
+<td>所有條件受控制，最大化效果</td>
+</tr>
+<tr>
+<td><strong>Effectiveness（效果）</strong></td>
+<td>在「現實生活」條件下，干預措施是否有效？</td>
+<td>考慮真實世界的種種限制</td>
+</tr>
+<tr>
+<td><strong>Efficiency（效率）</strong></td>
+<td>若干預有效，成本效益比如何？</td>
+<td>成本不僅金錢，還包括不适、疼痛、缺勤、失能、社會污名</td>
+</tr>
+</tbody>
+</table>
+<h3 id="評估優先順序">評估優先順序</h3>
+<blockquote>
+<p><strong>臨床重點</strong>
+若健康服務尚未被證實有效，研究其效率就沒有太大意義。最基本的問題是：<strong>它真的有效嗎？</strong> 只有在療效/效果確立後，才值得進一步評估效率。</p>
+</blockquote>
+<hr>
+<h2 id="4-測量結果指標的選擇原則">4. 測量結果指標的選擇原則</h2>
+<p>選擇結果指標的四大原則：</p>
+<table>
+<thead>
+<tr>
+<th>原則</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>明確可量化</strong></td>
+<td>效果必須能以數量表示</td>
+</tr>
+<tr>
+<td><strong>定義簡單、診斷容易</strong></td>
+<td>不應依賴侵入性程序來評估效益</td>
+</tr>
+<tr>
+<td><strong>可標準化</strong></td>
+<td>便於研究目的的標準化</td>
+</tr>
+<tr>
+<td><strong>研究族群處於風險中</strong></td>
+<td>服務族群與比較族群必須對評估的疾病具有風險</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="5-疫苗計畫評估的可能終點">5. 疫苗計畫評估的可能終點</h2>
+<table>
+<thead>
+<tr>
+<th>編號</th>
+<th>結果指標</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>免疫人數（或比例）</td>
+</tr>
+<tr>
+<td>2</td>
+<td>高風險族群中免疫人數（或比例）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>免疫後出現血清學反應的人數（或比例）</td>
+</tr>
+<tr>
+<td>4</td>
+<td>免疫後暴露於病原但未發病的人數（或比例）</td>
+</tr>
+<tr>
+<td>5</td>
+<td>免疫後暴露於病原但臨床或亞臨床疾病均未發生的人數（或比例）</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="6-咽喉培養計畫的可能終點">6. 咽喉培養計畫的可能終點</h2>
+<table>
+<thead>
+<tr>
+<th>編號</th>
+<th>結果指標</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>進行培養的人數（是否有症狀）</td>
+</tr>
+<tr>
+<td>2</td>
+<td>鏈球菌感染培養陽性的比例</td>
+</tr>
+<tr>
+<td>3</td>
+<td>培養陽性者就醫的比例</td>
+</tr>
+<tr>
+<td>4</td>
+<td>培養陽性者獲得適當治療並服藥的比例</td>
+</tr>
+<tr>
+<td>5</td>
+<td>陽性培養後復發的比例</td>
+</tr>
+<tr>
+<td>6</td>
+<td>陽性培養後發生風濕熱的比例</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="7-疾病病因研究-vs-健康服務評估">7. 疾病病因研究 vs. 健康服務評估</h2>
+<h3 id="疾病病因研究經典流行病學">疾病病因研究（經典流行病學）</h3>
+<ul>
+<li><strong>自變數</strong>：可能的致病因子的暴露</li>
+<li><strong>應變數</strong>：不良健康效應</li>
+<li><strong>控制變數</strong>：其他影響因素，包括健康服務</li>
+</ul>
+<h3 id="健康服務研究">健康服務研究</h3>
+<ul>
+<li><strong>自變數</strong>：健康服務本身</li>
+<li><strong>應變數</strong>：若服務有效，預期的不良健康效應減少</li>
+<li><strong>控制變數</strong>：環境與其他影響健康的因素</li>
+</ul>
+<blockquote>
+<p><strong>臨床重點</strong>
+兩類研究都探討自變數與應變數之間的關係，並受其他因素的影響。因此，許多研究設計與方法學問題在兩類研究中是相通的。</p>
+</blockquote>
+<hr>
+<h2 id="8-利用群體資料進行評估">8. 利用群體資料進行評估</h2>
+<h3 id="現有資料來源的問題">現有資料來源的問題</h3>
+<p>死亡率與住院資料經常被用於評估研究，但不同來源可能有重要差異。</p>
+<h3 id="nhds-vs-nhis-比較">NHDS vs. NHIS 比較</h3>
+<table>
+<thead>
+<tr>
+<th>特徵</th>
+<th>NHDS（國家醫院出院調查）</th>
+<th>NHIS（國家健康訪談調查）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>資料來源</strong></td>
+<td>醫院住院病人記錄</td>
+<td>個人訪談</td>
+</tr>
+<tr>
+<td><strong>涵蓋範圍</strong></td>
+<td>非聯邦醫院的短期住院</td>
+<td>透過回億，可能遺漏許多住院</td>
+</tr>
+<tr>
+<td><strong>特殊群體</strong></td>
+<td>包含住院期間死亡者、護理之家住民</td>
+<td>可能排除住院不到一天的病患</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>臨床重點</strong>
+進行健康服務評估時，必須了解每個資料來源的特性：包括誰被納入或排除、取得哪些變數的資料、資料如何分類。這些特性會影響資料的有效性與可能的偏差。</p>
+</blockquote>
+<hr>
+<h2 id="9-結果研究outcomes-research">9. 結果研究（Outcomes Research）</h2>
+<h3 id="定義">定義</h3>
+<p>結果研究是比较兩種或多種健康服務介入——如治療、健康照護組織形式、或保險覆蓋與提供者報酬方式——對健康或經濟結果影響的研究。</p>
+<h3 id="結果測量">結果測量</h3>
+<table>
+<thead>
+<tr>
+<th>類型</th>
+<th>內容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>健康終點</strong></td>
+<td>發病率、死亡率、生活品質、功能狀態、患者對健康狀況的感知</td>
+</tr>
+<tr>
+<td><strong>經濟測量</strong></td>
+<td>直接或間接成本、住院率、門診就診、急診訪問、誤工天數</td>
+</tr>
+</tbody>
+</table>
+<h3 id="大型資料庫的優勢與限制">大型資料庫的優勢與限制</h3>
+<p><strong>優勢</strong>：</p>
+<ul>
+<li>反映真實世界的族群</li>
+<li>樣本量大</li>
+</ul>
+<p><strong>劣勢</strong>：</p>
+<ul>
+<li>資料原本為行政或財務目的設計，非為研究設計</li>
+<li>研究者與被研究者之間的距離增加</li>
+<li>許多個人特徵從未被探索</li>
+</ul>
+<hr>
+<h2 id="10-出生證明在產前照護評估中的應用">10. 出生證明在產前照護評估中的應用</h2>
+<h3 id="資料品質問題">資料品質問題</h3>
+<table>
+<thead>
+<tr>
+<th>問題</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>高風險孕婦資料缺失更多</strong></td>
+<td>高風險孕婦的出生證明比低風險孕婦更容易有資料缺失</td>
+</tr>
+<tr>
+<td><strong>區域差異</strong></td>
+<td>不同地區的資料品質可能不同</td>
+</tr>
+<tr>
+<td><strong>比較困難</strong></td>
+<td>資料品質差異使地區間或國際間比較複雜化</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="11-健康服務評估的研究設計">11. 健康服務評估的研究設計</h2>
+<h3 id="隨機試驗設計">隨機試驗設計</h3>
+<table>
+<thead>
+<tr>
+<th>設計類型</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>個體隨機</strong></td>
+<td>將個人隨機分配到不同服務模式</td>
+</tr>
+<tr>
+<td><strong>叢集隨機</strong></td>
+<td>將社區或診所隨機分配，減少交叉污染</td>
+</tr>
+</tbody>
+</table>
+<h3 id="非隨機設計">非隨機設計</h3>
+<table>
+<thead>
+<tr>
+<th>設計類型</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>前瞻或回溯世代研究</strong></td>
+<td>比較符合與不符合服務資格者的結果</td>
+</tr>
+<tr>
+<td><strong>生態學研究</strong></td>
+<td>使用群體層級資料</td>
+</tr>
+<tr>
+<td><strong>本身前後對照</strong></td>
+<td>比較服務前後的結果</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>臨床重點</strong>
+在隨機試驗不可行時（如已經實施的服務），觀察性研究設計可用來評估效果。但需注意可能的混雜因素與偏差。</p>
+</blockquote>
+<hr>
+<h2 id="12-產前照護與新生兒死亡歷史案例">12. 產前照護與新生兒死亡：歷史案例</h2>
+<h3 id="巴爾的摩-1960-1961-年數據">巴爾的摩 1960-1961 年數據</h3>
+<table>
+<thead>
+<tr>
+<th>指標</th>
+<th>接受產前照護</th>
+<th>未接受產前照護</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>出生數</td>
+<td>1,397</td>
+<td>—</td>
+</tr>
+<tr>
+<td>新生兒死亡數</td>
+<td>28</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>新生兒死亡率（每千名活產）</strong></td>
+<td><strong>30.1</strong></td>
+<td><strong>88.9</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>臨床重點</strong>
+這類資料經常被用來支持擴大產前照護的政策。然而，這是非隨機比較的數據，存在選擇偏差：選擇不接受產前照護的婦女可能本身就有不同的風險特徵。</p>
+</blockquote>
+<hr>
+<h2 id="章節總結">章節總結</h2>
+<ol>
+<li>
+<p><strong>療效與效果的區分</strong>：療效是在理想控制條件下的效果，效果是考慮現實世界限制後的實際效果。在進行效率分析前，必須先證實干預是有效的。</p>
+</li>
+<li>
+<p><strong>結果指標的選擇</strong>：有效的結果指標應明確可量化、定義簡單、可標準化，且適用於研究族群。</p>
+</li>
+<li>
+<p><strong>資料來源的了解</strong>：NHDS、NHIS 等現有資料各有優缺點，使用前必須了解其特性與限制。</p>
+</li>
+<li>
+<p><strong>生態學謬誤</strong>：使用群體層級資料時，必須注意不能直接將群體特徵推論到個體層次。</p>
+</li>
+<li>
+<p><strong>研究設計的選擇</strong>：從隨機試驗到非隨機設計，不同研究設計有不同的優缺點與適用情境。</p>
+</li>
+</ol>
 <hr>
 <blockquote>
 <p>📚 <strong>Gordis Epidemiology</strong> 第五版 | Chapter 17 | Using Epidemiology to Evaluate Health Services</p>

@@ -54,300 +54,588 @@ hr { border: none; border-top: 1px solid #eee; margin: 2rem 0; }
 <p><strong>流行病學方法在篩檢計畫評估中的應用</strong></p>
 <blockquote>
 <p><strong>Gordis Epidemiology</strong> 第五版 | Chapter 18
-本章探討 流行病學方法在篩檢計畫評估中的應用 的核心概念與應用</p>
+本章探討如何應用流行病學方法評估篩檢計畫的效益與限制</p>
 </blockquote>
 <hr>
-<h2 id="-學習目標">🎯 學習目標</h2>
+<h2 id="學習目標">學習目標</h2>
 <p>完成本章學習後，您將能夠：</p>
 <ul>
-<li>To build on the discussion of the validity</li>
-<li>To revisit the natural history of disease and</li>
-<li>To describe the major sources of bias that</li>
-<li>To discuss different study designs for</li>
-<li>To discuss problems in assessing the sensi-</li>
-<li>To introduce issues associated with cost-</li>
+<li>建立對篩檢試驗有效性測量的理解</li>
+<li>重新檢視疾病的自然史與其在篩檢中的意義</li>
+<li>描述可能影響篩檢效益的主要偏差來源</li>
+<li>討論評估篩檢的不同研究設計</li>
+<li>討論敏感度與特異度評估的問題</li>
+<li>介紹與篩檢成本效益相關的議題</li>
 </ul>
-<h2 id="-重要術語">📋 重要術語</h2>
+<hr>
+<h2 id="重要術語">重要術語</h2>
 <table>
-  <thead>
-      <tr>
-          <th>英文術語</th>
-          <th>中文翻譯</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Screening</td>
-          <td>篩檢</td>
-      </tr>
-      <tr>
-          <td>Lead time</td>
-          <td>領先時間</td>
-      </tr>
-      <tr>
-          <td>Length bias</td>
-          <td>病程延長偏差</td>
-      </tr>
-      <tr>
-          <td>Sensitivity</td>
-          <td>敏感度</td>
-      </tr>
-      <tr>
-          <td>Specificity</td>
-          <td>特異度</td>
-      </tr>
-      <tr>
-          <td>Positive predictive value (PPV)</td>
-          <td>陽性預測值（PPV）</td>
-      </tr>
-      <tr>
-          <td>Negative predictive value (NPV)</td>
-          <td>陰性預測值（NPV）</td>
-      </tr>
-      <tr>
-          <td>Natural history of disease</td>
-          <td>疾病自然史</td>
-      </tr>
-      <tr>
-          <td>Preclinical detectable period</td>
-          <td>臨床前期可偵測期</td>
-      </tr>
-      <tr>
-          <td>Overdiagnosis</td>
-          <td>過度診斷</td>
-      </tr>
-      <tr>
-          <td>Selection bias</td>
-          <td>選擇偏差</td>
-      </tr>
-      <tr>
-          <td>Progression</td>
-          <td>進展</td>
-      </tr>
-      <tr>
-          <td>Regression</td>
-          <td>退化</td>
-      </tr>
-      <tr>
-          <td>Benefit-harm balance</td>
-          <td>益處與危害平衡</td>
-      </tr>
-  </tbody>
+<thead>
+<tr>
+<th>英文術語</th>
+<th>中文翻譯</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Screening</strong></td>
+<td>篩檢</td>
+</tr>
+<tr>
+<td><strong>Lead time</strong></td>
+<td>領先時間（提早發現所獲得的診斷時間優勢）</td>
+</tr>
+<tr>
+<td><strong>Length bias</strong></td>
+<td>病程延長偏差</td>
+</tr>
+<tr>
+<td><strong>Sensitivity</strong></td>
+<td>敏感度</td>
+</tr>
+<tr>
+<td><strong>Specificity</strong></td>
+<td>特異度</td>
+</tr>
+<tr>
+<td><strong>Positive predictive value (PPV)</strong></td>
+<td>陽性預測值</td>
+</tr>
+<tr>
+<td><strong>Negative predictive value (NPV)</strong></td>
+<td>陰性預測值</td>
+</tr>
+<tr>
+<td><strong>Natural history of disease</strong></td>
+<td>疾病自然史</td>
+</tr>
+<tr>
+<td><strong>Preclinical detectable period</strong></td>
+<td>臨床前期可偵測期</td>
+</tr>
+<tr>
+<td><strong>Overdiagnosis</strong></td>
+<td>過度診斷</td>
+</tr>
+<tr>
+<td><strong>Selection bias</strong></td>
+<td>選擇偏差</td>
+</tr>
+<tr>
+<td><strong>Progression</strong></td>
+<td>進展</td>
+</tr>
+<tr>
+<td><strong>Regression</strong></td>
+<td>退化</td>
+</tr>
+<tr>
+<td><strong>Benefit-harm balance</strong></td>
+<td>益處與危害平衡</td>
+</tr>
+<tr>
+<td><strong>Secondary prevention</strong></td>
+<td>第二級預防</td>
+</tr>
+<tr>
+<td><strong>Critical point</strong></td>
+<td>臨界點</td>
+</tr>
+<tr>
+<td><strong>Preclinical phase</strong></td>
+<td>臨床前期</td>
+</tr>
+<tr>
+<td><strong>Clinical phase</strong></td>
+<td>臨床期</td>
+</tr>
+</tbody>
 </table>
-<h2 id="-核心概念">🔑 核心概念</h2>
-<ul>
-<li>
-<p><strong>領先時間（Lead time）</strong>：早期篩檢發現疾病的優勢時間，了解此概念有助於解釋篩檢的效益。</p>
-</li>
-<li>
-<p><strong>病程延長偏差（Length bias）</strong>：較慢進展的疾病更容易被篩檢發現，影響篩檢效益評估。</p>
-</li>
-<li>
-<p><strong>敏感度與特異度</strong>：影響陽性預測值與陰性預測值，進而影響篩檢計畫的效益。</p>
-</li>
-<li>
-<p><strong>過度診斷（Overdiagnosis）</strong>：某些情況下，篩檢可能發現不會造成症狀或死亡的疾病。</p>
-</li>
-</ul>
-<h2 id="-重要表格">📊 重要表格</h2>
-<p><strong>TABLE 18-1. Assessing the Effectiveness</strong></p>
+<hr>
+<h2 id="章節摘要">章節摘要</h2>
+<p><strong>篩檢的核心問題是：早期發現疾病是否真的能讓患者受益？</strong> 這個問題的答案並非理所當然。儘管直覺上早期發現似乎有好處，但流行病學證據必須嚴格檢驗。本章介紹篩檢的理論基礎、關鍵概念，以及可能導致錯誤結論的偏差。</p>
+<hr>
+<h2 id="1-疾病的自然史">1. 疾病的自然史</h2>
+<h3 id="疾病進程的時間線">疾病進程的時間線</h3>
+<pre tabindex="0"><code>生物學發病 → 臨床前期（無症狀）→ 臨床期（有症狀）→ 診斷與治療 → 結果（康復、控制、失能或死亡）
+</code></pre><table>
+<thead>
+<tr>
+<th>階段</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>生物學發病</strong></td>
+<td>可能是 DNA 改變等亞細胞層次變化，通常無法偵測</td>
+</tr>
+<tr>
+<td><strong>臨床前期</strong></td>
+<td>疾病已存在但尚未出現症狀或臨床徵候</td>
+</tr>
+<tr>
+<td><strong>臨床期</strong></td>
+<td>疾病出現症狀或臨床徵候，促使患者就醫</td>
+</tr>
+<tr>
+<td><strong>診斷與治療</strong></td>
+<td>確立診斷並進行適當治療</td>
+</tr>
+<tr>
+<td><strong>結果</strong></td>
+<td>康復、疾病控制、失能或死亡</td>
+</tr>
+</tbody>
+</table>
+<h3 id="預防的層次">預防的層次</h3>
 <table>
-  <thead>
-      <tr>
-          <th>項目</th>
-          <th>內容</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>of Screening Programs</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Using Operational Measures</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>1. Number of people screened</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>2. Proportion of target populations screened and</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>number of times screened</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>3. Detected prevalence of preclinical disease</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>4. Total costs of the program</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>5. Costs per case found</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>6. Costs per previously unknown case found</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>7. Proportion of positive screenees brought to inal</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>diagnosis and treatment</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>8. Predictive value of a positive test in population</td>
-          <td></td>
-      </tr>
-  </tbody>
+<thead>
+<tr>
+<th>預防層次</th>
+<th>定義</th>
+<th>篩檢的角色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>第一級預防</strong></td>
+<td>預防疾病發生（如免疫）</td>
+<td>不適用</td>
+</tr>
+<tr>
+<td><strong>第二級預防</strong></td>
+<td>在臨床前期偵測疾病（如篩檢）</td>
+<td>核心工具</td>
+</tr>
+<tr>
+<td><strong>第三級預防</strong></td>
+<td>治療臨床期病患以預防併發症</td>
+<td>不適用</td>
+</tr>
+</tbody>
 </table>
-<p><strong>TABLE 18-4. Rate of Death from Neuroblastoma by 8 Years of Age in the</strong></p>
-<table>
-  <thead>
-      <tr>
-          <th>項目</th>
-          <th>內容</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Screened Quebec Cohort, as Compared with the Rates in Unscreened</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Canadian Cohorts*</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Control Cohort</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Number of Deaths Expected in Quebec</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>on the Basis of the Control Cohort</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Standardized Mortality</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Ratio for Quebec (95% CI)</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Historical cohorts</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Quebec</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>22.5</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>0.98 (0.54–1.77)</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Canada</td>
-          <td></td>
-      </tr>
-  </tbody>
+<hr>
+<h2 id="2-臨床前期可偵測期preclinical-detectable-period">2. 臨床前期可偵測期（Preclinical Detectable Period）</h2>
+<h3 id="關鍵概念">關鍵概念</h3>
+<pre tabindex="0"><code>臨床前期開始 → 可偵測點 → 發展到症狀 → 臨床診斷
+     ↓           ↓
+  臨床前期    臨床前期
+  可偵測期    可偵測期
+</code></pre><table>
+<thead>
+<tr>
+<th>概念</th>
+<th>定義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>臨床前期可偵測期</strong></td>
+<td>從疾病可被偵測到症狀出現之間的時間</td>
+</tr>
+<tr>
+<td><strong>領先時間（Lead time）</strong></td>
+<td>篩檢將診斷時間提前的幅度</td>
+</tr>
+</tbody>
 </table>
-<p><strong>TABLE 18-5. Criteria Used by the</strong></p>
-<table>
-  <thead>
-      <tr>
-          <th>項目</th>
-          <th>內容</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>American Cancer Society</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>for Recommendations on</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>Cancer-Related Check-ups</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>1. There must be good evidence that each test or</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>procedure recommended is medically effective in</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>reducing morbidity or mortality.</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>2. The medical beneits must outweigh the risks.</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>3. The cost of each test or procedure must be</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>reasonable compared with its expected beneits.</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>4. The recommended actions must be practical and</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>feasible.</td>
-          <td></td>
-      </tr>
-      <tr>
-          <td>detection of disease, any of the following interpre-</td>
-          <td></td>
-      </tr>
-  </tbody>
-</table>
-<h2 id="-複習問題">📝 複習問題</h2>
 <blockquote>
-<p>以下問題可幫助您複習本章內容：</p>
+<p><strong>臨床重點</strong>
+<strong>領先時間不等於獲救的時間</strong>。若某疾病診斷後無法治癒，提早診斷只是讓患者更早知道自己的疾病，並未延長壽命。</p>
 </blockquote>
+<hr>
+<h2 id="3-臨界點critical-point的概念">3. 臨界點（Critical Point）的概念</h2>
+<h3 id="定義">定義</h3>
+<p><strong>臨界點</strong>是疾病自然史中的一個時間點，在此前治療更有效且/或更容易實施。</p>
+<h3 id="範例乳癌">範例：乳癌</h3>
+<table>
+<thead>
+<tr>
+<th>臨界點</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>第一個臨界點</strong></td>
+<td>疾病從乳房扩散到腋下淋巴結之前</td>
+</tr>
+<tr>
+<td><strong>第二個臨界點</strong></td>
+<td>疾病從淋巴結扩散到身體其他部位之前</td>
+</tr>
+</tbody>
+</table>
+<h3 id="理論與實務的差距">理論與實務的差距</h3>
+<blockquote>
+<p><strong>臨床重點</strong>
+臨界點是一個<strong>理論概念</strong>，在實際疾病中我們通常無法確定何時達到臨界點。但這個概念對篩檢非常重要：<strong>如果我們無法設想某疾病自然史中的臨界點，則篩檢與早期發現顯然沒有理論基礎。</strong></p>
+</blockquote>
+<hr>
+<h2 id="4-評估篩檢成效的測量方式">4. 評估篩檢成效的測量方式</h2>
+<h3 id="操作性測量">操作性測量</h3>
+<table>
+<thead>
+<tr>
+<th>編號</th>
+<th>測量指標</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>接受篩檢人數</td>
+</tr>
+<tr>
+<td>2</td>
+<td>目標族群接受篩檢的比例及篩檢次數</td>
+</tr>
+<tr>
+<td>3</td>
+<td>臨床前期疾病的發現盛行率</td>
+</tr>
+<tr>
+<td>4</td>
+<td>計畫的總成本</td>
+</tr>
+<tr>
+<td>5</td>
+<td>每發現一個案例的成本</td>
+</tr>
+<tr>
+<td>6</td>
+<td>每發現一個先前未知案例的成本</td>
+</tr>
+<tr>
+<td>7</td>
+<td>陽性篩檢者接受最終診斷與治療的比例</td>
+</tr>
+<tr>
+<td>8</td>
+<td>篩檢族群中陽性測試的預測值</td>
+</tr>
+</tbody>
+</table>
+<h3 id="結果測量">結果測量</h3>
+<table>
+<thead>
+<tr>
+<th>編號</th>
+<th>測量指標</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>篩檢族群死亡率的降低</td>
+</tr>
+<tr>
+<td>2</td>
+<td>篩檢個案死亡率的降低</td>
+</tr>
+<tr>
+<td>3</td>
+<td>早期階段發現案例的比例增加</td>
+</tr>
+<tr>
+<td>4</td>
+<td>併發症的減少</td>
+</tr>
+<tr>
+<td>5</td>
+<td>復發或转移的預防或減少</td>
+</tr>
+<tr>
+<td>6</td>
+<td>篩檢個案生活品質的改善</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="5-篩檢的主要偏差來源">5. 篩檢的主要偏差來源</h2>
+<h3 id="選擇偏差selection-bias">選擇偏差（Selection Bias）</h3>
+<p>接受篩檢的人可能與未接受篩檢的人有不同的健康特徵。志願者偏差是最常見的問題。</p>
+<h3 id="病程延長偏差length-bias">病程延長偏差（Length Bias）</h3>
+<p><strong>定義</strong>：較慢進展的疾病比較快進展的疾病更有可能被篩檢發現。</p>
+<ul>
+<li>進展緩慢的疾病患者有更長的可偵測臨床前期</li>
+<li>這些患者更可能出現在任何一個時間點的篩檢中</li>
+<li>結果：<strong>快速進展的侵襲性疾病可能被篩檢漏掉</strong></li>
+</ul>
+<h3 id="過度診斷overdiagnosis">過度診斷（Overdiagnosis）</h3>
+<blockquote>
+<p><strong>臨床重點</strong>
+某些情況下，篩檢發現的疾病<strong>永遠不會在患者有生之年造成症狀或死亡</strong>。這被稱為<strong>過度診斷（Overdiagnosis）</strong>。這是篩檢收益評估中最被低估的問題之一。</p>
+</blockquote>
+<h3 id="領先時間偏差lead-time-bias">領先時間偏差（Lead Time Bias）</h3>
+<ul>
+<li>若在症狀出現前即診斷疾病，患者會「活得較久」（因為診斷時間提前）</li>
+<li>但這<strong>並不意味著</strong>患者的<strong>實際壽命</strong>被延長</li>
+<li>只有當死亡時間真正延後時，才是真正的收益</li>
+</ul>
+<hr>
+<h2 id="6-病程延長偏差與存活率">6. 病程延長偏差與存活率</h2>
+<h3 id="病程延長偏差的示意圖">病程延長偏差的示意圖</h3>
+<pre tabindex="0"><code>慢進展疾病：========-----------（症狀）
+快進展疾病：====----（症狀）
+     ↑           ↑
+   更可能       更不可能
+   被篩檢       被篩檢
+</code></pre><p><strong>結果</strong>：被篩檢發現的疾病患者群體中，慢進展疾病過度代表，使得看起來「篩檢有效」的假象。</p>
+<hr>
+<h2 id="7-影響篩檢收益的關鍵因素">7. 影響篩檢收益的關鍵因素</h2>
+<h3 id="有效篩檢的必要條件">有效篩檢的必要條件</h3>
+<table>
+<thead>
+<tr>
+<th>條件</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>有效的干預措施</strong></td>
+<td>篩檢發現的疾病必須有有效的治療方法</td>
+</tr>
+<tr>
+<td><strong>早期干預有好處</strong></td>
+<td>治療在疾病早期比晚期更有效</td>
+</tr>
+<tr>
+<td><strong>臨床前期可偵測</strong></td>
+<td>疾病在症狀出現前有可偵測的階段</td>
+</tr>
+<tr>
+<td><strong>測試可接受</strong></td>
+<td>篩檢方法必須安全、可接受、價格合理</td>
+</tr>
+<tr>
+<td><strong>勝過不篩檢</strong></td>
+<td>整體而言，篩檢帶來的好處必須大於害處</td>
+</tr>
+</tbody>
+</table>
+<h3 id="不適合篩檢的情況">不適合篩檢的情況</h3>
+<ul>
+<li>沒有有效治療方法的疾病</li>
+<li>疾病自然史中沒有可識別的臨床前期</li>
+<li>篩檢方法有嚴重副作用或成本過高</li>
+<li>大多數被發現的異常不會進展到臨床疾病（過度診斷問題）</li>
+</ul>
+<hr>
+<h2 id="8-重要偏差比較表">8. 重要偏差比較表</h2>
+<table>
+<thead>
+<tr>
+<th>偏差類型</th>
+<th>定義</th>
+<th>影響</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>選擇偏差</strong></td>
+<td>接受篩檢者與未接受者的健康特徵不同</td>
+<td>高估或低估篩檢效果</td>
+</tr>
+<tr>
+<td><strong>病程延長偏差</strong></td>
+<td>慢進展疾病更易被發現</td>
+<td>高估存活率改善</td>
+</tr>
+<tr>
+<td><strong>過度診斷</strong></td>
+<td>發現不會進展到症狀的疾病</td>
+<td>高估篩檢收益</td>
+</tr>
+<tr>
+<td><strong>領先時間偏差</strong></td>
+<td>提早診斷時間（但未延後死亡）</td>
+<td>高估早期發現的價值</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="9-神经母细胞瘤篩檢案例">9. 神经母细胞瘤篩檢案例</h2>
+<h3 id="魁北克-vs-未篩檢加拿大族群的比較">魁北克 vs. 未篩檢加拿大族群的比較</h3>
+<table>
+<thead>
+<tr>
+<th>族群</th>
+<th>預期死亡數</th>
+<th>標準化死亡率比 (95% CI)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>魁北克（篩檢）</strong></td>
+<td>—</td>
+<td><strong>0.98 (0.54–1.77)</strong></td>
+</tr>
+<tr>
+<td><strong>加拿大對照（未篩檢）</strong></td>
+<td>22.5</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>臨床重點</strong>
+此研究的標準化死亡率比為 0.98，<strong>接近 1</strong>，且 95% 信賴區間包含 1。<strong>沒有證據顯示篩檢降低了神經母细胞瘤的死亡率。</strong></p>
+</blockquote>
+<hr>
+<h2 id="10-敏感度與特異度回顧">10. 敏感度與特異度回顧</h2>
+<h3 id="基礎回顧">基礎回顧</h3>
+<table>
+<thead>
+<tr>
+<th>指標</th>
+<th>定義</th>
+<th>計算公式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>敏感度</strong></td>
+<td>實際有病者中被正確識別為陽性的比例</td>
+<td>TP / (TP + FN)</td>
+</tr>
+<tr>
+<td><strong>特異度</strong></td>
+<td>實際無病者中被正確識別為陰性的比例</td>
+<td>TN / (TN + FP)</td>
+</tr>
+<tr>
+<td><strong>陽性預測值 (PPV)</strong></td>
+<td>篩檢陽性者中實際有病者的比例</td>
+<td>TP / (TP + FP)</td>
+</tr>
+<tr>
+<td><strong>陰性預測值 (NPV)</strong></td>
+<td>篩檢陰性者中實際無病者的比例</td>
+<td>TN / (TN + FN)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ppv-與疾病盛行率">PPV 與疾病盛行率</h3>
+<blockquote>
+<p><strong>臨床重點</strong>
+當疾病<strong>盛行率低</strong>時，即使敏感度與特異度很高的測試，<strong>陽性預測值也可能很低</strong>。這就是為何廣泛篩檢低風險族群可能導致大量假陽性結果。</p>
+</blockquote>
+<hr>
+<h2 id="11-美國癌症協會篩檢建議標準">11. 美國癌症協會篩檢建議標準</h2>
+<table>
+<thead>
+<tr>
+<th>標準</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>必須有良好證據支持每項建議的檢查或程序在醫學上能有效減少發病率或死亡率</td>
+</tr>
+<tr>
+<td>2</td>
+<td>醫學效益必須大於風險</td>
+</tr>
+<tr>
+<td>3</td>
+<td>每項檢查或程序的成本必須與其預期效益合理相關</td>
+</tr>
+<tr>
+<td>4</td>
+<td>建議的行動必須實用且可行</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="12-篩檢的潛在危害">12. 篩檢的潛在危害</h2>
+<table>
+<thead>
+<tr>
+<th>危害類型</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>假陽性</strong></td>
+<td>導致焦慮、不必要的進一步檢查及相關風險</td>
+</tr>
+<tr>
+<td><strong>假陰性</strong></td>
+<td>錯誤的安全感延誤診斷</td>
+</tr>
+<tr>
+<td><strong>過度診斷</strong></td>
+<td>發現不會造成傷害的疾病，導致不必要的治療</td>
+</tr>
+<tr>
+<td><strong>併發症</strong></td>
+<td>篩檢程序本身的風險（如切片檢查的出血、感染）</td>
+</tr>
+<tr>
+<td><strong>心理影響</strong></td>
+<td>等待結果期間的焦慮</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="13-成本效益分析">13. 成本效益分析</h2>
+<h3 id="成本考量">成本考量</h3>
+<table>
+<thead>
+<tr>
+<th>成本類型</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>直接醫療成本</strong></td>
+<td>篩檢、診斷、後續治療</td>
+</tr>
+<tr>
+<td><strong>直接非醫療成本</strong></td>
+<td>交通、照護者時間</td>
+</tr>
+<tr>
+<td><strong>間接成本</strong></td>
+<td>誤工、產能損失</td>
+</tr>
+<tr>
+<td><strong>無形成本</strong></td>
+<td>焦慮、生活品質影響</td>
+</tr>
+</tbody>
+</table>
+<h3 id="效益考量">效益考量</h3>
+<ul>
+<li>避免的死亡</li>
+<li>避免的發病</li>
+<li>生活品質改善</li>
+<li>生产力保存</li>
+</ul>
+<hr>
+<h2 id="章節總結">章節總結</h2>
 <ol>
-<li>Warner E: Breast-cancer screening. N Engl J Med 365:1025–
-1032, 2011.</li>
-<li>Tuchman M, Lemieux B, Woods WG: Screening for neuro-
-blastoma in infants: Investigate or implement? Pediatrics
-86:791–793, 1990.</li>
-<li>Woods WG, Gao R, Shuster JJ, et al: Screening of infants
-and mortality due to neuroblastoma. N Engl J Med 346:
-1041–1046, 2002.</li>
-<li>Schilling FH, Spix C, Berthold F, et al: Neuroblastoma
-screening at one year of age. N Engl J Med 346:1047–1053,</li>
 <li>
-<ol start="19">
-<li>Smith RA, Mettlin CJ, David KJ, et al: American Cancer
-Society guidelines for the early detection of cancer.
-CA Cancer J Clin 50:34–49, 2000.</li>
-</ol>
+<p><strong>早期發現不等於有效</strong>：直覺上早期發現似乎有好處，但必須透過嚴格的流行病學研究驗證。</p>
+</li>
+<li>
+<p><strong>領先時間的迷思</strong>：提早診斷時間不等於延長壽命。若疾病無法治癒，領先時間只是改變了測量死亡時間的參考點。</p>
+</li>
+<li>
+<p><strong>三大偏差</strong>：選擇偏差、病程延長偏差、過度診斷都可能高估篩檢的收益。</p>
+</li>
+<li>
+<p><strong>敏感度與特異度的限制</strong>：即使測試敏感度與特異度很高，在低盛行率族群中仍可能產生大量假陽性。</p>
+</li>
+<li>
+<p><strong>證據為本</strong>：篩檢建議必須基於來自嚴格設計研究的證據，而非直覺或理論。</p>
 </li>
 </ol>
 <hr>

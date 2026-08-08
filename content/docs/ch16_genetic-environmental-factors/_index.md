@@ -12,140 +12,272 @@ menu:
     weight: 16
 ---
 
-
 # 第16章：Identifying the Roles of Genetic and Environmental Factors in Disease Causation
 
 **遺傳與環境因素在疾病成因中的角色**
 
 > **Gordis Epidemiology** 第五版 | Chapter 16
-> 本章探討 遺傳與環境因素在疾病成因中的角色 的核心概念與應用
+> 本章探討遺傳與環境因素如何共同影響疾病成因
 
 ---
 
-
-## 🎯 學習目標
+## 學習目標
 
 完成本章學習後，您將能夠：
+- 說明遺傳因素與環境因素如何共同影響疾病發生
+- 說明遺傳標記在流行病學研究中的應用方式
+- 比較家族研究、雙胞胎研究、收養研究等不同研究設計
+- 討論如何結合流行病學與基因研究方法來探討疾病成因
 
-- To illustrate how the occurrence of
-- To show how genetic markers are used in
-- To examine how epidemiologic designs, such
-- To discuss how combining innovative
+---
 
-
-## 📋 重要術語
+## 重要術語
 
 | 英文術語 | 中文翻譯 |
 |---------|---------|
-| Genetic factors | 遺傳因素 |
-| Environmental factors | 環境因素 |
-| Gene-environment interaction | 基因與環境交互作用 |
-| Heritability | 遺傳率 |
-| Twin studies | 雙胞胎研究 |
-| Adoption studies | 收養研究 |
-| Family studies | 家族研究 |
-| Concordance rate | 一致率 |
-| BRCA1/BRCA2 | BRCA1/BRCA2（乳腺癌基因突變） |
-| Haplotype | 單倍體型 |
-| Penetrance | 外顯率 |
-| Genotype | 基因型 |
-| Phenotype | 表現型 |
-| Chromosomal abnormalities | 染色體異常 |
-| Migrant studies | 移民研究 |
-| SNP | 單核苷酸多態性 |
-| de novo mutations | 新生突變 |
-| Autism spectrum disorders (ASD) | 自閉症類群障礙（ASD） |
+| **Gene-environment interaction** | 基因與環境交互作用 |
+| **Heritability** | 遺傳率 |
+| **Twin studies** | 雙胞胎研究 |
+| **Adoption studies** | 收養研究 |
+| **Family studies** | 家族研究 |
+| **Concordance rate** | 一致率（相符率） |
+| **BRCA1/BRCA2** | BRCA1/BRCA2（乳腺癌基因） |
+| **Haplotype** | 單倍體型 |
+| **Penetrance** | 外顯率 |
+| **Genotype** | 基因型 |
+| **Phenotype** | 表現型 |
+| **Chromosomal abnormalities** | 染色體異常 |
+| **Migrant studies** | 移民研究 |
+| **SNP** (Single Nucleotide Polymorphism) | 單核苷酸多態性 |
+| **de novo mutations** | 新生突變 |
+| **Autism spectrum disorders (ASD)** | 自閉症類群障礙 |
+| **Human Genome Project (HGP)** | 人類基因體計畫 |
+| **Genome-Wide Association Studies (GWAS)** | 全基因體關聯研究 |
 
+---
 
-## 🔑 核心概念
+## 章節摘要
 
-- **基因與環境的交互作用**：許多疾病的發生是遺傳傾向與環境因素共同作用的結果。
+**本章探討遺傳與環境因素在疾病成因中的交互作用。** 疾病並非僅由單一因素決定，而是遺傳傾向與環境暴露共同作用的結果。流行病學方法結合基因研究技術，使研究者能區分這兩類因素的相對貢獻。
 
-- **研究方法**：家族研究、雙胞胎研究、收養研究可用於區分遺傳與環境因素的貢獻。
+---
 
-- **一致性率**：在同卵雙胞胎與異卵雙胞胎中比較疾病一致性，可估計遺傳率。
+## 1. 遺傳與環境的交互作用
 
-- **移民研究**：比較不同環境中移民群體的疾病風險，有助於識別環境因素。
+### 核心概念
 
-- **BRCA 基因突變**：BRCA1/BRCA2 突變攜帶者的乳腺癌終生風險約為 50-85%。
+Lancelot Hogben 簡潔地描述了基因與環境的關係：
 
+> "Our genes cannot make bricks without straw. The individual differences which men and women display are partly due to the fact that they receive different genes from their parents and partly due to the fact that the same genes live in different houses."
 
-## 📊 重要表格
+疾病發生的兩大關鍵：
+- **基因傾向**：遺傳自父母的基因差異
+- **環境暴露**：相同基因存在於不同的環境條件中
 
-**TABLE 16-1. Examples of Conditions**
+> **臨床重點**
+> 即使是被認為主要是遺傳決定的疾病，環境互動仍然扮演重要角色。例如：**苯酮尿症（PKU）** 是由基因決定的苯丙胺酸羥化酶缺乏，但可以透過減少飲食中的苯丙胺酸攝取來預防心智障礙的發生。
 
-| 項目 | 內容 |
-|------|------|
-| Associated with Diseases of | |
-| Known Genetic Origin | |
-| Leukemia and Down syndrome | |
-| Alzheimer’s disease and Down syndrome | |
-| Breast cancer in men and Klinefelter’s syndrome | |
-| (XXY syndrome) | |
-| Colon cancer and familial adenomatous polyposis | |
-| Atherosclerosis and homocystinuria | |
-| homocystinuria is linked to thrombosis and athero- | |
-| sclerosis. But if we ind such an association between | |
-| a condition of interest and a disease that has known | |
-| genetic etiology, it does not prove that the condi- | |
+### 新生突變與父親年齡
 
-**TABLE 16-2. HLA Disease Associations**
+2012 年 Kong 等人的研究發現：較年長的男性更容易透過**新生隨機突變（de novo mutations）** 將自閉症類群障礙（ASD）或精神分裂症傳給子女。這些突變頻率隨父親年齡增加而上升，而母親年齡則無此影響。
 
-| 項目 | 內容 |
-|------|------|
-| Disease and HLA Type | |
-| Race | |
-| Patients (% Positive) | |
-| Controls (%) | |
-| Odds Ratio* | |
-| Ankylosing Spondylitis | |
-| B27 | |
-| White | |
-| 9 | |
-| 69.1 | |
-| B27 | |
-| Asian | |
+---
 
-**TABLE 16-3. Age Distribution in Published Clinical Reports of Childhood Leukemia in Twins,**
+## 2. 與已知遺傳疾病的關聯
 
-| 項目 | 內容 |
-|------|------|
-| 1928–1974 | |
-| MONOZYGOTIC PAIRS | |
-| DIZYGOTIC PAIRS | |
-| Concordant | |
-| Discordant | |
-| Concordant | |
-| Discordant | |
-| Perinatal-congenital | |
-| 1 | |
-| 1 | |
-| Age 2–7 yr | |
-| 13 | |
+### 主要原則
 
+若某疾病與另一已知具有強遺傳成分的疾病有關聯，這可能表示該疾病也涉及遺傳因素。
 
-## 📝 複習問題
+### 常見關聯範例
 
-> 以下問題可幫助您複習本章內容：
+| 疾病對應關係 | 說明 |
+|------------|------|
+| **Down 症候群 ↔ 白血病** | 唐氏症兒童罹患白血病風險較高 |
+| **Down 症候群 ↔ 阿茲海默症** | 唐氏症患者晚年出現癡呆症狀的風險增加 |
+| **Klinefelter 症候群 (XXY) ↔ 男性乳癌** | 染色體異常與乳癌風險增加有關 |
+| **家族性腺瘤性息肉症 (FAP) ↔ 結腸癌** | 遺傳性息肉疾病與結腸癌發展密切相關 |
+| **高胱胺酸尿症 ↔ 粥狀硬化** | 代謝異常導致血栓與硬化風險增加 |
 
-1. A reasonable conclusion to be drawn from these 
-data is:
-a. Genetic factors are unimportant in the etiol-
-ogy of schizophrenia
-b. The data suggest a potentially important 
-genetic component
-c. The inc
-1. If an association is found between the incidence 
-of a disease and a certain genetically determined 
-characteristic:
-a. The disease is clearly genetic in origin
-b. Genetic factors are at least implica
-1. These indings suggest that:
-a. Environmental factors are the major determi-
-nants of these SMRs
-b. Genetic factors are the major determinants of 
-these SMRs
-c. Environmental factors associated with th
+> **臨床重點**
+> 這些關聯**並不證明**疾病本身是遺傳決定的，但確實表明這些疾病的病因或某些病例可能涉及遺傳因素。
+
+---
+
+## 3. BRCA1 與 BRCA2 基因
+
+### 風險估計
+
+| 項目 | 攜帶者終生風險 | 一般族群風險 |
+|------|--------------|-------------|
+| 乳癌（BRCA1/BRCA2 突變） | 約 **50-85%** | 約 **12%** |
+| 卵巢癌（BRCA1 突變） | 最高 **40%** | 約 **1.5%** |
+| 卵巢癌（BRCA2 突變） | 約 **20%** | 約 **1.5%** |
+
+### 重要發現
+
+- 約**半數**遺傳性乳癌病例（約佔所有乳癌的 5%）是由 BRCA1 或 BRCA2 突變引起
+- 在德系猶太女性中，發現了 BRCA1 的兩種突變及 BRCA1 的一種突變
+- **重要限制**：原始風險估計來自高風險家族，後續研究在非選擇性族群中得到的風險較低
+
+> **臨床重點**
+> 遺傳檢測可能適用於某些高風險族群（如有強烈家族史的德系猶太女性）。但在不以家族史為篩選條件的一般族群中，是否進行 BRCA 突變檢測仍需更多數據支持。
+
+### ATM 基因
+
+1995 年發現的 **ATM 基因**（運動失調血管擴張症突變基因）可能是遺傳性乳癌的重要原因。約 0.5-1.4% 的人口攜帶此缺陷基因，可能佔所有乳癌的 **8%**。
+
+---
+
+## 4. 人類基因體計畫與基因研究進展
+
+### 人類基因體計畫（HGP）
+
+| 里程碑 | 說明 |
+|-------|------|
+| 啟動時間 | 1990 年 |
+| 首份工作草圖發布 | 2003 年 4 月（Watson 與 Crick DNA 結構發現 50 週年） |
+| 所有染色體 DNA 序列完成 | 2006 年 5 月 |
+| 人類基因數量 | 約 **22,000 個基因** |
+| 基因體規模 | 約 **30 億個鹼基對** |
+
+DNA 的四個鹼基：**A（腺嘌呤）**、**T（胸腺嘧啶）**、**C（胞嘧啶）**、**G（鳥糞嘌呤）**
+
+### 單核苷酸多態性（SNP）
+
+- 大多數 **SNP**（發音為 "snips"）對生理功能無顯著影響
+- 少数 SNP 可能影響個人對疾病的易感性及對藥物治療的反應
+- **國際 HapMap 計畫**持續研究 SNP 組合（單倍體型）
+
+### 基因表現
+
+每個細胞都擁有完整染色體組，但只有特定子集的基因被「啟動」。這些「表現」的基因決定了細胞的獨特特性。基因表現同時受「開關」與「音量控制」調節。
+
+> **臨床重點**
+> 透過研究細胞產生的 mRNA 種類與數量，可以了解細胞如何回應環境變化挑戰。這對理解環境因素如何影響健康非常重要。
+
+---
+
+## 5. HLA 與疾病關聯
+
+**HLA（人類白血球抗原）** 是由基因決定的抗原類型，與多種疾病有強烈關聯。
+
+### HLA 疾病關聯表
+
+| 疾病 | HLA 類型 | 人種 | 患者陽性率 (%) | 對照組 (%) | **勝算比 (OR)** |
+|------|---------|------|--------------|-----------|----------------|
+| 僵直性脊椎炎 | B27 | 白人 | 89 | 9 | **69.1** |
+| 僵直性脊椎炎 | B27 | 亞洲人 | 85 | 15 | **207.9** |
+| 僵直性脊椎炎 | B27 | 黑人 | 58 | 4 | **54.4** |
+| 遺傳性血色素沉著症 | A3 | 白人 | 72 | 28 | **6.7** |
+| 第一型糖尿病 | DR4 | 白人 | 74 | 24 | **9.0** |
+| 第一型糖尿病 | DR2 | 白人 | 4 | 29 | **0.1**（保護性） |
+| 類風濕性關節炎 | DR4 | 白人 | 68 | 25 | **3.8** |
+| 猝睡症 | DR2 | 白人 | 100 | 22 | **129.8** |
+
+> **臨床重點**
+> HLA 關聯研究有兩個重要價值：1) 闡明疾病的致病機制；2) 利用 HLA 作為標記，識別高風險族群。
+
+---
+
+## 6. 發病年齡與遺傳機制
+
+### 核心觀察
+
+當某疾病同時存在遺傳型與非遺傳型時，**遺傳型發病年齡通常較早**。
+
+### 機制解釋
+
+- **遺傳型疾病**：患者出生即攜帶一個生殖細胞突變，後續只需一個體細胞突變即可致癌
+- **非遺傳型疾病**：需要連續兩個體細胞突變發生在同一細胞中，機率極低
+
+這個「二次打擊假說」（**Two-hit hypothesis**）由 Knudson 在 1971 年提出，完美解釋了為何遺傳型視網膜芽細胞瘤比非遺傳型發病更早。
+
+### 實證範例
+
+| 疾病/基因 | 發現 | 說明 |
+|---------|------|------|
+| **APOE-ε4 與阿茲海默症** | APOE-ε4 等位基因越多，發病年齡越早 | 無 ε4：20% 風險；1 個 ε4：47%；2 個 ε4（4/4 基因型）：**91%** |
+| **視網膜芽細胞瘤** | 遺傳型集中在幼兒期，非遺傳型分布於整個童年 | 家族型：極早年齡；非家族型：各年齡層均有 |
+| **色素性乾皮症** | 遺傳性 DNA 修復缺陷導致皮膚癌年齡大幅提前 | 與一般族群相比，發病年齡顯著較早 |
+
+---
+
+## 7. 視網膜芽細胞瘤的「二次打擊」模型
+
+### 腫瘤抑制基因理論
+
+- **遺傳型**：兒童出生時生殖細胞已有一個突變，只需再一個體細胞突變即可致癌
+- **非遺傳型**：兒童出生時無生殖細胞突變，需要**連續兩個體細胞突變**才能致癌
+
+1988 年發現了導致視網膜芽細胞瘤及骨肉瘤的腫瘤抑制基因。
+
+---
+
+## 8. 基因標記的應用
+
+### 基因標記定義
+
+**基因標記（Genetic markers）** 是可透過實驗室方法檢測的基因或 DNA 序列，可觀察父母與子女之間的傳遞模式，且通常已知其染色體位置。
+
+### 研究設計的關鍵問題
+
+研究基因與疾病關聯時，必須注意：
+- **對照組選擇**：血庫捐血者並非一般族群的代表，可能有嚴重的選擇偏差
+- **資訊偏差**：自願參與者與非參與者之間存在差異
+- **基因-環境交互作用**：需考慮兩者的複合效應
+
+---
+
+## 9. 基因流行病學研究方法
+
+### 家族研究（Family Studies）
+
+- 比較疾病患者家族成員與一般族群的發病率
+- 若家族成員發病率較高，表示可能存在遺傳因素
+
+### 雙胞胎研究（Twin Studies）
+
+| 類型 | 遺傳學基礎 | 研究價值 |
+|------|----------|---------|
+| **同卵雙胞胎（MZ）** | 基因完全相同 | 比較一致率與不一致率以估計遺傳率 |
+| **異卵雙胞胎（DZ）** | 基因共享約 50% | 作為對照組，區分遺傳與環境影響 |
+
+### 收養研究（Adoption Studies）
+
+- 比較被收養者與親生父母及收養父母的疾病模式
+- 可區分遺傳與環境因素的相對貢獻
+
+### 移民研究（Migrant Studies）
+
+- 比較移民群體與原居地/移居地族群的疾病風險
+- 有助於識別環境因素的相對重要性
+
+---
+
+## 10. 基因型與表現型的年齡分布
+
+當疾病同時具有遺傳與非遺傳形式時，兩者的年齡分布呈現明顯不同的模式：
+
+> **臨床重點**
+> - **遺傳型**：發病年齡較早，相對快速發病
+> - **非遺傳型**：需要環境暴露或因素的累積，發病年齡較晚
+
+Childs 與 Scriver 分析多種遺傳與非遺傳疾病的發病年齡，發現此模式在多種疾病中均成立。這解釋了為何遺傳性疾病往往在生命早期出現，而非遺傳性疾病則與累積的環境損傷有關。
+
+---
+
+## 章節總結
+
+1. **基因與環境交互作用**：大多數疾病是遺傳傾向與環境因素共同作用的結果，單一因素很少能完全解釋疾病成因。
+
+2. **研究設計**：家族研究、雙胞胎研究、收養研究與移民研究各有優劣，可相互補充以區分遺傳與環境因素的相對貢獻。
+
+3. **基因標記的應用**：HLA 类型、BRCA 基因突變等基因標記可用於識別高風險族群，並揭示疾病機制。
+
+4. **發病年齡的重要性**：遺傳型疾病發病年齡普遍較早，這是區分遺傳與非遺傳因素的重要流行病學線索。
+
+5. **基因體研究的进展**：人類基因體計畫開啟了個人化醫療的可能性，但將實驗室發現轉化為臨床應用的進展仍然緩慢。
 
 ---
 

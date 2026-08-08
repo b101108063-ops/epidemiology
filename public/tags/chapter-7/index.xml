@@ -4,15 +4,15 @@
     <title>Chapter-7 on Epidemiology 流行病學</title>
     <link>https://b101108063-ops.github.io/epidemiology/tags/chapter-7/</link>
     <description>Recent content in Chapter-7 on Epidemiology 流行病學</description>
-    <generator>Hugo</generator>
-    <language>zh-TW</language>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
     <atom:link href="https://b101108063-ops.github.io/epidemiology/tags/chapter-7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>評估預防與治療措施：隨機試驗</title>
       <link>https://b101108063-ops.github.io/epidemiology/docs/ch7_randomized_trials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://b101108063-ops.github.io/epidemiology/docs/ch7_randomized_trials/</guid>
-      <description>&lt;h1 id=&#34;評估預防與治療措施隨機試驗&#34;&gt;評估預防與治療措施：隨機試驗&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;原文章節：&lt;/strong&gt; Assessing Preventive and Therapeutic Measures: Randomized Trials&lt;/p&gt;&#xA;&lt;h2 id=&#34;-學習目標&#34;&gt;📚 學習目標&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To describe the important elements of randomized trials.&lt;/li&gt;&#xA;&lt;li&gt;To deﬁne the purpose of randomization and of masking.&lt;/li&gt;&#xA;&lt;li&gt;To introduce design issues related to randomized trials, including stratiﬁed randomization, planned and unplanned crossovers, and factorial design.&lt;/li&gt;&#xA;&lt;li&gt;To illustrate the problems posed by noncompliance in randomized trials.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;內容概要&#34;&gt;內容概要&lt;/h2&gt;&#xA;&lt;p&gt;All who drink of this treatment recover in a short time,&#xA;Except those whom it does not help, who all die,&#xA;It is obvious, therefore, that it fails only in incurable cases.&lt;/p&gt;</description>
+      <description>評估預防與治療措施：隨機試驗 原文章節： Assessing Preventive and Therapeutic Measures: Randomized Trials&#xA;📚 學習目標 描述隨機試驗的重要元素 定義隨機化的目的與 masking（遮盲）的目的 介紹隨機試驗的設計議題：分層隨機化、計劃性與非計劃性 crossover（交叉）、factorial design（因子設計） 說明隨機試驗中 noncompliance（不服藥）的問題 內容概要 「接受此療法的每個人都在短時間內康復——除了那些無效的人，他們都死了。因此，這療法顯然只對不治之症失敗。」 — Galen（129–c. 199 CE）&#xA;公共衛生與臨床實務的目標，都是要改變疾病的自然史——預防或延遲死亡或失能。然而，要選擇最佳預防或治療措施，需要進行研究來確定這些措施的價值。隨機試驗（Randomized Trial）是評估新介入措施效果與副作用的理想設計。&#xA;歷史背景 1883 年：Sir Francis Galton 首先提議用嚴謹方法評估新藥療效。&#xA;1965 年：Joyce 與 Welldon 報告了第一個祈禱療效的double-blind（雙盲）隨機試驗，發現被祈禱的病患並未因此獲益。&#xA;更早的先驅：&#xA;Ambroise Paré（1510–1590）：在戰爭中治療傷兵時，意外發現少了沸油（當時標準療法），傷口反而恢復更好——這是非計劃性試驗的雛形。 James Lind（1747）：在航海中進行 scurvy（壞血病）實驗，給予不同飲食治療，發現柑橘與檸檬效果最快最好。47 年後英國海軍才將檸檬汁列為標準飲食——從此英國水手被稱為「limeys」。 隨機試驗的基本設計（Figure 7-1） 研究族群 → 隨機分配 → 新治療組 vs. 對照治療組 → 追蹤 → 比較結果 可以比較兩個群體（不同療法），或多個群體。通常以目前建議的治療作為對照組，而非完全無治療（尤其對 AIDS 等嚴重疾病）。&#xA;受試者的選擇 選擇標準必須事先書面明確定義。好的測試方法是：讓未參與研究的人依同樣標準，能否選擇出相同的研究對象。任何研究在原則上都必須可被他人複製。&#xA;為什麼需要對照組？ 無對照組的問題 一位船長報告：「幾乎所有對照組都生病了，但受試組沒事。」（他讓水手吃藥，讓乘客當對照——可想而知結果）&#xA;若不給予對照組，無法推斷康復是否真的由藥物引起。Hugo Muensch 的第二定律：「結果總是可以透過省略對照組來改善。」&#xA;歷史對照（Historical Controls） 從過去有病歷記錄的相同疾病患者中選取對照。</description>
     </item>
   </channel>
 </rss>
