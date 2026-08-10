@@ -12,1983 +12,378 @@ menu:
     weight: 5
 ---
 
+# 第5章：診斷與篩檢試驗的有效性與可靠性評估
 
-
-# 第5章：Assessing the Validity and Reliability of Diagnostic and Screening Tests
-
-**診斷與篩檢試驗的有效性與可靠性評估**
+**Assessing the Validity and Reliability of Diagnostic and Screening Tests**
 
 > **Gordis Epidemiology** 第五版 | Chapter 5
-> 本章探詢 Assessing the Validity and Reliability of Diagnostic and Screening Tests 的核心概念與應用
+> 本章探討如何評估診斷與篩檢試驗的品質。一個核心問題是：如何評估新篩檢和診斷試驗的品質，使其使用和解讀合理？
 
 ---
-
-
 
 ## 🎯 學習目標
 
-完成本章學皙後，您將能夠：
+完成本章學習後，您將能夠：
 
-- 理解 診斷與篩檢試驗的有效性與可靠性評估 的基本概念
-- 掌握相關流行病學方法與術語
-- 應用這些知識於臨床與公共衛生實踐
-- 分析與評估相關研究證據
+- 定義診斷與篩檢試驗的**有效性**（Validity）與**可靠性**（Reliability）
+- 比較有效性的測量方法，包括**敏感度**與**特異度**
+- 理解**陽性預測值**與**陰性預測值**的意義及其與**盛行率**的關係
+- 了解**順序檢測**與**同步檢測**的差異及其對敏感度和特異度的影響
+- 掌握可靠性的測量方法，包括**百分一致率**與**Kappa統計量**
+- 理解群體有效性與個體有效性的區別
 
+---
 
+## 📋 重要術語速查
 
+| 中文術語 | 英文 | 定義關鍵詞 |
+|---------|------|-----------|
+| **有效性** | Validity | 試驗區分有病和無病者的能力 |
+| **可靠性 / 重複性** | Reliability / Repeatability | 測量結果的一致性與可重複性 |
+| **敏感度** | Sensitivity | 正確識別有病者的能力（真陽性率）|
+| **特異度** | Specificity | 正確識別無病者的能力（真陰性率）|
+| **陽性預測值** | Positive Predictive Value (PPV) | 檢驗陽性者真正有病的概率 |
+| **陰性預測值** | Negative Predictive Value (NPV) | 檢驗陰性者真正無病的概率 |
+| **臨界值** | Cutoff Level | 區分陽性和陰性結果的分界點 |
+| **黃金標準** | Gold Standard | 關於疾病狀態的外部「真理」來源 |
+| **假陽性** | False Positive | 實際無病但試驗呈陽性 |
+| **假陰性** | False Negative | 實際有病但試驗呈陰性 |
+| **真陽性** | True Positive | 實際有病且試驗呈陽性 |
+| **真陰性** | True Negative | 實際無病且試驗呈陰性 |
+| **順序檢測** | Sequential Testing | 先初篩後複檢的兩階段檢測 |
+| **同步檢測** | Simultaneous Testing | 同時使用多個試驗 |
+| **Kappa統計量** | Kappa Statistic | 排除機會因素後的觀察一致率 |
 
-## 📋 重要術語
+---
 
-| 英文術語 | 中文翻譯 |
-|---------|---------|
+## 評估診斷與篩檢試驗的科學
 
-| Community | 社區 |
-| Confounder | 混雜因子 |
-| Environment | 環境 |
-| Epidemiology | 流行病學 |
-| Etiology | 病因學 |
-| Health | 健康 |
-| Incidence | 發生率 |
-| Introduction | 緒論 |
-| Mortality | 死亡率 |
-| Policy | 政策 |
-| Prevalence | 盛行率 |
-| Reliability | 可靠性 |
-| Specificity | 特異度 |
-| Survival | 存活 |
+### 📖 摘要
 
+要理解疾病如何傳播和發展，並提供適當有效的健康照護，必須能區分族群中哪些人患有疾病、哪些人沒有。這是臨床和公共衛生領域的重要挑戰。本章回答一個核心問題：如何評估新篩檢和診斷試驗的品質，使其使用和解讀合理？
 
-## 🖼️ 圖表目錄
+---
 
-本章包含以下圖表：
+## 生物變異與人類族群分布
 
+### 📖 摘要
 
-- **Figure
-5-7**
-- **Figure 5-4**
-- **Figure  5-8**
-- **Figure 5-9**
-- **Figure 5-15**
-- **Figure  5-18**
-- **Figure  5-13**
-- **Figure  5-12**
-- **Figure 5-18**
-- **Figure  5-16**
-- **Figure  5-10**
-- **Figure  5-9**
-- **Figure 5-10**
-- **Figure 5-5**
-- **Figure 5-19**
-- **Figure 5-1**
-- **Figure 5-13**
-- **Figure 5-3**
-- **Figure  5-2**
-- **Figure  5-15**
+人體測量值（如血壓、血糖）在族群中呈現連續分布。理解這種分布的模式，對於選擇適當的**臨界值**（Cutoff Level）來區分正常與異常至關重要。
 
+### 雙峰分布
 
-## 📊 重要表格
+圖5-1顯示結核菌素反應的分布：大部分未接觸結核者無硬結（0mm），而先前有結核暴露者約在20mm處形成高峰。這種**雙峰分布**（Bimodal Distribution）使得將大多數人容易區分為兩組（患病與未患病）。
 
+### 單峰分布
 
+圖5-2顯示血壓分布：收縮壓沒有雙峰曲線，只有一個單峰。因此，選擇一個**臨界值**來區分高血壓和正常血壓是必要的——沒有明顯的血壓值能自然分開兩組。
 
-**Table 5-1 indicates that of the 100 people**
+> **臨床重點**：在單峰或雙峰分布中，處於「灰色地帶」的個體可能難以明確分類。無論選擇何種**臨界值**，都會有**假陽性**和**假陰性**的取捨。
 
-| with | the | disease, | 80 | were | correctly | identiied | as |
-| “positive” | by | the | test, | and | a | positive | identiication |
-| was | missed | in | 20. | Thus, | the | sensitivity | of | the | test, |
-| which | is | deined | as | the | proportion | of | diseased |
-| people | who | were | correctly | identiied | as “positive” |
+---
 
+## 篩檢試驗的有效性
 
+### 📖 摘要
 
-**Table 5-1, of the 900 people who did not**
+**有效性**（Validity）定義為試驗區分有病和無病者的能力。有效性有兩個核心組成部分：**敏感度**（Sensitivity）——正確識別患病者的能力，以及**特異度**（Specificity）——正確識別未患病者的能力。
 
-| have | the | disease, | the | test | correctly | identiied | 800 |
-| as | “negative.” | The | speciicity | of | the | test, | which | is |
-| deined | as | the | proportion | of | nondiseased | people |
+### 敏感度
 
+**敏感度**定義為試驗正確識別患病者的能力：
 
+$$\text{敏感度} = \frac{\text{真陽性}}{\text{真陽性 + 假陰性}} \times 100\%$$
 
-**Table 5-2 compares the results of a dichotomous**
+敏感度也稱為**真陽性率**（True Positive Rate）。
 
-| test | (results | either | positive | or | negative) | with | the |
-| actual | disease | status. | Ideally, | we | would | like | all | of |
-| in | the | upper | left | and | lower | right | on | the | table: |
-| people | with | the | disease | who | are | correctly | called |
-| “positive” | by | the | test | (true | positives) | and | people |
-| tive” | by | the | test | (true | negatives). | Unfortunately, |
-| such | is | rarely | if | ever | the | case. | Some | people | who |
-| do | not | have | the | disease | are | erroneously | called |
-| “positive” | by | the | test | (false | positives), | and | some |
-| people | with | the | disease | are | erroneously | called |
-| “negative” | (false | negatives). |
+### 特異度
 
+**特異度**定義為試驗正確識別未患病者的能力：
 
+$$\text{特異度} = \frac{\text{真陰性}}{\text{真陰性 + 假陽性}} \times 100\%$$
 
-**Table  5-3).  In  Figure  5-8A,  the  oval**
+特異度也稱為**真陰性率**（True Negative Rate）。
 
-| Figure | 5-8B | the | pink | circle | within | the | oval | repre- |
-| sents | the | 160 | who | test | positive | with | test A. | These |
+### 2×2 表
 
+要計算敏感度和特異度，必須從試驗本身以外的來源知道誰「真的」患有疾病、誰沒有。這稱為**黃金標準**（Gold Standard）——關於每個個體疾病狀態的外部「真理」來源。
 
+|  | 有病（實際） | 無病（實際） | 總計 |
+|---|------|------|------|
+| **試驗陽性** | 真陽性（TP） | 假陽性（FP） | TP+FP |
+| **試驗陰性** | 假陰性（FN） | 真陰性（TN） | FN+TN |
+| **總計** | TP+FN | FP+TN | 總人口 |
 
-**Table  5-5).  In  Figure  5-9A,**
+> **臨床重點**：要計算**敏感度**和**特異度**，必須從試驗本身以外的來源知道誰「真的」患有疾病、誰沒有。這稱為**黃金標準**（Gold Standard）——關於每個個體疾病狀態的外部「真理」來源。
 
-| the | disease. | The | green | circle | within | the | oval | in |
-| Figure | 5-9B | represents | the | 480 | people | who | test |
-| negative | with | test | A. | These | are | the | true | negatives |
+---
 
+## 假陽性與假陰性的臨床意義
 
+### 📖 摘要
 
-**Table  5-6  and  the**
+任何篩檢或診斷試驗都不完美，都會產生**假陽性**（False Positive）和**假陰性**（False Negative）。理解這兩種錯誤的臨床後果，對於合理使用試驗至關重要。
 
-| yellow | circle | in | Fig. | 5-9C). | However, | to | be | called |
-| negative | in | simultaneous | tests, | only | people | who |
-| test | negative | on | both | tests | are | considered | to | have |
+### 假陽性的問題
 
+所有試驗陽性者都需要接受更複雜、更昂貴的檢查。假陽性導致的問題：
 
-| 5-1, | in | which | a | population | of | 1,000 | persons | is |
-| tive | test | result; | of | these | 180 | subjects, | 80 | have | the |
-| disease. | Therefore, | the | positive | predictive | value | is |
-| 80/180, | or | 44%. |
+| 問題 | 說明 |
+|------|------|
+| **醫療系統負擔** | 大量非患者需要進一步檢查，消耗資源 |
+| **心理焦慮** | 被告知陽性結果帶來的擔憂、恐懼和壓力 |
+| **標籤效應** | 即使後續檢查陰性，「陽性」的標籤可能永遠無法完全消除 |
+| **就業和保險影響** | 陽性結果可能導致就業和保險問題 |
 
+### 假陰性的問題
 
+如果患有疾病者被錯誤告知結果為陰性，而該疾病是可在早期治療干預的嚴重疾病，問題就非常嚴重。
 
-**Table 5-7, 820 people have**
+> **臨床重點**：**假陰性**的重要性取決於三個因素：
+> 1. 疾病的**性質和嚴重程度**
+> 2. 可用的**有效干預措施**
+> 3. 干預在疾病自然史**早期**是否效果更好
 
-| the | disease. | Thus, | the | negative | predictive | value | is |
+---
 
+## 連續變數的試驗
 
+### 📖 摘要
 
+對於血壓或血糖等**連續變數**，沒有天然的分界點來區分正常和異常。必須建立一個**臨界值**（Cutoff Level）。選擇較低的臨界值會提高敏感度但降低特異度，反之亦然。
 
-## 📖 內容摘要
+### 臨界值的選擇
 
+對於血壓或血糖等連續變數，必須建立一個**臨界值**水平：
 
-Assessing the Validity and 可靠性
-of Diagnostic and Screening Tests
+| 臨界值策略 | 敏感度 | 特異度 | 適用情境 |
+|-----------|--------|--------|---------|
+| **高臨界值** | 低 | 高 | 疾病罕見，假陽性後果嚴重 |
+| **低臨界值** | 高 | 低 | 疾病常見，假陰性後果嚴重 |
 
-A normal individual is a person who has not been suficiently examined.
+圖5-3展示糖尿病篩檢中不同血糖臨界值的影響。
 
-■  To deﬁne the 有效性 and 可靠性 of
+### 敏感度與特異度的權衡
 
-篩檢 and 診斷試驗s.
+$$\text{降低臨界值} \rightarrow \text{增加敏感度} \rightarrow \text{降低特異度}$$
 
-■  To compare measures of 有效性, including
+$$\text{提高臨界值} \rightarrow \text{增加特異度} \rightarrow \text{降低敏感度}$$
 
-敏感度 and speciﬁcity.
+> **臨床重點**：這就是流行病學中著名的「沒有免費的午餐」原則——選擇高敏感度必然犧牲特異度，反之亦然。**臨界值的選擇**取決於對假陽性和假陰性相對重要性的考量。
 
-■  To illust率 the use of multiple tests
-(sequential and simultaneous testing).
+---
 
-■  To introduce positive and negative predictive
+## 多重試驗的應用
 
-■  To compare measures of 可靠性, including
+### 📖 摘要
 
-percent 一致性 and kappa.
+在臨床實踐中，常使用多個試驗來提高診斷的準確性。**順序檢測**（Sequential Testing）先初篩後複檢，降低敏感度但提高特異度；**同步檢測**（Simultaneous Testing）同時使用多個試驗，提高敏感度但降低特異度。
 
-To  understand  how  a  疾病  is  transmitted  and
-develops  and  to  provide  appropriate  and  effective
-健康  care,  it  is  necessary  to  distinguish  between
-people in the 族群 who have the 疾病 and
-those who do not. This is an important challenge,
-both in the clinical arena, where patient care is the
-issue, and in the 公共衛生 arena, where second-
-ary 預防 programs that involve early 疾病
-detection  and  intervention  are  being  considered
-and where etiologic studies are being conducted to
-provide  a  basis  for  primary  預防. Thus,  the
-quality of 篩檢 and 診斷試驗s is a critical
-issue. Regardless  of  whether  the  test  is  a  physical
-examination,  a  chest  X-ray,  an  electrocardiogram,
-or a blood or urine assay, the same issue arises: How
-good is the test in separating 族群 of people
-with  and  without  the  疾病  in  question? This
-chapter addresses the question of how we assess the
-quality of newly available 篩檢 and diagnostic
-tests to make reasonable decisions about their use
-and interpretation.
+### 順序（兩階段）檢測
 
+**順序檢測**先用較便宜、較不侵入性的試驗進行初篩，然後對陽性者用更準確但可能更昂貴或侵入性的試驗進行複檢。
 
-### BIOLOGIC VARIATION OF HUMAN
-POPULATIONS
+| 階段 | 作用 | 結果 |
+|------|------|------|
+| 第一階段 | 初篩所有人 | 識別所有陽性者（真陽性+假陽性）|
+| 第二階段 | 對第一階段陽性者複檢 | 提高特異度 |
 
-In  using  a  test  to  distinguish  between  individuals
-with normal and abnormal results, it is important
-to understand how characteristics are distributed in
-human 族群.
+**順序檢測的影響**：
+- **淨敏感度降低**（因為要通過兩關才能算陽性）
+- **淨特異度提高**（假陽性被排除）
 
-The size of the indura-
-tion (diameter of the area of hardness at the site of
-the injection in millimeters) is shown on the hori-
-zontal axis and the number of individuals is indi-
-cated on the vertical axis. A large group centers on
-the  value  of  0 mm—no  indu比n—and  another
-group centers near 20 mm of indu比n. This type
-of  分布,  in  which  there  are  two  peaks,  is
-called  a  bimodal  curve. The  bimodal  分布
-permits the sepa比n of individuals who had no
-prior experience with tuberculosis (people with no
-indu比n,  seen  on  the  left)  from  those  who  had
-prior experience with tuberculosis (those with about
-20 mm of indu比n, seen on the right). Although
-some  individuals  fall  into  the  “gray  zone”  in  the
-center, and may belong to either curve, most of the
-族群 can be easily distinguished using the two
-curves. Thus,  when  a  characteristic  has  a  bimodal
-分布, it is relatively easy to sepa率 most of
-the 族群 into two groups (for example, ill and
-not  ill,  having  a  certain  condition  or  abnormality
-and not having that condition or abnormality).
+### 同步檢測
 
-In general, however, most human characteristics
-are  not  distributed  bimodally. In  this  igure  there  is  no  bimodal
-curve;  what  we  see  is  a  unimodal  curve—a  single
-peak. Therefore,  if  we  want  to  sepa率  those  in
-the  group  who  are  hypertensive  from  those  who
+**同步檢測**對同一人同時使用兩種或以上試驗：
+- 任一試驗陽性即判定為陽性
+- 所有試驗都陰性才判定為陰性
 
-Chapter 5   診斷與篩檢試驗的有效性與可靠性評估
+**同步檢測的影響**：
+- **淨敏感度提高**（只要任一試驗陽性就算陽性）
+- **淨特異度降低**（所有試驗都陰性才算陰性）
 
-Distribution of tuberculin reactions. (Adapted from Edwards LB, Palmer CE, Magnus K: BCG Vaccination: Studies by
-the WHO Tuberculosis Research Ofice, Copenhagen. WHO Monograph No. 12. Geneva, WHO, 1953.)
+### 比較
 
-)
-s
-d
-n
-a
-s
-u
-o
-h
-T
-(
-n
-e
-M
+| 檢測方式 | 敏感度 | 特異度 | 典型應用 |
+|----------|--------|--------|---------|
+| **順序檢測** | 降低 | 提高 | 疾病普遍存在時控制假陽性 |
+| **同步檢測** | 提高 | 降低 | 疾病罕見時不漏診 |
 
-<110 110–19 120–29 130–39 140–49 150–59 160–69 170–79 ≥180
+> **臨床重點**：選擇順序還是同步檢測，取決於疾病的**盛行率**和**假陽性的代價**。對於罕見疾病，順序檢測可有效控制假陽性率。
 
-Systolic Blood Pressure (mm Hg)
+---
 
-Distribution of systolic blood pressure for men screened for the Multiple Risk Factor Intervention Trial. (Data from
-Stamler J, Stamler R, Neaton JD: Blood pressure, systolic and diastolic, and cardiovascular risks: U.S. 族群 data. Arch Intern
-Med 153:598–615, 1993.)
+## 預測值
 
-are  not  hypertensive,  a  臨界值  level  of  blood  pres-
-sure must be set above which people are designated
-hyper tensive and below which they are designated
-normotensive. No  obvious  level  of  blood  pressure
-from  hypertensive
-distinguishes  normotensive
-individuals. Although  we  could  choose  a  臨界值
-for  hypertension  based  on  statistical  consider-
-ations,  we  would  ideally  like  to  choose  a  臨界值
-on  the  basis  of  biologic  information;  that  is,  we
-would  want  to  know  that  a  pressure  above  the
-chosen 臨界值 level is associated with increased risk
-of  subsequent  疾病,  such  as  stroke,  myocardial
-infarction, or subsequent 死亡率. Unfortunately,
+### 📖 摘要
 
-for  many  human  characteristics,  we  do  not  have
-such information to serve as a guide in setting this
-level.
+**預測值**（Predictive Values）回答臨床醫師最關心的問題：試驗結果為陽性的患者，真的患病的概率是多少？
 
-In either 分布—unimodal or bimodal—
-it  is  relatively  easy  to  distinguish  between  the
-extreme  values  of  abnormal  and  normal. With
-either type of curve, however, uncertainty remains
-about 病例s that fall into the gray zone.
+### 陽性預測值（PPV）
 
+如果試驗結果為陽性，該患者真的患病的**概率**是多少？
 
-### VALIDITY OF SCREENING TESTS
+$$\text{PPV} = \frac{\text{真陽性}}{\text{真陽性 + 假陽性}}$$
 
-The 有效性 of a test is deined as its ability to dis-
-tinguish between who has a 疾病 and who does
+### 陰性預測值（NPV）
 
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
+如果試驗結果為陰性，該患者真的未患病的**概率**是多少？
 
-Calculation of the Sensitivity and Speciicity of Screening Examinations
+$$\text{NPV} = \frac{\text{真陰性}}{\text{真陰性 + 假陰性}}$$
 
-Example: Assume a 族群 of 1,000 people, of whom 100 have the 疾病 and 900 do not have the 疾病. A 篩檢試驗 is used to identify the 100 people who have the 疾病.
-
-
-### TRUE CHARACTERISTICS
-IN THE POPULATION
-
-Results of
-Screening
-
-Do Not Have
-the Disease Totals
-
-not. Validity  has  two  components:  敏感度  and
-speciicity. The  敏感度  of  the  test  is  deined  as
-the ability of the test to identify correctly those who
-have the 疾病. The speciicity of the test is deined
-as the ability of the test to identify correctly those
-who do not have the 疾病.
-
-Tests with Dichotomous Results (Positive
-or Negative)
-Suppose we have a hypothetical 族群 of 1,000
-people, of whom 100 have a certain 疾病 and 900
-do not. A test is available that can yield either posi-
-tive or negative results. We want to use this test to
-try  to  distinguish  persons  who  have  the  疾病
-from  those  who  do  not. The  results  obtained  by
-applying the test to this 族群 of 1,000 people
-are shown in Table 5-1.
-
-How good was the test? First, how good was the
-test  in  correctly  identifying  those  who  had  the
-疾病?
-
-Second, how good was the test in correctly iden-
-tifying those who did not have the 疾病? Looking
-again at
-
-Note that to calculate the 敏感度 and speci-
-icity of a test, we must know who “really” has the
-疾病 and who does not from a source other than
-the test we are using. We are, in fact, comparing our
-test results with some “黃金標準”—an external
-source of “truth” regarding the 疾病 status of each
-individual in the 族群. Sometimes this truth
-may  be  the  result  of  another  test  that  has  been  in
-use, and sometimes it is the result of a more deini-
-tive,  and  often  more  invasive,  test  (e.g.,  cardiac
-catheterization  or  tissue  biopsy). However,  in  real
-life,  when  we  use  a  test  to  identify  疾病d  and
-non疾病d persons in a 族群, we clearly do
-not  know  who  has  the  疾病  and  who  does  not. (If  this  were  already  established,  testing  would  be
-pointless.) But to quantitatively assess the 敏感度
-and speciicity of a test, we must have another source
-of truth with which to compare the test results.
-
-Chapter 5   診斷與篩檢試驗的有效性與可靠性評估
-
-Comparison of the Results of a Dichotomous Test with Disease Status
-
-
-### TRUE CHARACTERISTICS IN THE POPULATION
-
-Do Not Have
-the Disease
-
-True Positive (TP):
-Have the 疾病
-and test positive
-
-False Positive (FP):
-Do not have the 疾病
-but test positive
-
-False Negative (FN):
-Have the 疾病
-but test negative
-
-True Negative (TN):
-Do not have the 疾病
-and test negative
-
-Why  are  these  issues  important? When  we
-conduct a 篩檢 program, we often have a large
-group  of  people  who  screened  positive,  including
-both people who really have the 疾病 (true posi-
-tives) and people who do not have the 疾病 (false
-positives). The  issue  of  false  positives  is  important
-because  all  people  who  screened  positive  are
-brought  back  for  more  sophisticated  and  more
-expensive tests. Of the several problems that result,
-
-the  irst  is  a  burden  on  the  健康  care  system. Another  is  the  anxiety  and  worry  induced  in
-persons  who  have  been  told  that  they  have  tested
-positive. Considerable evidence indicates that many
-people who are labeled “positive” by a 篩檢試驗
-never have that label completely erased, even if the
-results of a subsequent evaluation are negative. For
-example, children labeled “positive” in a 篩檢
-program for heart 疾病 were handled as handi-
-capped by parents and school personnel even after
-being  told  that  subsequent  more  deinitive  tests
-were negative. In addition, such individuals may be
-limited  in  regard  to  employment  and  insurability
-by  erroneous  interpretation  of  positive  篩檢
-test results, even if subsequent tests fail to substanti-
-ate any positive inding.
-
-Why is the problem of 假陰性s important? If  a  person  has  the  疾病  but  is  erroneously
-informed that the test result is negative, and if the
-疾病 is a serious one for which effective interven-
-tion is available, the problem is indeed critical. For
-example,  if  the  疾病  is  a  type  of  cancer  that  is
-curable only in its early stages, a false-negative result
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-A–G, The effects of choosing different 臨界值 levels to deine a positive test result when 篩檢 for diabetes using a
-continuous marker, blood sugar, in a hypothetical 族群. (See discussion in the text under the subheading “Tests of Continuous
-Variables” below.)
-
-could represent a virtual death sentence. Thus, the
-importance of false-negative results depends on the
-nature  and  severity  of  the  疾病  being  screened
-for, the 有效性 of available intervention mea-
-sures, and whether the 有效性 is greater if the
-intervention  is  administered  early  in  the  natural
-history of the 疾病.
-
-Tests of Continuous Variables
-So far we have discussed a test with only two pos-
-sible results: positive or negative. But we often test
-for a continuous variable, such as blood pressure or
-
-blood glucose level, for which there is no “positive”
-or “negative”  result. A  decision  must  therefore  be
-made  in  establishing  a  臨界值  level  above  which  a
-test result is considered positive and below which a
-result  is  considered  negative. Let  us  consider  the
-diagrams shown in
-
-The  diabetics  are
-represented by blue circles and the nondiabetics by
-red circles. We see that although blood sugar levels
-
-Chapter 5   診斷與篩檢試驗的有效性與可靠性評估
-
-A,  Distribution  of
-blood sugar levels in hospital patients
-with  diabetes  and  without  diabetes. (The number of people with diabetes
-is shown for each speciic blood sugar
-level  in  the  [upper]  分布  for
-persons  without  diabetes. Because  of
-limited  space,  the  number  of  people
-for each speciic level of blood sugar is
-not shown in the [lower] 分布
-for persons with diabetes.) (Adapted
-from  Blumberg  M:  Evaluating  健康
-篩檢 procedures. Ope比ns Res
-5:351–360, 1957.)
-
-B and C show two dif-
-ferent blood sugar cutpoints that were
-used  in  the  study  to  deine  diabetes. Data from the graphs are presented to
-the right of each graph in a 2 × 2 table. B,  When  a  blood  sugar  cutpoint  of
-≥80 mg/dL  is  used  to  deine  diabetes
-in  this  族群,  敏感度  of  the
-篩檢試驗 is 100%, but speciicity
-is  low. C,  When  a  blood  sugar  cut-
-point of ≥200 mg/dL is used to deine
-diabetes in this 族群, 敏感度
-of the 篩檢試驗 is low, but speci-
-icity is 100%. (See explanation in the
-text  under  the  subheading  “Tests  of
-Continuous  Variables”  on  p. 92.)
-(Adapted  from  Blumberg  M:  Eval-
-uating  健康  篩檢  procedures. Ope比ns Res 5:351–360, 1957.)
-FN, 假陰性s; FP, 假陽性s;
-TN, 真陰性s; TP, 真陽性s.
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-tend to be higher in diabetics than in nondiabetics,
-no  level  clearly  sepa率s  the  two  groups;  there  is
-some overlap of diabetics and nondiabetics at every
-blood  sugar  level. Nevertheless,  we  must  select  a
-臨界值 point so that those whose results fall above
-the 臨界值 can be called “positive,” and can be called
-back for further testing, and those whose results fall
-below that point are called “negative,” and are not
-called back for further testing.
-
-Suppose  a  relatively  high  臨界值  level  is  chosen
-(Fig. 5-3B). Clearly, many of the diabetics will not
-be identiied as positive; on the other hand, most of
-the nondiabetics will be correctly identiied as neg-
-ative. If these results are distributed on a 2 × 2 table,
-the 敏感度 of the test using this 臨界值 level will
-be  25%  (5/20)  and  the  speciicity  will  be  90%
-(18/20).
-
-What if a low 臨界值 level is chosen (Fig. 5-3C)? Very  few  diabetics  would  be  misdiagnosed. What
-then is the problem? A large 比例 of the non-
-diabetics are now identiied as positive by the test. As seen in the 2 × 2 table, the 敏感度 is now 85%
-(17/20), but the speciicity is only 30% (6/20).
-
-The dificulty is that in the real world, no vertical
-line  sepa率s  the  diabetics  and  nondiabetics,  and
-they are, in fact, mixed together (Fig. 5-3D); in fact,
-they  are  not  even  distinguishable  by  red  or  blue
-circles (Fig. 5-3E). So if a high 臨界值 level is used
-(Fig. 5-3F), all those with results below the line will
-be assured they do not have the 疾病 and will not
-be followed further; if the low 臨界值 is used (Fig. 5-3G), all those with results above the line will be
-brought back for further testing.
-
-Suppose we were to screen this popu-
-lation. If we decide to set the 臨界值 level so that we
-identify  all  of  the  diabetics  (100%  敏感度),  we
-could  set  the  level  at  80 mg/dL  (Fig. 5-4B). The
-problem is, however, that in so doing we will also
-call many of the nondiabetics positive—that is, the
-speciicity  will  be  very  low. On  the  other  hand,  if
-we set the level at 200 mg/dL (Fig. 5-4C) so that we
-call all the nondiabetics negative (100% speciicity),
-we now miss many of the true diabetics because the
-敏感度 will be very low. Thus, there is a trade-off
-between  敏感度  and  speciicity:  if  we  increase
-the  敏感度  by  lowering  the  臨界值  level,  we
-decrease the speciicity; if we increase the speciicity
-by raising the 臨界值 level, we decrease the sensitiv-
-ity. To quote an unknown sage: “There is no such
-thing as a free lunch.”
-
-The dilemma involved in deciding whether to set
-a high 臨界值 or a low 臨界值 rests in the problem of
-the 假陽性s and the 假陰性s that result
-from the testing. It is important to remember that
-in 篩檢 we end up with groups classiied only
-on  the  basis  of  the  results  of  their  篩檢  tests,
-either positive or negative. We have no information
-regarding their true 疾病 status, which, of course,
-is  the  reason  for  carrying  out  the  篩檢. In
-effect, the results of the 篩檢試驗 yield not four
-groups, as seen in  Those who tested posi-
-tive will be notiied of their test result and will be
-asked  to  return  for  additional  examinations. The
-other  group,  who  tested  negative,  will  be  notiied
-that their test result was negative and will therefore
-not be asked to return for further testing (Fig. 5-6).
-
-Diagram showing four possible groups resulting
-from 篩檢 with a dichotomous test.
-
-Diagram  showing  the  two  groups  of  people
-resulting from 篩檢 with a dichotomous 篩檢試驗: all
-people with positive test results and all people with negative test
-results.
-
-Chapter 5   診斷與篩檢試驗的有效性與可靠性評估
-
-ASSUME A POPULATION OF 10,000 PEOPLE
-WITH A DIABETES PREVALENCE OF 5%
-
-A–B,  Hypothetical  example  of  a  two-stage  篩檢  program. A,  Findings  using  Test  1  in  a  族群  of  10,000
-people. B, Findings using Test 2 in participants who tested positive using Test 1. (See explanation in the text under the subheading
-“Sequential (Two-stage) Testing” below.)
-
-The  choice  of  a  high  or  a  low  臨界值  level  for
-篩檢 therefore depends on the importance we
-attach  to  false  positives  and  false  negatives. False
-positives are associated with costs—emotional and
-inancial—as well as with the dificulty of “delabel-
-ing” a person who tests positive and is later found
-not  to  have  the  疾病. In  addition,  false  positive
-results  pose  a  major  burden  to  the  健康  care
-system  in  that  a  large  group  of  people  need  to  be
-brought back for a retest, when only a few of them
-may  have  the  疾病. Those  with  false  negative
-results, on the other hand, will be told they do not
-have the 疾病 and will not be followed, so serious
-疾病 might possibly be missed at an early treat-
-able stage. Thus, the choice of 臨界值 level relates to
-the relative importance of false positivity and false
-negativity for the 疾病 in question.
-
-
-### USE OF MULTIPLE TESTS
-
-Often several 篩檢試驗s may be applied in the
-same  individuals—either  sequentially  or  simulta-
-neously. The  results  of  these  approaches  are
-described in this section.
-
-Sequential (Two-stage) Testing
-In  sequential  or  two-stage  篩檢,  a  less  ex-
-pensive, less invasive, or less uncomfortable test is
-generally  performed  irst,  and  those  who  screen
-positive are recalled for further testing with a more
-
-expensive,  more  invasive,  or  more  uncomfortable
-test, which may have greater 敏感度 and speci-
-icity. It  is  hoped  that  bringing  back  for  further
-testing  only  those  who  screen  positive  will  reduce
-the problem of 假陽性s.
-
-Consider  the  hypothetical  example  in    How  are  the  data  shown  in  this  table
-obtained? The 疾病 盛行率 in this 族群
-is given as 5%, so that in the 族群 of 10,000,
-500 persons have the 疾病. With a 敏感度 of
-70%, the test will correctly identify 350 of the 500
-people  who  have  the  疾病. With  a  speciicity  of
-80%, the test will correctly identify as nondiabetic
-7,600 of the 9,500 people who are free of diabetes;
-however,  1,900  of  these  9,500  will  have  positive
-results. Thus a total of 2,250 people will test positive
-and will be brought back for a second test. (Remem-
-ber  that  in  real  life  we  do  not  have  the  vertical
-line separating diabetics and nondiabetics, and we
-do  not  know  that  only  350  of  the  2,250  have
-diabetes.)
-
-Now  those  2,250  people  are  brought  back  and
-screened using a second test (such as a glucose tol-
-erance test), which, for purposes of this example, is
-assumed to have a 敏感度 of 90% and a speciic-
-ity of 90%.
-
-Since 350 people (of the 2,250) have the 疾病
-and the test has a 敏感度 of 90%, 315 of those
-350 will be correctly identiied as positive. Because
-1,900  (of  the  2,250)  do  not  have  diabetes  and  the
-test  speciicity  is  90%,  1,710  of  the  1,900  will  be
-correctly identiied as negative and 190 will be false
-positives.
-
-We  are  now  able  to  calculate  the  net  敏感度
-and the net speciicity of using both tests in sequence. After  inishing  both  tests,  315  people  of  the  total
-500  people  with  diabetes  in  this  族群  of
-10,000  will  have  been  correctly  called  positive:
-315/500 = 63% net 敏感度. Thus, there is a loss
-in net 敏感度 by using both tests sequentially. To
-calculate net speciicity, note that 7,600 people of the
-9,500 in this 族群 who do not have diabetes
-were  correctly  called  negative  in  the  irst-stage
-篩檢 and were not tested further; an additional
-1,710  of  those  9,500  nondiabetics  were  correctly
-called negative in the second-stage 篩檢. Thus
-a  total  of  7,600  +  1,710  of  the  9,500  nondiabetics
-were  correctly  called  negative:  9,310/9,500  =  98%
-net  speciicity. Thus,  use  of  both  tests  in  sequence
-has resulted in a gain in net speciicity.
-
-Simultaneous Testing
-Let  us  now  turn  to  the  use  of  simultaneous  tests. Let us assume that, in a 族群 of 1,000 people,
-the 盛行率  of a 疾病 is 20%. Therefore, 200
-
-people have the 疾病, but we do not know who
-they  are. In  order  to  identify  the  200  people  who
-have  this  疾病,  we  screen  this  族群  of
-1,000  using  2  tests  for  this  疾病,  test  A  and
-test  B,  at  the  same  time. Let  us  assume  that  the
-敏感度  and  speciicity  of  the  two  tests  are  as
-follows:
-
-Sensitivity = 80%
-Speciicity = 60%
-
-Sensitivity = 90%
-Speciicity = 90%
-
-Net Sensitivity Using Two
-Simultaneous Tests
-The irst question we ask is, “What is the net sensi-
-tivity using test A and test B simultaneously?” To be
-considered  positive  and  therefore  included  in  the
-分子  for  net  敏感度  for  two  tests  used
-simultaneously, a person must be identiied as posi-
-tive by test A, test B, or both tests.
-
-To  calculate  net  敏感度,  let  us  irst  consider
-the results of 篩檢 with test A whose 敏感度
-is 80%: of the 200 people who have the 疾病, 160
-test  positive  (
-
-Consider next the results of 篩檢 with test
-B whose 敏感度 is 90% (Table 5-4). Of the 200
-
-Results of Screening with Test A
-
-Results of Screening with Test B
-
-Results of
-Screening
-
-Results of
-Screening
-
-200
-Sensitivity = 80%
-
-200
-Sensitivity = 90%
-
-Chapter 5   診斷與篩檢試驗的有效性與可靠性評估
-
-people  who  have  the  疾病,  180  test  positive  by
-test B. **In   The  blue  circle
-within the oval represents the 180 who test positive
-with test B.** These 180 are the 真陽性s using
-test B.
-
-In order to calculate the 分子 for net sen-
-sitivity, we cannot just add the number of persons
-who tested positive using test A to those who tested
-positive  using  test  B  because  some  people  tested
-positive  on  both  tests. These  people  are  shown  in
-lavender by the overlapping area of the two circles,
-and  we  do  not  want  to  count  them  twice  (Fig. 5-8D). How  do  we  determine  how  many  people
-tested positive on both tests?
-
-Test A has a 敏感度 of 80% and thus identiies
-as  positive  80%  of  the  200  who  have  the  疾病
-(160 people). Test B has a 敏感度 of 90%. There-
-fore,  it  identiies  as  positive  90%  of  the  same  160
-people  who  are  identiied  by  test  A  (144  people). Thus, when tests A and B are used simultaneously,
-144  people  are  identiied  as  positive  by  both  tests
-(Fig. 5-8E).
-
-Recall that test A correctly identiied 160 people
-with  the  疾病  as  positive. Because  144  of  them
-were  identiied  by  both  tests,  160  −  144,  or  16
-people, were correctly identiied only by test A.
-
-Test B correctly identiied 180 of the 200 people
-with  the  疾病  as  positive. Because  144  of  them
-were  identiied  by  both  tests,  180  −  144,  or  36
-people,  were  correctly  identiied  only  by  test  B.
-
-Thus,  as  seen  in    In  order  to
-calculate  the  分子  for  net  speciicity,  we
-therefore  need  to  determine  how  many  people
-had  negative  results  on  both  tests. How  do  we
-do  this?
-
-Test A has a speciicity of 60% and thus correctly
-identiies  60%  of  the  800  who  do  not  have  the
-疾病  (480  people)  (
-
-Test B has a speciicity of 90% and thus identi-
-ies as negative 90% of the 800 people who do not
-have  the  疾病  (720  people)  (
-
-Results of Screening with Test A
-
-Results of Screening with Test B
-
-Results of
-Screening
-
-Results of
-Screening
-
-200
-Sensitivity = 80%
-
-200
-Sensitivity = 90%
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-A–F, Net 敏感度: Hypothetical example of simultaneous testing. (See explanation in the text under the subheading
-“Net Sensitivity Using Two Simultaneous Tests” on p. 96.)
-
-had  negative  results  (Fig. 5-9D). These  people  are
-shown in light green by the overlapping area of the
-two circles. Test B also identiies as negative 90% of
-the same 480 people identiied as negative by test A
-(432  people). Thus,  as  shown  by  the  overlapping
-circles,  when  tests  A  and  B  are  used  simultane-
-ously, 432 people are identiied as negative by both
-tests (Fig. 5-9E). Thus, when tests A and B are used
-simultaneously (Fig. 5-9F), the
-
-Thus,  when  two  simultaneous  tests  are  used,
-there  is  a  net  gain  in  敏感度  (from  80%  using
-test A and 90% using test B to 98% using both tests
-simultaneously). However,  there  is  a  net  loss  in
-speciicity  (net  speciicity  =  54%)  compared  to
-using either test alone (speciicity of 60% using test
-A and 90% using test B).
-
-Comparison of Simultaneous and
-Sequential Testing
-In  a  clinical  setting,  multiple  tests  are  often  used
-simultaneously. For example, a patient admitted to
-
-Chapter 5   診斷與篩檢試驗的有效性與可靠性評估
-
-A–F, Net speciicity: Hypothetical example of simultaneous testing. (See explanation in the text under the subheading
-“Net Speciicity Using Two Simultaneous Tests” on p. 97.)
-
-a hospital may have an array of tests performed at
-the time of admission. When multiple tests are used
-simultaneously to detect a speciic 疾病, the indi-
-vidual is generally considered to have tested “posi-
-tive” if he or she has a positive result on any one or
-more  of  the  tests. The  individual  is  considered  to
-have tested “negative” if he or she tests negative on
-all of the tests. The effects of such a testing approach
-on 敏感度 and speciicity differ from those that
-result from sequential testing. In sequential testing,
-when we retest those who tested positive on the irst
-test,  there  is  a  loss  in  net  敏感度  and  a  gain  in
-
-net speciicity. In simultaneous testing, because an
-individual who tests positive on any one or multiple
-tests  is  considered  positive,  there  is  a  gain  in  net
-敏感度. However,  to  be  considered  negative,  a
-person would have to test negative on all the tests
-performed. As  a  result,  there  is  a  loss  in  net
-speciicity.
-
-In  summary,  as  we  have  seen  previously,  when
-two  sequential  tests  are  used  and  those  who  test
-positive  by  the  irst  test  are  brought  in  for  the
-second  test,  there  is  a  net  loss  in  敏感度,  but  a
-net  gain  in  speciicity,  compared  with  either  test
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-alone. However,  when  two  simultaneous  tests  are
-used, there is a net gain in 敏感度 and a net loss
-in speciicity, compared with either test alone.
-
-Given  these  results,  the  decision  to  use  either
-sequential  or  simultaneous  testing  often  is  based
-both  on  the  objectives  of  the  testing,  including
-whether testing is being done for 篩檢 or diag-
-nostic  purposes,  and  on  practical  conside比ns
-related to the setting in which the testing is being
-done,  including  the  length  of  hospital  stay,  costs,
-and  degree  of  invasiveness  of  each  of  the  tests  as
-well as the extent of third-party insurance coverage.
-
-
-### PREDICTIVE VALUE OF A TEST
-
-So  far,  we  have  asked,  “How  good  is  the  test  at
-identifying  people  with  the  疾病  and  people
-without  the  疾病?”  This  is  an  important  issue,
-particularly in 篩檢 free-living 族群. In
-effect,  we  are  asking,  “If  we  screen  a  族群,
-what  比例  of  people  who  have  the  疾病
-will  be  correctly  identiied?”  This  is  clearly  an
-important 公共衛生 conside比n. In the clini-
-cal  setting,  however,  a  different  question  may  be
-important  for  the  physician:  If  the  test  results  are
-positive in this patient, what is the probability that
-this patient has the 疾病? This is called the posi-
-tive  predictive  value  (PPV)  of  the  test. In  other
-words,  what  比例  of  patients  who  test
-positive  actually  have  the  疾病  in  question? To
-
-“Whoa—way too much information.” A physi-
-cian  comments  on  excessive  information. (©  The  New  Yorker
-Collection 2002. Alex Gregory from cartoonbank.com. All rights
-reserved.)
-
-calculate the 陽性預測值, we divide the
-number of 真陽性s by the total number who
-tested positive (真陽性s + 假陽性s).
-
-Let  us  return  to  the  example  shown  in
-
-A parallel question can be asked about negative
-test results: “If the test result is negative, what is the
-
-Predictive Value of a Test
-
-Results of
-Screening
-
-Positive 預測值 =   80
-180
-
-Negative 預測值 =  800
-820
-
-Chapter 5   診斷與篩檢試驗的有效性與可靠性評估
-
-probability  that  this  patient  does  not  have  the
-疾病?” This is called the 陰性預測值
-(NPV)  of  the  test. It  is  calculated  by  dividing  the
-number  of  true  negatives  by  all  those  who  tested
-negative (真陰性s + 假陰性s). Looking
-again at the example in
-
-Every  test  that  a  physician  performs—history,
-physical examination, laboratory tests, X-rays, elec-
-trocardiograms,  and  other  procedures—is  used  to
-enhance  the  physician’s  ability  to  make  a  correct
-診斷. What  he  or  she  wants  to  know  after
-administering a test to a patient is: “Given this posi-
-tive test result, what is the likelihood that the patient
-has the 疾病?”
-
-Unlike the 敏感度 and speciicity of the test,
-which  can  be  considered  characteristic  of  the  test
-being used, the 陽性預測值 is affected
-by two factors: the 盛行率 of the 疾病 in the
-族群  tested  and,  when  the  疾病  is  infre-
-quent, the speciicity of the test being used. Both of
-these  relationships  are  discussed  in  the  following
-sections.
-
-Relationship between Positive Predictive
-Value and Disease 盛行率
-In  the  discussion  of  predictive  value  that  follows,
-the term 預測值 is used to denote the posi-
-tive 預測值 of the test.
-
-The  relationship  between  predictive  value  and
-疾病 盛行率 can be seen in the example given
-in
-
-95% in a 族群 of 10,000 people in which the
-疾病 盛行率 is 1%. Because the 盛行率 is
-1%, 100 of the 10,000 persons have the 疾病 and
-9,900  do  not. With  a  敏感度  of  99%,  the  test
-correctly identiies 99 of the 100 people who have
-the 疾病. With a speciicity of 95%, the test cor-
-rectly identiies as negative 9,405 of the 9,900 people
-who do not have the 疾病. Thus, in this popula-
-tion with a 1% 盛行率, 594 people are identiied
-as positive by the test (99 + 495). However, of these
-594  people,  495  (83%)  are  false  positives  and  the
-陽性預測值 is therefore 99/594, or only
-17%.
-
-Let us now apply the same test—with the same
-敏感度 and speciicity—to a 族群 with a
-higher 疾病 盛行率, 5%, as seen in the lower
-part of
-
-Why should we be concerned about the relation-
-ship  between  predictive  value  and  疾病  preva-
-lence? As we have seen, the higher the 盛行率,
-the higher the 預測值. Therefore, a screen-
-ing program is most productive and eficient if it is
-directed to a 高風險 target 族群. Screening
-a total 族群 for a relatively infrequent 疾病
-can be very wasteful of resources and may yield few
-previously undetected 病例s relative to the amount
-of  effort  involved. However,  if  a  高風險  subset
-
-Relationship of Disease 盛行率 to Positive Predictive Value
-
-EXAMPLE: SENSITIVITY = 99%, SPECIFICITY = 95%
-
-Positive Predictive Value
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-of spina biida. Although the
-分布  is  bimodal,  there  is  a  range  in  which
-the  curves  overlap,  and  within  that  range,  it  may
-not always be clear to which curve the mother and
-fetus belong. Shefield and coworkers1 reviewed the
-literature and constructed artiicial 族群 of
-10,000 women screened for amniotic luid AFP to
-identify fetuses with spina biida. They created two
-族群:  one  at  high  risk  for  spina  biida  and
-the other at normal risk.
-
-Thus, we see that the same test can have a very
-different 預測值 when it is administered to
-a  高風險  (high  盛行率)  族群  or  to  a
-low-risk  (low  盛行率)  族群. This  has
-
-Relationship  between  疾病  盛行率  and
-預測值 in a test with 95% 敏感度 and 95% speciic-
-ity. (From Mausner JS, Kramer S: Mausner and Bahn Epidemiol-
-ogy:  An  Introductory  Text. Philadelphia,  WB  Saunders,  1985,
-p 221.)
-
-can be identiied and 篩檢 can be directed to
-this  group,  the  program  is  likely  to  be  far  more
-productive. In addition, a 高風險 族群 may
-be more motivated to participate in such a screen-
-ing program and more likely to take recommended
-action if their 篩檢 results are positive.
-
-The  relationship  between  predictive  value  and
-疾病 盛行率 also shows that the results of any
-test must be interpreted in the context of the preva-
-lence of the 疾病 in the 族群 from which
-the  subject  originates. An  interesting  example  is
-seen  with  the  measurement  of  the  α-fetoprotein
-(AFP) level in amniotic luid for prenatal 診斷
-
-Amniotic  luid
-α-fetoprotein  (AFP)
-in
-normal subjects and subjects with
-spina  biida. (From  Shefield  LJ,
-Sackett  DL,  Goldsmith  CH,  et al:
-A  clinical  approach  to  the  use  of
-predictive  values  in  the  prenatal
-診斷  of  neural  tube  defects. Am  J  Obstet  Gynecol  145:319–
-324, 1983.)
-
-Chapter 5   診斷與篩檢試驗的有效性與可靠性評估
-
-Calculations of Predictive Values for Neural Tube Defects (NTD)* for α-Fetoprotein
-
-(AFP) Test in High- and Low-Risk Women
-
-Predictive Value (%)
-
-Abnormal
-Normal
-Totals
-
-Abnormal
-Normal
-Totals
-
-*Spina biida or encephalocele. From Shefield LJ, Sackett DL, Goldsmith CH, et al: A clinical approach to the use of 預測值s in the prenatal 診斷
-of neural tube defects. Am J Obstet Gynecol 145:319–324, 1983.
-
-clear  clinical  implications:  A  woman  may  make  a
-decision to terminate a pregnancy and a physician
-may formulate advice to such a woman on the basis
-of the test results. However, the same test result may
-be  interpreted  differently,  depending  on  whether
-the woman comes from a pool of 高風險 or low-
-risk women, which will be relected in the positive
-預測值 of the test. Consequently, by itself,
-the  test  result  may  not  be  suficient  to  serve  as  a
-guide  without  taking  into  account  the  other  con-
-side比ns just described.
-
-The  following  true  examples  highlight  the
-
-importance of this issue:
-
-The head of a ireighters’ union consulted a uni-
-versity  cardiologist  because  the  ire  department
-physician had read an article in a leading medical
-journal  reporting  that  a  certain  electrocardio-
-graphic  inding  was  highly  predictive  of  serious,
-generally unrecognized, coronary heart 疾病. On
-the basis of this article, the ire department physi-
-cian  was  disqualifying  many  young,  able-bodied
-ireighters from active duty. The cardiologist read
-the paper and found that the study had been carried
-out in hospitalized patients.
-
-What  was  the  problem? Because  hospitalized
-patients  have  a  much  higher  盛行率  of  heart
-疾病 than does a group of young ireighters, the
-ire  department  physician  had  erroneously  taken
-the  high  predictive  value  obtained  in  studying  a
-high-盛行率  族群  and  inappropriately
-applied it to a low-盛行率 族群 of 健康y
-
-ireighters, in whom the same test would actually
-have a much lower 預測值.
-
-A  physician  visited  his  general  internist  for  a
-regular  annual  medical  examination,  which
-included a stool examination for occult blood. One
-of  the  three  stool  specimens  examined  in  the  test
-was  positive. The  internist  told  his  physician-
-patient  that  the  result  was  of  no  signiicance
-because  he  regularly  encountered  many  false-
-positive  test  results  in  his  busy  practice. The  test
-was repeated on three new stool specimens, and all
-three  of  the  new  specimens  were  now  negative. Nevertheless,  sensing  his  patient’s  lingering  con-
-cerns,  the  internist  referred  his  physician-patient
-to a gastroenterologist. The gastroenterologist said,
-“In  my  experience,  the  positive  stool  inding  is
-serious. Such a inding is almost always associated
-with  pathologic  gastrointestinal  disorders. The
-subsequent  negative  test  results  mean  nothing,
-because you could have a tumor that only bleeds
-intermittently.”
-
-Who was correct in this episode? The answer is
-that both the general internist and the gastroenter-
-ologist  were  correct. The  internist  gave  his  assess-
-ment of 預測值 based on his experience in
-his general medical practice—a 族群 with a
-low  盛行率  of  serious  gastrointestinal  疾病. On  the  other  hand,  the  gastroenterologist  gave
-his  assessment  of  the  predictive  value  of  the  test
-based on his experience in his referral practice—a
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-practice in which most patients are referred because
-of a likelihood of serious gastrointestinal illness—a
-high-盛行率 族群.
-
-Relationship between Positive Predictive
-Value and Speciicity of the Test
-In  the  discussion  that  follows,  the  term  predictive
-value is used to denote the 陽性預測值
-of the test.
-
-A second factor that affects the 預測值
-of a test is the speciicity of the test. Examples of this
-are  shown  irst  in  graphical  form  and  then  in
-tabular form. **Each cell is drawn with its size 比例al
-to  the  族群  it  represents.** In  each  igure  the
-cells that represent persons who tested positive are
-shaded blue; these are the cells that will be used in
-calculating the 陽性預測值.
-
-In analyzing this igure, we also assume that the
-篩檢試驗 that was used has a 敏感度 of 50%
-and a speciicity of 50%. Because 500 people tested
-positive, and 250 of these have the 疾病, the pre-
-dictive value is 250/500, or 50%.
-
-Fortunately,  the  盛行率  of  most  疾病  is
-much  lower  than  50%;  we  are  generally  dealing
-with  relatively
-infrequent  疾病. Therefore,
-  Both  the  敏感度
-and the speciicity remain at 50%. Now only 200 of
-the 1,000 people have the 疾病, and the vertical
-line separating 疾病d from non疾病d persons
-is  shifted  to  the  left. The  predictive  value  is  now
-calculated as 100/500, or 20%.
-
-Given  that  we  are  篩檢  a  族群  with
-the lower 盛行率 率, can we improve the pre-
-dictive value? What would be the effect on predic-
-tive value if we increased the 敏感度 of the test? A–D, Relationship of speciicity to 陽性預測值 (PPV). (See explanation in the text under the subheading
-“Relationship between Positive Predictive Value and Speciicity of the Test” above.)
-
-Chapter 5   診斷與篩檢試驗的有效性與可靠性評估
-
-increase the 敏感度 to 90%. The 預測值
-is now 180/580, or 31%, a modest increase.
-
-What  if,  instead  of  increasing  the  敏感度  of
-the  test,  we  increase  its  speciicity? The  predictive  value  is  now
-100/180,  or  56%. Thus,  an  increase  in  speciicity
-resulted  in  a  much  greater  increase  in  predictive
-value than did the same increase in 敏感度.
-
-Why  does  speciicity  have  a  greater  effect  than
-敏感度 on 預測值? The answer becomes
-clear  by  examining  these  igures. Because  we  are
-dealing  with  infrequent  疾病,  most  of  the
-族群  falls  to  the  right  of  the  vertical  line. Consequently,  any  change  to  the  right  of  the
-vertical  line  affects  a  greater  number  of  people
-than  would  a  comparable  change  to  the  left  of
-the line. Thus, a change in speciicity has a greater
-effect  on  predictive  value  than  does  a  comparable
-change  in  敏感度. If  we  were  dealing  with  a
-high-盛行率  疾病,  the  situation  would  be
-different.
-
-The effect of changes in speciicity on predictive
-value is also seen in
-
-RELIABILITY (REPEATABILITY) OF TESTS
-
-Let us consider another aspect of assessing diagnos-
-tic and 篩檢試驗s—the question of whether a
-test is reliable or repeatable. Can the results obtained
-be replicated if the test is repeated? Clearly, regard-
-less of the 敏感度 and speciicity of a test, if the
-
-test  results  cannot  be  reproduced,  the  value  and
-usefulness of the test are minimal. The rest of this
-chapter focuses on the 可靠性 or 重複性 of
-diagnostic and 篩檢試驗s. The factors that con-
-tribute to the variation between test results are dis-
-cussed irst: intrasubject variation (variation within
-individual subjects), intraobserver variation (varia-
-tion  in  the  reading  of  test  results  by  the  same
-reader),  and  interobserver  variation  (variation
-between those reading the test results).
-
-Intrasubject Variation
-The  values  obtained  in  measuring  many  human
-characteristics often vary over time, even during a
-short  period.
-
-Intraobserver Variation
-Sometimes variation occurs between two or more
-readings of the same test results made by the same
-observer. For example, a radiologist who reads the
-same  group  of  X-rays  at  two  different  times  may
-read  one  or  more  of  the  X-rays  differently  the
-second  time. Tests  and  examinations  differ  in  the
-degree  to  which  subjective  factors  enter  into  the
-observer’s  conclusions,  and  the  greater  the  sub-
-jective  element  in  the  reading,  the  greater  the
-intraobserver  variation  in  readings  is  likely  to  be
-(Fig. 5-14).
-
-Relationship of Speciicity to Positive Predictive Value
-
-EXAMPLE: PREVALENCE = 10%, SENSITIVITY = 100%
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-Examples Showing Variation in Blood Pressure Readings during a 24-Hour Period
-
-Blood Pressure (mm Hg)
-
-Basal
-Lowest hour
-Highest hour
-Casual
-
-110/70
-86/47
-126/79
-108/64
-
-132/82
-102/61
-172/94
-155/93
-
-152/109
-123/  78
-153/107
-157/109
-
-From Richardson DW, Honour AJ, Fenton GW, et al: Variation in arterial pressure throughout the day and night. Clin Sci
-26:445, 1964.
-
-characteristics. We  therefore  need  to  be  able  to
-express  the  extent  of  一致性  in  quantitative
-terms.
-
-“This  is  a  second  opinion. At  irst,  I  thought
-you had something else.” One view of a second opinion. (© The
-New  Yorker  Collection  1995. Leo  Cullum  from  cartoonbank. com. All rights reserved.)
-
-important  conside比n
-
-Interobserver Variation
-Another
-is  variation
-between  observers. Two  examiners  often  do  not
-derive the same result. **The extent to which observ-
-ers agree or disagree is an important issue, whether
-we  are  considering  physical  examinations,  labora-
-tory  tests,  or  other  means  of  assessing  human**
-
-Observer or Instrument Variation: Percent Agreement
-
-Abnormal
-Suspect
-Doubtful
-Normal
-
-C
-G
-K
-O
-A + F + K + P
-Total readings
-
-Chapter 5   診斷與篩檢試驗的有效性與可靠性評估
-
-In  general,  most  persons  who  are  tested  have
-negative results. This is shown in  There is likely
-to  be  considerable  一致性  between  the  two
-observers about these negative, or normal, subjects
-(cell d). Therefore, when percent 一致性 is cal-
-culated for all study subjects, its value may be high
-only because  of the large number of clearly nega-
-tive indings (cell d) on which the observers agree. Thus,  the  high  value  may  conceal  signiicant  dis-
-一致性  between  the  observers  in  identifying
-subjects  who  are  considered  positive  by  at  least
-one  observer.
-
-One  approach  to  this  problem,  seen  in   5-15D).
-
-Thus, in the paired observations in which at least
-one  of  the  indings  in  each  pair  was  positive,  the
-following equation is applicable:
-
-Kappa Statistic
-Percent 一致性 between two observers is often
-of  value  in  assessing  the  quality  of  their  observa-
-tions. The  extent  to  which  two  observers,  such  as
-two  physicians  or  two  nurses,  for  example,  agree
-with each other is often an important index of the
-quality of the 健康 care being provided. However,
-the percent 一致性 between two observers does
-not entirely depend on the quality of their training
-and practice. The extent of their 一致性 is also
-signiicantly inluenced by the fact that even if two
-observers use completely different criteria to iden-
-tify subjects as positive or negative, we would expect
-the observers to agree about the observations made,
-at least in some of the participants, solely as a func-
-tion of chance. What we really want to know is how
-much  better  their  level  of  一致性  is  than  that
-which results just from chance. The answer to this
-question  will  presumably  tell  us,  for  example,  to
-what extent did the education and training that the
-
-A–D,  Calculating  the  percent  一致性  between  two  observers. A,  Percent  一致性  when  examining  paired
-observations between observer 1 and observer 2. B, Percent 一致性 when examining paired observations between observer 1 and
-observer 2, considering that cell d (一致性 on the negatives) is very high. C, Percent 一致性 when examining paired observa-
-tions between observer 1 and observer 2, ignoring cell d. D, Percent 一致性 when examining paired observations between observer
-1 and observer 2, using only cells a, b, and c for the calculation.
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-observers  received  improve  the  quality  of  their
-readings  so  that  the  percent  一致性  between
-them was increased beyond what we would expect
-from chance alone.
-
-This  can  be  shown  intuitively  in  the  following
-example: You are the director of a radiology depart-
-ment  that  is  understaffed  one  day,  and  a  large
-number of chest X-rays remain to be read. To solve
-your problem, you go out to the street and ask a few
-neighborhood residents, who have no background
-in biology or medicine, to read the unread X-rays
-and assess them as either positive or negative. The
-irst person goes through the pile of X-rays, reading
-them  haphazardly  as  positive,  negative,  negative,
-positive,  and  so  on. The  second  person  does  the
-same, in the same way, but completely independent
-of the irst reader. Given that both readers have no
-knowledge, criteria, or standards for reading X-rays,
-would  any  of  their  readings  on  a  speciic  X-ray
-agree? The answer is clearly yes; they would agree
-in some 病例s, purely by chance alone.
-
-However,  if  we  want  to  know  how  well  two
-observers  read  X-rays,  we  might  ask,  “To  what
-extent  do  their  readings  agree  beyond  what  we
-would  expect  by  chance  alone?”  In  other  words,  to
-what  extent  does  the  一致性  between  the  two
-observers exceed the level of 一致性 that would
-result just from chance? One approach to answering
-this question is to calculate the kappa統計量, pro-
-posed  by  Cohen  in  1960.2  In  this  section,  we  will
-irst discuss the 比nale of the kappa統計量 and
-the questions which the kappa統計量 is designed
-to answer. This will be followed by a detailed calcu-
-lation of the kappa統計量 to serve as an example
-for  intrepid  readers. Even  if  you  do  not  follow
-through the detailed calculation presented here, it
-is  important  to  be  sure  that  you  understand  the
-比nale  of  the  kappa  statistic  because  it  is  fre-
-quently  applied  both  in  clinical  medicine  and  in
-公共衛生.
-
-Rationale  of  the  Kappa  Statistic. In  order  to
-understand kappa, we ask two questions. First, how
-much better is the 一致性 between the observ-
-ers’  readings  than  would  be  expected  by  chance
-alone? This can be calculated as the percent agree-
-ment  observed  minus  the  percent  一致性  we
-would expect by chance alone. This is the numera-
-tor of kappa:
-
-Percent 一致性 observed
-(
-
-(Percent 一致性 expected b
-
-Our second question is, “What is the most that
-the two observers could have improved their agree-
-ment over the 一致性 that would be expected by
-chance  alone?”  Clearly,  the  maximum  that  they
-could  agree  would  be  100%  (full  一致性—the
-two  observers  agree  completely). Therefore,  the
-most  that  we  could  expect  them  to  be  able  to
-improve (the 分母 of kappa) would be:
-
-)
-Percent 一致性 expected by chance alone
-
-Kappa expresses the extent to which the observed
-一致性  exceeds  that  which  would  be  expected
-by  chance  alone  (i.e.,  percent  一致性  observed
-−  percent  一致性  expected  by  chance  alone)
-[分子]  relative  to  the  maximum  that  the
-observers  could  hope  to  improve  their  一致性
-(i.e., 100% − percent 一致性 expected by chance
-alone) [分母].
-
-Thus  kappa  quantiies  the  extent  to  which  the
-observed  一致性  that  the  observers  achieved
-exceeds  that  which  would  be  expected  by  chance
-alone,  and  expresses  it  as  the  比例  of  the
-maximum  improvement  that  could  occur  beyond
-the 一致性 expected by chance alone. The kappa
-statistic can be deined by the equation:
-
-Percent 一致性
-
-observed
-
-
-
-expected
-
-Percent 一致性
-
-expected by chance alo
-
-
-Calculation of the Kappa Statistic—An Example. To calculate the 分子 for kappa, we must irst
-calculate  the  amount  of  一致性  that  might  be
-expected  on  the  basis  of  chance  alone. As  an
-example, let us consider data reported on the his-
-tologic classiication of lung cancer that focused on
-the 再現性 of the decisions of pathologists
-in  subtyping  病例s  of  non–small  cell  lung  carci-
-noma.3
-
-The  irst  question  is,  “What  is  the  observed
-一致性  between  the  two  pathologists?”   Thus, pathologist A identi-
-ied 45 (or 60%) of all of the 75 slides as grade II
-and  30  (or  40%)  of  the  slides  as  grade  III.
-
-Chapter 5   診斷與篩檢試驗的有效性與可靠性評估
-
-Grading by Pathologist A
-
-Grading
-by
-Pathologist
-B
-
-Percent 一致性
-observed
-
-Grading by Pathologist A
-
-Grading
-by
-Pathologist
-B
-
-Percent 一致性
-expected
-by chance alone
-
-C
-  A,  Histologic  classiication  by  subtype  of  75  slides  of  non–small  cell  carcinoma,  by  two  pathologists  (A  and  B). B, Percent 一致性 by pathologist A and pathologist B. C, Percent 一致性 by pathologist A and pathologist B expected by chance
-alone. (Adapted  from  Ghandur-Mnaymneh  L,  Raub  WA,  Sridhar  KS,  et al:  The  accuracy  of  the  histological  classiication  of  lung
-carcinoma and its 再現性: A study of 75 archival 病例s of adenosquamous carcinoma. Cancer Invest 11:641, 1993.)
-
-Pathologist B identiied 44 (or 58.7%) of all of the
-slides as grade II and 31 (or 41.3%) of the slides as
-grade  III. As  discussed  earlier,  the  percent  agree-
-ment is calculated by the following equation:
-
-That is, the two pathologists agreed on 90.7% of
-
-The  next  question  is,  “If  the  two  pathologists
-had  used  entirely  different  sets  of  criteria,  how
-much  一致性  would  have  been  expected  solely
-on  the  basis  of  chance?”  Pathologist  A  read  60%
-of  all  75  slides  (45  slides)  as  being  grade  II  and
-40% (30 slides) as grade III. If his or her readings
-had  used  criteria  independent  of  those  used  by
-pathologist  B  (e.g.,  if  pathologist  A  were  to  read
-60% of any group of slides as grade II), we would
-expect  that  pathologist  A  would  read  as  grade  II
-
-both  60%  of  the  slides  that  pathologist  B  had
-called grade II and 60% of the slides that patholo-
-gist  B  had  called  grade  III. Therefore,  we  would
-expect  that  60%  (26.4)  of  the  44  slides  called
-grade  II  by  pathologist  B  would  be  called  grade
-II  by  pathologist  A  and  that  60%  (18.6)  of  the
-31  slides  called  grade  III  by  pathologist  B  would
-also be called grade II by pathologist A (Fig. 5-16C). Of  the  31  slides  called  grade  III  by  pathologist
-B,  40%  (12.4)  would  also  be  classiied  as  grade
-III  by  pathologist  A.
-
-Thus,  the  一致性  expected  by  chance  alone
-
-Having  calculated  the  igures  needed  for  the
-分子  and  分母,  kappa  can  now  be
-calculated as follows:
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-Percent
-一致性
-observed
-
-exp
-eected by
-chance alone
-Percent 一致性
-expected by
-cchance alone
-
-
-
-
-
-. %
-51 7
-. %
-51 7
-
-**Landis and Koch4 suggested that a kappa greater
-than  0.75  represents  excellent  一致性  beyond
-chance, a kappa below 0.40 represents poor agree-
-ment, and a kappa of 0.40 to 0.75 represents inter-
-mediate to good 一致性.** Testing for the statistical
-signiicance  of  kappa is described by Fleiss.5 Con-
-siderable discussion has arisen about the appropri-
-ate  use  of  kappa,  a  subject  addressed  by  MacLure
-and Willett.6
-
-
-### RELATIONSHIP BETWEEN VALIDITY
-AND RELIABILITY
-
-To  conclude  this  chapter,  let  us  compare  有效性
-and 可靠性 using a graphical presentation.
-
-The  horizontal  line  in   The test results
-obtained  are  shown  by  the  curve. The  curve  is
-narrow, indicating that the results are quite reliable
-(repeatable);  unfortunately,  however,  they  聚集
-far  from  the  true  value,  so  they  are  not  valid. However,  the  values
-obtained  聚集  around  the  true  value  and,
-thus,  are  valid. Clearly,  what  we  would  like  to
-achieve are results that are both valid and reliable
-(Fig. 5-19).
-
-It is important to point out that in   However,  the  results  are  valid
-only  for  a  group  (i.e.,  they  tend  to  聚集  around
-the  true  value). It  is  important  to  remember  that
-what may be valid for a group or a 族群 may
-not  be  so  for  an  individual  in  a  clinical  setting. When the 可靠性 or 重複性 of a test is poor,
-the  有效性  of  the  test  for  a  given  individual  also
-may be poor. The distinction between group valid-
-ity and individual 有效性 is therefore important to
-keep in mind when assessing the quality of diagnos-
-tic and 篩檢試驗s.
-
-This chapter has discussed the 有效性 of diagnostic
-and 篩檢試驗s as measured by their 敏感度
-and speciicity, their 預測值, and the reli-
-ability or 重複性 of these tests. Clearly, regard-
-less  of  how  sensitive  and  speciic  a  test  may  be,
-if  its  results  cannot  be  replicated,  the  test  is  of
-little  use. All  these  characteristics  must,  therefore,
-be  borne  in  mind  when  evaluating  such  tests,
-together  with  the  purpose  for  which  the  test  will
-be  used.
-
-Graph  of  hypothetical  test  results  that  are
-reliable, but not valid.
-
-Graph of hypothetical test results that are valid,
-but not reliable.
-
-Graph of hypothetical test results that are both
-valid and reliable.
-
-Chapter 5   診斷與篩檢試驗的有效性與可靠性評估
-
-
-### 1.  Shefield  LJ,  Sackett  DL,  Goldsmith  CH,  et  al:  A  clinical
-approach to the use of 預測值s in the prenatal diag-
-nosis of neural tube defects. Am J Obstet Gynecol 145:319,
-1983.
-
-and its 再現性: A study of 75 archival 病例s of adeno-
-squamous carcinoma. Cancer Invest 11:641, 1993.
-
-
-### 4.  Landis  JR,  Koch  GG:  The  measurement  of  observer  agree-
-
-ment for categorical data. Biometrics 33:159, 1977.
-
-
-### 2.  Cohen  J:  A  coeficient  of  一致性  for  nominal  scales.
-
-
-### 5.  Fleiss  JL:  Statistical  Methods  for  Rates  and  Proportions,
-
-Educ Psychol Meas 20:37, 1960.
-
-2nd ed. New York, John Wiley & Sons, 1981.
-
-
-### 3.  Ghandur-Mnaymneh  L,  Raub  WA,  Sridhar  KS,  et  al:  The
-accuracy of the histological classiication of lung carcinoma
-
-
-### 6.  MacLure  M,  Willett  WC:  Misinterpretation  and  misuse  of
-
-the kappa統計量. Am J Epidemiol 126:161, 1987.
-
-Review questions on pages 114–115.
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-APPENDICES TO CHAPTER 5
-
-The text of Chapter 5 focuses on the logic behind the calculation of 敏感度, speciicity,
-and 預測值. Appendix 1 summarizes measures of 有效性 for 篩檢試驗s to
-detect the absence or presence of a given 疾病, the pages in the text where the measures
-are irst introduced, and the interpretation of each measure. For those who prefer to see
-the formulae for each measure, they are provided in the right-hand column of this table;
-however, they are not essential for understanding the logic behind the calculation of each
-measure.
-
-Appendix 2 summarizes the three steps required to calculate kappa統計量.
-
-Appendix 1 to Chapter 5: Measures of Test Validity and Their Interpretation
-
-Measure of
-Test Validity
-
-Positive
-預測值
-
-Negative
-預測值
-
-g
-n
-i
-n
-e
-e
-r
-c
-s
-L
-A
-U
-D
-I
-V
-I
-D
-N
-
-
-### S
-U
-O
-E
-N
-A
-T
-L
-U
-M
-I
-S
-
-The 比例 of those
-with the 疾病 who
-test positive
-
-The 比例 of those
-without the 疾病 who
-test negative
-
-The 比例 of those
-who test positive who
-do have the 疾病
-
-The 比例 of those
-who test negative who
-do NOT have the
-疾病
-
-The 比例 of those
-with the 疾病 who
-test positive on BOTH
-Test 1 and Test 2
-
-The 比例 of those
-without the 疾病 who
-test negative on EITHER
-Test 1 or Test 2
-
-The 比例 of those
-with the 疾病 who
-test positive on EITHER
-Test 1 or Test 2
-
-The 比例 of those
-without the 疾病 who
-test negative on BOTH
-Test 1 and Test 2
-
-Sensitivity of Test
-(
-
-Sensitivity of Test 2
-(
-)
-
-特異度 of Test
-+
-特異度 of Test
-
-Sensitivity of Test
-+
-Sensitivity of Test
-
-×
-特異度 of Test
-
-×
-Sensitivity of Test
-
-特異度 of Test
-(
-
-特異度 of Test
-(
-
-Abbreviations: FN, False negatives; FP, 假陽性s; TN, 真陰性s; TP, 真陽性s.
-
-Chapter 5   診斷與篩檢試驗的有效性與可靠性評估
-
-Appendix 2 to Chapter 5: The Three Steps Required for Calculating Kappa Statistic (κ)
-
-NUMERATOR
-How much better is the observed 一致性 than the
-一致性 expected by chance alone?
-
-DENOMINATOR
-What is the maximum the observers could have
-improved upon the 一致性 expected by chance
-alone?
-
-Percent Agreement
-Observed
-
-Percent Agreement
-Expected by Chance Alone
-
-= KAPPA STATISTIC (κ)
-
-NUMERATOR
-DENOMINATOR
-Of the maximum improvement in 一致性
-expected beyond chance alone that could have
-occurred, what 比例 has in fact occurred?
-
-For a full discussion of kappa and a sample calculation, see pages 107–110.
-
-Percent Agreement
-Observed
-
-Percent Agreement
-Expected by
-Chhance Alone
-
-
-
-Percent Agreement
-Expected by Chance Al
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-REVIEW QUESTIONS FOR CHAPTER 5
-
-Questions 1, 2, and 3 are based on the information
-given below:
-
-A  physical  examination  was  used  to  screen  for
-breast cancer in 2,500 women with biopsy-proven
-adenocarcinoma of the breast and in 5,000 age- and
-race-matched  對照  women. The  results  of  the
-physical examination were positive (i.e., a mass was
-palpated) in 1,800 病例s and in 800 對照 women,
-all of whom showed no evidence of cancer at biopsy.
-
-
-### 1. The 敏感度 of the physical examination was:
-
-
-### 2. The speciicity of the physical examination was:
-
-
-### 3. The  positive  predictive  value  of  the  physical
-
-examination was: ______
-
-Question  4
-information:
-
-A 篩檢試驗 is used in the same way in two
-similar  族群,  but  the  比例  of  false-
-positive  results  among  those  who  test  positive  in
-族群 A is lower than that among those who
-test positive in 族群 B.
-
-
-### 4. What is the likely explanation for this inding?
-a.  It is impossible to determine what caused the
-
-b. The speciicity of the test is lower in popula-
-
-c. The 盛行率 of 疾病 is lower in popula-
-
-d. The 盛行率 of 疾病 is higher in popu-
-
-e. The speciicity of the test is higher in popula-
-
-Question  5
-information:
-
-A physical examination and an audiometric test
-were  given  to  500  persons  with  suspected  hearing
-problems, of whom 300 were actually found to have
-them. The  results  of  the  examinations  were  as
-follows:
-
-Physical Examination
-
-
-### 5. Compared  with  the  physical  examination,  the
-
-audiometric test is:
-a. Equally sensitive and speciic
-b. Less sensitive and less speciic
-c. Less sensitive and more speciic
-d. More sensitive and less speciic
-e. More sensitive and more speciic
-
-Question  6
-information:
-
-Two pediatricians want to investigate a new lab-
-oratory test that identiies streptococcal 感染s. Dr. Kidd uses the standard culture test, which has a
-敏感度  of  90%  and  a  speciicity  of  96%. Dr. Childs uses the new test, which is 96% sensitive and
-96% speciic.
-
-
-### 6. If 200 patients undergo culture with both tests,
-
-which of the following is correct? a. Dr. Kidd will correctly identify more people
-with streptococcal 感染 than Dr. Childs
-b. Dr. Kidd will correctly identify fewer people
-with streptococcal 感染 than Dr. Childs
-c. Dr. Kidd will correctly identify more people
-without  streptococcal  感染  than  Dr. Childs
-
-d. The 盛行率 of streptococcal 感染 is
-needed to determine which pediatrician will
-correctly  identify  the  larger  number  of
-people with the 疾病
-
-Chapter 5   診斷與篩檢試驗的有效性與可靠性評估
-
-Questions  7  and  8  are  based  on  the  following
-information:
-
-Questions 9 through 12 are based on the informa-
-tion given below:
-
-A  colon  cancer  篩檢  study  is  being  con-
-ducted in Nottingham, England. Individuals 50 to
-75  年  old  will  be  screened  with  the  Hemoccult
-test. In this test, a stool sample is tested for the pres-
-ence of blood.
-
-Two physicians were asked to classify 100 chest
-X-rays as abnormal or normal independently. The
-comparison  of  their  classiication  is  shown  in  the
-following table:
-
-
-### 7. The Hemoccult test has a 敏感度 of 70% and
-a speciicity of 75%. If Nottingham has a preva-
-lence of 12/1,000 for colon cancer, what is the
-陽性預測值 of the test?
-
-
-### 8. If  the  Hemoccult  test  result  is  negative,  no
-further  testing  is  done.  If  the  Hemoccult  test
-result  is  positive,  the  individual  will  have  a
-second stool sample tested with the Hemoccult
-II test. If this second sample also tests positive
-for  blood,  the  individual  will  be  referred  for
-more extensive evaluation. What is the effect on
-net 敏感度 and net speciicity of this method
-of 篩檢?
-a.  Net  敏感度  and  net  speciicity  are  both
-
-b. Net 敏感度 is decreased and net speciic-
-
-Classiication of Chest X-Rays by
-Physician 1 Compared with
-Physician 2
-
-Abnormal
-Normal
-Total
-
-
-### 9. The simple percent 一致性 between the two
-
-physicians out of the total is: ______
-
-
-### 10. The percent 一致性 between the two physi-
-cians, excluding the X-rays that both physicians
-classiied as normal, is: ______
-
-c. Net  敏感度  remains  the  same  and  net
-
-
-### 11. The value of kappa is: ______
-
-speciicity is increased
-
-d. Net 敏感度 is increased and net speciic-
-
-
-### 12. This  value  of  kappa  represents  what  level  of
-
-e. The effect on net 敏感度 and net speciic-
-ity cannot be determined from the data
-
-一致性? a. Excellent
-b. Intermediate to good
-c. Poor
+> **臨床重點**：**敏感度**和**特異度**可以被視為試驗本身的特徵，而**預測值**受兩個因素影響：
+> 1. 被測族群的**疾病盛行率**
+> 2. 試驗本身的**特異度**（當疾病罕見時影響尤其大）
 
+---
 
+## 預測值與盛行率的關係
+
+### 📖 摘要
+
+這是理解篩檢試驗的關鍵洞察：**盛行率越高，預測值越高。**
+
+### 數據說明
+
+| 盛行率 | 敏感度 | 特異度 | PPV |
+|--------|--------|--------|------|
+| 1% | 99% | 95% | 17% |
+| 5% | 99% | 95% | 51% |
+
+> **臨床重點**：這個數據說明了為什麼**高風險目標族群**的篩檢項目最有成效和效率。對整體族群篩檢相對罕見的疾病，可能造成資源浪費——相對於付出的努力，既往未發現的病例可能很少。
+
+### 臨床案例：消防員心電圖篩檢
+
+一位消防員工會主席諮詢心臟科醫師，因為消防部門醫師根據一篇論文，將許多消防員取消服役資格。然而，該研究是在**住院患者**中進行的。問題在於：住院患者心臟病的盛行率高得多，而年輕健康的消防員族群盛行率低得多。
+
+> **臨床重點**：在住院患者中驗證的篩檢標準，不能直接應用於低盛行率的健康族群。**盛行率**是解讀所有篩檢和診斷試驗結果的關鍵背景因素。
+
+---
+
+## 預測值與特異度的關係
+
+### 📖 摘要
+
+當疾病罕見時，**特異度對預測值的影響比敏感度更大**。
+
+### 原因
+
+在罕見疾病中，大部分族群的試驗結果落在「無病」側（曲線右側）。因此，試驗特異度的變化（影響右側）影響的人數，比敏感度的變化（影響左側）更多。
+
+> **臨床重點**：對於罕見疾病，提高**特異度**比提高**敏感度**更能改善**陽性預測值**。這意味著，在疾病罕見的族群中進行篩檢時，應優先選擇高特異度的試驗。
+
+---
+
+## 可靠性（重複性）
+
+### 📖 摘要
+
+**可靠性**（Reliability）或**重複性**（Repeatability）問的是：試驗結果能否被複製？無論試驗的敏感度和特異度如何，如果結果不能重現，試驗的價值和實用性就非常有限。
+
+### 變異的來源
+
+| 類型 | 說明 | 範例 |
+|------|------|------|
+| **個體內變異** | 同一個體的測量值隨時間變化 | 血壓晝夜變異、血糖飯後波動 |
+| **觀察者內變異** | 同一觀察者兩次閱讀同一結果的差異 | 放射科醫師兩次閱片判讀不同 |
+| **觀察者間變異** | 不同觀察者之間的差異 | 兩位醫師對同一心電圖的不同判讀 |
+
+圖5-14顯示血壓在24小時內的顯著波動。
+
+---
+
+## 觀察者間一致性的測量
+
+### 📖 摘要
+
+測量觀察者間一致性，最簡單的方法是計算兩個觀察者一致的百分比。但這個指標有缺陷：**當大多數人是陰性時，光靠「陰性一致」的細胞就能讓一致率看起來很高**。**Kappa統計量**解決了這個問題，它考慮了僅因機會預期的一致性。
+
+### 百分一致率的問題
+
+當大多數人是陰性時，光靠「陰性一致」的細胞就能讓一致率看起來很高，即使觀察者之間實際上沒有真正的共識。
+
+### Kappa統計量
+
+**Kappa**考慮了僅因機會預期的一致性：
+
+$$\kappa = \frac{\text{觀察一致率} - \text{機會預期一致率}}{1 - \text{機會預期一致率}}$$
+
+Kappa的解讀（Landis & Koch）：
+
+| Kappa值 | 一致性水平 |
+|---------|-----------|
+| > 0.75 | 優異（Excellent）|
+| 0.40–0.75 | 中等至良好（Fair to Good）|
+| < 0.40 | 差（Poor）|
+
+> **臨床重點**：**Kappa統計量**告訴我們：觀察者之間的實際一致性，比僅因機會預期的好多少。Kappa值為1表示完美一致，0表示一致程度與隨機相同。
+
+---
+
+## 有效性與可靠性的比較
+
+### 📖 摘要
+
+**有效性**（Validity）與**可靠性**（Reliability）是兩個不同但同樣重要的概念。一個試驗可以**可靠但無效**（結果聚集但不準確），或**有效但不可靠**（結果分散但平均準確）。理想情況是兩者兼備。
+
+### 靶圖說明
+
+圖5-18用靶圖說明這個概念：
+
+| 類型 | 描述 | 比喻 |
+|------|------|------|
+| **可靠但無效** | 結果聚集在一起但偏離靶心 | 可重複但不準確 |
+| **有效但不可靠** | 結果分散但平均準確 | 不穩定但無偏差 |
+| **既有效又可靠** | 結果聚集在靶心 | 最佳情況 |
+| **既無效又不可靠** | 結果分散且偏離靶心 | 最差情況 |
+
+> **臨床重點**：群體**有效性**不等於個體**有效性**。即使群體結果可接受，單一患者的結果可能仍不可靠。這是臨床應用中必須牢記的要點。
+
+---
 
 ## 📝 章節總結
 
-本章介绍了 **Assessing the Validity and Reliability of Diagnostic and Screening Tests**（診斷與篩檢試驗的有效性與可靠性評估）的核心概念。我們探时了：
+### 核心概念回顧
 
-- 基本的流行病學原理與方法
-- 關鍵術語的定義與應用
-- 疾病分布與影響因素
-- 在臨床與公共衛生中的實踐應用
+1. **有效性**由**敏感度**（正確識別患病者）和**特異度**（正確識別未患病者）組成
+2. **敏感度與特異度之間存在權衡**——提高一個通常會降低另一個
+3. **順序檢測**降低敏感度但提高特異度；**同步檢測**則相反
+4. **預測值**不僅取決於試驗本身，還受族群**盛行率**的重大影響
+5. **可靠性**（重複性）涉及試驗結果能否被複製的問題
+6. **Kappa統計量**能量化觀察者間一致性，排除機會因素的影響
+7. 群體有效性不等同於個體有效性
 
-### 臨床應用要點
+### 測量公式總覽
 
-1. 將流行病學概念應用於日常臨床實踐
-2. 運用族群思維評估患者健康問題
-3. 理解研究證據背後的流行病學原理
+| 指標 | 公式 | 說明 |
+|------|------|------|
+| **敏感度** | TP ÷ (TP+FN) | 正確識別有病者 |
+| **特異度** | TN ÷ (TN+FP) | 正確識別無病者 |
+| **PPV** | TP ÷ (TP+FP) | 陽性結果時真正有病的概率 |
+| **NPV** | TN ÷ (TN+FN) | 陰性結果時真正無病的概率 |
+| **Kappa** | (觀察一致率 − 機會預期一致率) ÷ (1 − 機會預期一致率) | 排除機會因素的一致性 |
 
-
-
+---
 
 ## ❓ 複習題
 
-1. 請解釋 Assessing the Validity and Reliability of Diagnostic and Screening Tests 的定義及其在流行病學中的重要性。
-2. 列舉並說明本章中介紹的三個核心概念。
-3. 如何將這些概念應用於醫療實踐或公共衛生決策？
-4. 討論與這些概念相關的主要方法學議題。
+1. 解釋**敏感度**和**特異度**的定義，並說明如何從2×2表計算兩者。
+2. 為什麼在選擇篩檢試驗的**臨界值**時，需要在敏感度和特異度之間進行權衡？
+3. **順序檢測**和**同步檢測**對敏感度和特異度各有什麼影響？各適用於什麼情境？
+4. 為什麼**盛行率高的族群**的PPV通常高於**盛行率低的族群**？
+5. **Kappa統計量**解決了**百分一致率**的什麼問題？為什麼它更重要？
+6. 一個試驗可以**既可靠但無效**嗎？解釋並用靶圖比喻說明。
+7. 消防員心電圖篩檢案例告訴我們關於**研究族群與應用族群**差異的什麼重要教訓？
 
-
-
+---
 
 ## 📚 參考文獻
 
-- Gordis L. *Epidemiology*. 5th Edition. Elsevier, 2014.
-- Chapter 5: Assessing the Validity and Reliability of Diagnostic and Screening Tests
+1. Sheffield LJ, Sackett DL, Goldsmith CH, et al. A clinical approach to the use of predictive values in the prenatal diagnosis of neural tube defects. *Am J Obstet Gynecol* 145:319–324, 1983.
+2. Cohen J. A coefficient of agreement for nominal scales. *Educ Psychol Meas* 20:37–46, 1960.
+3. Fleiss JL. *Statistical Methods for Rates and Proportions*. New York: Wiley, 1981.
+4. MacLure M, Willett WC. Misinterpretation and misuse of the kappa statistic. *Am J Epidemiol* 126:161–169, 1987.
+5. Ghandur-Mnaymneh L, Raub WA, Sridhar KS, et al. The accuracy of the histological classification of lung carcinoma. *Cancer Invest* 11:641, 1993.
 
 ---
-*本章為 Gordis Epidemiology 第五版 第5章的繁體中文學習摘要*
-
+*本章為 Gordis Epidemiology 第五版第5章的繁體中文學習指南。本章由 PDF 原文重新整理編寫。*

@@ -12,1470 +12,413 @@ menu:
     weight: 2
 ---
 
+# 第2章：疾病傳播的動態學
 
-
-# 第2章：The Dynamics of Disease Transmission
-
-**疾病傳播的動態學**
+**The Dynamics of Disease Transmission**
 
 > **Gordis Epidemiology** 第五版 | Chapter 2
-> 本章探詢 The Dynamics of Disease Transmission 的核心概念與應用
+> 本章以傳染病為模型，探討疾病傳播的核心概念與其流行病學分析方法。理解疾病如何從一人傳播至另一人，是制定有效公共衛生介入措施的基礎。
 
 ---
-
-
 
 ## 🎯 學習目標
 
-完成本章學皙後，您將能夠：
+完成本章學習後，您將能夠：
 
-- 理解 疾病傳播的動態學 的基本概念
-- 掌握相關流行病學方法與術語
-- 應用這些知識於臨床與公共衛生實踐
-- 分析與評估相關研究證據
+- 理解傳染病傳播的基本原理
+- 掌握**疾病三角模型**（宿主、致病原、環境）的互動關係
+- 區分**直接傳播**與**間接傳播**模式
+- 理解**亞臨床感染**與**帶原者**在疾病傳播中的角色
+- 區別**地方性**、**流行性**與**大流行**的概念
+- 掌握**群體免疫**的原理及其公共衛生意涵
+- 運用**疫學曲線**與**潛伏期**分析爆發事件
+- 熟悉爆發調查的基本步驟與交叉表分析方法
 
+---
 
+## 📋 重要術語速查
 
+| 中文術語 | 英文 | 定義關鍵詞 |
+|---------|------|-----------|
+| **宿主** | Host | 被病原體感染的人或動物 |
+| **致病原** | Agent | 直接導致疾病的病原體 |
+| **環境** | Environment | 促進暴露與疾病傳播的外部因素 |
+| **傳播** | Transmission | 病原體從傳染源傳至新宿主的過程 |
+| **發生率** | Incidence | 單位時間內新病例的比例 |
+| **盛行率** | Prevalence | 特定時點所有病例的比例 |
+| **帶原者** | Carrier | 携带病原體但無臨床症狀的個體 |
+| **地方性** | Endemic | 疾病在特定地理區域的習慣性存在 |
+| **流行性** | Epidemic | 疾病發生明顯超過正常預期 |
+| **大流行** | Pandemic | 全球性流行 |
+| **群體免疫** | Herd Immunity | 大比例人口免疫後對整體族群的保護 |
+| **攻擊率** | Attack Rate | 暴露者中發病的比例 |
+| **潛伏期** | Incubation Period | 感染至臨床發病的間隔時間 |
+| **易感受者** | Susceptible | 對特定疾病缺乏免疫的個體 |
 
-## 📋 重要術語
+---
 
-| 英文術語 | 中文翻譯 |
-|---------|---------|
+## 疾病傳播的科學
 
-| Community | 社區 |
-| Confounder | 混雜因子 |
-| Environment | 環境 |
-| Epidemiology | 流行病學 |
-| Etiology | 病因學 |
-| Health | 健康 |
-| Incidence | 發生率 |
-| Introduction | 緒論 |
-| Mortality | 死亡率 |
-| Policy | 政策 |
-| Prevalence | 盛行率 |
-| Reliability | 可靠性 |
-| Specificity | 特異度 |
-| Survival | 存活 |
+### 📖 摘要
 
+傳染病從未消失，它們不斷在世界各地傳播，引起爆發和流行。即使在慢性病為主要死因的現代社會，傳染病仍是重要的公共衛生議題。本章以傳染病為模型，探討所有疾病（無論傳染性與否）傳播與發生的核心原理。理解這些概念，是設計有效預防與控制措施的基礎。
 
-## 🖼️ 圖表目錄
+人類疾病並非憑空產生，而是**宿主**（個人）、**致病原**（如細菌或病毒）與**環境**（如受污染的水源或擁擠的居住環境）三者交互作用的結果。
 
-本章包含以下圖表：
+> **臨床重點**：疫苗接种的核心原理，正是透過提升群體免疫來保護易感受個體。當足夠比例的人口獲得免疫後，即使未接种者也因疾病傳播鏈中斷而受到保護。
 
+---
 
-- **Figure 2-8**
-- **Figure  2-16**
-- **Figure 2-3**
-- **Figure 2-7**
-- **Figure 2-14**
-- **Figure  2-5**
-- **Figure 2-20**
-- **Figure 2-11**
-- **Figure
-2-11**
-- **Figure 2-21**
-- **Figure  2-3**
-- **Figure 2-18**
-- **Figure  2-13**
-- **Figure
-2-1**
-- **Figure 2-10**
-- **Figure  2-19**
-- **Figure  2-2**
-- **Figure 2-4**
-- **Figure 2-17**
-- **Figure  2-10**
+## 疾病三角模型
 
+### 📖 摘要
 
-## 📊 重要表格
+傳統上，疾病被描述為**流行病學三角**（Epidemiologic Triad）的產物：由人類**宿主**、傳染性或其他類型的**致病原**，以及促進**暴露**的**環境**三者交互作用而成。病媒（如蚊子或蜱）常作為環境的一部分參與傳播。
 
+### 宿主、環境與致病原的交互作用
 
+要發生疾病，三者必須同時存在並交互作用。其中，宿主必須是**易感受**的（Susceptible）。人類的易感受性由多種因素決定：
 
-**Table 2-3). The differences**
+- **基因背景**：遺傳特質影響對特定疾病的易感性
+- **營養狀況**：營養不良可能削弱免疫防禦
+- **免疫特徵**：先前自然感染的經歷與疫苗接种史
 
-| in | completeness | of | reporting | and | to | international |
-| variations | in | deining | and | diagnosing | SARS. | A |
-| major | contributor | to | control | of | the | epidemic | was |
-| probably | the | strong | measures | implemented | early |
+圖 2-1 呈現此三角模型。
 
+> **臨床重點**：了解宿主的易感受性，對於疾病預防策略的制定至關重要。識別高風險群體，使我們能針對最脆弱的人群優先部署預防資源。
 
+---
 
-**TABLE 2-3**. Probable Cases of Severe Acute Respiratory Syndrome (SARS), SARS-Related
+## 傳播模式
 
+### 📖 摘要
 
+病原體從傳染源傳至新宿主的**傳播**（Transmission）方式，大致可分為**直接傳播**與**間接傳播**。不同病原體的傳播潛力差異極大，這對公共衛生介入策略的設計有重要影響。
 
+### 直接傳播
 
-**Table 2-5 on page 36.**
+疾病可透過**人傳人**（直接接觸）傳播，包括：
 
-| A | person | who | acquires | the | disease | from | that |
-| as | the | attack | rate | in | susceptible | people | who | have |
-| of | person-to-person | spread | of | disease | after | the |
-| it | can | be | thought | of | as | a | ripple | moving | out | from |
+| 傳播類型 | 範例 |
+|---------|------|
+| **性接觸** | 愛滋病、梅毒、淋病 |
+| **飛沫傳播** | 流感、普通感冒、麻疹 |
+| **垂直傳染** | 愛滋病、德國麻疹（母傳子） |
+| **直接接觸** | 皰疹、疣 |
 
+### 間接傳播
 
+病原體亦可透過非直接接觸的方式傳播：
 
-**Table 2-5, for each of the suspected exposures**
+| 傳播途徑 | 說明 | 範例 |
+|---------|------|------|
+| **共同媒介** | 受污染的空氣、水或食物 | 霍亂、傷寒、諾羅病毒 |
+| **病媒** | 蚊子、蜱、跳蚤等昆蟲 | 瘧疾（蚊子）、萊姆病（蜱） |
 
-| lated | for | those | who | ate | or | drank | the | item | (were |
-| exposed) | and | those | who | did | not | eat | or | drink | the |
-| who | did | not. | However, | this | table | does | not | permit |
-| us | to | determine | whether | the | beverage | or | the | egg |
+圖 2-2 展示疾病傳播的主要模式。
 
+> **臨床重點**：不同病原體的傳播潛力差異極大。流感患者可在擁擠房間中的一小時內傳染給多人；而性傳染病的人傳人傳播則相對困難。理解這些差異，對於制定公共衛生對策至關重要。
 
+---
 
-**Table  2-6,  we  again**
+## 疾病的光譜：臨床與亞臨床疾病
 
+### 📖 摘要
 
+疾病的嚴重程度呈現寬廣的光譜。正如冰山的大部分隱於水下僅露出尖端，疾病亦然：只有**臨床疾病**（Clinical Disease）容易觀察到，但**無臨床症狀的感染**（Subclinical Infection）對於疾病傳播網絡同樣重要，雖然臨床上看不見。
 
+### 冰山概念
 
+僅計算我們看到的臨床病例是不夠的。在疫苗問世前的時代，小兒麻痺的大多數病例是亞臨床的——許多感染了小兒麻痺病毒的人並未發病，但他們仍能將病毒傳播給他人。
 
-## 📖 內容摘要
+這個概念稱為**冰山理論**（Iceberg Phenomenon），說明任何疾病的完整圖像，都比我們從臨床症狀觀察到的更為龐大。
 
+### 疾病的臨床類型
 
-疾病傳播的動態學
+| 疾病類型 | 說明 | 臨床意義 |
+|---------|------|---------|
+| **臨床疾病** | 有明顯症狀與體徵 | 患者會就醫，可被識別 |
+| **亞臨床疾病** | 無明顯症狀，通常靠血清學確診 | 患者未就醫，但可傳播疾病 |
+| **臨床前期疾病** | 尚未表現臨床症狀，但注定會進展為臨床疾病 | 可透過篩檢早期發現 |
+| **潛伏感染** | 病原體遺傳物質存在於宿主細胞中，但無活躍複製 | 可能復發（如皰疹） |
 
-I keep six honest serving-men
-(They taught me all I knew);
-Their names are What and Why and When
-And How and Where and Who.
+### 帶原者
 
-—Rudyard Kipling1 (1865–1936)
-
-■  To introduce concepts related to 疾病
-傳播 using the epidemiologic
-approach to 傳染病s as a
-model.
-
-■  To deﬁne important terms related to the
-occurrence of 疾病 in a 族群.
-
-■  To calculate an 攻擊率 and illust率 how
-it may be used to measure person-to-person
-傳播 of a 疾病.
-
-■  To describe the steps in an 群突發 investi-
-gation and introduce how cross-tabulation
-may be used to identify the source.
+**帶原者**（Carrier）是指體內携带病原體，但血清學檢查未顯示感染跡象（無抗體反應）或臨床疾病證據的個體。這類人仍可傳染他人，雖然傳染力通常低於其他感染形式。帶原者狀態可能是暫時性或慢性（持續數月或數年）。
 
-Human 疾病 does not arise in a vacuum. It results
-from an 交互作用 of the 宿主 (a person), the 致病原
-(e.g.,  a  bacterium),  and  the  環境  (e.g.,  a
-contaminated  water  supply). Although  some  dis-
-eases  are  largely  genetic  in  origin,  virtually  all
-疾病  results  from  an  交互作用  of  genetic  and
-環境al  factors,  with  the  exact  balance  dif-
-fering for different 疾病. Many of the underlying
-principles governing the 傳播 of 疾病 are
-most  clearly  demonst率d  using  可傳播的
-疾病  as  a model. Hence,  this  chapter  primarily
-uses  such  疾病  as  examples  in  reviewing  these
-principles. However, the concepts discussed are also
-applicable  to  疾病  that  do  not  appear  to  be  of
-傳染性的 origin.
-
-Disease  has  been  classically  described  as  the
-result  of  an  epidemiologic  triad  shown  in    According  to  this  diagram,  it  is  the  product
-of an 交互作用 of the human 宿主, an 傳染性的
-or  other  type  of  致病原,  and  the  環境
-that  promotes  the  暴露. A  病媒,  such  as  the
-
-mosquito  or  the  deer  tick,  is  often  involved. For
-such  an  交互作用  to  take  place,  the  宿主  must
-be 易感受. Human susceptibility is determined
-by a variety of factors including genetic background
-and  nutritional  and  immunologic  characteristics. The immune status of an individual is determined
-by  many  factors  including  prior  experience  both
-with  natural  感染  and  with  immunization.
-
-The factors that can cause human 疾病 include
-biologic,  physical,  and  chemical  factors  as  well  as
-other  types,  such  as  stress,  that  may  be  harder  to
-classify (Table 2-1).
-
-
-### MODES OF TRANSMISSION
-
-Diseases  can  be  transmitted  directly  or  indirectly. **For example, a 疾病 can be transmitted person to
-person  (direct  傳播)  by  means  of  direct
-contact.** Indirect 傳播 can occur through a
-common  vehicle  such  as  a  contaminated  air  or
-water supply, or by a 病媒 such as the mosquito. Some  of  the  modes  of  傳播  are  shown  in
-Table 2-2.
-
-It  vividly  demon-
-st率s  the  potential  for  an  individual  to  infect  a
-
-The epidemiologic triad of a 疾病.
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-Factors That May Be Associated with Increased Risk of Human Disease
-
-宿主 Characteristics
-
-Types of 致病原s and Examples
-
-環境al Factors
-
-Age
-Sex
-Race
-Religion
-Customs
-Occupation
-Genetic proile
-Marital status
-Family background
-Previous 疾病
-Immune status
-
-Poison, alcohol, smoke
-
-Trauma, radiation, ire
-
-Temperature
-Humidity
-Altitude
-Crowding
-Housing
-Neighborhood
-Water
-Milk
-Food
-Radiation
-Air pollution
-Noise
-
-Modes of Disease Transmission
-
-a. Person-to-person contact
-
-(1)  Single 暴露
-(2)  Multiple 暴露
-(3)  Continuous 暴露
-
-large  number  of  people  in  a  brief  period  of  time. As Mims has pointed out:
-
-An  infected  individual  can  transmit  inluenza
-or  the  common  cold  to  a  score  of  others  in  the
-course of an innocent hour in a crowded room. A
-venereal  感染  also  must  spread  progressively
-from  person  to  person  if  it  is  to  maintain  itself
-in  nature,  but  it  would  be  a  formidable  task  to
-transmit venereal 感染 on such a scale.2
-
-Thus,  different  organisms  spread  in  different
-ways,  and  the  potential  of  a  given  organism  for
-spreading and producing 群突發s depends on the
-characteristics  of  the  organism,  such  as  its  率  of
-growth  and  the  route  by  which  it  is  transmitted
-from one person to another.
-
-The  alimentary  tract  can  be  considered
-as an open tube that crosses the body, and the respi-
-ratory  and  urogenital  systems  are  shown  as  blind
-pockets. Each  offers  an  opportunity  for  感染.
-
-Droplet  dispersal  following  a  violent  sneeze. (Reprinted  with  permission  from  Jennison  MW:  Aerobiology
-17:102,  1947. Copyright  1947  American  Association  for  the
-Advancement of Science.)
-
-The  skin  is  another  important  portal  of  entry  for
-傳染性的  致病原s,  primarily  through  scratch  or
-injury. 致病原s  that  often  enter  through  the  skin
-include  streptococci  or  staphylococci  and  fungi
-such  as  tinea  (ringworm). Two  points  should  be
-made in this regard: First, the skin is not the exclu-
-sive  portal  of  entry  for  many  of  these  致病原s,  and
-感染s  can  be  acquired  through  more  than
-one route. The same routes also serve as points of
-entry for non傳染性的 疾病-causing 致病原s. For
-example,  環境al  toxins  can  be  ingested,
-inspired  during  respi比n,  or  absorbed  directly
-through  the  skin. The  clinical  and  epidemiologic
-characteristics  in  many  傳染性的  and  noninfec-
-tious  conditions  often  relate  to  the  site  of  the
-
-Chapter 2   疾病傳播的動態學
-
-Body  surfaces  as
-sites  of  microbial  感染  and
-shedding. (From Mims CA, Nash
-A, Stephen J: Mims’ Pathogenesis
-of  Infectious  Disease,  5th  ed. London, Academic Press, 2001.)
-
-暴露  to  an  organism  or  to  an  環境al
-substance and to its portal of entry into the body.
-
-
-### CLINICAL AND SUBCLINICAL DISEASE
-
-It is important to recognize the broad spectrum of
-疾病  severity. Just  as  most  of  an  iceberg  is
-underwater and hidden from view with only its tip
-visible,  so  it  is  with  疾病:  only  clinical  illness  is
-readily  apparent  (as  seen  under  宿主  Response  on
-the right of Fig. 2-4). But 感染s without clinical
-illness  are  important,  particularly  in  the  web  of
-疾病 傳播, although they are not visible
-clinically. In   The  iceberg  concept  is
-important because it is not suficient to count only
-
-the  clinically  apparent  病例s  we  see;  for  example,
-most  病例s  of  polio  in  prevaccine  days  were
-subclinical—that  is,  many  people  who  contracted
-polio 感染 were not clinically ill. Nevertheless,
-they  were  still  capable  of  spreading  the  virus  to
-others. As  a  result,  we  cannot  understand  and
-explain the spread of polio unless the pool of inap-
-parent 病例s is recognized.
-
-Most  病例s  of  tuberculosis,  for
-example,  are  inapparent. However,  because  inap-
-parent  病例s  can  transmit  the  疾病,  such  病例s
-must be identiied to 對照 spread of the 疾病. In measles, many 病例s are of mode率 severity and
-only  a  few  are  inapparent. At  the  other  extreme,
-without  intervention,  rabies  has  no  inapparent
-病例s, and most untreated 病例s are fatal. Thus, we
-have a spectrum of severity patterns that varies with
-
-The “iceberg”  concept  of  傳染性的
-疾病  at  the  level  of  the  cell  and  of  the  宿主. (Adapted  from  Evans  AS,  Kaslow  RA  [eds]:  Viral
-Infections  of  Humans:  流行病學  and  Control,
-4th ed. New York, Plenum, 1997.)
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-Distribution of clinical severity
-for  three  classes  of  感染s  (not  drawn  to
-scale). (Adapted  from  Mausner  JS,  Kramer  S:
-流行病學: An Introductory Text. Philadel-
-phia, WB Saunders, 1985, p 265.)
-
-the  疾病. Severity  appears  to  be  related  to  the
-virulence of the organism (how good the organism
-is at producing 疾病) and to the site in the body
-at  which  the  organism  multiplies. All  of  these
-factors,  as  well  as  such  宿主  characteristics  as  the
-immune response, need to be appreciated to under-
-stand  how  疾病  spreads  from  one  individual  to
-another.
-
-As clinical and biologic knowledge has increased
-over the 年, so has our ability to distinguish dif-
-ferent stages of 疾病. These include clinical and
-nonclinical 疾病:
-
-Clinical Disease
-Clinical  疾病  is  characterized  by  signs  and
-symptoms.
-
-Nonclinical (Inapparent) Disease
-Nonclinical 疾病 may include the following:
-
-
-### 1.  Preclinical Disease. Disease that is not yet clini-
-cally  apparent  but  is  destined  to  progress  to
-clinical 疾病.
-
-
-### 2.  Subclinical Disease. Disease that is not clinically
-apparent and is not destined to become clinically
-apparent. This type of 疾病 is often diagnosed
-by  serologic  (antibody)  response  or  culture  of
-the organism.
-
-
-### 3.  Persistent  (Chronic)  Disease.  A  person  fails  to
-“shake off ” the 感染, and it persists for 年,
-at  times  for  life.  In  recent  年,  an  interesting
-phenomenon  has  been  the  manifestation  of
-symptoms  many  年  after  an  感染  was
-thought to have been resolved. Some adults who
-recovered  from  poliomyelitis  in  childhood  are
-
-now reporting severe fatigue and weakness; this
-has  been  called  post-polio  syndrome  in  adult
-life. These  have  thus  become  病例s  of  clinical
-疾病,  albeit  somewhat  different  from  the
-initial illness.
-
-
-### 4.  Latent Disease. An 感染 with no active mul-
-tiplication  of  the  致病原,  as  when  viral  nucleic
-acid is incorpo率d into the nucleus of a cell as
-a  provirus.  In  contrast  to  persistent  感染,
-only the genetic message is present in the 宿主,
-not the viable organism.
-
-A 帶原者 is an individual who harbors the organism
-but is not infected as measured by serologic studies
-(no  evidence  of  an  antibody  response)  or  by  evi-
-dence of clinical illness. This person can still infect
-others, although the infectivity is often lower than
-with  other  感染s. Carrier  status  may  be  of
-limited  du比n  or  may  be  chronic,  lasting  for
-months or 年. One of the best-known examples
-of  a  long-term  帶原者  was  Typhoid  Mary,  who
-carried  Salmonella  typhi  and  died  in  1938. Over  a
-period of many 年, she worked as a cook in the
-New  York  City  area,  moving  from  household  to
-household under different names. She was consid-
-ered  to  have  caused  at  least  10  typhoid  fever  out-
-breaks that included 51 病例s and 3 deaths.
-
-ENDEMIC, EPIDEMIC, AND PANDEMIC
-
-Three other terms need to be deined: 地方性, epi-
-demic,  and  大流行. Endemic  is  deined  as  the
-habitual  presence  of  a  疾病  within  a  given
-
-Chapter 2   疾病傳播的動態學
-
-much to expect? There is no precise answer to either
-question. Through  ongoing  監測,  we  may
-determine what the usual or expected level may be. With  regard  to  excess,  sometimes  an “interocular
-test”  may  be  convincing:  the  difference  is  so  clear
-that it hits you between the eyes.
-
-Two  examples  will  show  how  大流行s  and
-fear  of  大流行s  relate  to  the  development  of
-public  政策. In  December  1952,  a  dense  smoke-
-laden fog (smog) descended on London (Fig. 2-7). From  December  6  to  9,  the  fog  was  so  thick  that
-visibility was reduced to 30 feet in parts of London. Pedestrians  had  dificulty  inding  their  way,  even
-in familiar neighborhoods. At times, people could
-not  see  their  own  hands  and  feet. The  SO2  level
-serves  as  a  useful  indicator  of  general  levels  of
-air  pollution. As  seen  in    This
-率  remained  elevated  for  some  time  after  the
-fog  dissipated. More  than  4,000  deaths  were
-
-Endemic versus 流行病 疾病.
-
-geographic  area. It  may  also  refer  to  the  usual
-occurrence of a given 疾病 within such an area. Epidemic is deined as the occurrence in a commu-
-nity  or  region  of  a  group  of  illnesses  of  similar
-nature, clearly in excess of normal expectancy, and
-derived  from  a  common  or  from  a  propagated
-source  (Fig. 2-6). Pandemic  refers  to  a  worldwide
-流行病.
-
-How do we know when we have an excess over
-what  is  expected? Indeed,  how  do  we  know  how
-
-Daytime (10:30 am) photographs of the Great Smog’s toxic pollution. A, Due to reduced visibility, a bus is guided by
-an oficial (lower left, in silhouette) with a lashlight. B, The dim orange-gray ball in the sky is the Sun. (A from Keystone/Hulton
-Archive, Getty Images. B from Central Press/Hulton Archive, Getty Images.)
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-Approximate weekly 死亡率 and sulfur dioxide (SO2) concent比ns for Greater London, 1952–1953. (From Bell
-ML, Davis DL: Reassessment of the lethal London Fog of 1952: Novel indicators of acute and chronic consequences of acute 暴露
-to air pollution. Environ 健康 Perspect 109[Suppl 3]:389–394, 2001.)
-
-attributed  to  the  fog. Recently,  further  analyses
-have  suggested  that  about  12,000  excess  deaths
-occurred  from  December  1952  through  February
-1953.3  Many  of  these  deaths  occurred  in  people
-who  were  already  suffering  from  chronic  lung  or
-cardiovascular 疾病. The disaster of the London
-Fog,  or  the  Great  Smog,  as  it  became  known,
-led  to  legislation,  including  the  Clean  Air  Acts
-of  1956  and  1968,  which  banned  emissions  of
-black  smoke  and  required  residents  of  urban
-areas  and  operators  of  factories  to  convert  to
-smokeless  fuel.
-
-The second example involves an issue that arose
-in  2011  related  to  laboratory  research  into  the
-H5N1,  or  “bird  lu,”  virus  (Fig. 2-9). Although
-傳播 of naturally occurring H5N1 has been
-primarily limited to those with direct contact with
-
-Colorized 傳播 electron micrograph of
-Avian inluenza A H5N1 viruses (seen in gold) grown in MDCK
-cells  (seen  in  green). (From  Centers  for  Disease  Control  and
-Prevention, courtesy of Cynthia Goldsmith, Jacqueline Katz, and
-Sherif R. Zaki.)
-
-infected  animals,  in  the  unusual  病例s  in  which
-people  do  acquire  the  感染  from  animals,  the
-疾病  is  often  very  severe  with  frequent  deaths. There  has  therefore  been  serious  concern  that
-certain mutations in the virus might increase trans-
-missibility of the virus to human beings and could
-therefore result in a human 大流行. In order to
-understand fully the possibility of such a mutation
-and the potential for preventing it, two government-
-funded laboratories, one at Erasmus Medical Center
-in the Netherlands and a second at the University
-of Wisconsin-Madison in the United States, created
-genetically  altered  H5N1  strains  that  could  be
-transmitted  between  mammals  (ferrets)  through
-the air.
-
-After  reviewing  the  two  studies,  for  the  irst
-time in its history, the U.S. National Science Advi-
-sory  Board  for  Biosecurity  recommended  against
-publishing  the  details  of  the  methodologies  used
-in these studies. The Board cited potential  misuse
-by  “those  who  would  seek  to  do  harm”  by  par-
-ticipating  in  bioterrorist  activity. Other  scientists,
-however,  including  members  of  an  expert  panel
-assembled  by  the  World  健康  Organization
-(WHO),  disagreed,  stating  that  the  work  was
-important  to  public  健康  efforts  to  prevent  a
-possible  大流行  in  humans. In  January  2012,
-a  moratorium  on  some  types  of  H5N1  research
-was  self-imposed  by  the  researchers  to  allow  time
-for  discussion  of  these  concerns  by  experts  and
-by  the  public. The  results  of  the  two  studies  were
-subsequently  published  in  May  and  June  2012.4,5
-The  major  unresolved  issue  is  whether  the
-potential  beneits  to  society  from  the  results  of
-these  types  of  studies  outweigh  the  risks  from
-un對照led  spread  of  mutated  virus,  resulting
-
-Chapter 2   疾病傳播的動態學
-
-either  from  lapses  in  biosafety  in  the  laboratory
-(accidental release of the virus) or from bioterrorist
-activity (intentional release of the virus). Scientists
-and 政策makers need to develop the methods for
-assessing the risks and beneits of conducting dif-
-ferent types of experimental research. In addition,
-these events illust率 that censorship and academic
-freedom  in  science  remain  highly  relevant  issues
-today.
-
-Let  us  assume  that  a  food  becomes  contaminated
-with a microorganism. If an 群突發 occurs in the
-group of people who have eaten the food, it is called
-a  common-vehicle  暴露,  because  all  the  病例s
-that developed were in persons exposed to the food
-in question. The food may be served only once, for
-example, at a catered luncheon, resulting in a single
-暴露 to the people who eat it, or the food may
-be  served  more  than  once,  resulting  in  multiple
-暴露  to  people  who  eat  it  more  than  once. When a water supply is contaminated with sewage
-because  of  leaky  pipes,  the  contamination  can  be
-either  periodic,  causing  multiple  暴露  as  a
-result  of  changing  pressures  in  the  water  supply
-system that may cause intermittent contamination,
-or continuous, in which a constant leak leads to per-
-sistent  contamination. The  epidemiologic  picture
-that is manifested depends on whether the 暴露
-is single, multiple, or continuous.
-
-For  purposes  of  this  discussion,  we  will  focus
-on  the  single-暴露,  common-vehicle  群突發
-
-because  the  issues  discussed  are  most  clearly  seen
-in this type of 群突發. What are the characteris-
-tics of such an 群突發? First, such 群突發s are
-explosive,  that  is,  there  is  a  sudden  and  rapid
-increase  in  the  number  of  病例s  of  a  疾病  in  a
-族群. Second, the 病例s are limited to people
-who  share  the  common  暴露. This  is  self-
-evident, because in the irst wave of 病例s we would
-not  expect  the  疾病  to  develop  in  people  who
-were not exposed unless there were another source
-of the 疾病 in the 社區. Third, in a food-
-borne 群突發, 病例s rarely occur in persons who
-acquire the 疾病 from a primary 病例. The reason
-for the relative rarity of such 次級 病例s in this
-type of 群突發 is not well understood.
-
-In the United States, the leading cause of food-
-borne–related  illness  is  contamination  with  noro-
-virus (from the Norwalk virus family). Over recent
-decades,  a  growing  number  of  群突發s  of  acute
-gastroenteritis (AGE) have occurred aboard cruise
-ships. During  the  irst  11  months  of  2002,  the
-Centers for Disease Control and Prevention (CDC)
-received reports of 21 群突發s of AGE, of which
-9 were conirmed by laboratory tests of stool speci-
-mens  to  be  associated  with  noroviruses. One  of
-these  群突發s  is  shown  in  6  On
-October 25, a cruise ship with 2,882 passengers and
-944 crew members left Spain for a 14-day cruise to
-Florida. On October 28, a total of 70 (2.5%) of the
-passengers reported to the inirmary with AGE. By
-November 2, a total of 106 passengers (5%) and 25
-(3%) of the crew had reported illnesses. Number  of  passengers  and
-crew members reporting to the ship’s inirmary
-with symptoms of acute gastroenteritis during
-a 14-day cruise by date of illness onset, Spain
-to  Florida,  October  25–November  8,  2002. (From  Centers  for  Disease  Control  and  Pre-
-vention:  Outbreaks  of  gastroenteritis  associ-
-ated with noroviruses on cruise ships—United
-States, 2002. MMWR 51:1112–1115, 2002.)
-
-25 26 27 28 29 30 31
-Oct
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-tapering off of the 流行病 curve, typical of single-
-暴露  common-vehicle  群突發s. Results  of
-tests on stool specimens from four of six passengers
-were positive for a strain of norovirus that was dif-
-ferent from that observed in previous 群突發s on
-cruise  ships. Ill  crew  members  were  quarantined
-until they were symptom-free for 72 hours, the ship
-was  disinfected,  and  sanitary  practices  were  rein-
-forced. No  additional  群突發s  were  reported  in
-subsequent cruises on this ship.6 The CDC’s Vessel
-Sanitation  Program  monitors  群突發s  on  cruise
-ships  and  works  to  prevent  and  對照  transmis-
-sion  of  illness  aboard  these  ships. Data  from  each
-群突發  are  available  on  their  website,  http://
-www.cdc.gov/nceh/vsp/.
-
-
-### IMMUNITY AND SUSCEPTIBILITY
-
-The amount of 疾病 in a 族群 depends on
-a  balance  between  the  number  of  people  in  that
-族群  who  are  易感受,  and  therefore  at
-risk for the 疾病, and the number of people who
-are not 易感受, or immune, and therefore not
-at risk. They may be immune because they have had
-the  疾病  previously  or  because  they  have  been
-immunized. They also may be not 易感受 on a
-genetic  basis. Clearly,  if  the  entire  族群  is
-immune, no 流行病 will develop. But the balance
-is usually struck somewhere in between immunity
-and susceptibility, and when it moves toward sus-
-ceptibility, the likelihood of an 群突發 increases. This has been observed particularly in formerly iso-
-lated 族群 who were exposed to 疾病. For
-example, in the 19th century, Panum observed that
-measles occurred in the Faroe Islands in 流行病
-form when infected individuals entered the isolated
-and  易感受  族群.7  In  another  example,
-severe 群突發s of streptococcal sore throats devel-
-oped  when  new  易感受  recruits  arrived  at  the
-Great Lakes Naval Station.8
-
-Herd immunity may be deined as the resistance of
-a group of people to an attack by a 疾病 to which
-a large 比例 of the members of the group are
-immune. If a large 百分比 of the 族群 is
-immune, the entire 族群 is likely to be pro-
-tected, not just those who are immune. Why does
-herd  immunity  occur? It  happens  because  疾病
-spreads  from  one  person  to  another  in  any  com-
-munity. Once a certain 比例 of people in the
-
-社區  are  immune,  the  likelihood  is  small
-that an infected person will encounter a 易感受
-person  to  whom  he  can  transmit  the  感染;
-more of his encounters will be with people who are
-immune. The  presence  of  a  large  比例  of
-immune persons in the 族群 lessens the like-
-lihood that a person with the 疾病 will come into
-contact with a 易感受 individual.
-
-Why is the concept of herd immunity so impor-
-tant? When we carry out immunization programs,
-it may not be necessary to achieve 100% immuniza-
-tion 率s to immunize the 族群 successfully. We  can  achieve  highly  effective  protection  by
-immunizing  a  large  part  of  the  族群;  the
-remaining  part  will  be  protected  because  of  herd
-immunity.
-
-For  herd  immunity  to  exist,  certain  conditions
-must be met. The 疾病 致病原 must be restricted
-to a single 宿主 species within which 傳播
-occurs,  and  that  傳播  must  be  relatively
-direct  from  one  member  of  the  宿主  species  to
-another. **If we have a 宿主 in which the organ-
-ism can exist outside the human 宿主, herd immu-
-nity  will  not  ope率  because  other  means  of
-傳播  are  available.** In  addition,  感染s
-must  induce  solid  immunity. If  immunity  is  only
-partial, we will not build up a large sub族群
-of immune people in the 社區.
-
-What does this mean? Herd immunity ope率s
-if the probability of an infected person encounter-
-ing every other individual in the 族群 (random
-mixing) is the same. But if a person is infected and
-all his 交互作用s are with people who are suscep-
-tible (i.e., there is no random mixing of the popu-
-lation), he is likely to transmit the 疾病 to other
-易感受  people. Herd  immunity  ope率s  opti-
-mally  when  族群  are  constantly  mixing
-together. This is a theoretical concept because, obvi-
-ously,  族群  are  never  completely  randomly
-mixed. All of us associate with family and friends,
-for  example,  more  than  we  do  with  strangers. However,  the  degree  to  which  herd  immunity  is
-achieved depends on the extent to which the popu-
-lation approaches a random mixing. Thus, we can
-interrupt  the  傳播  of  疾病  even  if  not
-everyone in the 族群 is immune, so long as a
-critical 百分比 of the 族群 is immune.
-
-What  百分比  of  a  族群  must  be
-immune  for  herd  immunity  to  ope率? This
-百分比  varies  from  疾病  to  疾病. For
-example,  in  the  病例  of  measles,  which  is  highly
-可傳播的,  it  has  been  estimated  that  94%  of
-
-Chapter 2   疾病傳播的動態學
-
-the  族群  must  be  immune  before  the  chain
-of 傳播 is interrupted.
-
-Let us consider poliomyelitis immunization and
-herd immunity. From 1951 to 1954, an average of
-24,220 病例s of paralytic poliomyelitis occurred in
-the  United  States  each  year. Two  types  of  vaccine
-are available. The oral polio vaccine (OPV) not only
-protects those who are vaccinated, but also protects
-others in the 社區 through 次級 immu-
-nity,  produced  when  the  vaccinated  individual
-spreads  the  active  vaccine  virus  to  contacts. In
-effect, the contacts are immunized by the spread of
-virus from the vaccinated person. If enough people
-in  the  社區  are  protected  in  this  way,  the
-chain of 傳播 is interrupted. However, even
-inactivated  poliovirus  vaccine  (IPV),  which  does
-not produce 次級 immunity (does not spread
-the  virus),  can  produce  herd  immunity  if  enough
-of the 族群 is immunized; even those who are
-not immunized will be protected because the chain
-of  傳播  in  the  社區  has  been
-interrupted.
-
-From 1958 to 1961, only IPV was available in the
-United  States. Clearly, the number of 病例s that occurred
-was  far  less  than  what  would  have  been  expected
-from  the  direct  effects  of  the  vaccine  alone. **The
-difference  between  the  two  curves  represents  the
-effect  of  herd  immunity  from  the  vaccine.** Thus,
-nonimmunized individuals can gain some protec-
-tion from either the OPV or IPV.
-
-The  incubation  period  is  deined  as  the  interval
-from receipt of 感染 to the time of onset of clinical
-illness. If  you  become  infected  today,  the  疾病
-with which you are infected may not develop for a
-number  of  days  or  weeks. During  this  time,  the
-incubation  period,  you  feel  completely  well  and
-show no signs of the 疾病.
-
-Why  doesn’t  疾病  develop  immediately  at
-the  time  of  感染? What  accounts  for  the
-incubation period? It may relect the time needed
-for  the  organism  to  replicate  suficiently  until  it
-reaches the critical mass needed for clinical 疾病
-to  result. It  probably  also  relates  to  the  site  in
-the  body  at  which  the  organism  replicates—
-whether  it  replicates  supericially,  near  the  skin
-surface,  or  deeper  in  the  body. The  dose  of  the
-傳染性的  致病原  received  at  the  time  of  感染
-may  also  inluence  the  length  of  the  incubation
-period. With  a  large  dose,  the  incubation  period
-may  be  shorter.
-
-The incubation period is also of historical inter-
-est because it is related to what may have been the
-only  medical  advance  associated  with  the  Black
-Death in Europe. In 1374, when people were terri-
-bly  frightened  of  the  Black  Death,  the  Venetian
-Republic  appointed  three  oficials  who  were  to  be
-responsible  for  inspecting  all  ships  entering  the
-port  and  for  excluding  ships  that  had  sick  people
-on board. It was hoped that this intervention would
-protect  the  社區. In  1377,  in  the  Italian
-seaport  of  Ragusa,  travelers  were  detained  in  an
-isolated area for 30 days (trentini giorni) after arrival
-
-Effect of herd immunity, United States, 1958–1961: A, Expected number of paralytic poliomyelitis 病例s if the vac-
-cine’s effect was limited to vaccinated people. B, Number of 病例s observed as a result of herd immunity. (Adapted from American
-Academy of Pediatrics News. Copyright 1998. From Stickle G: Observed and expected poliomyelitis in the United States, 1958–1961. Am J Public 健康 54:1222–1229, 1964.)
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-to  see  whether  感染  developed. This  period
-was  found  to  be  insuficient,  and  the  period  of
-detention  was  lengthened  to  40  days  (quarante
-giorni). This is the origin of the word quarantine.
-
-How long would we want to isolate a person? We
-would want to isolate a person until he or she is no
-longer 傳染性的 to others. When a person is clini-
-cally ill, we generally have a clear sign of potential
-傳染性的ness. An important problem arises before
-the  person  becomes  clinically  ill—that  is,  during
-the incubation period. If we knew when he or she
-became infected and also knew the general length
-of the incubation period for the 疾病, we would
-want  to  isolate  the  infected  person  during  this
-period to prevent the communication of the 疾病
-to  others. In  most  situations,  however,  we  do  not
-know that a person has been infected, and we may
-not  know  until  signs  of  clinical  疾病  become
-manifest.
-
-This leads to an important question: Is it worth-
-while to quarantine—isolate—a patient, such as a
-child with chickenpox? The problem is that, during
-at least part of the incubation period, when a person
-is still free of clinical illness, he or she can transmit
-the 疾病 to others. Thus, we have people who are
-not (yet) clinically ill, but who have been infected
-and  are  able  to  transmit  the  疾病. For  many
-common  childhood  疾病,  by  the  time  clinical
-疾病 develops in the child, he or she has already
-transmitted the 疾病 to others. Therefore, isolat-
-ing  such  a  person  at  the  point  at  which  he  or  she
-becomes  clinically  ill  will  not  necessarily  be  effec-
-tive. On the other hand, isolation can be very valu-
-able. In February 2003 a serious respiratory illness
-was irst reported in Asia (having occurred in 2002)
-
-and  was  termed  severe  acute  respiratory  syndrome
-(SARS). The  疾病  is  characterized  by  fever  over
-38°C, headache, overall discomfort, and, after 2 to
-7  days,  development  of  cough  and  dificulty  in
-breathing in some patients. The cause of SARS has
-been shown to be 感染 with a previously unrec-
-ognized human coronavirus, called SARS-associated
-coronavirus.
-
-SARS  appears  to  spread  by  close,  person-to-
-person contact. Because modern travel, particularly
-air  travel,  facilitates  rapid  and  extensive  spread  of
-疾病, within a few months the illness had spread
-to more than two dozen countries in North America,
-South America, Europe, and Asia. However, by late
-July 2003, no new 病例s were being reported and the
-群突發  was  considered  contained. However,  the
-possibility remains that SARS 群突發s will occur
-again in the future.
-
-The  World  健康  Organization  reported  that
-worldwide,  8,437  people  became  ill  with  SARS
-during  the  November  2002  to  July  2003  群突發
-and of those, 813 died (
-
-Different  疾病  have  different  incubation
-periods. A precise incubation period does not exist
-for  a  given  疾病;  rather,  a  range  of  incubation
-
-Cumulative Number of Cases
-
-Canada
-China
-China, Hong Kong
-Singapore
-Taiwan
-United States
-Vietnam
-All other countries
-All countries
-
-251
-5,327
-1,755
-238
-346
-27
-63
-89
-8,096
-
-43
-349
-299
-33
-37
-0
-5
-8
-744
-
-17.0
-7.0
-17.0
-14.0
-11.0
-0.0
-8.0
-9.0
-9.6
-
-Data from World 健康 Organization, http://who.int/csr/sars/country/table2004_04_21/en/index.html. Accessed May 27, 2013.
-
-Chapter 2   疾病傳播的動態學
-
-and Control, 4th ed. New York, Plenum, 1997.)
-
-Incubation periods of viral 疾病. (From Evans AS, Kaslow RA [eds]: Viral Infections of Humans: 流行病學
-
-periods is characteristic for that 疾病. In  general,  the  length  of  the  incubation
-period is characteristic of the infective organism.
-
-The  incubation  period  for  傳染性的  疾病
-has  its  analogue  in  non傳染性的  疾病. Thus,
-even when an individual is exposed to a carcinogen
-or  other  toxin,  the  疾病  is  often  manifest  only
-after months or 年. For example, mesotheliomas
-resulting  from  asbestos  暴露  may  occur  20  to
-30 年 after the 暴露.
-
-**Each bar represents the
-number of 病例s of 疾病 developing at a certain**
-
-point  in  time  after  the  暴露;  the  number  of
-hours since 暴露 is shown along the horizontal
-axis. If we draw a line connecting the tops of the bars
-it is called the 流行病 curve, which is deined as the
-分布 of the times of onset of the 疾病. **In
-a single-暴露, common-vehicle 流行病, the epi-
-demic curve represents the 分布 of the incu-
-bation periods.** This should be intuitively apparent:
-if the 感染 took place at one point in time, the
-interval from that point to the onset of each 病例 is
-the incubation period in that person.
-
-As  seen  in    In  fact,  this  pattern  is
-
-Incubation  periods  for
-191  delegates  affected  by  a  Salmonella
-typhimurium 群突發 at a medical con-
-ference  in  Wales,  1986. (Adapted  from
-Glynn JR, Palmer SR: Incubation period,
-severity  of  疾病,  and  infecting  dose:
-Evidence  from  a  Salmonella  群突發. Am J Epidemiol 136:1369–1377, 1992.)
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-Number of 病例s plotted against time and against the logarithm of time.
-
-the  classic  流行病  curve  for  a  single-暴露
-common-vehicle  群突發  (Fig. 2-14,  left). The
-reason  for  this  conigu比n  is  not  known. But  it
-has an interesting property: if the curve is plotted
-against  the  logarithm  of  time  rather  than  against
-time,  the  curve  becomes  a  normal  curve,  which
-has useful statistical properties (see Fig. 2-14, right). If  plotted  on  log-normal  graph  paper,  we  obtain
-a straight line, and estimation of the median incu-
-bation  period  is  facilitated.
-
-The  three  critical  variables  in  investigating  an
-
-群突發 or 流行病 are:
-
-(1) When did the 暴露 take place? (2) When did the 疾病 begin? (3)  What  was  the  incubation  period  for  the
-疾病?
-
-If we know any two of these, we can calculate the
-third.
-
-An 攻擊率 is deined as:
-
-Number of people at risk in whom
-a certain illness develops
-Tootal number of people at risk
-
-The 攻擊率 is useful for comparing the risk
-of 疾病 in groups with different 暴露. The
-攻擊率 can be speciic for a given 暴露. For
-example, the 攻擊率 in people who ate a certain
-food is called a food-speciic 攻擊率. It is calcu-
-lated by:
-
-Number of people who ate a certain food
-and became ill
-Total nnumber of people who ate that food
-
-In general, time is not explicitly speciied in an
-攻擊率; given what is usually known about how
-long after an 暴露 most 病例s develop, the time
-period is implicit in the 攻擊率. Examples of cal-
-culating 攻擊率s are seen in
-
-The 次級 攻擊率 also has application in
-non傳染性的  疾病  when  family  members  are
-examined to determine the extent to which a 疾病
-聚集s  among  irst-degree  relatives  of  an  index
-病例, which may yield a clue regarding the relative
-contributions of genetic and 環境al factors
-to the cause of a 疾病.
-
-
-### EXPLORING OCCURRENCE OF DISEASE
-
-The concepts outlined in this chapter form the basis
-for  exploring  the  occurrence  of  疾病. When  a
-疾病  appears  to  have  occurred  at  more  than  an
-地方性 level, and we wish to investigate its occur-
-rence, we ask:
-
-Who was attacked by the 疾病? When did the 疾病 occur? Where did the 病例s arise?
-
-It is well known that 疾病 risk is affected by all
-of these factors.
-
-Chapter 2   疾病傳播的動態學
-
-Who
-The  characteristics  of  the  human  宿主  are  clearly
-related to 疾病 risk. Factors such as sex, age, and
-race have a major effect.
-
-Gonorrhea
-As  shown  in    Because
-women  are  more  likely  to  be  asymptomatic,  the
-疾病  in  women  has  probably  been  underre-
-ported. Rates  have  been  leveling  off  in  both  men
-and  women  over  the  past  few  decades,  and  in
-recent  年,  the  sex  difference  has  largely  disap-
-peared,  possibly  as  a  result  of  increased  篩檢
-in  women.
-
-Pertussis
-發生率 of pertussis in the United States peaked
-in  2004;  the  率  reached  8.9  病例s  per  100,000
-族群,  more  than  twice  that  reported  in
-2003. In  1994,  the  率  was  1.8. The  number  of
-病例s  in  2004  was  the  highest  reported  since
-1959. Although childhood pertussis vaccine cover-
-age  levels  are  high  in  the  United  States,  pertussis
-continues to cause 發病率. Some of this increase
-may  result  from  improved  diagnostics,  as  well  as
-recognition  and  reporting  of  病例s. As  seen  in
-
-Although  發生率  in  2009  was  not  as  high  as  in
-2004,  發生率  率s  increased  between  2008  and
-2009,  and  continue  to  be  higher  than  率s  in  the
-1990s.
-
-Gonorrhea—率s  by  sex,  United  States,  1990–2010. (From  Centers  for  Disease  Control  and  Prevention:  Sexually
-transmitted 疾病 監測 2010. Atlanta: U.S. Department of 健康 and Human Services; 2011. http://www.cdc.gov/std/stats10/
-igures/15.htm. Accessed April 11, 2013.)
-
-Pertussis  (whooping  cough)  發生率
-per 100,000 族群 by year, United States, 1979–2009. (From  Centers  for  Disease  Control  and  Prevention:
-Summary  of  notiiable  疾病,  United  States,  2009. MMWR Morb Mortal Wkly Rep 58:1–100, 2011.)
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-Pertussis (whooping cough), reported numbers of 病例s by age group, United States, 2009. (From Centers for Disease
-Control and Prevention: Summary of notiiable 疾病, United States, 2009. MMWR Morb Mortal Wkly Rep 58:1–100, 2011.)
-
-Pertussis occurrence is clearly related to age (Fig. 2-17). Although  the  highest  率  of  pertussis  was
-in  infants  less  than  6  months  of  age  (126.9  per
-100,000 族群), the number of reported 病例s
-was  highest  in  children  ages  7  to  10  (numbers  of
-reported  pertussis  病例s  are  shown  in  Fig. 2-17). In recent 年, the 百分比 of total 病例s com-
-prised by 7- to  10-year-olds has been rising, from
-13% in 2007 to 23% in 2009. Approximately half of
-reported pertussis 病例s in 2009 were in adolescent
-10-  to  19-year-olds  and  adults  over  the  age  of  20. Although the speciic cause of this phenomenon is
-unknown, it could result from a waning of protec-
-tion 5 to 10 年 after pertussis immunization.
-
-When
-Certain  疾病  occur  with  a  certain  periodicity. For  example,  aseptic  meningitis  peaks  yearly  (Fig. 2-18). Often, there is a seasonal pattern to the tem-
-poral  variation. For  example,  diarrheal  疾病  is
-most  common  during  the  summer  months,  and
-respiratory  疾病  is  most  common  during  the
-winter  months. The  question  of  when  is  also
-addressed by examining trends in 疾病 發生率
-over time. For example, in the United States, both
-發生率 of, and deaths from, acquired immuno-
-deiciency  syndrome  (AIDS)  increased  for  many
-年,  but  began  to  decline  in  1996,  largely  as  a
-result of new therapy and 健康 education efforts.
-
-Where
-Disease  is  not  randomly  distributed  in  time  or
-place. For  example,   There is a clear 聚集ing
-of  病例s  along  the  Northeast  coast,  in  the  north-
-central part of the country, and in the Paciic coast
-region. The  states  in  which  established  enzootic
-cycles  of  Borrelia  burgdorferi,  the  causative  致病原,
-have been reported accounted for 94% of the 病例s. The 分布 of the 疾病 closely parallels that
-of the deer tick 病媒.
-
-A dramatic example of spread of 疾病 is seen
-with West Nile virus (WNV) in the United States.9
-WNV was irst isolated and identiied in 1937 in the
-West Nile region of Uganda, and for many 年, it
-was  found  only  in  the  Eastern  hemisphere. The
-basic  cycle  of  the  疾病  is  bird-mosquito-bird. Mosquitoes become infected when they bite infected
-birds. When  mosquitoes  that  bite  both  birds  and
-humans  become  infected,  they  pose  a  threat  to
-people. Most human 感染s are subclinical, but
-approximately  1  of  150  感染s  in  recent  年
-has resulted in meningitis or encephalitis. The risk
-of  neurologic  疾病  is  signiicantly  increased  in
-people older than 50 年 of age. Other symptoms
-include fever, nausea and vomiting, rash, headache,
-and muscle weakness. The 病例-fatality, or the pro-
-portion of people who develop the 疾病 (病例s)
-
-Chapter 2   疾病傳播的動態學
-
-Aseptic meningitis, reported 病例s per 100,000 族群 by month, United States, 1986–1993. (From Centers for
-Disease Control and Prevention: Summary of notiiable 疾病, United States, 1993. MMWR 42:22, 1994.)
-
-Lyme  疾病,  reported  病例s  by  county,  United  States,  2009. (From  Centers  for  Disease  Control  and  Prevention:
-Summary of notiiable 疾病, United States, 2009. MMWR Morb Mortal Wkly Rep 58:1–100, 2011.)
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-West Nile virus activity by state, United States, 1999–2002. NHC, no human 病例s. (From Centers for Disease Control
-and Prevention: Provisional 監測 summary of the West Nile Virus 流行病, United States, January–November, 2002. MMWR
-51:1129–1133, 2002.)
-
-who then die of the 疾病, can be as high as 14%. Advancing age is a major 危險因子 for death from
-WNV, with one study reporting death nine times as
-frequently in older compared with younger patients. Treatment  is  supportive,  and  預防  is  largely
-addressed through mosquito 對照 and the use of
-insect  repellents. Tracking  the  分布  of  the
-疾病  depends  on  監測  for  human  病例s,
-and on monitoring birds and animals for the 疾病
-and  deaths  from  the  疾病. Surveillance  is  dis-
-cussed in further detail in Chapter 3 on page 38.
-
-WNV  was  irst  identiied  in  New  York  City  in
-1999. In 2002,
-human 病例s were reported from 619 counties in 37
-states  and  the  District  of  Columbia. Of  the  3,389
-病例s  of  WNV-associated  疾病  reported,  2,354
-patients (69%) had West Nile meningoencephalitis. Looking  at  data  from  the  2002  群突發  of WNV
-meningoencephalitis in  Nine percent of people who
-developed  West  Nile  meningoencephalitis  died. Much  remains  to  be  learned  about  this  疾病  to
-facilitate 治療, 預防, and 對照.
-
-Number of human West Nile meningoenceph-
-alitis  病例s,  by  location  and  week  and  month  of  illness  onset,
-United States, June–November 2002. (From Centers for Disease
-Control  and  Prevention:  Provisional  監測  summary  of
-the West Nile Virus 流行病, United States, January–November,
-2002. MMWR 51:1129–1133, 2002.)
-
-
-### OUTBREAK INVESTIGATION
-
-The  characteristics  just  discussed  are  the  central
-issues  in  virtually  all  群突發  investigations. The
-steps  for  investigating  an  群突發  follow  this
-general pattern (Table 2-4).
-
-Chapter 2   疾病傳播的動態學
-
-Steps in Investigating an Acute Outbreak
-
-Investigating an acute 群突發 may be primarily deductive (i.e., reasoning from premises or propositions
-proved previously) or inductive (i.e., reasoning from particular facts to a general conclusion), or it may be a
-combination of both.
-
-Important conside比ns in investigating an acute 群突發 of 傳染性的 疾病 include determining that an
-群突發 has in fact occurred and deining the extent of the 族群 at risk, determining the measure of spread
-and 宿主, and characterizing the 致病原.
-
-Steps commonly used are listed below, but depending on the 群突發, the exact order may differ.
-
-
-### 1.  Deine the 群突發 and validate the existence of an 群突發
-
-a. Deine the “分子” (病例s)
-
-(1)  Clinical features: is the 疾病 known? (2)  What are its serologic or cultural aspects? (3)  Are the causes partially understood?
-
-b. Deine the “分母”: What is the 族群 at risk of developing 疾病 (i.e., 易感受)? c. Determine whether the observed number of 病例s clearly exceeds the expected number
-d. Calculate the 攻擊率s
-
-
-### 2.  Examine the 分布 of 病例s by the following:
-
-Look for time–place 交互作用s
-
-
-### 3.  Look for combinations (交互作用s) of relevant variables
-4.  Develop hypotheses based on the following:
-
-a. Existing knowledge (if any) of the 疾病
-b. Analogy to 疾病 of known 病因學
-c. Findings from investigation of the 群突發
-
-a. Further analyze existing data (病例-對照 studies)
-b. Reine hypotheses and collect additional data that may be needed
-
-
-### 6.  Recommend 對照 measures
-
-a. Control of current 群突發
-b. Prevention of future similar 群突發s
-
-
-### 7.  Prepare a written report of the investigation and the indings
-8.  Communicate indings to those involved in 政策 development and implementation and to the public
-
-Cross-Tabulation
-When  confronted  with  several  possible  causal
-致病原s as is often the 病例 in a food-borne 疾病
-群突發,  a  very  helpful  method  for  determining
-which  of  the  possible  致病原s  is  likely  to  be  the
-cause  is  called  cross-tabulation. This  is  illust率d
-by an 群突發 of food-borne streptococcal 疾病
-in  a  Florida  jail  reported  some  年  ago  by  the
-CDC.10
-
-In  August  1974,  an  群突發  of  group  A
-β-hemolytic streptococcal pharyngitis affected 325
-of 690 inmates. On a questionnaire administered to
-185  randomly  selected  inmates,  47%  reported  a
-sore  throat  between  August  16  and  August  22. Based  on  a  second  questionnaire,  food-speciic
-攻擊率s for items that were served to randomly
-selected  inmates  showed  an  關聯  between
-two  food  items  and  the  risk  of  developing  a  sore
-throat:  beverage  and  egg  salad  served  at  lunch  on
-August 16 (see Table 2-5).
-
-In order to answer this question, we use the tech-
-nique  of  cross-tabulation. In
-
-Looking at the data by columns, we see that both
-among  those  who  ate  egg  salad  and  among  those
-who did not, drinking the beverage did not increase
-the  發生率  of  streptococcal  illness  (75.6%  vs.
-
-Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION
-
-Food-Speciic Attack Rates for Items Consumed August 16, 1974, Dade
-
-Total % Sick (Attack Rate)
-
-Total % Sick (Attack Rate)
-
-Beverage
-Egg salad sandwiches
-
-From Centers for Disease Control and Prevention: Outbreak of foodborne streptococcal 疾病. MMWR 23:365, 1974.
-
-Cross-Table Analysis for Egg Salad and Beverage Consumed August 16,
-
-1974, Dade County Jail, Miami
-
-
-### DID NOT EAT EGG SALAD
-
-Total % Sick (Attack Rate)
-
-Total % Sick (Attack Rate)
-
-Drank beverage
-Did not drink
-beverage
-
-From Centers for Disease Control and Prevention: Outbreak of foodborne streptococcal 疾病. MMWR 23:365, 1974.
-
-80%  and  26.4%  vs. 25%,  respectively). However,
-looking at the data in the table horizontally, we see
-that eating the egg salad increased the 攻擊率 of
-the  illness,  both  in  those  who  drank  the  beverage
-(75.6% vs. 26.4%) and in those who did not (80%
-vs. 25%). Thus, the egg salad is clearly implicated. Further  discussion  of  the  analysis  and  interpreta-
-tion of cross-tabulation can be found in Chapter 11. This  example  demonst率s  the  use  of  cross-
-tabulation  in  a  food-borne  群突發  of  an  infec-
-tious 疾病, but the method has broad applicability
-to any condition in which multiple etiologic factors
-are suspected. It is discussed further in Chapter 15.
-
-This  chapter  reviewed  some  basic  concepts  that
-underlie  the  epidemiologic  approach  to  acute
-
-可傳播的  疾病. Many  of  these  concepts
-apply  equally  well  to  nonacute  疾病  that  at
-this  time  do  not  appear  to  be  傳染性的  in
-origin. Moreover,  for  an  increasing  number  of
-chronic  疾病  originally  thought  to  be  nonin-
-fectious,
-感染  seems  to  play  some  role. Thus,  hepatitis  B  感染  is  a  major  cause  of
-primary  liver  cancer. Papillomaviruses  have  been
-implicated  in  cervical  cancer,  and  Epstein-Barr
-virus  has  been  implicated  in  Hodgkin  疾病. The boundary between the 流行病學 of infec-
-tious  and  non傳染性的  疾病  has  blurred  in
-many  areas. In  addition,  even  for  疾病  that
-are not 傳染性的 in origin, the patterns of spread
-share  many  of  the  same  dynamics,  and  the
-methodologic  issues  in  studying  them  are  similar. Many  of  these  issues  are  discussed  in  detail  in
-Section  II.
-
-
-### 1.  Kipling  R:  Just-So  Stories:  The  Elephant’s  Child,  1902.
-Reprinted  by  Everyman’s  Library  Children’s  Classics.
-New York, Alfred A Knopf, 1992, p 79.
-
-
-### 2.  Mims CA: The Pathogenesis of Infectious Disease, 3rd ed.
-
-London, Academic Press, 1987.
-
-
-### 3.  Bell  ML,  Davis  DL:  Reassessment  of  the  lethal  London
-Fog  of  1952:  Novel  indicators  of  acute  and  chronic
-
-consequences  of  acute  暴露  to  air  pollution. Environ
-健康  Perspect  109(Suppl  3):389–394,  2001.
-
-
-### 4.  Imai M, Watanabe T, Hatta M, et al: Experimental adapta-
-tion  of  an  inluenza  H5  HA  confers  respiratory  droplet
-傳播 to a reassortant H5 HA/H1N1 virus in ferrets.
-Nature 486:420-428, 2012.
-
-Chapter 2   疾病傳播的動態學
-
-
-### 5.  Herfst S, Schrauwen EJ, Linster M, et al: Airborne transmis-
-sion  of  inluenza  A/H5N1  virus  between  ferrets.  Science
-336:1534-1541, 2012.
-
-
-### 6.  Centers  for  Disease  Control  and  Prevention:  Outbreaks
-of  gastroenteritis  associated  with  noroviruses  on  cruise
-ships—United States, 2002. MMWR 51:1112–1115, 2002.
-7.  Panum  PL:  Observations  Made  During  the  Epidemic  of
-Measles  on  the  Faroe  Islands  in  the Year  1846.  New York,
-
-Delta  Omega  Society, Distributed  by the American  Public
-健康 Association, 1940.
-
-
-### 8.  Frank PF, Stollerman GH, Miller LF: Protection of a mili-
-tary 族群 from rheumatic fever. JAMA 193:775, 1965.
-9.  Petersen LR, Marin AA: West Nile virus: A primer for the
-
-clinician. Ann Intern Med 137:173–179, 2002.
-
-
-### 10.  Outbreak  of  foodborne  streptococcal  疾病.  MMWR
-
-REVIEW QUESTIONS FOR CHAPTER 2
-
-
-### 1.  Endemic means that a 疾病:
-
-
-### 2.  What  is  the  sore  throat  attack  率  in  persons
-
-a. Occurs clearly in excess of normal expectancy
-b. Is habitually present in human 族群
-c. Affects a large number of countries simulta-
-
-d. Exhibits a seasonal pattern
-e. Is prevalent among animals
-
-who ate both egg salad and tuna? a. 60/75
-b. 70/200
-c. 60/135
-d. 60/275
-e. None of the above
-
-Questions  2  and  3  are  based  on  the  information
-given below:
-
-The  irst  table  shows  the  total  number  of
-persons  who  ate  each  of  two  speciied  food  items
-that  were  possibly  infective  with  group  A  strep-
-tococci. The  second  table  shows  the  number  of
-sick  persons  (with  acute  sore  throat)  who  ate
-each  of  the  various  speciied  combinations  of  the
-food  items.
-
-Total Number of Persons Who Ate Each
-Speciied Combination of Food Items
-
-Ate egg salad
-Did not eat egg salad
-
-Total Number of Persons Who Ate Each
-Speciied Combination of Food Items
-and Who Later Became Sick (with Acute
-Sore Throats)
-
-Ate egg salad
-Did not eat egg salad
-
-
-### 3.  According to the results shown in the preceding
-tables,  which  of  the  following  food  items  (or
-combination of food items) is most likely to be
-infective?
-a.  Tuna only
-b.  Egg salad only
-c.  Neither tuna nor egg salad
-d.  Both tuna and egg salad
-e.  Cannot be calculated from the data given
-
-
-### 4.  In  the  study  of  an  群突發  of  an  傳染性的
-疾病,  plotting  an  流行病  curve  is  useful
-because:
-a.  It helps to determine what type of 群突發
-(e.g.,  single-source,  person-to-person)  has
-occurred
-
-b. It shows whether herd immunity has occurred
-c. It helps to determine the median incubation
-
-period
-d. a and c
-e. a, b, and c
-
-
-### 5.  Which  of  the  following  is  characteristic  of  a
-single-暴露, common-vehicle 群突發?
-a.  Frequent 次級 病例s
-b.  Increasing severity with increasing age
-c.  Explosive
-d.  Cases  include  both  people  who  have  been
-exposed and those who were not exposed
-
-e. All of the above
+> **臨床重點**：帶原者是疾病控制中特別棘手的問題，因為常規症狀監測難以識別他們。這也是傷寒、瘧疾等疾病難以根除的原因之一。
 
+歷史上最著名的長期帶原者例子是「傷寒瑪麗」（Typhoid Mary），她携带傷寒沙門氏菌，於1938年去世。在多年期間，她以廚師身份在紐約市各家庭間輾轉移動，被認為至少引起了10次傷寒爆發，包括51個病例和3人死亡。
 
+---
+
+## 地方性、流行性與大流行
+
+### 📖 摘要
+
+疾病的**地理分布**與**時間分布**，是流行病學監測的核心面向。理解**地方性**（Endemic）、**流行性**（Epidemic）與**大流行**（Pandemic）的區別，對於評估疾病威脅程度與動員適當資源至關重要。
+
+### 定義
+
+| 術語 | 英文 | 定義 |
+|------|------|------|
+| **地方性** | Endemic | 疾病在特定地理區域的習慣性存在（基線水準） |
+| **流行性** | Epidemic | 疾病在社區或地區的發生，明顯超過正常預期，來自共同或傳播性來源 |
+| **大流行** | Pandemic | 全球性流行，跨越國家與洲界 |
+
+### 如何判定是否為流行？
+
+判定是否為流行，有兩種主要方法：
+
+1. **持續監測**：建立通常或預期的基準水準，超出此水準即為流行
+2. **「眼內測試」**：差異如此明顯，以至於一目了然
+
+> **臨床重點**：確定「正常預期」需要長期、系統性的疾病監測數據。這是為什麼疾病監測系統是公共衛生的基石。
+
+### 案例：倫敦大霧（1952年）
+
+1952年12月，濃密的有毒霧氣籠罩倫敦。從12月6日到9日，霧氣極濃，倫敦部分地區能見度降至30英尺。超過4,000人死亡，後續分析顯示1952年12月至1953年2月間約有12,000人額外死亡。許多人原本就患有慢性肺或心血管疾病。
+
+倫敦大霧的悲劇促使立法，包括1956年和1968年的《潔淨空氣法》（Clean Air Acts），禁止黑煙排放並要求城區居民和工廠運營者改用無煙燃料。
+
+### 案例：H5N1 禽流感與生物安全爭議（2011年）
+
+實驗室研究發現，基因改造的H5N1病毒可透過空氣在哺乳動物（雪貂）之間傳播。美國國家生物安全科學顧問委員會首次建議不要發表這些研究的詳細方法。爭論的核心是：這類研究的潛在社會利益，是否超過突變病毒不受控傳播的風險。
+
+---
+
+## 共同媒介爆發
+
+### 📖 摘要
+
+當食物或水源被微生物污染，若食用該食物或飲用該水源的人群中爆發疾病，稱為**共同媒介暴露**（Common-Vehicle Exposure）。這類爆發通常呈現爆發性發病、病例限於共同暴露者、次級病例少見等特徵。
+
+### 單次暴露共同媒介爆發的特徵
+
+這類爆發有三個典型特徵：
+
+| 特徵 | 說明 |
+|------|------|
+| **爆發性** | 在族群中疾病病例突然快速增加 |
+| **病例限於共同暴露者** | 第一波病例不會發生在未暴露者身上 |
+| **次級病例少見** | 在食物傳播的爆發中，繼發病例很少 |
+
+### 遊輪上的諾羅病毒爆發
+
+在美國，食物傳播疾病的首要原因是**諾羅病毒**（Norovirus）污染。圖2-11顯示2002年一艘遊輪上的急性腸胃炎爆發：10月25日離港，10月28日有70名乘客（2.5%）報告發病，11月2日共有106名乘客（5%）和25名船員（3%）發病。
+
+> **臨床重點**：遊輪、養老院、學校等封閉或半封閉環境，是諾羅病毒等共同媒介疾病爆發的高風險場所。這些場所一旦爆發，公共衛生介入的挑戰極大。
+
+---
+
+## 免疫與易感受性
+
+### 📖 摘要
+
+族群中的疾病量，取決於**易感受者**（Susceptible，有風險）與**免疫者**（無風險）之間的平衡。當平衡傾向易感受性時，爆發的可能性增加。**群體免疫**（Herd Immunity）正是利用這個原理，透過免疫大部分人口來保護整個族群。
+
+### 群體免疫的原理
+
+當族群中有很大比例的成員免疫時，整個族群對疾病的抵抗力增強。群體免疫之所以發生，是因為疾病在社區中從一人傳給另一人。一旦足夠比例的人免疫，感染者遇到易感受者並傳染的機會就很小。
+
+> **臨床重點**：群體免疫意味著，進行免疫接种時不必達到100%的免疫覆蓋率，就能成功保護族群。免疫大部分人口，其餘的人也能因群體免疫而受到保護。
+
+### 群體免疫運作的條件
+
+群體免疫要有效運作，必須滿足以下條件：
+
+| 條件 | 說明 |
+|------|------|
+| **致病原宿主特異性** | 疾病的致病原局限於單一宿主物種，傳播在此物種內發生 |
+| **直接傳播** | 傳播必須是相對直接的 |
+| **完全免疫** | 感染必須誘發 solid immunity（完全免疫），而非部分或短暫保護 |
+
+### 需要多少比例免疫？
+
+群體免疫所需的免疫比例，因疾病的傳播力而異。傳播力越強（如麻疹），所需免疫比例越高：
+
+| 疾病 | 傳播力 | 所需免疫比例 |
+|------|--------|------------|
+| **麻疹** | 高 | ~94% |
+| **脊髓灰質炎** | 高 | ~86% |
+| **流感** | 中等 | ~50-60% |
+| **新冠肺炎** | 高（變異株） | 取決於變異株特性 |
+
+---
+
+## 潛伏期
+
+### 📖 摘要
+
+**潛伏期**（Incubation Period）是從接受感染到臨床發病的間隔時間。理解潛伏期，對於爆發調查極為重要——知道暴露時間與發病時間，就可以估算潛伏期；反之，知道疾病名稱和潛伏期，就能推算暴露時間。
+
+### 潛伏期的決定因素
+
+潛伏期的長短可能與以下因素有關：
+
+| 因素 | 說明 |
+|------|------|
+| **病原體複製速度** | 病原體複製到臨床疾病所需的關鍵數量的時間 |
+| **複製部位** | 病原體在體內複製的部位（淺層或深層） |
+| **感染劑量** | 感染時接受的傳染性致病原劑量（大劑量時潛伏期可能較短） |
+
+### 隔離與檢疫的歷史起源
+
+這個概念有重要的歷史意義。1374年，威尼斯共和國任命三名官員負責檢查所有入港船隻，並排除船上有病患的船隻。1377年，在意大利港口城市拉古薩（Ragusa），旅客抵達後在被隔離的地區扣留30天（trentini giorni）。後來發現30天不夠，拘留期延長至40天（quarante giorni）。這就是**「檢疫」**（Quarantine）一詞的由來。
+
+### 疫學曲線
+
+繪製每個時間點發病人數的圖表，稱為**疫學曲線**（Epidemic Curve），定義為疾病發病時間的分布。在單次暴露共同媒介爆發中，疫學曲線代表潛伏期的分布。
+
+圖2-14顯示單次暴露共同媒介爆發的經典型曲線。如果以時間的對數而非時間本身來繪製，曲線會變成常態曲線。
+
+> **臨床重點**：爆發調查的三個關鍵問題是：
+> 1. **暴露何時發生？**
+> 2. **疾病何時開始？**
+> 3. **疾病的潛伏期是多少？**
+> 知道其中任意兩個，就可以計算第三個。
+
+---
+
+## 攻擊率
+
+### 📖 摘要
+
+**攻擊率**（Attack Rate）是在爆發調查中常用的測量指標，定義為暴露於可疑因子並發病的人數，除以暴露於該因子的總人數。雖然稱為「率」，但它實際上是一個**比例**。
+
+### 定義與計算
+
+$$\text{攻擊率} = \frac{\text{發病人數}}{\text{風險總人數}}$$
+
+在食物傳播疾病爆發中，食物特異攻擊率的計算方式為：
+
+$$\text{食物特異攻擊率} = \frac{\text{食用某食物且發病的人數}}{\text{食用該食物的總人數}}$$
+
+攻擊率可用於比較不同暴露組的疾病風險，是識別爆發來源的重要工具。
+
+> **臨床重點**：攻擊率比較時，應同時計算未暴露組的攻擊率，以確定**相對風險**（Relative Risk）。暴露組攻擊率顯著高於未暴露組，是因果關係的重要線索。
+
+---
+
+## 疾病分布的探索
+
+### 📖 摘要
+
+描述疾病在**誰**（Who）、**何時**（When）、**何地**（Where）的分布，是流行病學描述性研究的核心。這些描述性數據可提供重要的病因學線索，並引導後續的分析性研究。
+
+### 誰（Who）—— 人群特徵與疾病風險
+
+人類宿主的特徵與疾病風險明確相關，包括**性別**、**年齡**和**種族**。
+
+| 疾病 | 特徵 |
+|------|------|
+| **淋病** | 女性的無症狀比例較高，因此女性的疾病可能被低估 |
+| **百日咳** | 圖2-17顯示發生率與年齡明確相關。2004年美國百日咳發生率達到高峰（每10萬人8.9例），是1959年以來報告的最高數字 |
+| **風濕熱** | 5-15歲兒童發病率最高，與鏈球菌感染的年齡分布相關 |
+
+### 何時（When）—— 時間分布
+
+某些疾病呈現週期性發生：
+
+| 模式 | 範例 |
+|------|------|
+| **季節性高峰** | 無菌性腦膜炎（冬季）、腹瀉疾病（夏季）、呼吸道疾病（冬季） |
+| **年度波動** | 流感（通常冬季高峰） |
+| **長期趨勢** | 慢性疾病的發病率隨生活方式改變而變化 |
+
+### 何地（Where）—— 地理分布
+
+疾病在時間或地點上的分布並非隨機。例如**萊姆病**（Lyme Disease），病例沿東北海岸、中西部北部和太平洋海岸地區聚集，與蜱的地理分布高度吻合。
+
+### 西尼羅病毒（West Nile Virus）
+
+西尼羅病毒於1999年在紐約市首次被確認。到2002年，37個州和哥倫比亞特區的619個縣報告了人類病例。在2002年的爆發中，約9%的西尼羅病毒性腦膜炎患者死亡。
+
+> **臨床重點**：疾病地理分布的非隨機性，可提供重要的病因學線索。然而，表面上聚集的病例也可能僅是機會所致，需要進一步流行病學研究來排除隨機變異。
+
+---
+
+## 爆發調查
+
+### 📖 摘要
+
+當疾病爆發被識別出來時，公共衛生官員需要迅速、系統性地进行调查，以確定爆發來源並採取控制措施。**爆發調查**（Outbreak Investigation）是流行病學方法論的核心應用。
+
+### 爆發調查步驟
+
+急性爆發調查通常遵循以下八個步驟：
+
+| 步驟 | 內容 |
+|------|------|
+| 1 | 定義爆發並驗證其存在 |
+| 2 | 由時間、地點交互作用分析病例分布 |
+| 3 | 尋找相關變數的組合 |
+| 4 | 根據現有知識和類比提出假設 |
+| 5 | 進一步分析現有數據並完善假設 |
+| 6 | 建議控制措施 |
+| 7 | 準備書面報告 |
+| 8 | 向決策者和公眾溝通發現 |
+
+### 交叉表分析
+
+當面對食物傳播疾病爆發中多個可能的致病原時，**交叉表分析**（Cross-Tabulation）是確定哪個因素最可能是原因的非常有用的方法。
+
+圖2-15顯示1974年佛羅里達州監獄的食物傳播疾病爆發的交叉表。分析表明，雞蛋沙拉是明確的罪魁禍首——無論是否飲用飲料，食用雞蛋沙拉都會增加患病情風險。
+
+> **臨床重點**：交叉表分析的力量在於，它能控制混雜變數（如飲料消費），並隔離真正的暴露因子（如雞蛋沙拉）。這是爆發调查中區分因果關係與假關聯的關鍵工具。
+
+---
 
 ## 📝 章節總結
 
-本章介绍了 **The Dynamics of Disease Transmission**（疾病傳播的動態學）的核心概念。我們探时了：
+### 核心概念回顧
 
-- 基本的流行病學原理與方法
-- 關鍵術語的定義與應用
-- 疾病分布與影響因素
-- 在臨床與公共衛生中的實踐應用
+1. **疾病三角模型**：宿主、致病原、環境的交互作用決定疾病發生
+
+2. **傳播模式**：
+   - **直接傳播**：性接觸、飛沫、垂直傳染
+   - **間接傳播**：共同媒介（空氣、水、食物）、病媒（蚊子、蜱等）
+
+3. **冰山概念**：亞臨床感染在疾病傳播中扮演重要角色，帶原者是特別棘手的傳染源
+
+4. **群體免疫**：高免疫覆蓋率可保護整個族群，阻斷疾病傳播鏈
+
+5. **潛伏期與疫學曲線**：可用於推算暴露時間，重建爆發事件
+
+6. **爆發調查**：系統性的八步驟方法，交叉表分析是識別來源的關鍵工具
+
+7. **疾病分布的探索**（Who/When/Where）：提供病因學線索，引導後續研究
 
 ### 臨床應用要點
 
-1. 將流行病學概念應用於日常臨床實踐
-2. 運用族群思維評估患者健康問題
-3. 理解研究證據背後的流行病學原理
+- 疫苗接种不僅保護個人，也透過群體免疫保護整個族群
+- 識別高風險場所（遊輪、養老院、學校），是預防共同媒介爆發的關鍵
+- 爆發調查的目標不僅是了解過去，更是為了採取行動控制現在和未來
 
-
-
+---
 
 ## ❓ 複習題
 
-1. 請解釋 The Dynamics of Disease Transmission 的定義及其在流行病學中的重要性。
-2. 列舉並說明本章中介紹的三個核心概念。
-3. 如何將這些概念應用於醫療實踐或公共衛生決策？
-4. 討論與這些概念相關的主要方法學議題。
+1. 解釋**疾病三角模型**的三個組成部分及其交互作用。為什麼理解這個模型對疾病預防重要？
+2. 為什麼**亞臨床感染**對於理解疾病傳播很重要？帶原者在這中扮演什麼角色？
+3. **群體免疫**需要滿足哪些條件才能有效運作？為什麼流感需要比脊髓灰質炎更高的免疫覆蓋率？
+4. 在單次暴露共同媒介爆發中，**疫學曲線**為何代表潛伏期分布？
+5. 解釋交叉表分析如何幫助識別爆發的來源，並說明為什麼它比簡單比較更可靠。
+6. 描述爆發調查的八個步驟，並說明為什麼公共衛生官員需要在獲取完整資訊前就開始行動。
 
-
-
+---
 
 ## 📚 參考文獻
 
-- Gordis L. *Epidemiology*. 5th Edition. Elsevier, 2014.
-- Chapter 2: The Dynamics of Disease Transmission
+1. Gordis L. *Epidemiology*. 5th Edition. Elsevier, 2014.
+2. Kipling R. Just-So Stories: The Elephant's Child, 1902.
+3. Mims CA. *The Pathogenesis of Infectious Disease*. 3rd ed. London: Academic Press, 1987.
+4. Bell ML, Davis DL. Reassessment of the lethal London Fog of 1952. *Environ Health Perspect* 109:389–394, 2001.
+5. Imai M, et al. Experimental adaptation of an influenza H5 HA confers respiratory droplet transmission. *Nature* 486:420-428, 2012.
+6. Herfst S, et al. Airborne transmission of influenza A/H5N1 virus between ferrets. *Science* 336:1534-1541, 2012.
+7. CDC. Outbreaks of gastroenteritis associated with noroviruses on cruise ships—United States, 2002. *MMWR* 51:1112–1115, 2002.
+8. Panum PL. *Observations Made During the Epidemic of Measles on the Faroe Islands in the Year 1846*. 1940.
+9. Petersen LR, Marin AA. West Nile virus: A primer for the clinician. *Ann Intern Med* 137:173–179, 2002.
 
 ---
-*本章為 Gordis Epidemiology 第五版 第2章的繁體中文學習摘要*
-
+*本章為 Gordis Epidemiology 第五版第2章的繁體中文學習指南。本章由 PDF 原文重新整理編寫。*

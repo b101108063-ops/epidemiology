@@ -50,1793 +50,478 @@ hr { border: none; border-top: 1px solid #eee; margin: 2rem 0; }
 
 <main>
 <h1>第4章：疾病的發生：II. 死亡率與其他疾病影響測量</h1>
-<h1 id="第4章the-occurrence-of-disease-ii-mortality-and-other-measures-of-disease-impact">第4章：The Occurrence of Disease: II. Mortality and Other Measures of Disease Impact</h1>
-<p><strong>疾病的發生：II. 死亡率與其他疾病影響測量</strong></p>
+<h1 id="第4章疾病的發生ii死亡率與其他疾病影響測量">第4章：疾病的發生（II）——死亡率與其他疾病影響測量</h1>
+<p><strong>The Occurrence of Disease: II. Mortality and Other Measures of Disease Impact</strong></p>
 <blockquote>
 <p><strong>Gordis Epidemiology</strong> 第五版 | Chapter 4
-本章探詢 The Occurrence of Disease: II. Mortality and Other Measures of Disease Impact 的核心概念與應用</p>
+本章探討死亡率的測量方法與疾病影響評估。死亡是每個人最終都會經歷的體驗，而如何測量和解讀死亡數據，是流行病學的核心技能。</p>
 </blockquote>
 <hr>
 <h2 id="-學習目標">🎯 學習目標</h2>
-<p>完成本章學皙後，您將能夠：</p>
+<p>完成本章學習後，您將能夠：</p>
 <ul>
-<li>理解 疾病的發生：II. 死亡率與其他疾病影響測量 的基本概念</li>
-<li>掌握相關流行病學方法與術語</li>
-<li>應用這些知識於臨床與公共衛生實踐</li>
-<li>分析與評估相關研究證據</li>
+<li>比較不同的死亡率測量方法，包括<strong>死亡率</strong>、<strong>病例致死率</strong>與<strong>比例死亡率</strong></li>
+<li>解釋何時死亡率可作為疾病的風險指標</li>
+<li>理解比較不同族群死亡率時的<strong>年齡校正</strong>問題</li>
+<li>了解疾病影響的其他測量方法，包括<strong>失能調整生命年</strong>（DALY）</li>
+<li>識別死亡率數據的常見問題與陷阱</li>
 </ul>
-<h2 id="-重要術語">📋 重要術語</h2>
+<hr>
+<h2 id="-重要術語速查">📋 重要術語速查</h2>
 <table>
 <thead>
 <tr>
-<th>英文術語</th>
-<th>中文翻譯</th>
+<th>中文術語</th>
+<th>英文</th>
+<th>定義關鍵詞</th>
 </tr>
 </thead>
+<tbody>
+<tr>
+<td><strong>死亡率</strong></td>
+<td>Mortality Rate</td>
+<td>單位時間內死亡人數除以風險人群</td>
+</tr>
+<tr>
+<td><strong>病例致死率</strong></td>
+<td>Case-Fatality</td>
+<td>患病者中死亡的比例，反映疾病嚴重程度</td>
+</tr>
+<tr>
+<td><strong>比例死亡率</strong></td>
+<td>Proportionate Mortality</td>
+<td>某疾病死亡佔總死亡的比例</td>
+</tr>
+<tr>
+<td><strong>潛在生命損失年</strong></td>
+<td>Years of Potential Life Lost (YPLL)</td>
+<td>從實際死亡年齡到預定基準年齡的差距</td>
+</tr>
+<tr>
+<td><strong>年齡校正率</strong></td>
+<td>Age-Adjusted Rate</td>
+<td>消除年齡組成差異後的死亡率</td>
+</tr>
+<tr>
+<td><strong>標準化死亡率比</strong></td>
+<td>Standardized Mortality Ratio (SMR)</td>
+<td>觀察死亡數與預期死亡數之比</td>
+</tr>
+<tr>
+<td><strong>直接年齡校正</strong></td>
+<td>Direct Age Adjustment</td>
+<td>使用標準族群年齡結構進行校正</td>
+</tr>
+<tr>
+<td><strong>間接年齡校正</strong></td>
+<td>Indirect Age Adjustment</td>
+<td>使用標準年齡別死亡率進行校正</td>
+</tr>
+<tr>
+<td><strong>失能調整生命年</strong></td>
+<td>Disability-Adjusted Life Year (DALY)</td>
+<td>結合早死與失能的整體疾病負擔測量</td>
+</tr>
+<tr>
+<td><strong>根本死因</strong></td>
+<td>Underlying Cause of Death</td>
+<td>引發導致死亡的一系列疾病事件的初始原因</td>
+</tr>
+</tbody>
 </table>
-<p>| Community | 社區 |
-| Confounder | 混雜因子 |
-| Environment | 環境 |
-| Epidemiology | 流行病學 |
-| Etiology | 病因學 |
-| Health | 健康 |
-| Incidence | 發生率 |
-| Introduction | 緒論 |
-| Mortality | 死亡率 |
-| Policy | 政策 |
-| Prevalence | 盛行率 |
-| Reliability | 可靠性 |
-| Specificity | 特異度 |
-| Survival | 存活 |</p>
-<h2 id="-圖表目錄">🖼️ 圖表目錄</h2>
-<p>本章包含以下圖表：</p>
+<hr>
+<h2 id="測量死亡的科學">測量死亡的科學</h2>
+<h3 id="-摘要">📖 摘要</h3>
+<p>死亡是每個人最終都會經歷的體驗。本章探討如何測量死亡以及死亡數據如何幫助我們理解疾病的影響。我們將學習：<strong>死亡率</strong>、<strong>病例致死率</strong>、<strong>比例死亡率</strong>、<strong>YPLL</strong> 等測量方法，以及如何比較不同族群的死亡率——包括年齡校正技術。最後，我們將介紹結合死亡與失能的整體疾病負擔測量：<strong>失能調整生命年</strong>（DALY）。</p>
+<hr>
+<h2 id="死亡率測量">死亡率測量</h2>
+<h3 id="-摘要-1">📖 摘要</h3>
+<p><strong>死亡率</strong>（Mortality Rate）是最常用的死亡測量指標，定義為特定時間段內的死亡人數除以風險人群。雖然看似簡單，但死亡率的解讀需要謹慎——分母所代表的每個人，必須有進入分子所代表群組的潛力。</p>
+<h3 id="死亡率定義">死亡率定義</h3>
+<p>年度死亡率公式：</p>
+<p>$$\text{死亡率} = \frac{\text{年度總死亡數}}{\text{年中人口數}} \times 1,000$$</p>
+<blockquote>
+<p><strong>臨床重點</strong>：因為人口隨時間變化，通常使用<strong>年中人口數</strong>作為近似。這是流行病學中常用的人口估計方法。</p>
+</blockquote>
+<h3 id="死亡率的原則">死亡率的原則</h3>
+<p>死亡率要有意義，分母所代表的每個人必須有進入分子所代表群組的潛力。這與發生率討論的原則相同——分母必須是真正處於風險中的人群。</p>
+<h3 id="死亡率類型">死亡率類型</h3>
+<table>
+<thead>
+<tr>
+<th>類型</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>全死因死亡率</strong></td>
+<td>所有原因的死亡率</td>
+</tr>
+<tr>
+<td><strong>年齡別死亡率</strong></td>
+<td>特定年齡組的死亡率</td>
+</tr>
+<tr>
+<td><strong>疾病別死亡率</strong></td>
+<td>特定疾病的死亡率</td>
+</tr>
+<tr>
+<td><strong>年齡校正死亡率</strong></td>
+<td>消除年齡組成差異後的死亡率</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="病例致死率-vs-死亡率">病例致死率 vs. 死亡率</h2>
+<h3 id="-摘要-2">📖 摘要</h3>
+<p><strong>病例致死率</strong>（Case-Fatality）與<strong>死亡率</strong>（Mortality Rate）經常被混淆，但兩者測量的面向截然不同。死亡率的分母是整個風險人群（包括患病者與未患病者），而病例致死率的分母僅限於患病者。因此，病例致死率是疾病<strong>嚴重程度</strong>的測量，而非人群風險的測量。</p>
+<h3 id="病例致死率">病例致死率</h3>
+<p><strong>病例致死率</strong>計算方式：</p>
+<p>$$\text{病例致死率} = \frac{\text{疾病發病後一段時間內死亡人數}}{\text{患該疾病總人數}} \times 100%$$</p>
+<p>病例致死率問的是：患有該疾病的人中，有多少百分比在診斷後一定時間內死亡？</p>
+<blockquote>
+<p><strong>臨床重點</strong>：</p>
 <ul>
-<li><strong>Figure  4-16</strong></li>
-<li><strong>Figure  4-11</strong></li>
-<li><strong>Figure  4-12</strong></li>
-<li><strong>Figure 4-26</strong></li>
-<li><strong>Figure  4-18</strong></li>
-<li><strong>Figure 4-10</strong></li>
-<li><strong>Figure  4-14</strong></li>
-<li><strong>Figure 4-3</strong></li>
-<li><strong>Figure  4-26</strong></li>
-<li><strong>Figure 4-8</strong></li>
-<li><strong>Figure  4-19</strong></li>
-<li><strong>Figure 4-23</strong></li>
-<li><strong>Figure  4-17</strong></li>
-<li><strong>Figure 4-6</strong></li>
-<li><strong>Figure 4-13</strong></li>
-<li><strong>Figure  4-7</strong></li>
-<li><strong>Figure 4-27</strong></li>
-<li><strong>Figure 4-4</strong></li>
-<li><strong>Figure 4-17</strong></li>
-<li><strong>Figure 4-20</strong></li>
+<li><strong>死亡率</strong>的分母是處於患病風險中的整個族群，包括已患病和未患病者</li>
+<li><strong>病例致死率</strong>的分母僅限於已經患病者
+因此，病例致死率是疾病<strong>嚴重程度</strong>的測量，而死亡率是人群<strong>風險</strong>的測量</li>
 </ul>
-<h2 id="-重要表格">📊 重要表格</h2>
-<p><strong>Table  4-2  shows  all  deaths  and  deaths  from</strong></p>
-<p>| heart | disease | in | two | communities, | A | and | B. | All- |
-| cause | mortality | in | community | A | is | twice | that | in |
-| community | B. | When | we | look | at | proportionate |
-| munity | A | and | 20% | of | the | deaths | in | community |
-| B | are | due | to | heart | disease. | Does | this | tell | us | that |
-| the | risk | of | dying | from | heart | disease | is | twice | as |</p>
-<p><strong>Table 4-3, we see mortality rates from heart disease,</strong></p>
-<p>| if | we | now | examine | the | proportionate | mortality |
-| from | each | cause, | we | see | that | the | proportionate |
-| mortality | from | cancer | and | from | other | causes | has |
-| decreased | in | the | population, | but | only | because | the |
-| proportionate | mortality | from | heart | disease | has |
-| ily | be | a | decrease | in | the | proportion | of | some | other |</p>
-<p><strong>Table 4-4, if all-cause</strong></p>
-<p>| mortality | rates | differ, | cause-speciic | mortality |</p>
-<p><strong>Table 4-5 shows a ranking of causes of death in</strong></p>
-<p>| the | United | States | for | 1989 | and | 1990 | by | YPLL, |
-| together | with | cause-speciic | mortality | rates. | By |
-| portion | of | HIV-related | deaths | occur | in | young |</p>
-<p><strong>Table 4-6 lists some causes of death</strong></p>
-<p>| that | were | listed | on | death | certiicates | early | in | the |</p>
-<p><strong>Table 4-7 shows data that exemplify the problem.</strong></p>
-<p>| higher | for | blacks, | given | the | problems | associated |
-| with | poorer | living | conditions | and | less | access | to |</p>
-<p><strong>TABLE 4-7</strong>. Crude Mortality Rates by Race,</p>
-<p><strong>Table  4-8,  we  see  the  data  from  Table  4-7</strong></p>
-<p>| on | the | left, | but | now | we | have | added | data | for | each |
-| age-speciic | stratum | (layer) | of | the | population. |
-| Interestingly, | although | in | each | age-speciic | group, |
-| mortality | is | higher | in | blacks | than | in | whites, | the |
-| overall | mortality | (also | called | crude | or | unadjusted |</p>
-<h2 id="-內容摘要">📖 內容摘要</h2>
-<p>The Occurrence of Disease:
-II. 死亡率 and Other Measures
-of Disease Impact</p>
-<p>You do not die from being born, nor from having lived, nor from old age. You
-die from something… There is no such thing as a natural death: Nothing that
-happens to a man is ever natural, since his presence calls the world into question. All men must die: but for every man his death is an accident and, even if he
-knows it and consents to it, an unjustiiable violation.</p>
-<p>—Simone de Beauvoir, writing of her mother’s death, in A Very Easy Death1</p>
-<p>■  To compare different measures of 死亡率,</p>
-<p>including 死亡率s, 病例-fatality,
-比例死亡率, and 年 of
-potential life lost.</p>
-<p>■  To show when 死亡率 can approximate</p>
-<p>the risk of 疾病.</p>
-<p>■  To introduce issues that arise in comparing
-死亡率 across two or more 族群. ■  To deﬁne, calculate, and interpret direct and</p>
-<p>indirect 年齡校正 死亡率s. ■  To introduce other measures of 疾病</p>
-<p>死亡率 is of great interest for several reasons. First
-of  all,  death  is  the  ultimate  experience  that  every
-human being is destined to have. Death is clearly of
-tremendous  importance  to  each  person  including
-questions  of  when  and  how  death  will  occur  and
-whether there is any way to delay it. From the stand-
-point  of  studying  疾病  occurrence,  expressing
-死亡率 in quantitative terms can pinpoint differ-
-ences  in  the  risk  of  dying  from  a  疾病  between
-people in different geographic areas and subgroups
-in the 族群. 死亡率 率s can serve as mea-
-sures of 疾病 severity, and can help us to deter-
-mine  whether  the  治療  for  a  疾病  has
-become more effective over time. In addition, given
-the  problem  that  often  arises  in  identifying  new
-病例s  of  a  疾病,  死亡率  率s  may  serve  as</p>
-<p>surrogates for 發生率 率s when the 疾病 being
-studied is a severe and lethal one. This chapter will
-address the quantitative expression of 死亡率 and
-the uses of such measures in epidemiologic studies.</p>
-<h3 id="measures-of-mortality">MEASURES OF MORTALITY</h3>
-<p>Clearly,  the
-absolute  number  of  people  dying  from  cancer  is
-seen increasing signiicantly through the year 2011,
-but from this graph, we cannot say that the risk of
-dying  from  cancer  is  increasing,  because  the  only
-data  that  we  have  in  this  graph  are  numbers  of
-deaths (分子s); we do not have 分母s
-(族群 at risk). If, for example, the size of the
-U.S. 族群 is also increasing at the same 率,
-the risk of dying from cancer does not change.</p>
-<p>For this reason, if we wish to address the risk of
-dying,  we  must  deal  with  率s. The most dramatic increase is
-in deaths from lung cancer. This increase is clearly
-of 流行病 比例s and, tragically, lung cancer
-is  a  preventable  cause  of  death. Fortunately,  since
-the mid 1990s, lung cancer 死亡率 has declined,
-paralleling  earlier  decreases  in  smoking  among
-men. Other  cancers  are  also  of  interest. 死亡率
-from prostate cancer also peaked in the mid 1990s,
-and  has  declined  since. Cancers  of  the  colon  and
-rectum have declined over many 年. The 率 of</p>
-<p>Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION</p>
-<h3 id="2007--breast--cancer--死亡率--remained--at--essen-">2007.  Breast  cancer  死亡率  remained  at  essen-</h3>
-<p>tially the same level for many 年 but has declined
-since  the  early  1990s  until  2007.  It  would  be
-desirable  to  study  changes  in  the  發生率  of
-breast  cancer.  Such  a  study  is  dificult,  however,
-because  with  aggressive  public  education  cam-
-paigns encouraging women to have mammograms
-and perform breast self-examination, many breast
-cancers may be detected today that might have gone
-undetected  年  ago.  Nevertheless,  available  evi-
-dence  suggests  that  the  true  發生率  of  breast
-cancer  in  women  may  have  increased  for  many
-年 and decreased from 2001 to 2007.</p>
-<p>Uterine  cancer  死亡率  has  declined,  perhaps
-because  of  earlier  detection  and  診斷. Lung
-cancer 死亡率 in women has increased, and lung
-cancer  has  exceeded  breast  cancer  as  a  cause  of
-death  in  women. Lung  cancer  is  now  the  leading
-cause of cancer death in women. It is a tragedy that
-an  almost  completely  preventable  cause  of  cancer
-that  is  precipitated  by  a  lifestyle  habit,  cigarette
-smoking,  which  has  been  voluntarily  adopted  by
-many women, is the main cause of cancer death in
-women in the United States.</p>
-<p>We  may  be  particularly  interested  in  死亡率
-relating to age. Trend in numbers of cancer deaths observed in
-the United States in the early and mid 20th century and forecast
-to the year 2011. (Data from the American Cancer Society.)</p>
-<p>death  from  stomach  cancer  has  declined  dramati-
-cally since 1930, although the precise explanation is
-not  known. It  has  been  suggested  that  the  decline
-may  be  the  result  of  the  increased  availability  of
-refrige比n,  which  decreased  the  need  to  smoke
-foods  and  thereby  decreased  human  暴露  to
-carcinogens  produced  in  the  smoking  process. Another possible cause is improved hygiene, which
-may  have  reduced  the  發生率  of  Helicobacter
-pylori 感染s which have been implicated in the
-病因學 (or cause) of stomach cancer.</p>
-<p>Cancer 死亡率s for males, United States, 1930–2007 (年齡校正 to the 2000 U.S. standard 族群). (From
-American Cancer Society, Cancer Facts &amp; Figures 2011. Based on US 死亡率 Data, 1960 to 2007, US 死亡率 Vol. 1930 to 1959. National Center for 健康 Statistics, Centers for Disease Control and Prevention.)</p>
-<p>Chapter 4   疾病的發生：II. 死亡率與其他疾病影響測量</p>
-<p>Cancer 死亡率s for females, United States, 1930–2007 (年齡校正 to the 2000 U.S. standard 族群). *Uterine
-cancer 率s are for uterine cervix and corpus combined. (From American Cancer Society, Cancer Facts &amp; Figures 2011. Based on US
-死亡率 Data, 1960 to 2007, US 死亡率 Vol. 1930 to 1959. National Center for 健康 Statistics, Centers for Disease Control and
-Prevention.)</p>
-<p>Death 率s from cancer and heart 疾病 for ages younger than 85 and 85 or older (年齡校正 to the 2000 U.S. standard 族群). (From Siegel R, Ward E, Brawley O, et al: Cancer statistics, 2011. CA Cancer J Clin 61:212–236, 2011. Based on
-data from US 死亡率 Public Use Data Tapes, 1975 to 2007, National Center for 健康 Statistics, Centers for Disease Control and
-Prevention, 2007.)</p>
-<p>Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION</p>
-<p>Major  causes  of  death  in  children
-younger than age 5 年 and in neonates (aged 0–27
-days) in 2008. (From Black RE, Cousens S, Johnson HL,
-et al,  for  the  Child  健康  流行病學  Reference
-Group  of  WHO  and  UNICEF. Global,  regional,  and
-national causes of child 死亡率 in 2008: A systematic
-analysis. Lancet 375:1969–1987, 2010.)</p>
-<p>than  85  and  for  those  85  or  older. Cancer  is  the
-leading 死因 in men and women younger
-than 85 年, but above age 85, heart 疾病 clearly
-exceeds cancer as a 死因.</p>
-<p>Infec-
-tious  疾病  accounted  for  68%  of  the  8.795
-million  deaths  that  year,  with  the  largest  percent-
-ages  due  to  pneumonia,  diarrhea,  and  malaria. Forty-one percent of the deaths were attributed to
-neonatal 死亡率, of which preterm-birth compli-
-cations,  birth  asphyxia,  sepsis,  and  pneumonia
-accounted for the largest causes.</p>
-<p>死亡率 Rates
-How  is  死亡率  expressed  in  quantitative  terms? Let us examine some types of 死亡率s. The
-irst is the annual 死亡率, or 死亡率, from
-all causes:</p>
-<p>Annual 死亡率 for all causes
-(
-per</p>
-<p>Total no of deaths from all causes in year
-No of persons in the po
-ppulation at midyear</p>
-<p>Note that because the 族群 changes over
-time,  the  number  of  persons  in  the  族群  at
-midyear is generally used as an approximation.</p>
-<p>The  same  principles  mentioned  in  the  dis-
-cussion  of  發病率  apply  to  死亡率:  for  a
-死亡率 to make sense, anyone in the group</p>
-<p>represented  by  the  分母  must  have  the
-potential  to  enter  the  group  represented  by  the
-分子.</p>
-<p>We may not always be interested in a 率 for the
-entire 族群; perhaps we are interested only in
-a certain age group, in men or in women, or in one
-ethnic group. Thus, if we are interested in 死亡率
-in children younger than 10 年, we can calculate
-a 率 speciically for that group:</p>
-<p>Annual 死亡率 from all causes
-for children younger tthan 1  年 of age
-(
-per</p>
-<p>No of deaths from
-in children younger than</p>
-<p>=
-aall causes in one year
-年 of age</p>
-<p>No of c
-. younger than</p>
-<p>hhildren in the 族群</p>
-<p>年 of age at midyear</p>
-<p>Note  that  in  putting  a  restriction,  on  age,  for
-example,  the  same  restriction  must  apply  to  both
-the 分子 and the 分母, so that every
-person in the 分母 group will be at risk for
-entering the 分子 group. When such a restric-
-tion is placed on a 率, it is called a speciic 率. The
-above 率, then, is an age-speciic 死亡率.</p>
-<p>We  could  also  place  a  restriction  on  a  率  by
-specifying  a  診斷,  and  thus  limit  the  率  to
-deaths  from  a  certain  疾病,  that  is,  a  疾病-
-speciic  or  a  cause-speciic  率. For  example,  if  we
-are  interested  in  死亡率  from  lung  cancer,  we
-would calculate it in the following manner:</p>
-<p>Chapter 4   疾病的發生：II. 死亡率與其他疾病影響測量</p>
-<p>Annual 死亡率 from lung cancer
-nn
-(
-per
-. .</p>
-<p>No of deaths from lung cancer in one year
-No of persons in the pop
-uulation at midyear</p>
-<p>We can also place restrictions on more than one
-characteristic simultaneously, for example, age and
-死因, as follows:</p>
-<h1 id="per">Annual 死亡率 from leukemia
-in children younger thann
-(
-per</h1>
-<p>No of deaths from leu
-kkemia in one year
-in children younger than 10 年 of age</p>
-<p>. No of chil
-younger than</p>
-<p>ddren in the 族群
-10</p>
-<p>年 of age at midyear</p>
-<p>Time  must  also  be  speciied  in  any  死亡率
-率. 死亡率 can be calculated over 1 year, 5 年,
-or  longer. The  period  selected  is  arbitrary,  but  it
-must be speciied precisely.</p>
-<p>Case-Fatality
-We  must  distinguish  between  a  死亡率  率  and
-病例-fatality. Case-fatality is calculated as follows:</p>
-<p>Case-fatality (percent</p>
-<p>=
-No of individuals dying during a</p>
-<p>eed period of time after 疾病</p>
-<p>onset or 診斷
-dduals with the specified 疾病</p>
-<p>In other words, what 百分比 of people who
-have  a  certain  疾病  die  within  a  certain  time
-after  their  疾病  was  diagnosed? (Ideally,  we
-would  like  to  use  the  date  of  疾病  onset  as
-the  beginning  of  the  time  period  speciied  in  the
-分子. However, date of 疾病 onset is often
-hard  to  standardize  since  many  疾病  develop
-insidiously over a long period of time. As a result,
-in  many  chronic  疾病,  it  may  be  dificult  to
-determine  precisely  when  the  疾病  process</p>
-<p>began. For  example,  many  patients  with  arthritis
-cannot  recall  when  their  joint  pain  irst  began. In  practice,  therefore,  we  often  use  date  of  diag-
-nosis  as  a  surrogate  measure  for  date  of  疾病
-onset,  because  the  exact  date  of  診斷  can
-generally  be  documented  from  available  medical
-records.)  If  the  information  is  to  be  obtained
-from  respondents,  it  is  worth  noting  that  if  the
-疾病  in  question  is  a  serious  one,  the  date  on
-which the 診斷 was given may well have been
-a  life-changing  date  for  the  patient  and  not  easily
-forgotten.</p>
-<p>What is the difference between 病例-fatality and
-a 死亡率? <strong>In a 死亡率, the denomina-
-tor represents the entire 族群 at risk of dying
-from the 疾病, including both those who have the
-疾病 and those who do not have the 疾病 (but
-who are at risk of developing the 疾病).</strong> In 病例-
-fatality,  however,  the  分母  is  limited  to
-those  who  already  have  the  疾病. Thus,  病例-
-fatality is a measure of the severity of the 疾病. It
-can also be used to measure any beneits of a new
-therapy: as therapy improves, 病例-fatality would be
-expected to decline. You will note that 病例-fatality
-is  not  a  率  but  a  百分比  (of  those  with  the
-疾病).</p>
-<p>The 分子 of 病例-fatality should ideally be
-restricted to deaths from that 疾病. However, it is
-not always easy to distinguish between deaths from
-that  疾病  and  deaths  from  other  causes. For
-example, an alcoholic person may die in a car acci-
-dent; however, the death may or may not be related
-to alcohol intake.</p>
-<p>Let us look at a hypothetical example to clarify
-the  difference  between  死亡率  and  病例-fatality
-(Table 4-1).</p>
-<p>Assume that in a 族群 of 100,000 persons,
-20 have 疾病 X. In one year, 18 people die from
-that  疾病. The  死亡率  is  very  low  (0.018%)
-because the 疾病 is rare; however, once a person
-has the 疾病, the chances of his or her dying are
-great (90%).</p>
-<p>Comparison of 死亡率 Rate with Case-Fatality in the Same Year</p>
-<p>Assume a 族群 of 100,000 people of whom 20 are sick with 疾病 X, and in 1 year, 18 of the 20 die from</p>
-<p>死亡率 率 from 疾病 X =</p>
-<p>= 0.00018, or 0.018%.</p>
-<p>Case-fatality from 疾病 X =</p>
-<p>Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION</p>
-<p>Proportionate 死亡率
-Another  measure  of  死亡率  is  比例ate
-死亡率,  which  is  not  a  率. The  比例ate
-死亡率 from cardiovascular 疾病 in the United
-States in 2010 is deined as follows:</p>
-<p>Proportionate 死亡率 from cardiovascular
-疾病 in the UU S in</p>
-<p>No of deaths from cardiovascular
-ees in the U S in
-. .</p>
-<p>Total deaths in the U S in</p>
-<p>In other words, of all deaths in the United States,
-what  比例  was  caused  by  cardiovascular
-疾病? <strong>In each age group,
-the full bar represents all deaths (100%), and deaths
-from  heart  疾病  are  indicated  by  the  dark  blue
-portion.</strong> We see that the 比例 of deaths from
-heart 疾病 increases with age. However, this does
-not tell us that the risk of death from heart 疾病
-is also increasing. This is demonst率d in the fol-
-lowing examples.</p>
-<p>Deaths from heart 疾病 as a 百分比 of deaths from all causes, by age group, United States, 2008. (From National
-Institutes of 健康. National Heart, Lung, and Blood Institute. Morbidity and 死亡率: 2012 Chart Book on Cardiovascular, Lung,
-and Blood Diseases. US Department of 健康 and Human Services, Washington, DC, 2012.)</p>
-<p>Comparison of 死亡率 Rate and Proportionate 死亡率: I. Deaths from Heart</p>
-<p>Disease in Two Communities</p>
-<p>死亡率 率 from all causes
-Proportionate 死亡率 from heart 疾病
-死亡率 率 from heart 疾病</p>
-<p>30/1,000
-10%
-3/1,000</p>
-<p>15/1,000
-20%
-3/1,000</p>
-<p>Chapter 4   疾病的發生：II. 死亡率與其他疾病影響測量</p>
-<p>Hypothetical Example of 死亡率 Rates and Proportionate 死亡率</p>
-<p>Cause of Death 死亡率 Rate</p>
-<p>Proportionate 死亡率 死亡率 Rate</p>
-<p>Proportionate 死亡率</p>
-<p>Heart 疾病
-Cancer
-All other causes
-All deaths</p>
-<p>40/1,000
-20/1,000
-20/1,000
-80/1,000</p>
-<p>80/1,000
-20/1,000
-20/1,000
-120/1,000</p>
-<p>66.7%
-16.7%
-16.7%
-100.0%</p>
-<p>Hypothetical  example  of  pro-
-portionate 死亡率: Changes in 比例ate
-死亡率  from heart 疾病, cancer, and other
-causes from the early period to the late period.</p>
-<p>high  in  社區  B  as  it  is  in  A? The  answer
-is  no. For  when  the  死亡率  率s  from  heart
-疾病  are  calculated  (10%  of  30/1,000  and  20%
-of  15/1,000),  we  ind  that  the  死亡率  率s  are
-identical.</p>
-<p>If we observe a change in 比例ate mortal-
-ity from a certain 疾病 over time, the change may
-be due not to changes in 死亡率 from that 疾病,
-but  to  changes  in  the  死亡率  of  some  other
-疾病. Let us consider a hypothetical example: In</p>
-<p>As seen in the example in</p>
-<p>Understanding 比例死亡率. (© Bill
-Keane, Inc. Reprinted with Special Permission of King Features
-Syndicate.)</p>
-<p>率s can differ signiicantly, even when the propor-
-tionate 死亡率 is the same. Thus, these examples
-show  that,  although  比例ate  死亡率  can
-give us a quick look at the major causes of death, it
-cannot tell us the risk of dying from a 疾病. For
-that, we need a 死亡率.</p>
-<p>Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION</p>
-<p>Comparison of 死亡率 Rate and Proportionate 死亡率: II. Deaths from Heart</p>
-<p>Disease in Two Communities</p>
-<p>死亡率 率 from all causes
-Proportionate 死亡率 from heart 疾病
-死亡率 率 from heart 疾病</p>
-<p>20/1,000
-30%
-6/1,000</p>
-<p>10/1,000
-30%
-3/1,000</p>
-<p>Years of Potential Life Lost
-In  recent  年,  another  死亡率  index,  年  of
-potential  life  lost  (YPLL),  has  been  increasingly
-used for setting 健康 priorities. YPLL is a measure
-of premature 死亡率, or early death. YPLL recog-
-nizes that death occurring in the same person at a
-younger age clearly involves a greater loss of future
-productive  年  than  death  occurring  at  an  older
-age. Two  steps  are  involved  in  this  calculation:  In
-the irst step, for each cause, each deceased person’s
-age at death is subtracted from a predetermined age
-at  death. In  the  United  States,  this  predetermined
-“standard” age is usually 75 年. Thus, an infant
-dying  at  1  year  of  age  has  lost  74  年  of  life  (75
-− 1), but a person dying at 50 年 of age has lost
-25 年 of life (75 − 50). Thus, the younger the age
-at which death occurs, the more 年 of potential
-life are lost. In the second step, the “年 of poten-
-tial  life  lost”  for  each  individual  are  then  added
-together  to  yield  the  total  YPLL  for  the  speciic</p>
-<p>cause  of  death. When  looking  at  reports  that  use
-YPLL, it is important to note what assumptions the
-author  has  made,  including  what  predetermined
-standard age has been selected.</p>
-<p>The
-top  bar  shows  the  total  YPLL  from  all  causes
-(100%),  and  the  bars  below  show  the  individual
-YPLL  from  each  leading  cause  of  death,  with  the
-百分比  of  YPLL  from  all  causes  for  which  it
-accounts. We see that the greatest single source of
-YPLL was malignant neoplasms, which, in the same
-year,  was  the  second  leading  cause  of  death  by  its
-死亡率 (see Fig. 1-2). In 2007, the ranking of
-unintentional injury by its 死亡率 was ifth,
-while its ranking by YPLL was third. This discrep-
-ancy results from the fact that injury is the leading
-死因 up to age 34 年, and therefore it
-accounts for a large 比例 of 年 of potential
-life lost.</p>
-<p>Years of potential life lost (YPLL) before age 75, all races, both sexes, all deaths, United States, 2008. (Adapted from
-Centers for Disease Control and Prevention. National Center for Injury Prevention and Control. Years of Potential Life Lost [YPLL]
-Reports, 1999–2008, webapp.cdc.gov/sasweb/ncipc/ypll10.html. Accessed April 12, 2013.)</p>
-<p>Chapter 4   疾病的發生：II. 死亡率與其他疾病影響測量</p>
-<p>Years of potential life lost (YPLL) before age 65 年 among children younger than 20 年 from injuries and other
-疾病,  United  States,  1986. (Adapted  from  Centers  for  Disease  Control  and  Prevention:  Fatal  injuries  to  children:  United  States,
-1986. MMWR 39:442–451, 1990.)</p>
-<p>We  see  that  the  YPLL  from  injuries  exceeds  the
-effect of YPLL from congenital malformations and
-prematurity combined. Thus, if we want to have an
-impact on YPLL in children and young adults, we
-should address the causes of injuries, half of which
-are related to motor vehicles.</p>
-<p>Estimated Years of Potential Life Lost (YPLL) Before Age 65 Years and 死亡率</p>
-<p>Rates per 100,000 Persons, by Cause of Death, United States, 1989 and 1990</p>
-<p>Cause of Death (ICD-9 Codes)</p>
-<p>All causes (total)
-Unintentional injuries (E800–E949)
-Malignant neoplasms (140–208)
-Suicide/homicide (E950–E978)
-Diseases of the heart (390–398, 402,</p>
-<p>Congenital anomalies (740–759)
-Human immunodeiciency virus</p>
-<p>感染 (042–044)
-Prematurity (765, 769)
-Sudden infant death syndrome (798)
-Cerebrovascular 疾病 (430–438)
-Chronic liver 疾病 and cirrhosis (571)
-Pneumonia/inluenza (480–487)
-Diabetes mellitus (250)
-Chronic obstructive pulmonary 疾病</p>
-<p>YPLL for Persons
-Dying in 1989</p>
-<p>YPLL for Persons
-Dying in 1990</p>
-<p>Cause-Speciic Crude
-Death Rate, 1990</p>
-<p>12,339,045
-2,235,335
-1,832,039
-1,402,524
-1,411,399</p>
-<p>487,749
-363,393
-237,898
-233,472
-184,832
-145,501
-135,507</p>
-<p>12,083,228
-2,147,094
-1,839,900
-1,520,780
-1,349,027</p>
-<p>415,638
-347,713
-244,366
-212,707
-165,534
-143,250
-127,464</p>
-<p>861.9
-37.3
-201.7
-22.5
-289.0</p>
-<p>2.5
-2.2
-57.9
-10.2
-31.3
-19.5
-35.5</p>
-<p>Data from Centers for Disease Control and Prevention: MMWR 41:314, 1992.</p>
-<p>Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION</p>
-<p>Annual  death  率s  (per  100,000
-族群)  for  the  leading  causes  of  death  among
-men  25  to  44  年  old,  by  year,  1987–2008. (For
-1982  to  1986,  estimates  were  made  because  an  Inter-
-national  Classiication  of  Diseases  [ICD]-9  code  for
-HIV  did  not  yet  exist. For  1999–2000,  deaths  were
-classiied according to ICD-10; for 1987–1998, ICD-10
-rules  were  retroactively  applied  to  deaths  that  were
-previously  coded  according  to  ICD-9  rules.)  (Drawn
-from  data  prepared  by  Richard  M. Selik,  MD,  Divi-
-sion  of  HIV/AIDS  Prevention,  Centers  for  Disease
-Control  and  Prevention,  2008. <a href="https://www.cdc.gov/hiv/">www.cdc.gov/hiv/</a>
-graphics/mortalit.htm. Accessed  April  12,  2013.)</p>
-<p>YPLL can assist in three important 公共衛生
-functions:  establishing  research  and  resource  pri-
-orities,  監測  of  temporal  trends  in  prema-
-ture  死亡率,  and  evaluating  the  有效性  of
-program interventions.2</p>
-<p>Why Look at 死亡率? 死亡率  is  clearly  an  index  of  the  severity  of  a
-疾病 from both clinical and 公共衛生 stand-
-points, but 死亡率 can also be used as an index
-of the risk of 疾病, as shown in Figures 4-2 and
-4-3. In general, 死亡率 data are easier to obtain
-than 發生率 data for a given 疾病, and it there-
-fore may be more feasible to use 死亡率 data as
-an index of 發生率. However, when a 疾病 is
-mild and not fatal, 死亡率 is not a good index of
-發生率. A  死亡率  率  is  a  good  relection  of
-the  發生率  率  under  two  conditions:  First,</p>
-<p>when the 病例-fatality 率 is high (as in untreated
-rabies),  and  second,  when  the  du比n  of  疾病
-(存活) is short. Under these conditions, mortal-
-ity  is  a  good  measure  of  發生率,  and  thus  a
-measure of the risk of 疾病. For example, cancer
-of the pancreas is a highly lethal 疾病: death gen-
-erally occurs within a few months of 診斷, and
-long-term  存活  is  rare. Thus,  unfortunately,
-死亡率  from  pancreatic  cancer  is  a  good  surro-
-gate for 發生率 of the 疾病.</p>
-<p>Figures 4-11 and 4-12 show 死亡率 trends in
-the United States from 1987 to 2008 for the leading
-causes of death in men and in women, respectively,
-aged 25 to 44 年. 死亡率 from HIV 感染
-increased rapidly in both sexes from 1987 to 1995,
-but  decreased  dramatically  from  1995  to  1997,
-largely  because  of  newly  introduced,  highly  active
-antiretroviral  therapy,  as  well  as  lifestyle  changes</p>
-<p>Annual  death  率s  (per  100,000
-族群) for leading causes of death among women
-25  to  44  年  old,  by  year,  1987–2008. (See  also  Fig. 4-11.) (Drawn from data prepared by Richard M. Selik,
-MD,  Division  of  HIV/AIDS  Prevention,  Centers  for
-Disease  Control  and  Prevention,  2008. <a href="https://www.cdc.gov/">www.cdc.gov/</a>
-hiv/graphics/mortalit.htm. Accessed April 12, 2013.)</p>
-<p>Chapter 4   疾病的發生：II. 死亡率與其他疾病影響測量</p>
-<p>Ectopic  pregnancy  率s  (per  1,000  reported
-pregnancies), by year, United States, 1970–1987. (From Centers
-for Disease Control and Prevention: MMWR 39:401, 1990.)</p>
-<p>Ectopic  pregnancy  death  率s  (per  10,000
-ectopic pregnancies), by year, United States, 1970–1987. (From
-Centers  for  Disease  Control  and  Prevention:  MMWR  39:403,
-1990.)</p>
-<p>resulting from 公共衛生 education. 死亡率 in
-people aged 25 to 44 年 continued to drop at a
-slower 率 through 2008. With the drop in mortal-
-ity  and  the  lengthening  of  the  life  span  of  many
-people  with  HIV,  the  盛行率  of  HIV  感染
-has increased signiicantly.</p>
-<p>A comparison of 死亡率 and 發生率 is seen
-in Figures 4-13 and 4-14. During this period, the 率 per 1,000
-reported  pregnancies  increased  almost  fourfold.</p>
-<p>This increase has been attributed to improved diag-
-nosis and to increased 頻率 of pelvic inlam-
-matory 疾病 resulting from sexually transmitted
-疾病. As  seen  in</p>
-<p>Breast  cancer  發生率  and  mor-
-tality:  white  women  versus  black  women. (From
-Howlader N, Noone AM, Krapcho M, et al [eds]: SEER
-Cancer  Statistics  Review,  1975–2008,  National  Cancer
-Institute,  Bethesda,  MD. <a href="http://seer.cancer.gov/csr/">http://seer.cancer.gov/csr/</a>
-1975_2008/. Based  on  November  2010  SEER  data
-submission, posted to the SEER web site, 2011. Accessed
-April 12, 2013.)</p>
-<p>Year of 診斷/death</p>
-<p>Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION</p>
-<p>Thyroid  cancer  發生率 and
-死亡率,  1973–2002. (From  Davies  L,  Welch
-HG:  Increasing  發生率  in  thyroid  cancer  in
-the United States, 1973–2002. JAMA 295:2164–
-2167, 2006.)</p>
-<p>United  States. Compare  the  time  trends  in  inci-
-dence  and  死亡率. What  do  these  curves  tell  us
-about  new  病例s  of  breast  cancer  over  time  and
-存活  from  breast  cancer? Compare  the  experi-
-ences of black women and white women in regard
-to  both  發生率  and  死亡率. How  can  we
-describe the differences, and what could be some of
-the possible explanations?</p>
-<p>A inal example relates to reports in recent 年
-that the 發生率 of thyroid cancer in the United
-States  has  been  increasing. One  of  two  possible
-explanations  is  likely. The  irst  explanation  is  that
-these reports relect a true increase in 發生率 that
-has  resulted  from  increases  in  盛行率  of  risk
-factors  for  the  疾病. The  second  explanation  is
-that  the  reported  increased  發生率  is  only  an
-increase  in  apparent  發生率. It  does  not  relect
-any true increase in new 病例s but rather an increase
-in the detection and 診斷 of subclinical 病例s,
-because new diagnostic methods permit us to iden-
-tify  small  and  asymptomatic  thyroid  cancers  that
-could not be detected previously.</p>
-<p>In order  to distinguish between these two pos-
-sible  explanations,  Davies  and  Welch  studied
-changes  in  發生率  and  死亡率  from  thyroid
-cancer  in  the  United  States  from  1973  to  2002.</p>
-<p>Thyroid cancer is characterized by different his-
-tologic types, as seen in   The  authors
-found  that  the  increase  in  發生率  of  thyroid
-cancer was almost entirely due to an increase in the</p>
-<p>Poorly differentiated
-(medullary/anaplastic)</p>
-<p>Histologic  types  of  thyroid  cancer  and  their
-prognoses.</p>
-<p>發生率 of papillary cancer (Fig. 4-18). Within the
-papillary cancers, most of the increase in this inci-
-dence was accounted for by the smallest size tumors
-(Fig. 4-19). Thus, the authors found that 87% of the
-increase in thyroid cancer 發生率 over a 30-year
-period  was  accounted  for  by  an  increase  in  the
-smallest  sized  papillary  cancers,  tumors  that  have
-the best 預後. A number of earlier studies have
-shown  a  high  盛行率  of  previously  unrecog-
-nized,  asymptomatic  small  papillary  cancers  at
-autopsy.</p>
-<p>If  the  increase  in  發生率  is  due  to  a  true
-increase in occurrence of the 疾病, it would likely
-be relected in increased 發生率 of all histologic
-types. If, on the other hand, the increased 發生率
-is due to the availability of more reined diagnostic
-methods, we would expect to see an increase in the
-發生率 of small tumors, as the authors found in
-their study. This is also consistent with the observa-
-tion that overall thyroid cancer 死亡率 was stable.</p>
-<p>Problems with 死亡率 Data
-Most of our information about deaths comes from
-death  certiicates. A  death  certiicate  is  shown  in</p>
-<p>Chapter 4   疾病的發生：II. 死亡率與其他疾病影響測量</p>
-<p>Trends  in  發生率  of
-thyroid  cancer  (1973–2002)  in  the  United
-States. (From Davies L, Welch HG: Increas-
-ing  發生率  in  thyroid  cancer  in  the
-United States, 1973–2002. JAMA 295:2164–
-2167, 2006.)</p>
-<p>Trends  in  發生率  of
-papillary  tumors  of  the  thyroid,  by  size,
-United States, 1988–2002. (From Davies L,
-Welch HG: Increasing 發生率 of thyroid
-cancer  in  the  United  States,  1973–2002. JAMA 295:2164–2167, 2006.)</p>
-<p>By international 一致性, deaths are
-coded  according  to  the  underlying  cause. The
-underlying 死因 is deined as “the 疾病
-or injury which initiated the train of morbid events
-leading  directly  or  indirectly  to  death  or  the  cir-
-cumstances of the accident or violence which pro-
-duced the fatal injury.”3 Thus, the death certiicate
-from which   The  underlying  cause  of  death  therefore
-“excludes information pertaining to the immediate
-cause  of  death,  contributory  causes  and  those
-causes  that  intervene  between  the  underlying  and
-immediate  causes  of  death.”4  As  pointed  out  by
-Savage and coworkers,5 the total contribution of a
-given  cause  of  death  may  not  be  relected  in  the
-死亡率 data as generally reported; this may apply
-to a greater extent in some 疾病 than in others. Countries and regions vary greatly in the quality
-of  the  data  provided  on  their  death  certiicates.</p>
-<p>Studies  of  有效性  of  death  certiicates  compared
-with  hospital  and  autopsy  records  generally  ind
-higher 有效性 for certain 疾病, such as cancers,
-than for others.</p>
-<p>Deaths are coded according to the International
-Classiication  of  Diseases  (ICD),  now  in  its  tenth
-revision. Because coding categories and regulations
-change from one revision to another, any study of
-time trends in 死亡率 that spans more than one
-revision must examine the possibility that observed
-changes could be due entirely or in part to changes
-in the ICD. In 1949, 死亡率s from diabetes
-showed a dramatic decline in both men and women
-(Fig. 4-22). However, any euphoria that these data
-might have caused was short-lived; analysis of this
-drop indicated that it occurred at a time of change
-from the 7th revision to the 8th revision of the ICD. Prior to 1949, the 政策 was that any death certii-
-cate that included mention of diabetes anywhere be
-coded  as  a  death  from  diabetes. After  1949,  only
-death certiicates on which the underlying cause of
-death was listed as diabetes were coded as a death</p>
-<p>Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION</p>
-<p>Death certiicate for the state of Maryland. (Courtesy of the State of Maryland Department of 健康 and Mental
-Hygiene.)</p>
-<p>from  diabetes. Hence,  the  decline  seen  in   Whenever we see a time trend
-of  an  increase  or  a  decrease  in  死亡率,  the  irst
-question  we  must  ask  is,  “Is  it  real?”  Speciically,
-when we look at trends in 死亡率 over time, we
-must  ask  whether  any  changes  took  place  in  how</p>
-<p>death  certiicates  were  coded  during  the  period
-being  examined  and  whether  these  changes  could
-have contributed to changes observed in 死亡率
-during the same period.</p>
-<p>Changes  in  the  deinition  of  疾病  can  also
-have a signiicant effect on the number of 病例s of</p>
-<p>Chapter 4   疾病的發生：II. 死亡率與其他疾病影響測量</p>
-<p>Example of a completed cause-of-death section on a death certiicate, including immediate and underlying causes
-and other signiicant conditions.</p>
-<p>the  疾病  that  are  reported  or  that  are  reported
-and subsequently classiied as meeting the diagnos-
-tic criteria for the 疾病. In early 1993, a new dei-
-nition  of  Acquired  Immunodeiciency  Syndrome
-(AIDS)  was  introduced;  as  shown  in    Drop in 死亡率s for diabetes among 55- to
-64-year-old men and women, United States, 1930–1960, due to
-changes in ICD coding. (From US Public 健康 Service publica-
-tion No. 1000, series 3, No. 1. Washington, DC, U.S. Government
-Printing Ofice, 1964.)</p>
-<p>of  reported  病例s. With  the  new  deinition,  even
-after the initial peak, the number of reported 病例s
-remained higher than it had been for several 年. In  discussing  發病率  in  Chapter  3,  we  said
-that  everyone  in  the  group  represented  by  the
-分母  must  be  at  risk  to  enter  the  group
-represented  by  the  分子,  and  we  looked  at
-uterine  cancer  發生率  率s  as  an  example. The
-same  principle  regarding  分子  and  denomi-
-nator applies to 死亡率s. Once again, correcting for hys-
-terectomy  reduces  the  number  of  women  in  the
-分母 and thus increases the 死亡率. In a lighter vein,</p>
-<h3 id="comparing-mortality">COMPARING MORTALITY</h3>
-<p>IN DIFFERENT POPULATIONS</p>
-<p>An important use of 死亡率 data is to compare
-two  or  more  族群,  or  one  族群  in
-different time periods. Such 族群 may differ
-in regard to many characteristics that affect mortal-
-ity, of which age 分布 is the most important. In fact, age is the single most important predictor
-of 死亡率. Therefore, methods have been devel-
-oped for comparing 死亡率 in such 族群
-while  effectively  holding  constant  characteristics
-such  as  age.</p>
-<p>Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION</p>
-<p>AIDS 病例s by quarter year of report, United States, 1984–2000. (From Centers for Disease Control and Prevention. Summary of notiiable 疾病, United States, 2000. MMWR 49:86, 2000; and Centers for Disease Control and Prevention: Summary
-of notiiable 疾病, United States, 1993. MMWR 45:68, 1993.)</p>
-<p>Some Causes of Death That</p>
-<p>Were Reported on Death
-Certiicates in the Early 1900s</p>
-<p>“Died suddenly without the aid of a physician”
-“A mother died in infancy”
-“Deceased had never been fatally sick”
-“Died suddenly, nothing serious”
-“Went to bed feeling well, but woke up dead”</p>
-<p>死亡率 per 1,000 Population</p>
-<p>medical  care,  particularly  at  that  time. When  we
-look  at</p>
-<p>Age-adjusted  uterine  cancer  死亡率  率s,
-corrected  and  uncorrected  by  hysterectomy  status,  Alameda
-County, California. (From Lyon JL, Gardner JW: The rising fre-
-quency of hysterectomy: Its effect on uterine cancer 率s. Am J
-Epidemiol 105:439–443, 1977.)</p>
-<p>Chapter 4   疾病的發生：II. 死亡率與其他疾病影響測量</p>
-<p>Death Rates by Age and Race, Baltimore City, 1965</p>
-<p>DEATH RATES BY AGE PER 1,000 POPULATION</p>
-<p>From Department of Biostatistics: Annual Vital Statistics Report for Maryland, 1965. Baltimore, Maryland State Department of
-健康, 1965.</p>
-<p>死亡率) is higher in whites than in blacks. Why is
-this so? This is a relection of the fact that in both
-whites and blacks, 死亡率 increases markedly in
-the oldest age groups; older age is the major con-
-tributor  to  死亡率. However,  the  white  popula-
-tion  in  this  example  is  older  than  the  black
-族群,  and  in  1965,  there  were  few  blacks  in
-the  oldest  age  groups. Thus,  in  whites,  the  overall
-死亡率  is  heavily  weighted  by  high  率s  in  the
-oldest age groups. The overall (or crude) 死亡率
-率 in whites is increased by the greater number of
-deaths  in  the  large  subgroup  of  older  whites,  but
-the overall 死亡率 in blacks is not increased
-as  much  because  there  are  fewer  deaths  in  the
-smaller number of blacks in the older age groups. Clearly, the crude 死亡率 relects both differences
-in the force of 死亡率, and differences in the age
-composition of the 族群. Let us look at two
-approaches  for  dealing  with  this  problem:  direct
-and indirect age 校正.</p>
-<p>Direct Age Adjustment
-Tables  4-9  through  4-11  show  a  hypothetical
-example of direct age 校正.</p>
-<p>The answer lies in the changing age structure of
-the  族群. 死亡率  is  highest  in  the  oldest
-age groups, and during the later period, the size of
-the oldest group doubled from 100,000 to 200,000,
-whereas the number of young people declined sub-
-stantially, from 500,000 to 300,000. We would like
-to eliminate this age difference and, in effect, ask: If
-the  age  composition  of  the  族群  were  the</p>
-<p>same,  would  there  be  any  differences  in  死亡率
-between the early period and the later period?</p>
-<p>In direct age 校正, a standard 族群
-is used in order to eliminate the effects of any dif-
-ferences  in  age  between  two  or  more  族群
-being compared (</p>
-<p>By  applying  each  age-speciic  死亡率  率  to
-the  族群  in  each  age  group  of  the  standard
-族群,  we  derive  the  expected  number  of
-deaths  that  would  have  occurred  had  those  率s
-been  applied. We  can  then  calculate  the  total
-number of deaths expected in the standard popula-
-tion  had  the  age-speciic  率s  of  the  early  period
-applied and the total number of deaths expected in
-the standard 族群 had the age-speciic 率s
-of the later period applied. Dividing each of these
-two total expected numbers of deaths by the total
-standard 族群, we can calculate an expected
-死亡率 in the standard 族群 if it had
-had  the  死亡率  experience  of  the  early  period
-and  the  expected  死亡率  率  for  the  standard
-族群  if  it  had  had  the  死亡率  experience
-for  the  later  period. These  are  called  年齡校正
-率s,  and  they  appropriately  relect  the  decline
-seen  in  the  age-speciic  率s. Differences  in  age-
-composition  of  the  族群  are  no  longer  a
-factor.</p>
-<p>In this example the 率s have been adjusted for
-age, but 校正 can be carried out for any char-
-acteristic such as sex, socioeconomic status, or race,</p>
-<p>Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION</p>
-<p>A Hypothetical Example of Direct Age Adjustment: I. Comparison of Total Death</p>
-<p>Rates in a Population at Two Different Times</p>
-<p>Death Rate
-per 100,000</p>
-<p>Death Rate
-per 100,000</p>
-<p>A Hypothetical Example of Direct Age Adjustment: II. Comparison of Age-Speciic</p>
-<p>Death Rates in Two Different Time Periods</p>
-<p>Death Rates
-per 100,000</p>
-<p>Death Rates
-per 100,000</p>
-<p>All ages
-30–49
-50–69
-70+</p>
-<p>900,000
-500,000
-300,000
-100,000</p>
-<p>900,000
-300,000
-400,000
-200,000</p>
-<p>A Hypothetical Example of Direct Age Adjustment: III. Carrying Out an Age</p>
-<p>Adjustment Using the Total of the Two Populations as the Standard</p>
-<p>All ages
-30–49
-50–69
-70+</p>
-<p>1,800,000
-800,000
-700,000
-300,000</p>
-<p>Total number of deaths expected
-in the standard 族群:</p>
-<p>“Early” Age-
-speciic
-死亡率 Rates
-per 100,000</p>
-<p>Expected
-Number of
-Deaths Using
-“Early” Rates</p>
-<p>“Later” Age-
-speciic
-死亡率 Rates
-per 100,000</p>
-<p>Expected
-Number of
-Deaths Using
-“Later” Rates</p>
-<p>2 238
-,
-,
-,
-1 800 000</p>
-<p>1 830
-,
-,
-,
-1 800 000</p>
-<p>and techniques are also available to adjust for mul-
-tiple variables simultaneously.</p>
-<p>Let us look at an example of direct age adjust-
-ment using real data.6 When 死亡率 in the United
-States  and  in  Mexico  was  compared  for  1995  to
-1997,  the  crude  死亡率  率  for  all  ages  in  the
-United States was 8.7 per 1,000 族群 and in
-Mexico only 4.7 per 1,000 族群. But for each
-age group, the age-speciic 死亡率 was higher
-in Mexico than in the United States (aside from the</p>
-<p>over  65  group  in  which  the  率s  were  similar). Could the considerably higher crude 死亡率
-in the United States be due to the fact that there was
-a difference in the age 分布s of the two pop-
-ulations, in that the U.S. 族群 had a greater
-比例 of older individuals than did the popu-
-lation in Mexico?</p>
-<p>In order to eliminate the possibility that the dif-
-ferences in 死亡率 between the United States and
-Mexico  could  have  been  due  to  differences  in  the</p>
-<p>Chapter 4   疾病的發生：II. 死亡率與其他疾病影響測量</p>
-<p>age  structure  of  the  two  族群,  we  need  to
-對照  for  age. Therefore,  we  select  a  standard
-族群 and apply both the age-speciic mortal-
-ity 率s from the United States and from Mexico to
-the  same  standard  族群. As  seen  in</p>
-<p>Although  年齡校正  率s  can  be  very  useful
-in making comparisons, the irst step in examining
-and  analyzing  comparative  死亡率  data  should
-always be to carefully examine the age-speciic 率s
-for  any  interesting  differences  or  changes. These
-differences may be hidden by the 年齡校正率s,
-and may be lost if we proceed immediately to age
-校正 without irst examining the age-speciic
-率s.</p>
-<p>Age-adjusted  率s  are  hypothetical  because
-they involve applying actual age-speciic 率s to a
-hypothetical  standard  族群. They  do  not
-relect the true 死亡率 risk of a “real” 族群</p>
-<p>because  the  numerical  value  of  an  年齡校正
-death  率  depends  on  the  standard  族群
-used. Selection  of  such  a  族群  is  somewhat
-arbitrary  because  there  is  no  “correct”  standard
-族群,  but  it  is  generally  accepted  that  the
-“standard” should not be markedly different from
-the  族群  that  are  being  compared  with
-regard to age or whatever the variable is for which
-the 校正 is being made. In the United States,
-for  more  than  50  年,  the  1940 U.S. 族群
-was  regularly  used  as  the  standard  族群  for
-age  校正  for  most  purposes,  but  in  recent
-年,  this  族群  was  increasingly  considered
-outdated  and  incompatible  with  the  older  age
-structure  of  the  U.S. 族群. Beginning  with
-1999 死亡率 statistics, the U.S. 族群 in the
-year 2000 replaced the 1940 族群 as the stan-
-dard 族群 for 校正.</p>
-<p>The  change  in  standard  族群  to  the  year
-2000 U.S. 族群  has  had  some  signiicant
-effects,  as  illust率d  with  a  comparison  of  cause-
-speciic  死亡率  率s  using  data  through  1995.7
-For  example,  increases  in  年齡校正  死亡率
-率s  were  observed  for  causes  in  which  risk
-increases  signiicantly  with  age. For  example,</p>
-<p>An Example of Direct Age Adjustment: Comparison of Age-adjusted 死亡率</p>
-<p>Rates in Mexico and in the United States, 1995–1997</p>
-<p>Age-speciic
-Mexico
-死亡率 Rates
-per 100,000</p>
-<p>Expected Numbers
-of Deaths Using
-Mexico Rates</p>
-<p>Age-speciic
-United States
-死亡率
-Rates per
-100,000</p>
-<p>Expected Numbers
-of Deaths Using
-United States Rates</p>
-<p>All ages
-&lt;1
-1–4
-5–14
-15–24
-25–44
-45–64
-65+</p>
-<p>100,000
-2,400
-9,600
-19,000
-17,000
-26,000
-19,000
-7,000</p>
-<p>1,693.2
-112.5
-36.2
-102.9
-209.6
-841.1
-4,967.4</p>
-<p>Total numbers of deaths expected
-in the standard 族群:</p>
-<p>41
-11
-7
-17
-55
-160
-348</p>
-<p>737.8
-38.5
-21.7
-90.3
-176.4
-702.3
-5,062.6</p>
-<p>18
-4
-4
-15
-46
-133
-354</p>
-<p>From Analysis Group, Pan American 健康 Organization Special Program for 健康 Analysis: Standardization: A classic
-epidemiological method for the comparison of 率s. Epidemiol Bull 232(3):9–12, 2002.</p>
-<p>Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION</p>
-<p>年齡校正  death  from  cerebrovascular  疾病
-(stroke) is 26.7 deaths per 100,000 using the 1940
-standard, but it is 63.9 per 100,000 using the 2000
-standard. Cancer  死亡率  increased  using  the
-2000  族群  standard  compared  to  when  an
-earlier 族群 was used as a standard because
-more  people  are  surviving  into  older  ages,  when
-many  of  the  leading  types  of  cancer  are  more
-common. Rates for heart 疾病, chronic obstruc-
-tive  lung  疾病,  diabetes,  kidney  疾病,  and
-Alzheimer’s 疾病 were similarly affected because
-age-speciic 死亡率s for all these conditions are
-higher in older age groups.</p>
-<p>Age-adjusted 率s of cancer are higher in blacks
-compared  to  whites  in  the  United  States,  but  the
-differential  between  blacks  and  whites  is  less  with
-the 2000 族群 standard than with the earlier
-standard 族群. Thus, the change to the year
-2000 U.S. 族群  as  the  standard  complicates
-comparisons of 年齡校正率s before and after
-1999,  because  many  of  the  率s  before  1999  were
-calculated  using  the  1940  standard  族群. However,  the  率s  from  1999  and  on  are  being
-calculated  using  the  year  2000  族群  as  the
-new standard.</p>
-<p>In summary, the goal of direct 校正 is to
-compare 率s in at least two different 族群
-when we wish to eliminate the possible effect of a
-given factor, such as age, on the 率s we are com-
-paring. It is important to keep in mind that adjusted
-率s  are  not “real”  率s  in  the  族群  being
-compared,  because  they  depend  on  the  choice  of
-the  standard  族群  used  in  carrying  out  the
-校正. Nevertheless,  direct  校正  is  a
-very useful tool for making such comparisons and
-in fact, comparison of 率s in different 族群
-almost  always  utilizes  direct  校正,  such  as
-校正 for age.</p>
-<p>Indirect Age Adjustment (Standardized
-死亡率 Ratios)
-Indirect age 校正 is often used when numbers
-of  deaths  for  each  age-speciic  stratum  are  not
-available. It  is  also  used  to  study  死亡率  in  an
-occupationally exposed 族群: Do people who
-work in a certain industry, such as mining or con-
-struction,  have  a  higher  死亡率  than  people  of
-the same age in the general 族群? Is an addi-
-tional risk associated with that occupation?</p>
-<p>To answer the question of whether a 族群
-of  miners  has  a  higher  死亡率  than  we  would
-expect in a similar 族群 that is not engaged</p>
-<p>in mining, the age-speciic 率s for a known popu-
-lation, such as all men of the same age, are applied
-to each age group in the 族群 of interest. This
-will  yield  the  number  of  deaths  expected  in  each
-age group in the 族群 of interest, if this pop-
-ulation  had  had  the  死亡率  experience  of  the
-known  族群. Thus,  for  each  age  group,  the
-number of deaths expected is calculated, and these
-numbers  are  totaled. The  numbers  of  deaths  that
-were  actually  observed  in  that  族群  are  also
-calculated and totaled. The 比 of the total number
-of deaths actually observed to the total number of
-deaths  expected,  if  the  族群  of  interest  had
-had the 死亡率 experience of the known popula-
-tion, is then calculated. This 比 is called the stan-
-dardized 死亡率 比 (SMR).</p>
-<p>The SMR is deined as follows:</p>
-<p>Observed no of deaths per year
-Expected no of deaths per year</p>
-<p>Let  us  look  at  the  example  in</p>
-<p>The SMR is calculated by totaling the observed
-number  of  deaths  (436)  and  dividing  it  by  the
-expected number of deaths (181.09), which yields
-a result of 2.41. Multiplication by 100 is often done
-to yield results without decimals. If this were done
-in this 病例, the SMR would be 241. An SMR of 100
-indicates that the observed number of deaths is the
-same  as  the  expected  number  of  deaths. An  SMR
-greater than 100 indicates that the observed number
-of  deaths  exceeds  the  expected  number,  and  an
-SMR  less  than  100  indicates  that  the  observed
-number of deaths is less than the expected number.</p>
-<p>Chapter 4   疾病的發生：II. 死亡率與其他疾病影響測量</p>
-<p>Computation of a Standardized 死亡率 Ratio (SMR) for Tuberculosis, All Forms</p>
-<p>(TBC), for White Miners Ages 20 to 59 Years, United States, 1950</p>
-<p>Estimated
-Population for
-White Miners</p>
-<p>Death Rate (per 100,000)
-for TBC in Males in the
-General Population</p>
-<p>Expected Deaths from
-TBC in White Miners if
-They Had the Same Risk
-as the General Population</p>
-<p>Observed Deaths
-from TBC in White
-Miners</p>
-<p>10
-20
-22
-98
-174
-112
-436</p>
-<p>9.14
-13.71
-17.41
-50.55
-58.32
-31.96
-181.09
-−
-−</p>
-<p>20–24
-25–29
-30–34
-35–44
-45–54
-55–59
-Totals</p>
-<p>74,598
-85,077
-80,845
-148,870
-102,649
-42,494
-534,533</p>
-<p>12.26
-16.12
-21.54
-33.96
-56.82
-75.23</p>
-<p>Observed deaths for an occupation cause
-eeaths for an occupation cause
-Expected d</p>
-<p>race group
-race group</p>
-<p>Adapted from Vital Statistics: Special Reports. Washington, DC, Department of 健康, Education, and Welfare, Vol. 53(5), 1963.</p>
-<p>Actually,  however,  the  picture  of  tuberculosis
-risk is somewhat different (</p>
-<p>changes  that  are  observed  could  be  the  result  of
-such a cohort effect.</p>
-<p>Interpreting Observed Changes
-in 死亡率
-If  we  ind  a  difference  in  死亡率  over  time  or
-between  族群—either  an  increase  or  a
-decrease—it  may  be  artifactual  or  real. If  it  is  an
-artifact,  the  artifact  could  result  from  problems
-with  either  the  分子  or  the  分母
-(</p>
-<h3 id="other-measures-of-the-impact">OTHER MEASURES OF THE IMPACT</h3>
-<p>OF DISEASE</p>
-<p>Quality of Life
-Most 疾病 have a major impact on the aflicted
-individuals  above  and  beyond  死亡率. Diseases
-that may not be lethal may be associated with con-
-siderable physical and emotional suffering resulting
-from  disability  associated  with  the  illness. It  is
-therefore important to consider the total impact of
-a  疾病  as  measured  by  its  effect  on  a  person’s
-quality of life, even though such measures are not,
-in fact, measures of 疾病 occurrence. For example,
-it is possible to examine the extent to which patients</p>
-<p>Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION</p>
-<p>Age-speciic Death Rates per 100,000 from Tuberculosis (All Forms), Males,</p>
-<p>Massachusetts, 1880–1930</p>
-<p>0–4
-5–9
-10–19
-20–29
-30–39
-40–49
-50–59
-60–69
-70+</p>
-<p>760
-43
-126
-444
-378
-364
-366
-475
-672</p>
-<p>578
-49
-115
-361
-368
-336
-325
-346
-396</p>
-<p>309
-31
-90
-288
-296
-253
-267
-304
-343</p>
-<p>309
-21
-63
-207
-253
-253
-252
-246
-163</p>
-<p>108
-24
-49
-149
-164
-175
-171
-172
-127</p>
-<p>41
-11
-21
-81
-115
-118
-127
-95
-95</p>
-<p>Data from Frost WH: The age selection for 死亡率 from tuberculosis in successive decades. J Hyg 30:91–96, 1939.</p>
-<p>Leading  causes  of
-疾病  burden  for  women  aged  15–44
-年, high-income countries, and low-
-and  middle-income  countries,  2004. (From  The  Global  Burden  of  Disease:
-2004  Update. Geneva,  World  健康
-Organization, 2004.)</p>
-<p>with  arthritis  are  compromised  by  the  illness  in
-carrying out activities of daily living. Although con-
-siderable controversy exists about which quality-of-
-life measures are most appropriate and valid, there
-is general 一致性 that such measures can be rea-
-sonably  used  to  plan  short-term  治療  pro-
-grams for groups of patients. Such patients can be
-evaluated over a period of months to determine the
-effects  of  the  治療  on  their  self-reported
-quality  of  life. Quality-of-life  measures  have  also
-been  used  for  establishing  priorities  for  scarce
-健康 care resources. Although prioritizing 健康
-care resources is often primarily based on 死亡率
-data, quality of life must also be taken into account
-for this purpose, because many 疾病 are chronic
-and  non–life-threatening  but  may  be  associated
-with  many  年  of  disability. Patients  may  place</p>
-<p>different  weights  on  different  quality-of-life  mea-
-sures depending on differences in their occupations
-and  other  activities,  personalities,  cultural  back-
-grounds, education, and moral and ethical values. As a result, measuring quality of life and developing
-valid indices that are useful for obtaining compara-
-tive data in different patients and in different popu-
-lations remain major challenges.</p>
-<p>Projecting the Future Burden of Disease
-An interesting and valuable use of current data to
-predict the future impact of 疾病 was a compre-
-hensive  assessment  of  current  死亡率  and  dis-
-ability  from  疾病,  injuries,  and  risk  factors  for
-all  regions  of  the  world  in  1990,  which  was  pro-
-jected  to  the  year  2020. The  study,  entitled  the
-Global  Burden  of  Disease,  attempted  to  quantify</p>
-<p>Chapter 4   疾病的發生：II. 死亡率與其他疾病影響測量</p>
-<p>Age-speciic Death Rates per 100,000 from Tuberculosis (All Forms), Males,</p>
-<p>Massachusetts, 1880–1930</p>
-<p>0–4
-5–9
-10–19
-20–29
-30–39
-40–49
-50–59
-60–69
-70+</p>
-<p>760
-43
-126
-444
-378
-364
-366
-475
-672</p>
-<p>578
-49
-115
-361
-368
-336
-325
-346
-396</p>
-<p>309
-31
-90
-288
-296
-253
-267
-304
-343</p>
-<p>309
-21
-63
-207
-253
-253
-252
-246
-163</p>
-<p>108
-24
-49
-149
-164
-175
-171
-172
-127</p>
-<p>41
-11
-21
-81
-115
-118
-127
-95
-95</p>
-<p>Data from Frost WH: The age selection for 死亡率 from tuberculosis in successive decades. J Hyg 30:91–96, 1939.</p>
-<p>not  only  deaths  but  also  the  impact  of  premature
-death and disability on a 族群 and to combine
-these  into  a  single  index  to  express  the  overall
-“burden of 疾病.”8 The index that was developed
-for  this  study  is  the  Disability-Adjusted  Life  Year
-(失能調整生命年 (DALY)), which is the 損失生命年數 to premature
-death and 年 lived with a disability of speciied</p>
-<p>Possible Explanations of Trends</p>
-<p>or Differences in 死亡率:
-I. Artifactual</p>
-<p>Errors in 診斷
-Errors in age
-Changes in coding rules
-Changes in classiication
-Errors in counting 族群
-Errors in classifying by</p>
-<p>demographic characteristics
-(e.g., age, race, sex)</p>
-<p>Differences in 百分比s of</p>
-<p>Possible Explanations of Trends</p>
-<p>or Differences in 死亡率:
-II. Real</p>
-<p>Change in survivorship without change in 發生率
-Change in 發生率
-Change in age composition of the 族群(s)
-A combination of the above factors</p>
-<p>severity and du比n. Thus, a 失能調整生命年 (DALY) is 1 lost year
-of 健康y life.</p>
-<p>The  results  showed  that  5  of  the  10  leading
-causes  of  disability  in  1990  were  psychiatric  con-
-ditions;  psychiatric  and  neurologic  conditions
-accounted for 28% of all 年 lived with disability
-of  known  severity  and  du比n,  compared  with
-1.4%  of  all  deaths  and  1.1%  of  年  of  life  lost. 9 Again, the importance of non-
-傳染病s, such as mental conditions
-and injuries, is dramatically evident.</p>
-<p>In  2004  the  疾病  burden  was  not  equitably
-distributed. As seen in</p>
-<p>With  the  aging  of  the  族群  worldwide,
-an  “epidemiologic  transition”  is  taking  place  so
-that, by 2020, non傳染病s are likely
-to  account  for  70%  of  all  deaths  in  developing
-countries,  compared  with  less  than  half  of  deaths
-today. As  projected  in    Leading Causes of Burden of Disease (失能調整生命年 (DALY)s), Countries Grouped by</p>
-<p>Percent of Total 失能調整生命年 (DALY)s</p>
-<p>1
-2
-3
-4
-5
-6
-7
-8
-9
-10</p>
-<p>Lower respiratory 感染s
-Diarrheal 疾病
-Unipolar depressive disorders
-Ischemic heart 疾病
-HIV/AIDS
-Cerebrovascular 疾病
-Prematurity and low birth weight
-Birth asphyxia and birth trauma
-Road trafic accidents
-Neonatal 感染s and other</p>
-<p>94.5
-72.8
-65.5
-62.6
-58.5
-46.6
-44.3
-41.7
-41.2
-40.4</p>
-<p>From The Global Burden of Disease: 2004 Update. Geneva, World 健康 Organization, 2004.</p>
-<p>6.2
-4.8
-4.3
-4.1
-3.8
-3.1
-2.9
-2.7
-2.7
-2.7</p>
-<p>The “epidemiologic transition”: Distribution of deaths from 可傳播的 and non可傳播的 causes in devel-
-oping  countries,  1990  and  projected  into  2020. (From  Murray  CJL,  Lopez  AD:  The  Global  Burden  of  Disease:  A  Comprehensive
-Assessment of 死亡率 and Disability from Diseases, Injuries, and Risk Factors in 1990 and Projected to 2020. Cambridge, Harvard
-University Press on behalf of the World 健康 Organization and the World Bank, 1996.)</p>
-<p>dramatically. The burden due to non可傳播的
-疾病 (group II) is expected to increase sharply,
-as  will  the  burden  from  injuries  (group  III). Also
-by  2020,  the  burden  of  疾病  attributable  to
-tobacco  is  expected  to  exceed  that  caused  by  any
-single  疾病—clearly  a  strong  call  for  public
-健康 action. Although there is no universal agree-
-ment  on  the  methodology  or  applicability  of  a
-single measure of 疾病 burden such as the 失能調整生命年 (DALY),
-this  study  is  an  excellent  demonst比n  of  an
-attempt  at  worldwide  監測  designed  to
-develop  such  a  measure  to  permit  valid  regional
-comparisons and future projections so that appro-
-priate  interventions  can  be  developed.</p>
-<p>Chapters  3  and  4  have  reviewed
-approaches</p>
-<p>important
-to  quantitatively  measuring  and</p>
-<p>expressing  human  發病率  and  死亡率. The
-concepts  reviewed  in  these  chapters  may  at  irst
-seem  overwhelming  (Fig. 4-27)  but,  as  we  shall
-see  in  later  chapters,  they  are  critical  to  under-
-standing  how  流行病學  helps  us  to  elucidate
-the measurement of 疾病 risk, the determination
-of  疾病  因果,  and  evaluation  of  the
-有效性  of  intervening  to  modify  the  疾病
-process.</p>
-<p>In the next chapter (Chapter 5) we will turn to
-questions about the 分子s of 發病率 率s:
-How do we identify those people who have a 疾病
-and distinguish them from those who do not, and
-how  do  we  evaluate  the  quality  of  the  diagnostic
-and 篩檢試驗s that are used to sepa率 these
-individuals  and  族群? These  questions  are
-addressed in Chapter 5. A discussion of the use of
-篩檢  tests  in  public  健康  programs  is  pre-
-sented in Chapter 18.</p>
-<p>Chapter 4   疾病的發生：II. 死亡率與其他疾病影響測量</p>
-<p>“I’ll pause for a moment so you can let this information
-sink  in.”  (November  29,  2010,  issue,  The  New  Yorker. Author:  Graham
-Wilson.)</p>
-<h3 id="1--de--beauvoir--s--a--very--easy--death--translated--by--patrick">1.  De  Beauvoir  S:  A  Very  Easy  Death.  Translated  by  Patrick</h3>
-<p>O’Brian. New York, Pantheon Books, 1965.</p>
-<h3 id="2--premature--死亡率--in--the--united--states--public--健康">2.  Premature  死亡率  in  the  United  States:  Public  健康</h3>
-<p>issues in the use of 年 of potential life lost, 1986. MMWR
-35(Suppl 2S):1s–11s, 1986.</p>
-<h3 id="3--national-center-for-健康-statistics-instructions-for-clas-">3.  National Center for 健康 Statistics: Instructions for Clas-</h3>
-<p>sifying  the  Underlying  Cause  of  Death,  1983.  Hyattsville,
-MD, 1983.</p>
-<h3 id="4--chamblee-rf-evans-mc-transax-the-nchs-system-for">4.  Chamblee RF, Evans MC: TRANSAX: The NCHS System for</h3>
-<p>Producing  Multiple  Cause-of-Death  Statistics,  1968–1978.
-Vital and 健康 Statistics, series 1, No. 20, DHHS publica-
-tion No. (PHS)  86–1322. Washington, DC, Bureau of Vital
-and 健康 Statistics, June 1986.</p>
-<h3 id="5--savage-g-rohde-fc-grant-b-dufour-mc-liver-cirrhosis">5.  Savage G, Rohde FC, Grant B, Dufour MC: Liver Cirrhosis</h3>
-<p>死亡率 in the United States, 1970–90: Surveillance Report</p>
-<p>REVIEW QUESTIONS FOR CHAPTER 4</p>
-<p>Questions  1  and  2  are  based  on  the  information
-given below:</p>
-<p>In  an  Asian  country  with  a  族群  of  6
-million people, 60,000 deaths occurred during the
-year  ending  December  31,  2010. These  included
-30,000 deaths from cholera in 100,000 people who
-were sick with cholera.</p>
-<p>No. 29. Bethesda,  MD,  Department  of  健康  and  Human
-Services, December 1993.</p>
-<h3 id="6--analysis-group-pan-american-健康-organization-special">6.  Analysis Group, Pan American 健康 Organization Special</h3>
-<p>Program  for  健康  Analysis  (SHA):  Standardization:  A
-classic epidemiological method for the comparison of 率s.
-Epidemiol Bull 23:9–12, 2002.</p>
-<h3 id="7--anderson-rn-rosenberg-hm-age-standardization-of-death">7.  Anderson RN, Rosenberg HM: Age Standardization of Death</h3>
-<p>Rates: Implementation of the Year 2000 Standard. National
-Vital Statistics Reports, Vol. 47, No. 3, pp. 1–16. Hyattsville,
-MD, National Center for 健康 Statistics, October 7, 1998.
-8.  Murray CJL, Lopez AD: The Global Burden of Disease. Cam-</p>
-<p>bridge, MA, Harvard University Press, 1996.</p>
-<h3 id="9--the-global-burden-of-disease-2004-update-geneva-world">9.  The Global Burden of Disease: 2004 Update. Geneva, World</h3>
-<p>健康 Organization, 2004.</p>
-<h3 id="3-age-adjusted-死亡率s-are-used-to">3. Age-adjusted 死亡率s are used to:</h3>
-<p>a. Correct  death  率s  for  errors  in  the  state-</p>
-<p>b. Determine  the  actual  number  of  deaths
-that  occurred  in  speciic  age  groups  in  a
-族群
-c. Correct  death
-information</p>
-<h3 id="1-what-was-the-cause-speciic-死亡率-from">1. What was the cause-speciic 死亡率 from</h3>
-<p>d. Compare deaths in persons of the same age</p>
-<h3 id="2-what--was--the--病例-fatality--from--cholera--in">2. What  was  the  病例-fatality  from  cholera  in</h3>
-<p>e. Eliminate the effects of differences in the age
-分布s  of  族群  in  comparing
-死亡率s</p>
-<p>Section 1   THE EPIDEMIOLOGIC APPROACH TO DISEASE AND INTERVENTION</p>
-<h3 id="4-the--死亡率--率--from--疾病--x--in--city-a--is">4. The  死亡率  率  from  疾病  X  in  city A  is</h3>
-<p>75/100,000  in  persons  65  to  69  年  old.  The
-死亡率  率  from  the  same  疾病  in  city  B
-is  150/100,000  in  persons  65  to  69  年  old.
-The inference that 疾病 X is two times more
-prevalent in persons 65 to 69 年 old in city
-B  than  it  is  in  persons  65  to  69  年  old  in
-city  A  is:
-a.  Correct
-b.  Incorrect,  because  of  failure  to  distinguish</p>
-<p>between 盛行率 and 死亡率</p>
-<p>c. Incorrect, because of failure to adjust for dif-</p>
-<p>ferences in age 分布s</p>
-<p>d. Incorrect,  because  of  failure  to  distinguish</p>
-<p>between period and point 盛行率</p>
-<p>e. Incorrect, because a 比例 is used when
-a 率 is required to support the inference</p>
-<h3 id="5-the--發生率--率--of--a--疾病--is--ive--times">5. The  發生率  率  of  a  疾病  is  ive  times</h3>
-<p>greater in women than in men, but the preva-
-lence  率s  show  no  sex  difference.  The  best
-explanation is that:
-a.  The crude all-cause 死亡率 is greater</p>
-<p>b. The 病例-fatality from this 疾病 is greater</p>
-<p>Question  8  is  based  on  the  information  given
-below:</p>
-<p>Annual Cancer Deaths in White Male
-Workers in Two Industries</p>
-<p>% of All
-Cancer
-Deaths</p>
-<p>% of All
-Cancer
-Deaths</p>
-<p>Respiratory
-system
-Digestive
-system</p>
-<p>Genitourinary
-All other sites
-Totals</p>
-<p>Based  on  the  preceding  information,  it  was  con-
-cluded that workers in industry B are at higher risk
-of  death  from  respiratory  system  cancer  than
-workers in industry A. (Assume that the age distri-
-butions  of  the  workers  in  the  two  industries  are
-nearly identical.)</p>
-<p>c. The  病例-fatality  from  this  疾病  is  lower</p>
-<h3 id="8-which-of-the-following-statements-is-true">8. Which of the following statements is true?</h3>
-<p>d. The  du比n  of  this  疾病  is  shorter  in</p>
-<p>e. 危險因子s for the 疾病 are more common</p>
-<h3 id="6-for--a--疾病--such--as--pancreatic--cancer--which">6. For  a  疾病  such  as  pancreatic  cancer,  which</h3>
-<p>is highly fatal and of short du比n:
-a. 發生率  率s  and  死亡率  率s  will  be</p>
-<p>b. 死亡率  率s  will  be  much  higher  than</p>
-<p>c. 發生率  率s  will  be  much  higher  than</p>
-<p>d. 發生率 率s will be unrelated to 死亡率</p>
-<p>e. None of the above</p>
-<h3 id="7-in--1990--there--were--4500--deaths--due--to--lung">7. In  1990,  there  were  4,500  deaths  due  to  lung</h3>
-<p>疾病  in  miners  aged  20  to  64  年.  The
-expected number of deaths in this occupational
-group,  based  on  age-speciic  death  率s  from
-lung  疾病  in  all  males  aged  20  to  64  年,
-was 1,800 during 1990. What was the standard-
-ized 死亡率 比 (SMR) for lung 疾病 in
-miners? ______</p>
-<p>a. The conclusion reached is correct
-b. The  conclusion  reached  may  be  incorrect
-because  比例ate  死亡率  率s  were
-used when age-speciic 死亡率s were
-needed</p>
-<p>c. The  conclusion  reached  may  be  incorrect
-because there was no comparison group
-d. The  conclusion  reached  may  be  incorrect
-because  比例ate  死亡率  was  used
-when  cause-speciic  死亡率  率s  were
-needed</p>
-<p>e. None of the above</p>
-<h3 id="9-a--program--manager--from--an--international">9. A  program  manager  from  an  international</h3>
-<p>健康 funding agency needs to identify regions
-that would beneit from an intervention aimed
-at reducing premature disability. The program
-manager asks a 健康 care consultant to develop
-a proposal using an index that would help her
-make  this  decision.  Which  of  the  following
-would best serve this purpose?
-a.  Case-fatality
-b.  Crude 死亡率
-c.  Disability-adjusted life-年
-d.  Standardized 死亡率 比</p>
-<p>Chapter 4   疾病的發生：II. 死亡率與其他疾病影響測量</p>
-<h3 id="10-the-following-are-standardized-死亡率-比s">10. The following are standardized 死亡率 比s</h3>
-<p>(SMRs) for lung cancer in England:</p>
-<p>Questions 11 and 12 are based on the information
-given below:</p>
-<h3 id="standardized">STANDARDIZED</h3>
-<p>MORTALITY RATIOS</p>
-<p>Numbers of People and Deaths from
-Disease Z by Age Group in Communities
-X and Y</p>
-<p>Carpenters
-Bricklayers</p>
-<p>Based  on  these  SMRs  alone,  it  is  possible  to  con-
-clude that:</p>
-<p>No. of
-Deaths
-from
-Disease Z</p>
-<p>No. of
-Deaths
-from
-Disease Z</p>
-<p>Calculate the 年齡校正 死亡率 for 疾病 Z
-in  communities  X  and  Y  by  the  direct  method,
-using the total of both communities as the standard
-族群.</p>
-<h3 id="11-the-年齡校正-死亡率-from-疾病-z-for">11. The 年齡校正 死亡率 from 疾病 Z for</h3>
-<p>社區 X is: ______</p>
-<h3 id="12-the-比例死亡率-from-疾病-z-for">12. The 比例死亡率 from 疾病 Z for</h3>
-<p>社區 Y is: ______
-a. 9.6/1,000
-b. 13.5/1,000
-c. 20.0/1,000
-d. 10.8/1,000
-e. None of the above</p>
-<p>a. The  number  of  deaths  from  lung  cancer  in
-carpenters  in  1949–1960  was  greater  than
-the  number  of  deaths  from  lung  cancer  in
-bricklayers during the same period
-b. The  比例ate  死亡率  from</p>
-<p>lung
-cancer  in  bricklayers  in  1949–1960  was
-greater  than  the  比例ate  死亡率
-from  lung  cancer  in  the  same  occupational
-group in 1968–1979</p>
-<p>c. The  年齡校正  率  of  death  from  lung
-cancer  in  bricklayers  was  greater  in  1949–
-1960 than it was in 1968–1979</p>
-<p>d. The  率  of  death  from  lung  cancer  in  car-
-penters in 1968–1979 was greater than would
-have  been  expected  for  a  group  of  men  of
-similar ages in all occupations</p>
-<p>e. The 比例死亡率 率 from lung
-cancer in carpenters in 1968–1979 was 1.35
-times greater than would have been expected
-for  a  group  of  men  of  similar  ages  in  all
-occupations</p>
-<h2 id="-章節總結">📝 章節總結</h2>
-<p>本章介绍了 <strong>The Occurrence of Disease: II. Mortality and Other Measures of Disease Impact</strong>（疾病的發生：II. 死亡率與其他疾病影響測量）的核心概念。我們探时了：</p>
-<ul>
-<li>基本的流行病學原理與方法</li>
-<li>關鍵術語的定義與應用</li>
-<li>疾病分布與影響因素</li>
-<li>在臨床與公共衛生中的實踐應用</li>
-</ul>
-<h3 id="臨床應用要點">臨床應用要點</h3>
+</blockquote>
+<h3 id="比較示意">比較示意</h3>
+<p>假設一個100,000人的族群中有20人患病X，一年內18人死於該病：</p>
+<table>
+<thead>
+<tr>
+<th>指標</th>
+<th>計算</th>
+<th>結果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>死亡率</strong></td>
+<td>18 ÷ 100,000</td>
+<td>0.018%</td>
+</tr>
+<tr>
+<td><strong>病例致死率</strong></td>
+<td>18 ÷ 20</td>
+<td>90%</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>臨床重點</strong>：雖然死亡率非常低（因為疾病罕見），但一旦患病，死亡機會極高（90%）。這個例子說明，為什麼不能僅從死亡率高低來判斷疾病的嚴重程度。</p>
+</blockquote>
+<hr>
+<h2 id="比例死亡率">比例死亡率</h2>
+<h3 id="-摘要-3">📖 摘要</h3>
+<p><strong>比例死亡率</strong>（Proportionate Mortality）不是真正的率，而是一個<strong>比例</strong>。它回答的問題是：在所有死亡中，該疾病佔了多大比例？比例死亡率上升<strong>並不</strong>意味著該疾病的風險增加——可能是其他疾病死亡減少所致。</p>
+<h3 id="定義">定義</h3>
+<p>$$\text{某疾病比例死亡率} = \frac{\text{該疾病死亡數}}{\text{總死亡數}} \times 100%$$</p>
+<blockquote>
+<p><strong>臨床重點</strong>：比例死亡率是描述性指標，而非風險測量。它告訴我們死亡的「構成」，但不能比較不同族群的疾病負擔。</p>
+</blockquote>
+<h3 id="社區比較示例">社區比較示例</h3>
+<table>
+<thead>
+<tr>
+<th>指標</th>
+<th>社區A</th>
+<th>社區B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>全死因死亡率</td>
+<td>30/1,000</td>
+<td>15/1,000</td>
+</tr>
+<tr>
+<td>心臟病比例死亡率</td>
+<td>10%</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>心臟病死亡率</td>
+<td>3/1,000</td>
+<td>3/1,000</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>臨床重點</strong>：社區B的心臟病比例死亡率是社區A的兩倍，但心臟病<strong>死亡率</strong>兩社區相同！原因是社區A的全死因死亡率更高，稀釋了心臟病的比例。這個例子清楚說明，不能從比例死亡率推論疾病風險。</p>
+</blockquote>
+<hr>
+<h2 id="潛在生命損失年ypll">潛在生命損失年（YPLL）</h2>
+<h3 id="-摘要-4">📖 摘要</h3>
+<p><strong>YPLL</strong>是衡量<strong>早死</strong>的指標，近年越來越常用於設定健康優先順序。YPLL 強調早死的重要性，考慮到年齡因素——死於25歲與死於75歲，對社會的影響截然不同。</p>
+<h3 id="計算方法">計算方法</h3>
 <ol>
-<li>將流行病學概念應用於日常臨床實踐</li>
-<li>運用族群思維評估患者健康問題</li>
-<li>理解研究證據背後的流行病學原理</li>
+<li>對於每個死因，從預定死亡年齡（美國通常為75歲）減去每個死者的實際死亡年齡</li>
+<li>將每個個體的「潛在生命損失年」加總</li>
 </ol>
+<p>例如：</p>
+<ul>
+<li>1歲死亡：75 − 1 = <strong>74年</strong>潛在生命損失</li>
+<li>50歲死亡：75 − 50 = <strong>25年</strong>潛在生命損失</li>
+</ul>
+<h3 id="ypll-的公共衛生功能">YPLL 的公共衛生功能</h3>
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>建立優先順序</td>
+<td>幫助設定健康研究和資源分配的優先順序</td>
+</tr>
+<tr>
+<td>趨勢監測</td>
+<td>監測早產死亡的時間變化</td>
+</tr>
+<tr>
+<td>項目評估</td>
+<td>評估公共衛生干預措施的有效性</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>臨床重點</strong>：圖4-7顯示一個重要發現：按死亡率排名，惡性腫瘤是第二位死因；但按YPLL排名，惡性腫瘤卻是第一位。因為惡性腫瘤死亡年齡較輕，損失的潛在生命年更多。這個對比說明，YPLL能捕捉到傳統死亡率無法反映的疾病負擔面向。</p>
+</blockquote>
+<hr>
+<h2 id="何時死亡率可作為風險指標">何時死亡率可作為風險指標？</h2>
+<h3 id="-摘要-5">📖 摘要</h3>
+<p>大多數情況下，<strong>死亡率</strong>不等於<strong>發生率</strong>。然而，在某些特定條件下，死亡率可以作為發生率的合理替代指標。</p>
+<h3 id="兩個關鍵條件">兩個關鍵條件</h3>
+<p>死亡率的兩個條件適合作為發生率的替代指標：</p>
+<table>
+<thead>
+<tr>
+<th>條件</th>
+<th>說明</th>
+<th>範例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>病例致死率高</strong></td>
+<td>患病者幾乎都會死亡</td>
+<td>未治療的狂犬病</td>
+</tr>
+<tr>
+<td><strong>疾病病程短</strong></td>
+<td>存活時間短，從發病到死亡時間不長</td>
+<td>胰臟癌（確診後通常數月內死亡）</td>
+</tr>
+</tbody>
+</table>
+<p>例如：胰臟癌是高度致命的疾病——確診後通常數月內死亡。因此，胰臟癌死亡率是該疾病發生率的良好替代指標。</p>
+<hr>
+<h2 id="甲狀腺癌案例發生率真的增加了嗎">甲狀腺癌案例：發生率真的增加了嗎？</h2>
+<h3 id="-摘要-6">📖 摘要</h3>
+<p>甲狀腺癌發生率的增加，引發了一個重要問題：這是<strong>真實增加</strong>，還是<strong>表面增加</strong>（因為診斷技術進步，能發現以前無法發現的小型無症狀癌症）？</p>
+<h3 id="分析">分析</h3>
+<p>Davies和Welch的研究發現：</p>
+<ul>
+<li>甲狀腺癌發生率的增加，幾乎全部是<strong>乳頭狀癌</strong>（Papillary Cancer）的增加</li>
+<li>增加的主要是<strong>最小的腫瘤</strong></li>
+<li>這些小腫瘤預後最好</li>
+<li>整體甲狀腺癌<strong>死亡率保持穩定</strong></li>
+</ul>
+<blockquote>
+<p><strong>臨床重點</strong>：這個案例說明了一個重要的流行病學原則：發生率的增加並不一定代表疾病「真正」增加。在新診斷技術引進後，我們需要警惕「假性增加」的可能性。死亡率保持穩定，而發生率大幅增加，是識別這類現象的關鍵線索。</p>
+</blockquote>
+<hr>
+<h2 id="死亡率數據的問題">死亡率數據的問題</h2>
+<h3 id="-摘要-7">📖 摘要</h3>
+<p>死亡編碼依據<strong>國際疾病分類</strong>（ICD），現在是第十版（ICD-10）。死亡率的時間趨勢可能受到多種因素影響，包括ICD版本變化、疾病定義變化等。當看到死亡率的變化時，第一個問題必須是：「這是真的嗎？」</p>
+<h3 id="死亡證明與根本死因">死亡證明與根本死因</h3>
+<p>死亡編碼依據<strong>國際疾病分類</strong>（ICD），現在是第十版。</p>
+<p><strong>根本死因</strong>（Underlying Cause of Death）定義為：「引發導致死亡的一系列疾病事件的疾病或損傷，或產生致命傷害的事故或暴力情形」。</p>
+<h3 id="icd-變化的影響">ICD 變化的影響</h3>
+<p>圖4-22顯示：1949年糖尿病死亡率大幅下降，但分析表明這是因為ICD從第七版改為第八版——編碼規則變化導致的假象，而非真正改善。</p>
+<blockquote>
+<p><strong>臨床重點</strong>：ICD版本的變化，可能導致死亡率的顯著變化，但並不反映疾病頻率的真實變化。比較不同時期的死亡率時，必須注意ICD版本的差異。</p>
+</blockquote>
+<h3 id="疾病定義變化的影響">疾病定義變化的影響</h3>
+<p>1993年愛滋病（AIDS）新定義引進後，報告病例數的計算方式發生變化（圖4-24）。</p>
+<blockquote>
+<p><strong>臨床重點</strong>：當看到死亡率的時間趨勢時，第一個問題必須是：「這是真的嗎？」需要檢查編碼規則、疾病定義是否發生了可能解釋這些變化的變化。</p>
+</blockquote>
+<hr>
+<h2 id="族群死亡率的比較年齡校正">族群死亡率的比較：年齡校正</h2>
+<h3 id="-摘要-8">📖 摘要</h3>
+<p><strong>年齡是死亡率的單一最重要預測因子</strong>。要比較不同族群或不同時期的死亡率，必須消除年齡組成的差異。這就是<strong>年齡校正</strong>（Age Adjustment）的目的。</p>
+<h3 id="為何需要年齡校正">為何需要年齡校正？</h3>
+<p>若不進行年齡校正，比較可能產生誤導。例如，一個老年人口較多的社區，死亡率自然較高，但這可能只是反映了年齡結構，而非健康照護或環境因素的差異。</p>
+<h3 id="直接年齡校正">直接年齡校正</h3>
+<p><strong>直接校正</strong>使用標準族群來消除比較族群間的年齡差異：</p>
+<table>
+<thead>
+<tr>
+<th>步驟</th>
+<th>內容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>將每個年齡別死亡率應用於標準族群中每個年齡組的人口</td>
+</tr>
+<tr>
+<td>2</td>
+<td>計算如果標準族群具有所研究族群的死亡經驗，預期的總死亡數</td>
+</tr>
+<tr>
+<td>3</td>
+<td>除以標準族群總人口，得出年齡校正死亡率</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>臨床重點</strong>：年齡校正死亡率是<strong>假設性</strong>的——它們反映的是，如果標準族群具有所研究族群的死亡經驗，會觀察到的死亡率。它並不描述任何真實族群的實際死亡經驗。</p>
+</blockquote>
+<h3 id="間接年齡校正標準化死亡率比smr">間接年齡校正（標準化死亡率比，SMR）</h3>
+<p>當每個年齡層的死亡數據不可用時，常用<strong>間接校正</strong>：</p>
+<p>$$\text{SMR} = \frac{\text{實際觀察死亡數}}{\text{預期死亡數}}$$</p>
+<table>
+<thead>
+<tr>
+<th>SMR 值</th>
+<th>意義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SMR = 100</td>
+<td>觀察死亡數等於預期</td>
+</tr>
+<tr>
+<td>SMR &gt; 100</td>
+<td>觀察死亡數多於預期（高風險）</td>
+</tr>
+<tr>
+<td>SMR &lt; 100</td>
+<td>觀察死亡數少於預期（低風險）</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>臨床重點</strong>：年齡校正率的選擇會影響結果。美國多年來使用1940年人口作為標準，但1999年後越來越多使用2000年人口作為標準。這種變化使1999年前後的年齡校正率難以直接比較。</p>
+</blockquote>
+<hr>
+<h2 id="其他疾病影響測量">其他疾病影響測量</h2>
+<h3 id="-摘要-9">📖 摘要</h3>
+<p>許多疾病對患者的生活品質有重大影響，超出死亡本身。<strong>失能調整生命年</strong>（DALY）結合了死亡和失能，提供了疾病整體負擔的測量。</p>
+<h3 id="生活品質的挑戰">生活品質的挑戰</h3>
+<p>測量生活品質面臨多項挑戰：</p>
+<table>
+<thead>
+<tr>
+<th>挑戰</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>主觀性</strong></td>
+<td>不同患者可能對不同生活品質面向給予不同權重</td>
+</tr>
+<tr>
+<td><strong>文化差異</strong></td>
+<td>職業、文化背景、教育和道德價值觀影響生活品質的定義</td>
+</tr>
+<tr>
+<td><strong>測量工具</strong></td>
+<td>不同生活品質量表的測量結果可能不可比較</td>
+</tr>
+</tbody>
+</table>
+<h3 id="失能調整生命年daly">失能調整生命年（DALY）</h3>
+<p><strong>DALY</strong>是1990年開始的「全球疾病負擔」（Global Burden of Disease）研究開發的指數：</p>
+<p>$$\text{DALY} = \text{早死損失生命年} + \text{以指定嚴重程度和病程殘疾生活的年數}$$</p>
+<p>一個DALY等於損失1年的健康生活。</p>
+<h3 id="疾病負擔的流行病學轉型">疾病負擔的流行病學轉型</h3>
+<p>圖4-30顯示：隨著全球人口老齡化，**「流行病學轉型」**正在發生。到2020年，非傳染病預計將佔發展中國家所有死亡的70%，而目前還不到一半。</p>
+<blockquote>
+<p><strong>臨床重點</strong>：DALY 考慮了死亡和失能兩方面，為公共衛生決策提供了更全面的疾病負擔圖像。它使我們能比較看似「無法治癒」的慢性病（如愛滋病）與「非致死性」慢性病（如憂鬱症）的整體社會負擔。</p>
+</blockquote>
+<hr>
+<h2 id="-章節總結">📝 章節總結</h2>
+<h3 id="核心概念回顧">核心概念回顧</h3>
+<ol>
+<li><strong>死亡率</strong>（Mortality Rate）測量整個人群中的死亡頻率，分母包括所有人</li>
+<li><strong>病例致死率</strong>（Case-Fatality）測量患病者的死亡比例，反映疾病嚴重程度</li>
+<li><strong>比例死亡率</strong>（Proportionate Mortality）回答「死亡中有多大比例是由該疾病引起」的問題</li>
+<li><strong>YPLL</strong>強調早死的重要性，考慮到年齡因素</li>
+<li><strong>年齡校正</strong>對於比較不同族群或不同時期的死亡率至關重要</li>
+<li>當病例致死率高或病程短時，死亡率是發生率的良好替代指標</li>
+<li><strong>DALY</strong>結合了死亡和殘疾，提供了疾病整體負擔的測量</li>
+</ol>
+<h3 id="測量公式總覽">測量公式總覽</h3>
+<table>
+<thead>
+<tr>
+<th>指標</th>
+<th>公式</th>
+<th>測量什麼</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>死亡率</strong></td>
+<td>死亡數 ÷ 年中人口數</td>
+<td>人群的死亡風險</td>
+</tr>
+<tr>
+<td><strong>病例致死率</strong></td>
+<td>死亡數 ÷ 患病者總數</td>
+<td>疾病的嚴重程度</td>
+</tr>
+<tr>
+<td><strong>比例死亡率</strong></td>
+<td>某病死亡數 ÷ 總死亡數</td>
+<td>死亡的構成</td>
+</tr>
+<tr>
+<td><strong>SMR</strong></td>
+<td>觀察死亡數 ÷ 預期死亡數</td>
+<td>相對死亡風險（間接校正）</td>
+</tr>
+<tr>
+<td><strong>DALY</strong></td>
+<td>YLL + YLD</td>
+<td>整體疾病負擔</td>
+</tr>
+</tbody>
+</table>
+<hr>
 <h2 id="-複習題">❓ 複習題</h2>
 <ol>
-<li>請解釋 The Occurrence of Disease: II. Mortality and Other Measures of Disease Impact 的定義及其在流行病學中的重要性。</li>
-<li>列舉並說明本章中介紹的三個核心概念。</li>
-<li>如何將這些概念應用於醫療實踐或公共衛生決策？</li>
-<li>討論與這些概念相關的主要方法學議題。</li>
+<li><strong>病例致死率</strong>與<strong>死亡率</strong>有何不同？各在什麼情況下使用？</li>
+<li>為什麼不能從<strong>比例死亡率</strong>的變化推論該疾病風險的變化？請用實例說明。</li>
+<li>解釋<strong>直接年齡校正</strong>的原理，並說明為什麼年齡校正死亡率是「假設性」的。</li>
+<li>在什麼條件下<strong>死亡率</strong>可以作為<strong>發生率</strong>的良好替代指標？請舉例說明。</li>
+<li>為什麼<strong>YPLL</strong>比傳統死亡率更能反映某些疾病的公共衛生負擔？</li>
+<li>甲狀腺癌案例告訴我們關於「發生率增加」的什麼重要教訓？</li>
+<li>解釋<strong>DALY</strong>如何結合死亡和失能來測量疾病整體負擔。</li>
 </ol>
-<h2 id="-參考文獻">📚 參考文獻</h2>
-<ul>
-<li>Gordis L. <em>Epidemiology</em>. 5th Edition. Elsevier, 2014.</li>
-<li>Chapter 4: The Occurrence of Disease: II. Mortality and Other Measures of Disease Impact</li>
-</ul>
 <hr>
-<p><em>本章為 Gordis Epidemiology 第五版 第4章的繁體中文學習摘要</em></p>
+<h2 id="-參考文獻">📚 參考文獻</h2>
+<ol>
+<li>American Cancer Society. Cancer Facts &amp; Figures 2011.</li>
+<li>Siegel R, Ward E, Brawley O, et al. Cancer statistics, 2011. <em>CA Cancer J Clin</em> 61:212–236, 2011.</li>
+<li>Black RE, et al. Global, regional, and national causes of child mortality in 2008. <em>Lancet</em> 375:1969–1987, 2010.</li>
+<li>Murray CJL, Lopez AD. <em>The Global Burden of Disease: A Comprehensive Assessment</em>. Harvard University Press, 1996.</li>
+<li>Davies L, Welch HG. Increasing incidence of thyroid cancer in the United States, 1973–2002. <em>JAMA</em> 295:2164–2167, 2006.</li>
+</ol>
+<hr>
+<p><em>本章為 Gordis Epidemiology 第五版第4章的繁體中文學習指南。本章由 PDF 原文重新整理編寫。</em></p>
 
 </main>
 
