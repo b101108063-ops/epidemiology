@@ -229,43 +229,6 @@ summary: "本章依 ABCDE 初級評估與第三級檢查，說明多發創傷的
 
 ---
 
-## 5. 實證更新與 OKU 14 重點 (Recent Evidence & Take-Home Points)
-
-### 5.1 新興復甦與止血技術的證據整理
-
-| 技術 | 原文要點 | 證據等級／備註 |
-|------|----------|----------------|
-| **1:1:1 血品比率**（血漿：血小板：紅血球） | 相較大量晶體液復甦可改善存活、降低併發症 | PROPPR RCT：1:1:1 與 14:1:2 比較，JAMA 2015 |
-| **TEG（Thromboelastography，血栓彈力圖）** | 以凝血效能指導復甦可降低死亡率、減少血品用量與出血控制介入次數 | 2020 年研究 |
-| **TXA（tranexamic acid，氨甲環酸）** | 競爭性抑制纖維蛋白溶酶原上的離胺酸受體，可局部與靜脈給藥；院前給藥與大量輸血 protocol 需求率下降、早期院內死亡率下降相關；在到院 3 小時內於醫院內給藥亦有效 | 德國 TraumaRegister DGU 配對分析（Level III）、CRASH-2（RCT） |
-| **TXA 與顱內出血** | 過去顱內出血為禁忌，但**一項研究顯示並非如此** | 爭議中 |
-| **Circumferential pelvic wrapping** | 商業 binder 或醫院床單環繞紮綁，置於大轉子，可與骨骼牽引合併 | Routt 等系列研究 |
-| **PPP vs 栓塞** | PPP 不劣於 angioembolization，優於單純復甦 | 2020 年 meta-analysis（EAST）；另有研究顯示 PPP 與 REBOA 相比可降低死亡率（Level II）、以及與內固定後感染率無顯著差異（Level III） |
-| **REBOA** | 骨盆環損傷病例系列：死亡率 48%、28% 筋膜切開、20% 截肢；TQIP 全國分析顯示 REBOA 較 PPP 有更高 24 小時與院內死亡率（Level II） | 適應症仍在演進 |
-| **Selective vs nonselective embolization** | 多中心回顧性研究比較選擇性、非選擇性與不栓塞 | J Trauma Acute Care Surg 2017 |
-| **Neutrophil-guided resuscitation** | 以嗜中性球表位（neutrophil epitope expression）判定免疫狀態，依傷害嚴重度呈現不同表現型，可能有助預後預測 | Crit Care Explor 2020（Level IV） |
-
-### 5.2 OKU 14 強調之四項重點（Key Study Points）
-
-1. **依 ATLS 準則的完整評估是多發創傷治療的第一步**。
-2. **骨科醫師必須參與復甦**：以提供骨骼穩定性並停止出血；積極且足量的復甦是骨科治療的前提。
-3. **骨科介入的時機取決於患者的生理狀態**：完全復甦者受益於長骨骨折的早期固定；borderline 者可能受益於 damage control。**EAC 是這些決策的指導概念**。
-4. **骨科治療以提供早期骨骼穩定性為起點**：骨盆環損傷、開放性骨折、雙側股骨骨折與肋骨骨折需特別注意。
-
-> **Pearl**：整體處置的最終架構可濃縮為一句話——**ABCDE 提供系統性初級評估；DCO 保留給 unstable 或 in extremis 以預防第二擊與 SIRS／ARDS／多器官功能障礙／死亡；EAC 保留給穩定且已適當復甦者（孤立乳酸 <2.5 mmol/L 或下降中的乳酸 <4 mmol/L、pH >7.25、鹼缺 <5.5 mmol/L）**；1:1:1 血品比率的適當復甦可改善復甦並降低併發症。
-
-### 5.3 骨科專科考試核心總結（Take-Home Points）
-
-1. **ABCDE 順序不可跳**：A（氣道／GCS 3–8 插管）→ B（胸部，張力性氣胸第二肋間針刺減壓）→ C（出血控制、失血分級、FAST）→ D（GCS、神經性休克）→ E（暴露與保溫，避免低溫—凝血病—酸中毒）。
-2. **三級評查**：primary → secondary（穩定後）→ tertiary（24–48 小時，約 10% 有遺漏傷，15% 至出院後才發現）。
-3. **復甦**：以 1:1:1 血品取代大量晶體液；TEG 指導可減少血品用量；乳酸是復甦充分性與手術時機的指標。
-4. **止血選項**：pelvic binder（置於大轉子）＋骨骼牽引、TXA（3 小時內）、REBOA、PPP、血管攝影栓塞；需骨盆／髋臼手術者避免非選擇性雙側髂動脈栓塞。
-5. **手術時機三世代**：ETC（早期完整固定，風險 ARDS／MODS）→ DCO（僅 unstable／in extremis，避免 second hit）→ **EAC（復甦門檻達成後 24–36 小時內最終固定；36 小時內 vs 逾 36 小時併發症 16.3% vs 33.3%）**。
-6. **第二擊現象**：第一擊啟動發炎（IL-6、补體、凝血蛋白、嗜中性球、微血管損傷），第二擊（漫長手術的失血與缺血）引發 SIRS、肺水腫、ARDS、多器官障礙與死亡。
-7. **特殊族群**：雙側股骨骨折死亡率升高（單階段固定 ARDS／橫紋肌溶解／透析需求較低）；肋骨固定可改善死亡率與肺炎但 ≥3 根可能增加 ARDS；flail chest 手術穩定可降低死亡率。
-
----
-
 ## 參考文獻
 
 1. Pape HC, Leenen L: Polytrauma management—what is new and what is true in 2020? J Clin Orthop Trauma 2021;12:88-95.
@@ -307,3 +270,40 @@ summary: "本章依 ABCDE 初級評估與第三級檢查，說明多發創傷的
 19. Bone LB, Johnson KD, Weigelt J, et al: Early versus delayed stabilization of femoral fractures: a prospective randomized study. J Bone Joint Surg Am 1989;71:336-340.
 
 20. O'Toole RV, Lindbloom BJ, Hui E, et al: Are bilateral femoral fractures no longer a marker for death? J Orthop Trauma 2014;28:77-81.
+
+## Summary
+
+### 5.1 新興復甦與止血技術的證據整理
+
+| 技術 | 原文要點 | 證據等級／備註 |
+|------|----------|----------------|
+| **1:1:1 血品比率**（血漿：血小板：紅血球） | 相較大量晶體液復甦可改善存活、降低併發症 | PROPPR RCT：1:1:1 與 14:1:2 比較，JAMA 2015 |
+| **TEG（Thromboelastography，血栓彈力圖）** | 以凝血效能指導復甦可降低死亡率、減少血品用量與出血控制介入次數 | 2020 年研究 |
+| **TXA（tranexamic acid，氨甲環酸）** | 競爭性抑制纖維蛋白溶酶原上的離胺酸受體，可局部與靜脈給藥；院前給藥與大量輸血 protocol 需求率下降、早期院內死亡率下降相關；在到院 3 小時內於醫院內給藥亦有效 | 德國 TraumaRegister DGU 配對分析（Level III）、CRASH-2（RCT） |
+| **TXA 與顱內出血** | 過去顱內出血為禁忌，但**一項研究顯示並非如此** | 爭議中 |
+| **Circumferential pelvic wrapping** | 商業 binder 或醫院床單環繞紮綁，置於大轉子，可與骨骼牽引合併 | Routt 等系列研究 |
+| **PPP vs 栓塞** | PPP 不劣於 angioembolization，優於單純復甦 | 2020 年 meta-analysis（EAST）；另有研究顯示 PPP 與 REBOA 相比可降低死亡率（Level II）、以及與內固定後感染率無顯著差異（Level III） |
+| **REBOA** | 骨盆環損傷病例系列：死亡率 48%、28% 筋膜切開、20% 截肢；TQIP 全國分析顯示 REBOA 較 PPP 有更高 24 小時與院內死亡率（Level II） | 適應症仍在演進 |
+| **Selective vs nonselective embolization** | 多中心回顧性研究比較選擇性、非選擇性與不栓塞 | J Trauma Acute Care Surg 2017 |
+| **Neutrophil-guided resuscitation** | 以嗜中性球表位（neutrophil epitope expression）判定免疫狀態，依傷害嚴重度呈現不同表現型，可能有助預後預測 | Crit Care Explor 2020（Level IV） |
+
+### 5.2 OKU 14 強調之四項重點（Key Study Points）
+
+1. **依 ATLS 準則的完整評估是多發創傷治療的第一步**。
+2. **骨科醫師必須參與復甦**：以提供骨骼穩定性並停止出血；積極且足量的復甦是骨科治療的前提。
+3. **骨科介入的時機取決於患者的生理狀態**：完全復甦者受益於長骨骨折的早期固定；borderline 者可能受益於 damage control。**EAC 是這些決策的指導概念**。
+4. **骨科治療以提供早期骨骼穩定性為起點**：骨盆環損傷、開放性骨折、雙側股骨骨折與肋骨骨折需特別注意。
+
+> **Pearl**：整體處置的最終架構可濃縮為一句話——**ABCDE 提供系統性初級評估；DCO 保留給 unstable 或 in extremis 以預防第二擊與 SIRS／ARDS／多器官功能障礙／死亡；EAC 保留給穩定且已適當復甦者（孤立乳酸 <2.5 mmol/L 或下降中的乳酸 <4 mmol/L、pH >7.25、鹼缺 <5.5 mmol/L）**；1:1:1 血品比率的適當復甦可改善復甦並降低併發症。
+
+### 5.3 骨科專科考試核心總結（Take-Home Points）
+
+1. **ABCDE 順序不可跳**：A（氣道／GCS 3–8 插管）→ B（胸部，張力性氣胸第二肋間針刺減壓）→ C（出血控制、失血分級、FAST）→ D（GCS、神經性休克）→ E（暴露與保溫，避免低溫—凝血病—酸中毒）。
+2. **三級評查**：primary → secondary（穩定後）→ tertiary（24–48 小時，約 10% 有遺漏傷，15% 至出院後才發現）。
+3. **復甦**：以 1:1:1 血品取代大量晶體液；TEG 指導可減少血品用量；乳酸是復甦充分性與手術時機的指標。
+4. **止血選項**：pelvic binder（置於大轉子）＋骨骼牽引、TXA（3 小時內）、REBOA、PPP、血管攝影栓塞；需骨盆／髋臼手術者避免非選擇性雙側髂動脈栓塞。
+5. **手術時機三世代**：ETC（早期完整固定，風險 ARDS／MODS）→ DCO（僅 unstable／in extremis，避免 second hit）→ **EAC（復甦門檻達成後 24–36 小時內最終固定；36 小時內 vs 逾 36 小時併發症 16.3% vs 33.3%）**。
+6. **第二擊現象**：第一擊啟動發炎（IL-6、补體、凝血蛋白、嗜中性球、微血管損傷），第二擊（漫長手術的失血與缺血）引發 SIRS、肺水腫、ARDS、多器官障礙與死亡。
+7. **特殊族群**：雙側股骨骨折死亡率升高（單階段固定 ARDS／橫紋肌溶解／透析需求較低）；肋骨固定可改善死亡率與肺炎但 ≥3 根可能增加 ARDS；flail chest 手術穩定可降低死亡率。
+
+---

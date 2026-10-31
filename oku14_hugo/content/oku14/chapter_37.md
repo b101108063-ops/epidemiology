@@ -269,12 +269,6 @@ Zone 3 損傷係因中央束 (Central slip) 斷裂，導致 PIP 關節屈曲；�
 
 ---
 
-## 6. 結論 (Summary)
-
-手與手腕的肌腱損傷與肌腱病變治療需要深入理解精密解剖與生物力學。屈肌腱修復應追求高強度多股核心縫合與適度滑車切開，配合 Place-and-hold 早期主動復健以減少粘連；伸肌腱損傷依解剖分區選擇副木固定或手術重建；而狄奎凡氏腱鞘炎與扳機指等卡壓性病變，在規範保守注射無效後，精準切開致病管道與保護周邊神經結構為獲得滿意功能恢復的關鍵。
-
----
-
 ## 參考文獻 (References)
 
 1. Leddy JP, Packer JW: Avulsion of the tendon of the flexor digitorum profundus in athletes. J Hand Surg Am 1977;2(1):66-69.
@@ -292,3 +286,9 @@ Zone 3 損傷係因中央束 (Central slip) 斷裂，導致 PIP 關節屈曲；�
 13. Lunsford D, Valdes K, Hengy S: Conservative management of trigger finger: A systematic review. J Hand Ther 2019;32(2):212-221.
 14. Roberts JM, Behar BJ, Siddique LM, et al: Choice of corticosteroid solution and outcome after injection for trigger finger. Hand 2021;16(3):321-325.
 15. Hirth MJ, Howell JW, Feehan LM, et al: Postoperative hand therapy management of zones V and VI extensor tendon repairs of the fingers: An international inquiry of current practice. J Hand Ther 2021;34(1):58-75.
+
+## Summary
+
+手與手腕的肌腱損傷與肌腱病變治療需要深入理解精密解剖與生物力學。屈肌腱修復應追求高強度多股核心縫合與適度滑車切開，配合 Place-and-hold 早期主動復健以減少粘連；伸肌腱損傷依解剖分區選擇副木固定或手術重建；而狄奎凡氏腱鞘炎與扳機指等卡壓性病變，在規範保守注射無效後，精準切開致病管道與保護周邊神經結構為獲得滿意功能恢復的關鍵。
+
+---

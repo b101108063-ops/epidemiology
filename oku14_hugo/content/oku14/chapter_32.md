@@ -160,16 +160,6 @@ UCL 重建術（Tommy John Surgery）的核心在於解剖重建前束的前支�
 
 ---
 
-## 6. Summary
-
-本章完整回顧了肘關節肌腱病變、肌腱斷裂與韌帶不穩定之最新診治觀念：
-1. **上髁炎（Epicondylitis）**：外側上髁炎本質為 ECRB 起點之微血管纖維性增生，屬自限性病變；保守治療以活動調整為主，手術僅用於極少數難治病例。
-2. **肌腱斷裂 (Distal Biceps / Triceps)**：遠端肱二頭肌與肱三頭肌斷裂常見於中年男性與運動員；早期手術解剖修復能有效恢復旋後與伸直肌力。
-3. **投擲傷害與 UCL 重建**：投擲傷害源於過度外翻應力。UCL 重建以 Modified Jobe 及 Docking 術式為主，輔以適當復健可達 >80% 之職業回場率，但需注意防範尺神經併發症與心理期望落差。
-4. **外側副韌帶重建 (LUCL)**：LUCL 重建是治療創傷後慢性後外側旋轉不穩定（PLRI）的主力，搭配內部支架（Internal Brace）可提升初期力學強度。
-
----
-
 ## 參考文獻 (References)
 
 1. Rami GA, Dantzker N, Ahmad CS: Injuries and conditions affecting the elbow flexor/pronator tendons. Clin Sports Med 2020;39(3):549-563.
@@ -190,3 +180,13 @@ UCL 重建術（Tommy John Surgery）的核心在於解剖重建前束的前支�
 16. Anderson MJ, Crockatt WK, Mueller JD, et al: Return-to-competition criteria after ulnar collateral ligament reconstruction: A systematic review and meta-analysis. Am J Sports Med 2021;50(4):1157-1165.
 17. Clain JB, Vitale MA, Ahmad CS, Ruchelsman DE: Ulnar nerve complications after ulnar collateral ligament reconstruction of the elbow: A systematic review. Am J Sports Med 2019;47(5):1263-1269.
 18. Badhrinarayanan S, Desai A, Watson JJ, White CHR, Phadnis J: Indications, outcomes, and complications of lateral ulnar collateral ligament reconstruction of the elbow for chronic posterolateral rotatory instability: A systematic review. Am J Sports Med 2021;49(3):830-837.
+
+## Summary
+
+本章完整回顧了肘關節肌腱病變、肌腱斷裂與韌帶不穩定之最新診治觀念：
+1. **上髁炎（Epicondylitis）**：外側上髁炎本質為 ECRB 起點之微血管纖維性增生，屬自限性病變；保守治療以活動調整為主，手術僅用於極少數難治病例。
+2. **肌腱斷裂 (Distal Biceps / Triceps)**：遠端肱二頭肌與肱三頭肌斷裂常見於中年男性與運動員；早期手術解剖修復能有效恢復旋後與伸直肌力。
+3. **投擲傷害與 UCL 重建**：投擲傷害源於過度外翻應力。UCL 重建以 Modified Jobe 及 Docking 術式為主，輔以適當復健可達 >80% 之職業回場率，但需注意防範尺神經併發症與心理期望落差。
+4. **外側副韌帶重建 (LUCL)**：LUCL 重建是治療創傷後慢性後外側旋轉不穩定（PLRI）的主力，搭配內部支架（Internal Brace）可提升初期力學強度。
+
+---

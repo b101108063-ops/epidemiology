@@ -308,20 +308,6 @@ Statz 等人以全髖關節置換術（THA）後的感染、再入院、併發�
 
 ---
 
-## Summary
-
-- **全人最佳化**：術前最佳化必須涵蓋生理共病、精神、社會與習慣性因素，不只是實驗室數值。
-- **兩個獨立判斷**：「可修正程度」與「風險耐受度」需分別評估；已最佳化者仍可能不適合手術。
-- **最高危害的可修正因子**：低白蛋白血症、病態肥胖、active 菸草使用、糖尿病（Level IV 分析）。
-- **糖尿病監測**：HbA1C 反應緩慢，可能造成不必要延後；果糖胺是更好的近期血糖風險指標（Level II）。
-- **營養與維生素**：prealbumin、白蛋白、低鋅、維生素 D 缺乏／不足（<30／<20 ng/mL）皆與併發症與 revision 相關。
-- **可介入的習慣**：戒菸計畫（$219／PJI 風險降至少 25%）、酒精使用與戒斷處置。
-- **心理因素**：憂鬱預測再入院與住院天數延長，但其治療未證實降低併發症（Level III）。
-- **感染狀態**：HCV 先治療；HIV 在病毒載量可偵測且 CD4 >200、接受 HAART 時與未感染者風險相當。
-- **系統性提醒**：bundle care 與品質導向給付之下，未最佳化同時是病人風險與外科醫師風險。
-
----
-
 ## 參考文獻
 
 1. Ledford CK, Nilikan PD, Nickel BT, et al: Percent body fat is more predictive of function after total joint arthroplasty than body mass index. J Bone Joint Surg Am 2016;98(10):849-857.
@@ -340,3 +326,17 @@ Statz 等人以全髖關節置換術（THA）後的感染、再入院、併發�
 14. Zorrilla P, Gomez LA, Salido JA, Silva A, Lopez-Alonso A: Low serum zinc level as a predictive factor of delayed wound healing in total hip replacement. Wound Repair Regen 2006;14(2):119-122.
 15. Guo JJ, Yang H, Qian H, Huang L, Guo Z, Tang T: The effects of different nutritional measurements on delayed wound healing after hip fracture in the elderly. J Surg Res 2010;159(1):503-508.
 16. Koren-Hakim T, Weiss A, Hershkovitz A, et al: Comparing the adequacy of the MNA-SF, NRS-2002 and MUST nutritional tools in assessing malnutrition in hip fracture operated elderly patients. Clin Nutr 2016;35(5):1053-1058.
+
+## Summary
+
+- **全人最佳化**：術前最佳化必須涵蓋生理共病、精神、社會與習慣性因素，不只是實驗室數值。
+- **兩個獨立判斷**：「可修正程度」與「風險耐受度」需分別評估；已最佳化者仍可能不適合手術。
+- **最高危害的可修正因子**：低白蛋白血症、病態肥胖、active 菸草使用、糖尿病（Level IV 分析）。
+- **糖尿病監測**：HbA1C 反應緩慢，可能造成不必要延後；果糖胺是更好的近期血糖風險指標（Level II）。
+- **營養與維生素**：prealbumin、白蛋白、低鋅、維生素 D 缺乏／不足（<30／<20 ng/mL）皆與併發症與 revision 相關。
+- **可介入的習慣**：戒菸計畫（$219／PJI 風險降至少 25%）、酒精使用與戒斷處置。
+- **心理因素**：憂鬱預測再入院與住院天數延長，但其治療未證實降低併發症（Level III）。
+- **感染狀態**：HCV 先治療；HIV 在病毒載量可偵測且 CD4 >200、接受 HAART 時與未感染者風險相當。
+- **系統性提醒**：bundle care 與品質導向給付之下，未最佳化同時是病人風險與外科醫師風險。
+
+---

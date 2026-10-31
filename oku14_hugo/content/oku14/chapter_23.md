@@ -297,16 +297,6 @@ summary: "本章回顧上肢創傷的處理原則，涵蓋肱骨近端、幹、�
 
 ---
 
-## Summary
-
-- **上肢創傷的主旋律是「先保守、再證據、再共享決策」**：多數上肢骨折的高階研究最終都指向非手術治療可達成良好結果。
-- **肱骨近端**：移位二部分骨折 ORIF 與保守 2 年無差異但手術併發症較多；高齡三／四部分骨折以 rTSA 為主，急性手術 5 年存活 97%，延遲者明顯較差。
-- **肱骨幹**：非手術為主軸，**三分之一會轉手術**且延遲手術功能較差；橈神經麻痺 90% 自行恢復。
-- **肱骨遠端**：ORIF 與 TEA 依骨質與可否重建決定；**固定當次例行轉位尺神經會增加病變率（23.5% vs. 15.3%）**。
-- **肘部**：terrible triad 建議 RHA 但再手術率 45%；Monteggia 合併冠狀突／橈骨頭骨折預後差；鷹嘴與橈骨頭手術與保守的功能差異多不顯著。
-- **前臂與遠端橈骨**：plate ORIF 為 gold standard，synostosis 19% 須重視；老年橈骨遠端手術無長期效益，延遲 >1 週使慢性疼痛風險約三倍。
-- **腕手部**：舟骨手術與石膏 52 週無差異；第五掌骨頸 buddy taping 較快復工；**年齡才是指骨 ROM 的主要決定因子**。
-
 ## 參考文獻
 
 1. Launonen AP, Sumrein BO, Reito A, et al: Operative versus non-operative treatment for 2-part proximal humerus fracture: A multicenter randomized controlled trial. PLoS Med 2019;16(7):e1002855.
@@ -321,3 +311,13 @@ summary: "本章回顧上肢創傷的處理原則，涵蓋肱骨近端、幹、�
 23. Nappo KE, Hoyt BW, Balazs GC, et al: Union rates and reported range of motion are acceptable after open forearm fractures in military combatants. Clin Orthop Relat Res 2019;477(4):813-820.
 26. Chung KC, Kim HM, Malay S, Shauver MJ: The wrist and radius injury surgical trial: 12-month outcomes from a multicenter international randomized clinical trial. Plast Reconstr Surg 2020;145(6):1054e-1066e.
 30. Dias JJ, Brealey SD, Fairhurst C, et al: Surgery versus cast immobilisation for adults with a bicortical fracture of the scaphoid waist (SWIFFT): A pragmatic, multicentre, open-label, randomised superiority trial. Lancet 2020;396(10248):390-401.
+
+## Summary
+
+- **上肢創傷的主旋律是「先保守、再證據、再共享決策」**：多數上肢骨折的高階研究最終都指向非手術治療可達成良好結果。
+- **肱骨近端**：移位二部分骨折 ORIF 與保守 2 年無差異但手術併發症較多；高齡三／四部分骨折以 rTSA 為主，急性手術 5 年存活 97%，延遲者明顯較差。
+- **肱骨幹**：非手術為主軸，**三分之一會轉手術**且延遲手術功能較差；橈神經麻痺 90% 自行恢復。
+- **肱骨遠端**：ORIF 與 TEA 依骨質與可否重建決定；**固定當次例行轉位尺神經會增加病變率（23.5% vs. 15.3%）**。
+- **肘部**：terrible triad 建議 RHA 但再手術率 45%；Monteggia 合併冠狀突／橈骨頭骨折預後差；鷹嘴與橈骨頭手術與保守的功能差異多不顯著。
+- **前臂與遠端橈骨**：plate ORIF 為 gold standard，synostosis 19% 須重視；老年橈骨遠端手術無長期效益，延遲 >1 週使慢性疼痛風險約三倍。
+- **腕手部**：舟骨手術與石膏 52 週無差異；第五掌骨頸 buddy taping 較快復工；**年齡才是指骨 ROM 的主要決定因子**。

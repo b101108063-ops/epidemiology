@@ -190,12 +190,6 @@ Garcia-Elias 依據韌帶破裂程度、舟骨姿態、可復位性及關節軟�
 
 ---
 
-## Summary
-
-本章完整總結腕關節韌帶損傷與腕骨不穩定性的解剖、病理機制、影像診斷與治療原則。熟記 Mayo 四大不穩定分類與 Garcia-Elias SL 損傷 1 至 7 期分期演算法，能指引臨床醫師精確選擇關節鏡微創處置、背側 capsulodesis、3LT/InternalBrace 重建或救贖性關節融合手術，從而改善病人預後並預防 SLAC 關節炎的發生。
-
----
-
 ## 參考文獻 (References)
 
 1. Larsen CF, Amadio PC, Gilula LA, Hodge JC: Analysis of carpal instability: I. Description of the scheme. J Hand Surg Am 1995;20(5):757-764.
@@ -212,3 +206,9 @@ Garcia-Elias 依據韌帶破裂程度、舟骨姿態、可復位性及關節軟�
 12. Shin AY, Weinstein LP, Berger RA: Treatment of lunotriquetral instability: A systematic review. J Hand Surg Am 2001;26(1):127-136.
 13. Trumble T, Verheyden J: Treatment of isolated perilunate and trans-scaphoid perilunate dislocations. Arthroscopy 2017;33(1):92-100.
 14. Chee KG, Chin AY, Chew EM, Garcia-Elias M: Midcarpal instability: Diagnosis and management options. J Hand Surg Am 2018;43(8):756-764.
+
+## Summary
+
+本章完整總結腕關節韌帶損傷與腕骨不穩定性的解剖、病理機制、影像診斷與治療原則。熟記 Mayo 四大不穩定分類與 Garcia-Elias SL 損傷 1 至 7 期分期演算法，能指引臨床醫師精確選擇關節鏡微創處置、背側 capsulodesis、3LT/InternalBrace 重建或救贖性關節融合手術，從而改善病人預後並預防 SLAC 關節炎的發生。
+
+---

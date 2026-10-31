@@ -240,19 +240,6 @@ summary: "本章介紹三維列印、電腦導航與機器人輔助手術、自�
 
 ---
 
-## Summary
-
-- **3D 技術定位**：依功能分為術前規劃、術中執行（導航／機器人）、植入物製造（自訂植入物）、組織再生（bioprinting／4D printing）與 AR 導引五大類。
-- **個人化器械**：術前 3D 列印並滅菌，術中協助鑽孔軌跡、截骨與假體定位；TKA 已確立，脊柱／上肢／創傷／小兒骨科逐步推展。
-- **機器人**：CT 建 3D 模型 → 解剖配準 → 機器人執行計畫；切骨準確且與計畫一致，置位優於人工，功能與植入物壽命改善。
-- **自訂植入物**：鈦與 polyether ether ketone；歐中已用多孔鈦做脊柱重建；美國 Conformis 與 Zimmer Biomet 有客製化產品，但 3D 列印 revision component 尚未核准。
-- **術中 3D 影像**：改善置位準確度，但可能延長手術時間。
-- **新興技術**：bioprinting 製造客製化組織；4D printing 載藥並可生長適應；AR 仍處嬰兒期。
-- **未來數年三大成長點**：醫院 point-of-care printing center、FDA 對 custom implant 的核准、機器人手術的接受與標準化。
-- **證據現實**：多數為 Level IV 觀察性研究／case series／SR-MA，最高至 Level III；生物與四維列印為 Level V。
-
----
-
 ## 參考文獻
 
 1. Baraza N, Chapman C, Zakani S, Mulpuri K: 3D-Printed patient specific instrumentation in corrective osteotomy of the femur and pelvis: A review of the literature. J 3D Print Med 2020;6:34.
@@ -294,3 +281,16 @@ summary: "本章介紹三維列印、電腦導航與機器人輔助手術、自�
 19. Gonzalez-Alonso M, Hermida-Sanchez M, Martinez-Seijas P, Ruano-Ravina A: Application of 3D printing in the treatment of appendicular skeleton fractures: Systematic review and meta-analysis. J Orthop Res 2021;39(10):2083-2092.
 
 20. Levesque JN, Shah A, Ekhtiari S, Yan JR, Thornley P, Williams DS: Three-dimensional printing in orthopaedic surgery: A scoping review. EFORT Open Rev 2020;5:430-441.
+
+## Summary
+
+- **3D 技術定位**：依功能分為術前規劃、術中執行（導航／機器人）、植入物製造（自訂植入物）、組織再生（bioprinting／4D printing）與 AR 導引五大類。
+- **個人化器械**：術前 3D 列印並滅菌，術中協助鑽孔軌跡、截骨與假體定位；TKA 已確立，脊柱／上肢／創傷／小兒骨科逐步推展。
+- **機器人**：CT 建 3D 模型 → 解剖配準 → 機器人執行計畫；切骨準確且與計畫一致，置位優於人工，功能與植入物壽命改善。
+- **自訂植入物**：鈦與 polyether ether ketone；歐中已用多孔鈦做脊柱重建；美國 Conformis 與 Zimmer Biomet 有客製化產品，但 3D 列印 revision component 尚未核准。
+- **術中 3D 影像**：改善置位準確度，但可能延長手術時間。
+- **新興技術**：bioprinting 製造客製化組織；4D printing 載藥並可生長適應；AR 仍處嬰兒期。
+- **未來數年三大成長點**：醫院 point-of-care printing center、FDA 對 custom implant 的核准、機器人手術的接受與標準化。
+- **證據現實**：多數為 Level IV 觀察性研究／case series／SR-MA，最高至 Level III；生物與四維列印為 Level V。
+
+---

@@ -207,7 +207,49 @@ Xie等以353例脛骨平台骨折建立三維骨折地圖：
 
 ---
 
-## 5. 實證更新與 OKU 14 重點 (Recent Evidence & Take-Home Points)
+## 參考文獻
+
+1. HEALTH Investigators; Bhandari M, Einhorn TA, et al: Total hip arthroplasty or hemiarthroplasty for hip fracture. N Engl J Med 2019;381(23):2199-2208.
+
+2. Chammout G, Kelly-Pettersson P, et al: HOPE-trial: Hemiarthroplasty compared with total hip arthroplasty for displaced femoral neck fractures in octogenarians. JBJS Open Access 2019;4(2):e0059.
+
+3. Okike K, Udogwu UN, Isaac M, et al: Effect of posterior tilt on rates of subsequent arthroplasty. J Bone Joint Surg Am 2019;101(20):1852-1859.
+
+4. HIP ATTACK Investigators: Accelerated surgery versus standard care in hip fracture (HIP ATTACK). Lancet 2020;395(10225):698-708.
+
+5. van der Sijp MPL, van Delft D, Krijnen P, et al: Surgical approaches and hemiarthroplasty outcomes for femoral neck fractures: A meta-analysis. J Arthroplasty 2018;33(5):1617-1627.e9.
+
+6. Parker MJ, Cawley S: Cemented or uncemented hemiarthroplasty for displaced intracapsular fractures of the hip. Bone Joint J 2020;102-B(1):11-16.
+
+7. Hecht G, Saiz AM Jr, Shelton TJ, et al: CT scans better assess lateral wall morphology of intertrochanteric femur fractures. OTA Int 2021;4(3):e140.
+
+8. Felton J, Slobogean GP, Jackson SS, et al: Femoral neck shortening after hip fracture fixation is associated with inferior hip function. J Orthop Trauma 2019;33(10):487-496.
+
+9. Bovbjerg P, Froberg L, Schmal H: Short versus long intramedullary nails for intertrochanteric femur fractures. Eur J Orthop Surg Traumatol 2019;29(8):1823-1831.
+
+10. Viberg B, Eriksen L, Hojsager KD, et al: Short or long intramedullary nail for pertrochanteric and subtrochanteric fractures? J Bone Joint Surg Am 2021;103(24):2291-2298.
+
+11. Krappinger D, Wolf B, Dammerer D, et al: Risk factors for nonunion after intramedullary nailing of subtrochanteric femoral fractures. Arch Orthop Trauma Surg 2019;139(6):769-777.
+
+12. Rogers NB, Hartline BE, Achor TS, et al: Improving the diagnosis of ipsilateral femoral neck and shaft fractures. J Bone Joint Surg Am 2020;102(4):309-314.
+
+13. Bogl HP, Zdolsek G, Michaelsson K, et al: Intramedullary nailing with femoral neck protection in low-energy femoral shaft fractures. J Bone Joint Surg Am 2020;102(17):1486-1494.
+
+14. Fontenot PB, Diaz M, Stoops K, et al: Supplementation of lateral locked plating for distal femur fractures. J Orthop Trauma 2019;33(12):642-648.
+
+15. Shah JK, Szukics P, Gianakos AL, et al: Intramedullary nail versus locked plate for distal femur periprosthetic fractures. Injury 2020;51(4):1062-1068.
+
+16. Wadhwa H, Salazar BP, Goodnough LH, et al: Distal femur replacement versus ORIF for periprosthetic distal femur fractures. J Orthop Trauma 2022;36(1):1-6.
+
+17. Elkin DM, Galloway JD, Koury K, et al: Patella fracture fixation with a non-locked anterior plating technique. Injury 2021;52(4):686-691.
+
+18. Hofmann A, Gorbulev S, Guehring T, et al: Autologous iliac bone graft compared with biphasic hydroxyapatite and calcium sulfate cement in tibial plateau fractures. J Bone Joint Surg Am 2020;102(3):179-193.
+
+19. Packer T, Naqvi A, Edwards T: Intramedullary tibial nailing using infrapatellar and suprapatellar approaches. Injury 2021;52(3):307-315.
+
+20. Pincus D, Byrne J, Nathens A, et al: Delay in flap coverage past 7 days increases complications for open tibia fractures. J Orthop Trauma 2019;33(4):161-168.
+
+## Summary
 
 ### 5.1 關鍵研究與數據一覽
 
@@ -270,45 +312,3 @@ Xie等以353例脛骨平台骨折建立三維骨折地圖：
 13. **Lisfranc**：ORIF與原發性融合結果相近，ORIF追加手術較多、創傷後關節炎較多但排列較佳；成本分析須納入後續植入物移除成本。
 
 ---
-
-## 參考文獻
-
-1. HEALTH Investigators; Bhandari M, Einhorn TA, et al: Total hip arthroplasty or hemiarthroplasty for hip fracture. N Engl J Med 2019;381(23):2199-2208.
-
-2. Chammout G, Kelly-Pettersson P, et al: HOPE-trial: Hemiarthroplasty compared with total hip arthroplasty for displaced femoral neck fractures in octogenarians. JBJS Open Access 2019;4(2):e0059.
-
-3. Okike K, Udogwu UN, Isaac M, et al: Effect of posterior tilt on rates of subsequent arthroplasty. J Bone Joint Surg Am 2019;101(20):1852-1859.
-
-4. HIP ATTACK Investigators: Accelerated surgery versus standard care in hip fracture (HIP ATTACK). Lancet 2020;395(10225):698-708.
-
-5. van der Sijp MPL, van Delft D, Krijnen P, et al: Surgical approaches and hemiarthroplasty outcomes for femoral neck fractures: A meta-analysis. J Arthroplasty 2018;33(5):1617-1627.e9.
-
-6. Parker MJ, Cawley S: Cemented or uncemented hemiarthroplasty for displaced intracapsular fractures of the hip. Bone Joint J 2020;102-B(1):11-16.
-
-7. Hecht G, Saiz AM Jr, Shelton TJ, et al: CT scans better assess lateral wall morphology of intertrochanteric femur fractures. OTA Int 2021;4(3):e140.
-
-8. Felton J, Slobogean GP, Jackson SS, et al: Femoral neck shortening after hip fracture fixation is associated with inferior hip function. J Orthop Trauma 2019;33(10):487-496.
-
-9. Bovbjerg P, Froberg L, Schmal H: Short versus long intramedullary nails for intertrochanteric femur fractures. Eur J Orthop Surg Traumatol 2019;29(8):1823-1831.
-
-10. Viberg B, Eriksen L, Hojsager KD, et al: Short or long intramedullary nail for pertrochanteric and subtrochanteric fractures? J Bone Joint Surg Am 2021;103(24):2291-2298.
-
-11. Krappinger D, Wolf B, Dammerer D, et al: Risk factors for nonunion after intramedullary nailing of subtrochanteric femoral fractures. Arch Orthop Trauma Surg 2019;139(6):769-777.
-
-12. Rogers NB, Hartline BE, Achor TS, et al: Improving the diagnosis of ipsilateral femoral neck and shaft fractures. J Bone Joint Surg Am 2020;102(4):309-314.
-
-13. Bogl HP, Zdolsek G, Michaelsson K, et al: Intramedullary nailing with femoral neck protection in low-energy femoral shaft fractures. J Bone Joint Surg Am 2020;102(17):1486-1494.
-
-14. Fontenot PB, Diaz M, Stoops K, et al: Supplementation of lateral locked plating for distal femur fractures. J Orthop Trauma 2019;33(12):642-648.
-
-15. Shah JK, Szukics P, Gianakos AL, et al: Intramedullary nail versus locked plate for distal femur periprosthetic fractures. Injury 2020;51(4):1062-1068.
-
-16. Wadhwa H, Salazar BP, Goodnough LH, et al: Distal femur replacement versus ORIF for periprosthetic distal femur fractures. J Orthop Trauma 2022;36(1):1-6.
-
-17. Elkin DM, Galloway JD, Koury K, et al: Patella fracture fixation with a non-locked anterior plating technique. Injury 2021;52(4):686-691.
-
-18. Hofmann A, Gorbulev S, Guehring T, et al: Autologous iliac bone graft compared with biphasic hydroxyapatite and calcium sulfate cement in tibial plateau fractures. J Bone Joint Surg Am 2020;102(3):179-193.
-
-19. Packer T, Naqvi A, Edwards T: Intramedullary tibial nailing using infrapatellar and suprapatellar approaches. Injury 2021;52(3):307-315.
-
-20. Pincus D, Byrne J, Nathens A, et al: Delay in flap coverage past 7 days increases complications for open tibia fractures. J Orthop Trauma 2019;33(4):161-168.

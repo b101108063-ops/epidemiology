@@ -342,7 +342,28 @@ R_F = F_B − W_F − W_O
 
 ---
 
-## 5. 實證更新與 OKU 14 重點 (Recent Evidence & Take-Home Points)
+## 參考文獻
+
+1. Reilly DT, Burstein AH: The elastic and ultimate properties of compact bone tissue. J Biomech 1975;8(6):393-405.
+2. McElhaney JH, Fogle JL, Melvin JW, et al: Mechanical properties of cranial bone. J Biomech 1970;3(5):495-511.
+3. Rice JC, Cowin SC, Bowman JA: On the dependence of the elasticity and strength of cancellous bone on apparent density. J Biomech 1988;21(2):155-168.
+4. Silver FH, Freeman JW, Bradica G: Structure and function of ligaments, tendons, and joint capsule. In Walsh WR, ed: Repair and Regeneration of Ligaments, Tendons, and Joint Capsule. Humana Press, 2006, pp 15-47.
+5. Peng Y, Arauz P, Desai P, Byers A, Klemt C, Kwon Y-M: In vivo kinematic analysis of patients with robotic-assisted total hip arthroplasty during gait at 1-year follow-up. Int J Med Robot 2019;15(5):e2021.
+6. Bergmann G, Deuretzbacher G, Heller M, et al: Hip contact forces and gait patterns from routine activities. J Biomech 2001;34(7):859-871.
+7. Rydell NW: Forces acting on the femoral head-prosthesis. A study on strain gauge supplied prostheses in living persons. Acta Orthop Scand 1966;37(suppl 88):1-132.
+8. Taylor SJ, Walker PS: Forces and moments telemetered from two distal femoral replacements during various activities. J Biomech 2001;34(7):839-848.
+9. Klemt C, Prinold JA, Morgans S, et al: Analysis of shoulder compressive and shear forces during functional activities of daily life. Clin Biomech (Bristol, Avon) 2018;54:34-41.
+10. Prinold JA, Masjcdi M, Johnson GR, Bull AM: Musculoskeletal shoulder models: A technical review and proposals for research foci. Proc Inst Mech Eng H 2013;227(10):1041-1057.
+11. Smith SHL, Coppack RJ, van den Bogert AJ, et al: Review of musculoskeletal modelling in a clinical setting. Clin Biomech 2021;83:105292.
+12. Klemt C, Nolte D, Ding Z, et al: Anthropometric scaling of anatomical datasets for subject-specific musculoskeletal modelling of the shoulder. Ann Biomed Eng 2019;47(4):924-936.
+13. Wu G, van der Helm FCT, Veeger HEJD, et al: ISB recommendation on definitions of joint coordinate systems of various joints for the reporting of human joint motion—part II. J Biomech 2005;38(5):981-992.
+14. Brandon SCE, Brown MJ, Clouthier AL, et al: Contributions of muscles and external forces to medial knee load reduction due to osteoarthritis braces. Knee 2019;26(3):564-577.
+15. Tsai T-Y, Li J-S, Wang S, et al: A novel dual fluoroscopic imaging method for determination of THA kinematics: in vitro and in-vivo study. J Biomech 2013;46(7):1300-1304.
+16. Petis S, Howard J, Lanting B, et al: Comparing the anterior, posterior and lateral approach: gait analysis in total hip arthroplasty. Can J Surg 2018;61(1):50-57.
+17. Tsai T-Y, Liow MHL, Li G, et al: Bi-cruciate retaining total knee arthroplasty does not restore native tibiofemoral articular contact kinematics during gait. J Orthop Res 2019;37(9):1929-1937.
+18. Lee J-M, Kim Y, Welk GJ: Validity of consumer-based physical activity monitors. Med Sci Sports Exerc 2014;46(9):1840-1848.
+
+## Summary
 
 ### 5.1 核心研究要點（Key Study Points）
 
@@ -367,24 +388,3 @@ R_F = F_B − W_F − W_O
 7. **臨床現實**：現今髖、膝人工關節**未在劇烈活動中完全恢復健康運動學**；機器人輔助 THA 提高定位精度，卻**未轉化為更好的步態對稱性**。
 
 ---
-
-## 參考文獻
-
-1. Reilly DT, Burstein AH: The elastic and ultimate properties of compact bone tissue. J Biomech 1975;8(6):393-405.
-2. McElhaney JH, Fogle JL, Melvin JW, et al: Mechanical properties of cranial bone. J Biomech 1970;3(5):495-511.
-3. Rice JC, Cowin SC, Bowman JA: On the dependence of the elasticity and strength of cancellous bone on apparent density. J Biomech 1988;21(2):155-168.
-4. Silver FH, Freeman JW, Bradica G: Structure and function of ligaments, tendons, and joint capsule. In Walsh WR, ed: Repair and Regeneration of Ligaments, Tendons, and Joint Capsule. Humana Press, 2006, pp 15-47.
-5. Peng Y, Arauz P, Desai P, Byers A, Klemt C, Kwon Y-M: In vivo kinematic analysis of patients with robotic-assisted total hip arthroplasty during gait at 1-year follow-up. Int J Med Robot 2019;15(5):e2021.
-6. Bergmann G, Deuretzbacher G, Heller M, et al: Hip contact forces and gait patterns from routine activities. J Biomech 2001;34(7):859-871.
-7. Rydell NW: Forces acting on the femoral head-prosthesis. A study on strain gauge supplied prostheses in living persons. Acta Orthop Scand 1966;37(suppl 88):1-132.
-8. Taylor SJ, Walker PS: Forces and moments telemetered from two distal femoral replacements during various activities. J Biomech 2001;34(7):839-848.
-9. Klemt C, Prinold JA, Morgans S, et al: Analysis of shoulder compressive and shear forces during functional activities of daily life. Clin Biomech (Bristol, Avon) 2018;54:34-41.
-10. Prinold JA, Masjcdi M, Johnson GR, Bull AM: Musculoskeletal shoulder models: A technical review and proposals for research foci. Proc Inst Mech Eng H 2013;227(10):1041-1057.
-11. Smith SHL, Coppack RJ, van den Bogert AJ, et al: Review of musculoskeletal modelling in a clinical setting. Clin Biomech 2021;83:105292.
-12. Klemt C, Nolte D, Ding Z, et al: Anthropometric scaling of anatomical datasets for subject-specific musculoskeletal modelling of the shoulder. Ann Biomed Eng 2019;47(4):924-936.
-13. Wu G, van der Helm FCT, Veeger HEJD, et al: ISB recommendation on definitions of joint coordinate systems of various joints for the reporting of human joint motion—part II. J Biomech 2005;38(5):981-992.
-14. Brandon SCE, Brown MJ, Clouthier AL, et al: Contributions of muscles and external forces to medial knee load reduction due to osteoarthritis braces. Knee 2019;26(3):564-577.
-15. Tsai T-Y, Li J-S, Wang S, et al: A novel dual fluoroscopic imaging method for determination of THA kinematics: in vitro and in-vivo study. J Biomech 2013;46(7):1300-1304.
-16. Petis S, Howard J, Lanting B, et al: Comparing the anterior, posterior and lateral approach: gait analysis in total hip arthroplasty. Can J Surg 2018;61(1):50-57.
-17. Tsai T-Y, Liow MHL, Li G, et al: Bi-cruciate retaining total knee arthroplasty does not restore native tibiofemoral articular contact kinematics during gait. J Orthop Res 2019;37(9):1929-1937.
-18. Lee J-M, Kim Y, Welk GJ: Validity of consumer-based physical activity monitors. Med Sci Sports Exerc 2014;46(9):1840-1848.

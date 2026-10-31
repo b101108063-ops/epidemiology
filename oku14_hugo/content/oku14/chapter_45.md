@@ -180,12 +180,6 @@ MAT 適用於年齡 <<span style="color:#fbbf24">50 歲</span>、半月板切除
 
 ---
 
-## Summary
-
-本章完整回顧半月板病變之解剖、生物力學、診斷與最新修復及移植技術。現代膝關節鏡手術高度強調半月板保留理念，從桶柄狀撕裂、放射狀撕裂到複合水平裂，解剖復位與穩定縫合能顯著延緩膝關節骨關節炎之進展。半月板根部撕裂修復已被證實能恢復環形張力（hoop stress），並顯著降低 10 年內轉為全膝關節置換（TKA）之風險。對於內側 Ramp 病變，應區分穩定與不穩定型態精準處置；而對於青年切除後缺損患者，半月板同種異體移植（MAT）提供了高達 74% 的 10 年存活率與良好的運動復歸率。
-
----
-
 ## 參考文獻
 
 1. DePhillipo NN, Moatshe G, Chahla J, et al: Quantitative and qualitative assessment of the posterior medial meniscus anatomy: Defining meniscal ramp lesions. Am J Sports Med 2019;47(2):372-378.
@@ -203,3 +197,9 @@ MAT 適用於年齡 <<span style="color:#fbbf24">50 歲</span>、半月板切除
 13. Goh JKM, Tan TJ, Kon CKK, et al: All-inside repair of bucket handle meniscus tears-Mid-term outcomes with postoperative magnetic resonance imaging. Knee 2021;30:195-204.
 14. Krych AJ, Bernard CD, Kennedy NI, et al: Medial versus lateral meniscus root tears: Is there a difference in injury presentation, treatment decisions, and surgical repair outcomes? Arthroscopy 2020;36(4):1135-1141.
 15. Bernard CD, Kennedy NI, Tagliero AJ, et al: Medial meniscus posterior root tear treatment: A matched cohort comparison of nonoperative management, partial meniscectomy, and repair. Am J Sports Med 2020;48(1):128-132.
+
+## Summary
+
+本章完整回顧半月板病變之解剖、生物力學、診斷與最新修復及移植技術。現代膝關節鏡手術高度強調半月板保留理念，從桶柄狀撕裂、放射狀撕裂到複合水平裂，解剖復位與穩定縫合能顯著延緩膝關節骨關節炎之進展。半月板根部撕裂修復已被證實能恢復環形張力（hoop stress），並顯著降低 10 年內轉為全膝關節置換（TKA）之風險。對於內側 Ramp 病變，應區分穩定與不穩定型態精準處置；而對於青年切除後缺損患者，半月板同種異體移植（MAT）提供了高達 74% 的 10 年存活率與良好的運動復歸率。
+
+---

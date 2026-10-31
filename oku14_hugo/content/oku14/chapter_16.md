@@ -246,19 +246,6 @@ OA 存在發炎環境，因此**針對免疫系統**的治療調控也是重要�
 
 ---
 
-## Summary
-
-- **全器官觀點**：OA 涵蓋軟骨、骨、滑膜、韌帶、肌腱與半月板；滑膜炎見於逾半數病人；ACL 損傷使膝 OA 風險增加 286%–495%，約三分之一患者十年內發病；膝 OA 佔全球負擔 85%。
-- **多病因模型**：老化與細胞衰老、肥胖與全身發炎、腸道菌群、基因（>50 個 SNP）與表觀遺傳、性荷爾蒙共同驅動。
-- **HA**：僅有條件推薦的短期疼痛緩解，無疾病修飾證據；高分子量 HA 為網絡 meta-analysis 中唯一優於鹽水者。
-- **PRP**：證據矛盾，RESTORE 等安慰劑對照試驗顯示**不優於安慰劑**；不可宣稱軟骨再生；標準化是必經之路。
-- **BMA／BMAC**：MSC 比例極低（0.001%–0.01%），效益可能源自旁分泌與免疫調節；骨下注射於 15 年追蹤中最能延後關節置換。
-- **培養擴增 MSC 與 AD-MSC**：小型試驗顯示疼痛與功能改善、無嚴重不良事件，但影像學無結構改變；亟需多中心第三期研究。
-- **組織工程與基因工程**：scaffolds ＋ cells ＋ signaling factors 為三大支柱；水凝膠、3D 生物列印與 IL-1 感知的 IL-1Ra 合成基因迴路是未來方向。
-- **必記陷阱**：安慰劑效應可顯著持續 6 個月；產品異質性與未標準化是試驗矛盾主因；PRP／MSC 不應被宣稱為「再生軟骨」。
-
----
-
 ## 參考文獻
 
 1. Zhao X, Shah D, Gandhi K, et al: Clinical, humanistic, and economic burden of osteoarthritis among noninstitutionalized adults in the United States. Osteoarthritis Cartilage 2019;27(11):1618-1626.
@@ -278,3 +265,16 @@ OA 存在發炎環境，因此**針對免疫系統**的治療調控也是重要�
 15. Hernigou P, Bouthors C, Bastard C, et al: Subchondral bone or intra-articular injection of bone marrow concentrate mesenchymal stem cells in bilateral knee osteoarthritis: What better postpone knee arthroplasty at fifteen years? A randomized study. Int Orthop 2021;45(2):391-399.
 16. Estes BT, Enomoto M, Moutos FT, et al: Biological resurfacing in a canine model of hip osteoarthritis. Sci Adv 2021;7(38):eabi5918.
 17. Choi YR, Collins KH, Springer LE, et al: A genome-engineered bioartificial implant for autoregulated anticytokine drug delivery. Sci Adv 2021;7(36):eabj1414.
+
+## Summary
+
+- **全器官觀點**：OA 涵蓋軟骨、骨、滑膜、韌帶、肌腱與半月板；滑膜炎見於逾半數病人；ACL 損傷使膝 OA 風險增加 286%–495%，約三分之一患者十年內發病；膝 OA 佔全球負擔 85%。
+- **多病因模型**：老化與細胞衰老、肥胖與全身發炎、腸道菌群、基因（>50 個 SNP）與表觀遺傳、性荷爾蒙共同驅動。
+- **HA**：僅有條件推薦的短期疼痛緩解，無疾病修飾證據；高分子量 HA 為網絡 meta-analysis 中唯一優於鹽水者。
+- **PRP**：證據矛盾，RESTORE 等安慰劑對照試驗顯示**不優於安慰劑**；不可宣稱軟骨再生；標準化是必經之路。
+- **BMA／BMAC**：MSC 比例極低（0.001%–0.01%），效益可能源自旁分泌與免疫調節；骨下注射於 15 年追蹤中最能延後關節置換。
+- **培養擴增 MSC 與 AD-MSC**：小型試驗顯示疼痛與功能改善、無嚴重不良事件，但影像學無結構改變；亟需多中心第三期研究。
+- **組織工程與基因工程**：scaffolds ＋ cells ＋ signaling factors 為三大支柱；水凝膠、3D 生物列印與 IL-1 感知的 IL-1Ra 合成基因迴路是未來方向。
+- **必記陷阱**：安慰劑效應可顯著持續 6 個月；產品異質性與未標準化是試驗矛盾主因；PRP／MSC 不應被宣稱為「再生軟骨」。
+
+---

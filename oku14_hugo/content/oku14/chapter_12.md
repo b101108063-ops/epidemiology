@@ -257,17 +257,6 @@ Paget 疾病（歷史稱 **osteitis deformans**）被認為是異常破骨細胞
 
 ---
 
-## Summary
-
-- **骨是動態組織**：重塑由造骨、破骨與骨細胞在分子層級協調，受機械力與荷爾蒙雙向調控。
-- **ECM 與離子恆定**：90% 第一型膠原＋羥磷灰石，約 70% 已礦化；PTH 經 RANKL 增加吸收，降鈣素抑制吸收，維生素 D 促進腸道鈣吸收。
-- **五種代謝性骨病的機轉分界**：OI＝膠原缺陷；石骨症＝吸收與酸化失敗；Paget＝異常破骨與混亂編織骨；骨軟化症＝礦化缺陷；骨質疏鬆症＝骨量低與小梁棒狀化。
-- **治療對照**：骨質疏鬆以抗骨吸收藥＋teriparatide 為主；骨軟化症以維生素 D 與鈣補充為主；Paget 以雙磷酸鹽並術前降低出血。
-- **非典型股骨骨折**：橫行、輕度粉碎、外側皮質增厚、內側喙狀突起、小轉子下定位；**不應全面停用雙磷酸鹽**。
-- **腫瘤骨病**：全身性與局部性雙軌並存；長骨幹骺端為病理性骨折高危區；Paget 病史＋新劇痛須懷疑肉瘤。
-
----
-
 ## 參考文獻
 
 1. Teitelbaum SL: Osteoclasts: What do they do and how do they do it? Am J Pathol 2007;170(2):427-435.
@@ -282,3 +271,14 @@ Paget 疾病（歷史稱 **osteitis deformans**）被認為是異常破骨細胞
 10. Dahir K, Zanchetta MB, Stanciu I, et al: Diagnosis and management of tumor-induced osteomalacia. J Endocr Soc 2021;5(9):bvab099.
 11. Black DM, Geiger EJ, Eastell R, et al: Atypical femur fracture risk versus fragility fracture prevention with bisphosphonates. N Engl J Med 2020;383(8):743-753.
 12. Coleman RE, Croucher PI, Padbani AR, et al: Bone metastases. Nat Rev Dis Primers 2020;6(1):83.
+
+## Summary
+
+- **骨是動態組織**：重塑由造骨、破骨與骨細胞在分子層級協調，受機械力與荷爾蒙雙向調控。
+- **ECM 與離子恆定**：90% 第一型膠原＋羥磷灰石，約 70% 已礦化；PTH 經 RANKL 增加吸收，降鈣素抑制吸收，維生素 D 促進腸道鈣吸收。
+- **五種代謝性骨病的機轉分界**：OI＝膠原缺陷；石骨症＝吸收與酸化失敗；Paget＝異常破骨與混亂編織骨；骨軟化症＝礦化缺陷；骨質疏鬆症＝骨量低與小梁棒狀化。
+- **治療對照**：骨質疏鬆以抗骨吸收藥＋teriparatide 為主；骨軟化症以維生素 D 與鈣補充為主；Paget 以雙磷酸鹽並術前降低出血。
+- **非典型股骨骨折**：橫行、輕度粉碎、外側皮質增厚、內側喙狀突起、小轉子下定位；**不應全面停用雙磷酸鹽**。
+- **腫瘤骨病**：全身性與局部性雙軌並存；長骨幹骺端為病理性骨折高危區；Paget 病史＋新劇痛須懷疑肉瘤。
+
+---

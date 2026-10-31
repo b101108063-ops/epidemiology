@@ -241,19 +241,6 @@ TNF 位於促發炎級聯的頂端（apex），經由 TNF 受體相關因子（T
 
 ---
 
-## Summary
-
-- **發炎啟動與 TLR**：PAMP（peptidoglycan、LPS、lipoarabinomannan、zymosan）與 DAMP（如尿酸鹽晶體）活化 TLR，經 MYD88／TRIF／TIRAP／TRAM 傳遞，啟動 NF-κB、IRF、MAPK，促進促發炎細胞激素與趨化因子合成。
-- **TNF 為級聯頂端**：TNF 經 TRAF 活化 NF-κB，經 TRADD 啟動凋亡；interferon／interleukin 走 JAK／STAT——此為 anti-TNF、IL-1／IL-6 抑制劑與 JAK 抑制劑的介入點。
-- **生物製劑三大限制**：核准門檻低（<span style="color:#f87171">ACR20</span>）、免疫抑制不可併用（伺機性感染）、選擇性手術前停藥（全關節置換前 2～4 週停 anti-TNF）。
-- **RA 流行病學**：成人盛行率 0.5%～1%，55 歲以上 4.5%，年新增 5～50 例／10 萬人，目前仍無治癒方法。
-- **適應性免疫**：MHC I → CD8+ CTL；MHC II → Th；Th1（IFN-γ、TNF、IL-2）促細胞免疫，Th2（IL-4、IL-5、IL-13）促體液免疫；B 細胞由膜上 IgM 轉為分泌型 IgG；記憶細胞歸居骨髓存續終身。
-- **耐受與自體免疫**：中央耐受約 10% 逃逸，靠兩訊號假說與周邊耐受約束；CD40L／CD40 與 B7／CD28 為關鍵第二訊號，CTLA-4 可阻斷之；CD40L 缺陷造成 hyper-IgM 症候群。
-- **腫瘤免疫**：CTLA-4（ipilimumab）、PD-1（pembrolizumab、nivolumab）、PD-L1（atezolizumab）抑制劑與 CAR-T（tisagenlecleucel）為代表；檢查點抑制劑僅限無其他治療可選的轉移性癌症。
-- **疫苗與感染**：主動免疫（6 種平台，mRNA 效力最優，每劑約 US$20）／自然免疫（群體免疫閾值 60%～90% 不明）／被動免疫（半衰期 3～4 個月，REGEN-COV：casirivimab + imdevimab）。
-- **ADE 與細胞激素風暴**：非中和性抗體可致病毒自內體逃逸、毒性複製，造成細胞激素風暴；重症病毒感染反而給予 corticosteroids 以預防風暴。
-- **骨科終極挑戰**：手術部位感染與人工關節感染性骨髓炎 50 年來治療成果幾乎未變，且面臨抗藥性高毒力菌株威脅。
-
 ## 參考文獻
 
 
@@ -278,3 +265,16 @@ TNF 位於促發炎級聯的頂端（apex），經由 TNF 受體相關因子（T
 6. Pedersen J, Coskun M, Soendergaard C, Salem M, Nielsen OH: Inflammatory pathways of importance for management of inflammatory bowel disease. World J Gastroenterol 2014;20(1):64-77.
 7. Fas SC, Fritzsching B, Suri-Payer E, Krammer PH: Death receptor signaling and its function in the immune system. Curr Dir Autoimmun 2006;9:1-17.
 8. Martinez FO, Gordon S: The M1 and M2 paradigm of macrophage activation: Time for reassessment. F1000Prime Rep 2014;6:13.
+
+## Summary
+
+- **發炎啟動與 TLR**：PAMP（peptidoglycan、LPS、lipoarabinomannan、zymosan）與 DAMP（如尿酸鹽晶體）活化 TLR，經 MYD88／TRIF／TIRAP／TRAM 傳遞，啟動 NF-κB、IRF、MAPK，促進促發炎細胞激素與趨化因子合成。
+- **TNF 為級聯頂端**：TNF 經 TRAF 活化 NF-κB，經 TRADD 啟動凋亡；interferon／interleukin 走 JAK／STAT——此為 anti-TNF、IL-1／IL-6 抑制劑與 JAK 抑制劑的介入點。
+- **生物製劑三大限制**：核准門檻低（<span style="color:#f87171">ACR20</span>）、免疫抑制不可併用（伺機性感染）、選擇性手術前停藥（全關節置換前 2～4 週停 anti-TNF）。
+- **RA 流行病學**：成人盛行率 0.5%～1%，55 歲以上 4.5%，年新增 5～50 例／10 萬人，目前仍無治癒方法。
+- **適應性免疫**：MHC I → CD8+ CTL；MHC II → Th；Th1（IFN-γ、TNF、IL-2）促細胞免疫，Th2（IL-4、IL-5、IL-13）促體液免疫；B 細胞由膜上 IgM 轉為分泌型 IgG；記憶細胞歸居骨髓存續終身。
+- **耐受與自體免疫**：中央耐受約 10% 逃逸，靠兩訊號假說與周邊耐受約束；CD40L／CD40 與 B7／CD28 為關鍵第二訊號，CTLA-4 可阻斷之；CD40L 缺陷造成 hyper-IgM 症候群。
+- **腫瘤免疫**：CTLA-4（ipilimumab）、PD-1（pembrolizumab、nivolumab）、PD-L1（atezolizumab）抑制劑與 CAR-T（tisagenlecleucel）為代表；檢查點抑制劑僅限無其他治療可選的轉移性癌症。
+- **疫苗與感染**：主動免疫（6 種平台，mRNA 效力最優，每劑約 US$20）／自然免疫（群體免疫閾值 60%～90% 不明）／被動免疫（半衰期 3～4 個月，REGEN-COV：casirivimab + imdevimab）。
+- **ADE 與細胞激素風暴**：非中和性抗體可致病毒自內體逃逸、毒性複製，造成細胞激素風暴；重症病毒感染反而給予 corticosteroids 以預防風暴。
+- **骨科終極挑戰**：手術部位感染與人工關節感染性骨髓炎 50 年來治療成果幾乎未變，且面臨抗藥性高毒力菌株威脅。

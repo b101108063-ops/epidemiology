@@ -288,17 +288,6 @@ summary: "本章回顧骨科再生工程的兩大研究取向（自上而下與�
 
 ---
 
-## Summary
-
-- **研究典式**：再生工程有自上而下（病理生理導向）與自下而上（幹細胞與訊息傳遞導向）兩條路徑；終極目標是**再生**而非修復複雜組織與器官系統。
-- **支架三屬性**：骨傳導、骨誘導、骨整合；加上生物相容性、機械完整性、可生物降解產物三項準則。
-- **ECM 與機械轉導**：細胞外基質的階層結構（奈米 → 微米 → 巨觀）決定材料性質；基質黏稠度經 YAP/TAZ 影響細胞命運；孔隙密度與壓縮模組可把多能幹細胞導向促軟骨生成或促成骨分化。
-- **製造技術**：傳統為凍乾、溶劑鑄造顆粒浸出、氣泡發泡（受放大製造限制）；電紡絲（溶液型／熔體型）提供奈米拓撲與高表面積，但受 Rayleigh、電場與甩鞭不穩定限制；3D／4D／5D 列印分別帶來客製幾何、環境反應形變與五軸曲面強度。
-- **臨床證據**：3D 列印髖臼檢體研究顯示骨長入與骨附著優於傳統植入物；bio-3D 列印脂肪來源間質幹細胞於兔 4.8 mm 全層軟骨缺損中再生優於對照；BMP-2 雙相 PCL－透明質酸支架在兔體內形成新骨。
-- **主要陷阱**：體外表現不等於體內表現（磷酸鈣塗層僅表面塗覆組在體內成骨）；提高電場強度反而加劇甩鞭不穩定；非負重骨再生結果不可外推至負重部位；3D／4D／5D 列印在骨科應用仍屬起步階段。
-
----
-
 ## 參考文獻 (References)
 
 1. Laurencin CT, Nair LS: Regenerative engineering approaches to limb regeneration and other grand challenges. Regen Eng Transl Med 2015;1(1):1-3.
@@ -321,3 +310,14 @@ summary: "本章回顧骨科再生工程的兩大研究取向（自上而下與�
 18. Ogueri KS, Escobar Ivirico JL, Nair LS, Allcock HR, Laurencin CT: Biodegradable polyphosphazene-based blends for regenerative engineering. Regen Eng Transl Med 2017;3(1):15-31.
 19. Nam J, et al: Modulation of embryonic mesenchymal progenitor cell differentiation via control over pure mechanical modulus in electrospun nanofibers. Acta Biomater 2011;7:1516-1524.
 20. Hohman M: Electrospinning and electrically forced jets: I. Stability theory. Phys Fluids 2001;13(8):2201.
+
+## Summary
+
+- **研究典式**：再生工程有自上而下（病理生理導向）與自下而上（幹細胞與訊息傳遞導向）兩條路徑；終極目標是**再生**而非修復複雜組織與器官系統。
+- **支架三屬性**：骨傳導、骨誘導、骨整合；加上生物相容性、機械完整性、可生物降解產物三項準則。
+- **ECM 與機械轉導**：細胞外基質的階層結構（奈米 → 微米 → 巨觀）決定材料性質；基質黏稠度經 YAP/TAZ 影響細胞命運；孔隙密度與壓縮模組可把多能幹細胞導向促軟骨生成或促成骨分化。
+- **製造技術**：傳統為凍乾、溶劑鑄造顆粒浸出、氣泡發泡（受放大製造限制）；電紡絲（溶液型／熔體型）提供奈米拓撲與高表面積，但受 Rayleigh、電場與甩鞭不穩定限制；3D／4D／5D 列印分別帶來客製幾何、環境反應形變與五軸曲面強度。
+- **臨床證據**：3D 列印髖臼檢體研究顯示骨長入與骨附著優於傳統植入物；bio-3D 列印脂肪來源間質幹細胞於兔 4.8 mm 全層軟骨缺損中再生優於對照；BMP-2 雙相 PCL－透明質酸支架在兔體內形成新骨。
+- **主要陷阱**：體外表現不等於體內表現（磷酸鈣塗層僅表面塗覆組在體內成骨）；提高電場強度反而加劇甩鞭不穩定；非負重骨再生結果不可外推至負重部位；3D／4D／5D 列印在骨科應用仍屬起步階段。
+
+---
