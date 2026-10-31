@@ -63,7 +63,8 @@ summary: "本章整理脊椎原發性良性、原發性惡性與轉移性腫瘤�
 > **Pearl**：WBB 分類不是描述性標籤，而是**手術計畫的依據**——它決定你要做單純椎板切除，還是整節段全切除。
 
 <!-- FIG: 圖 1 — Weinstein-Boriani-Biagini 分型示意圖：以胸椎為例的「鐘面」扇區編號描述解剖分布，深度修飾符 A 骨外、B 骨內淺層、C 骨內深層、D 椎管內硬膜外、E 硬膜內（Adapted with permission from Boriani S, et al: Spine 1997;22:1036-1044.） -->
-
+![圖 1 — Weinstein-Boriani-Biagini 分型示意圖：以胸椎為例的「鐘面」扇區編號描述解剖分布，深度修飾符 A 骨外、B 骨內淺層、C 骨內深層、D 椎管內硬膜外、E 硬膜內（Adapted with permission from Boriani S, et al: Spine 1997;22:1036-1044.）](/images/oku14/ch57_p0733_fig6.jpg)
+*圖 1 — Weinstein-Boriani-Biagini 分型示意圖：以胸椎為例的「鐘面」扇區編號描述解剖分布，深度修飾符 A 骨外、B 骨內淺層、C 骨內深層、D 椎管內硬膜外、E 硬膜內（Adapted with permission from Boriani S, et al: Spine 1997;22:1036-1044.）*
 ### 2.2 Enneking stage 2 與 stage 3 良性病灶的治療差異
 
 | 分期 | 治療選項 | 原文重點 |
@@ -88,7 +89,8 @@ summary: "本章整理脊椎原發性良性、原發性惡性與轉移性腫瘤�
 **NOMS 對應的治療選項光譜**（依原文 Figure 6）：en bloc vertebral resection、circumferential decompression and fusion、posterior-only decompression and fusion、decompression alone、**separation surgery（分離手術）**、radiosurgery、kyphoplasty／radiofrequency ablation、IMRT 或 EBR、疼痛調節療法與 comfort measures（舒適照護）。
 
 <!-- FIG: 圖 6 — NOMS 框架示意圖：脊椎轉移的治療選項光譜與 SINS 評分（Courtesy of the authors） -->
-
+![圖 6 — NOMS 框架示意圖：脊椎轉移的治療選項光譜與 SINS 評分（Courtesy of the authors）](/images/oku14/ch57_p0735_fig7.jpg)
+*圖 6 — NOMS 框架示意圖：脊椎轉移的治療選項光譜與 SINS 評分（Courtesy of the authors）*
 > **Pearl**：NOMS 的第四個網域是**病人自己的目標與偏好**——決策本質上是「以病人為中心的多專科合作決策」，而非單純的腫瘤科邏輯。
 
 ### 2.4 SINS：預測機械性不穩定
@@ -120,7 +122,8 @@ summary: "本章整理脊椎原發性良性、原發性惡性與轉移性腫瘤�
 | **機器學習／人工智慧模型** | 開發中，納入更多變數（含**腫瘤基因組標記**）；另有**病人虛弱度預測模型**可協助決定手術範圍 |
 
 <!-- FIG: 圖 7 — SORG 列線圖：各變數加權刻度與線上預測計算器（Reproduced with permission from Paulino P, et al: J Bone Joint Surg Am 2016;98(21):1767-1776.） -->
-
+![圖 7 — SORG 列線圖：各變數加權刻度與線上預測計算器（Reproduced with permission from Paulino P, et al: J Bone Joint Surg Am 2016;98(21):1767-1776.）](/images/oku14/ch57_p0728_fig3.jpg)
+*圖 7 — SORG 列線圖：各變數加權刻度與線上預測計算器（Reproduced with permission from Paulino P, et al: J Bone Joint Surg Am 2016;98(21):1767-1776.）*
 > **Pearl**：任何評分系統都應作為**族群層級（population-based）的輔助工具**來引導與建議治療，**並非用來準確預測個別病人的生存期**。
 
 ## 3. 原發性惡性與良性腫瘤的治療指引 (Treatment Algorithm)
@@ -173,7 +176,8 @@ summary: "本章整理脊椎原發性良性、原發性惡性與轉移性腫瘤�
 **影像與病理**：影像特徵為 **<span style="color:#22d3ee">T2 高訊號、分葉狀、軸位病灶</span>**，CT 上偶有**鈣化**。由於脊索瘤**極易沿活檢針道播種**，在**難以接近的部位**上述影像有時**可省卻正式活檢**；但**存疑時，以核心針活檢放在切口線上可切除的位置**永遠較好。典型組織學為 **physaliferous cell（泡沫狀細胞）**——**泡沫樣、空泡化的細胞，分布於黏液樣基質中**。免疫組化上 **brachyury 陽性**是脊索瘤染色的標誌，**keratin 陽性**是區分脊索瘤與**軟骨肉瘤**的重要因子，在**軟骨樣或去分化**變異型時尤其相關。
 
 <!-- FIG: 圖 3 — 巨大薦骨脊索瘤的矢狀位 T2 加權磁振影像，呈分葉狀高訊號（Courtesy of the authors） -->
-
+![圖 3 — 巨大薦骨脊索瘤的矢狀位 T2 加權磁振影像，呈分葉狀高訊號（Courtesy of the authors）](/images/oku14/ch57_p0731_fig4.jpg)
+*圖 3 — 巨大薦骨脊索瘤的矢狀位 T2 加權磁振影像，呈分葉狀高訊號（Courtesy of the authors）*
 **治療**：病灶為低度，**治療選擇為廣泛整塊切除**；脊索瘤**經典具放射抗性與化學抗性**，但現代做法通常包含**新輔助與輔助放療**，可對易發的**巨觀與微觀衛星病灶**達到局部控制，並在只能取得**邊緣性邊界**時**協助界定腫瘤**。薦骨部位因**放療與手術都可能侵犯臀肌與梨狀肌**，**局部控制成功率因而提升**；文獻為**23 例原發性脊索瘤僅 1 例局部復發**。**局部復發預測因子**為**腫瘤體積大、既往腫瘤污染、實施病灶內切除**；**不良生存預測因子**為**術前運動功能缺損、較高年齡**。
 
 > **Danger zone**：脊索瘤的**活檢道播種**是決定預後的重要變因——「為了診斷而造成的污染」可能在日後表現為局部復發，因此活檢位置必須放在**預定切除範圍之內**。
@@ -232,15 +236,14 @@ summary: "本章整理脊椎原發性良性、原發性惡性與轉移性腫瘤�
 與 **osteoid osteoma（骨樣骨瘤）**、**ABC** 一起，通常在**年輕病人的後方構造**。組織學上**無法區分**兩者，但骨母細胞瘤典型為**較大的病灶（>2 cm）**，疼痛**較鈍且持續不緩解**，且**有惡性轉化的潛能**；外觀具侵襲性的變異型必須與**骨肉瘤仔細區分**。近期證據顯示 **stage 2 病灶內治療可提供優良的局部控制**；**stage 3 病灶內治療導致高局部復發率**，**目前偏好的治療為整塊切除**，但 **2020 年研究**報告以**病灶內椎體切除**達到 gross total excision 也可獲得良好局部控制。無法全切除或既往污染時**放療是輔助選項**，但需考慮**神經炎與繼發性肉瘤**且**效益具爭議**。復發預測因子為**術前鹼性磷酸酶濃度、病灶內手術、腫瘤大於 3 cm**。
 
 <!-- FIG: 圖 2 — A、B：20 歲男性 C4 骨樣骨瘤（osteoid osteoma）之術前骨掃描與軸位 CT；C、D：以術中 CT 導航切除病灶；E：切除後軸位 CT（Courtesy of the authors） -->
-
+![圖 2 — A、B：20 歲男性 C4 骨樣骨瘤（osteoid osteoma）之術前骨掃描與軸位 CT；C、D：以術中 CT 導航切除病灶；E：切除後軸位 CT（Courtesy of the authors）](/images/oku14/ch57_p0732_fig5.jpg)
+*圖 2 — A、B：20 歲男性 C4 骨樣骨瘤（osteoid osteoma）之術前骨掃描與軸位 CT；C、D：以術中 CT 導航切除病灶；E：切除後軸位 CT（Courtesy of the authors）*
 <!-- FIG: 圖 4 — A、B：侵襲性脊椎骨母細胞瘤術前磁振影像與軸位 CT；C：術後復發；D、E：半椎體切除重建後 X 光（Courtesy of the authors） -->
-
 #### 3.7.3 動脈瘤樣骨囊腫（ABC）
 
 表現為**薄壁、膨張性、充血的腔室**，典型可見**液液平面**，但**通常難以整塊取出**，故最常見手術方式為**病灶內全切除**（**局部復發率低**）。替代方案為**選擇性動脈栓塞**，雖可能需反覆執行，但**一項回顧性多中心比較研究未偵測到在栓塞之上加手術的好處**；兩者**經常合併使用**。新興選項為**濃縮骨髓注射（concentrated bone marrow injection）**，部分小型系列報告可成功處理脊椎 ABC，但此法**仍待更廣泛驗證**，惟**併發症風險可能低於手術或栓塞**。
 
 <!-- FIG: 圖 5 — A、B：T11 後方構造動脈瘤樣骨囊腫的 T2 加權磁振影像，可見典型液液平面；C：脆弱易碎肉眼外觀；D：組織學；E、F：後方固定重建（Courtesy of the authors） -->
-
 #### 3.7.4 骨巨細胞瘤（GCT of bone）
 
 由**腫瘤性基質細胞**構成，形成**巨細胞反應性背景**並啟動**骨溶解 cascade**；**女性略多**，發生於**中年成人**，**罕見（2%–5%）產生肺部的良性轉移**。**最多 10%** 的 GCT 發生於脊椎，且**復發率明顯高於其他部位**。呈 **stage 3 生物行為**時可能需要**邊界陰性的整塊手術**；**邊緣切除或病灶內切除加輔助治療**是治療選擇。當因**解剖限制無法執行**時，脊椎 GCT 曾以**栓塞或放療**處理，但局部復發**結果不一**，且**放療造成惡性轉化的隱憂持續存在**。依 **2021 年研究**，**denosumab（單株抗體、RANKL 受體活化劑抑制劑）** 對**不可手術的脊椎 GCT 有顯著助益**，可**阻斷疾病進展**並在許多情況下**縮小腫瘤**，但好處**似乎只在治療持續期間維持**；早期證據支持其作為**新輔助治療協助手術切除**。

@@ -111,8 +111,11 @@ MIS 的核心概念是**在達成相同手術目標的前提下，減少對後�
 
 ### 3.2 機器人與導航帶來的選擇
 <!-- FIG: 圖 1 — A, 30 年前接受 T10 至 L2 舊式 hook-and-rod 融合之嚴重退變形病人的術前 AP 與 lateral X 光及冠狀與矢狀 CT 切面。B, 術中透視影像由左至右為 L2-3、L3-4、L4-5 之 direct lateral interbody cages，其後為 L5-S1 之 ALIF；最右為後方椎弓根螺絲手術之術前計畫。C, 畫面左為 Mazor X 機器人螺絲置入系統之術前計畫，右為術後結果（冠狀面／AP 視角）。D, 畫面左為 Mazor X 術前計畫，右為術後結果（矢狀面／lateral 視角）。E, 畫面左為術前站立 AP 與 lateral 側彎 X 光，右為採用 MIS direct lateral interbody fusion、ALIF 與後方機器人導引椎弓根螺絲進行畸形矯正後的 AP 與 lateral X 光。 -->
+![圖 1 — A, 30 年前接受 T10 至 L2 舊式 hook-and-rod 融合之嚴重退變形病人的術前 AP 與 lateral X 光及冠狀與矢狀 CT 切面。B, 術中透視影像由左至右為 L2-3、L3-4、L4-5 之 direct lateral interbody cages，其後為 L5-S1 之 ALIF；最右為後方椎弓根螺絲手術之術前計畫。C, 畫面左為 Mazor X 機器人螺絲置入系統之術前計畫，右為術後結果（冠狀面／AP 視角）。D, 畫面左為 Mazor X 術前計畫，右為術後結果（矢狀面／lateral 視角）。E, 畫面左為術前站立 AP 與 lateral 側彎 X 光，右為採用 MIS direct lateral interbody fusion、ALIF 與後方機器人導引椎弓根螺絲進行畸形矯正後的 AP 與 lateral X 光。](/images/oku14/ch55_p0704_fig1.jpg)
+*圖 1 — A, 30 年前接受 T10 至 L2 舊式 hook-and-rod 融合之嚴重退變形病人的術前 AP 與 lateral X 光及冠狀與矢狀 CT 切面。B, 術中透視影像由左至右為 L2-3、L3-4、L4-5 之 direct lateral interbody cages，其後為 L5-S1 之 ALIF；最右為後方椎弓根螺絲手術之術前計畫。C, 畫面左為 Mazor X 機器人螺絲置入系統之術前計畫，右為術後結果（冠狀面／AP 視角）。D, 畫面左為 Mazor X 術前計畫，右為術後結果（矢狀面／lateral 視角）。E, 畫面左為術前站立 AP 與 lateral 側彎 X 光，右為採用 MIS direct lateral interbody fusion、ALIF 與後方機器人導引椎弓根螺絲進行畸形矯正後的 AP 與 lateral X 光。*
 <!-- FIG: 圖 2 — A, 腰椎椎弓根螺絲植入時使用 Mazor X 機器人機械臂搭配影像導航的術中照片，可見經皮點狀切口處放置的影像導向套管，位於椎弓根螺絲起始點。B, 手術室配置：病人俯臥於 Jackson table，Mazor X 機械臂安裝於 Jackson table 右側，影像導航相機裝置於床頭上方，影像導航螢幕位於床尾。 -->
-
+![圖 2 — A, 腰椎椎弓根螺絲植入時使用 Mazor X 機器人機械臂搭配影像導航的術中照片，可見經皮點狀切口處放置的影像導向套管，位於椎弓根螺絲起始點。B, 手術室配置：病人俯臥於 Jackson table，Mazor X 機械臂安裝於 Jackson table 右側，影像導航相機裝置於床頭上方，影像導航螢幕位於床尾。](/images/oku14/ch55_p0707_fig2.jpg)
+*圖 2 — A, 腰椎椎弓根螺絲植入時使用 Mazor X 機器人機械臂搭配影像導航的術中照片，可見經皮點狀切口處放置的影像導向套管，位於椎弓根螺絲起始點。B, 手術室配置：病人俯臥於 Jackson table，Mazor X 機械臂安裝於 Jackson table 右側，影像導航相機裝置於床頭上方，影像導航螢幕位於床尾。*
 | 應用情境 | 原文描述 |
 |----------|----------|
 | 複雜畸形的電腦輔助計畫與機器人併用 | 圖 1 為一例**困難畸形**案例，結合 **computer-aided guidance 與 robotic assistance** 進行矯正手術 |

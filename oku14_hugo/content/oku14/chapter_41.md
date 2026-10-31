@@ -117,7 +117,8 @@ summary: "本章整理髖關節周圍肌肉、神經血管與軟組織疾病，�
 - **MRI 關鍵特徵**：遠端 Cam 形態（distal cam morphology，於頭頸接合處更遠端的骨性突起）、上關節囊水腫及 AIIS 水平關節囊水腫。
 
 <!-- FIG: 圖 1 — 棘下撞擊與 AIIS 三維 CT 分型示意圖 -->
-
+![圖 1 — 棘下撞擊與 AIIS 三維 CT 分型示意圖](/images/oku14/ch41_p0540_fig1.jpg)
+*圖 1 — 棘下撞擊與 AIIS 三維 CT 分型示意圖*
 ### 2.4 腸腰肌撞擊與梳狀凹撞擊
 
 - **腸腰肌撞擊（Iliopsoas Impingement）**：致前側盂唇獨立損傷。在全髖關節置換（THA）患者中，若髖臼杯突出 <span style="color:#60a5fa">< 8 mm</span>，行腸腰肌鬆解術效果極佳；若突出 <span style="color:#f87171">> 8 mm</span>，則行髖臼杯翻修術（revision）療效較為肯定。

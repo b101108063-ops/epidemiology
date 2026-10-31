@@ -52,7 +52,8 @@ summary: "本章回顧上肢創傷的處理原則，涵蓋肱骨近端、幹、�
 - 與 <span style="color:#e2e8f0">transolecranon fracture-dislocation</span>（經鷹嘴骨折脫位）的鑑別關鍵在於：Monteggia 傷害會破壞 <span style="color:#22d3ee">近端橈尺關節（proximal radioulnar joint）</span> 的穩定性。
 
 <!-- FIG: Figure 1 — A, B 為 AP 與 lateral X 光顯示經鷹嘴骨折脫位，近端橈尺關節完整；C, D 為 AP 與 lateral X 光顯示 Monteggia 骨折脫位，近端橈尺關節受破壞。 -->
-
+![Figure 1 — A, B 為 AP 與 lateral X 光顯示經鷹嘴骨折脫位，近端橈尺關節完整；C, D 為 AP 與 lateral X 光顯示 Monteggia 骨折脫位，近端橈尺關節受破壞。](/images/oku14/ch23_p0295_fig1.jpg)
+*Figure 1 — A, B 為 AP 與 lateral X 光顯示經鷹嘴骨折脫位，近端橈尺關節完整；C, D 為 AP 與 lateral X 光顯示 Monteggia 骨折脫位，近端橈尺關節受破壞。*
 > **Danger zone**：Monteggia 傷害與 transolecranon 傷害的手術入路、固定策略與併發症率截然不同；術前未仔細確認近端橈尺關節是否完整，會直接導致治療方向錯誤。
 
 ### 1.5 腕手部解剖關鍵

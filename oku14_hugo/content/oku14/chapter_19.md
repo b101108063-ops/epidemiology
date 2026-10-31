@@ -30,7 +30,8 @@ summary: "本章介紹三維列印、電腦導航與機器人輔助手術、自�
 - 上述「減少失血、減少透視時間、縮短手術時間」的效益，亦已在**小兒骨科**、**total joint arthroplasty** 與**創傷手術**中獲得證實。
 
 <!-- FIG: 圖 2 — 畸形手術之 patient-specific instrumentation 流程。A 膝關節 AP X 光；B 膝關節軸位 MRI；C 脛骨骨關節炎變形、計畫截骨、3D 虛擬脛骨 baseplate 置放，以及用於調整 varus/valgus、slope 與 rotation 的病人專屬器械；D 3D 導引之截骨與全膝關節置换；E 術後 X 光。（Yale School of Medicine 授權轉載） -->
-
+![圖 2 — 畸形手術之 patient-specific instrumentation 流程。A 膝關節 AP X 光；B 膝關節軸位 MRI；C 脛骨骨關節炎變形、計畫截骨、3D 虛擬脛骨 baseplate 置放，以及用於調整 varus/valgus、slope 與 rotation 的病人專屬器械；D 3D 導引之截骨與全膝關節置换；E 術後 X 光。（Yale School of Medicine 授權轉載）](/images/oku14/ch19_p0247_fig2.jpg)
+*圖 2 — 畸形手術之 patient-specific instrumentation 流程。A 膝關節 AP X 光；B 膝關節軸位 MRI；C 脛骨骨關節炎變形、計畫截骨、3D 虛擬脛骨 baseplate 置放，以及用於調整 varus/valgus、slope 與 rotation 的病人專屬器械；D 3D 導引之截骨與全膝關節置换；E 術後 X 光。（Yale School of Medicine 授權轉載）*
 ### 1.2 個人化器械的標準工作流程（Figure 2）
 
 | 步驟 | 執行者 | 內容 |
@@ -91,7 +92,8 @@ summary: "本章介紹三維列印、電腦導航與機器人輔助手術、自�
 - **法規現況**：3D 列印之客製化 revision component **目前尚未在美國核准**。
 
 <!-- FIG: 圖 3 — 3D 自訂植入物之製作流程。A 大腿 CT scan；B 股骨 3D 模型；C 植入物之 computer-aided design（CAD）圖；D 保留 rich voxel bone density data 之 meshed model；E 用於 implant selection 之有限元素分析（FEA）。示例為骨質疏鬆模型中使用 blade plate 固定之近端股骨骨折。（Yale School of Medicine 授權轉載） -->
-
+![圖 3 — 3D 自訂植入物之製作流程。A 大腿 CT scan；B 股骨 3D 模型；C 植入物之 computer-aided design（CAD）圖；D 保留 rich voxel bone density data 之 meshed model；E 用於 implant selection 之有限元素分析（FEA）。示例為骨質疏鬆模型中使用 blade plate 固定之近端股骨骨折。（Yale School of Medicine 授權轉載）](/images/oku14/ch19_p0248_fig3.jpg)
+*圖 3 — 3D 自訂植入物之製作流程。A 大腿 CT scan；B 股骨 3D 模型；C 植入物之 computer-aided design（CAD）圖；D 保留 rich voxel bone density data 之 meshed model；E 用於 implant selection 之有限元素分析（FEA）。示例為骨質疏鬆模型中使用 blade plate 固定之近端股骨骨折。（Yale School of Medicine 授權轉載）*
 **3D 自訂植入物之設計與分析流程（Figure 3）：**
 
 | 步驟 | 內容 |

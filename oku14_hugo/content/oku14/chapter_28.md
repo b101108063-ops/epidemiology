@@ -39,13 +39,15 @@ summary: "本章全面探討肩關節常見疾病之最新實證與臨床指引�
 > **Pearl（二頭肌檢查珍珠）**：二頭肌物理檢查的敏感度整體偏低，單一檢查陰性不能排除二頭肌病變。Subpectoral biceps test 能精準定位大胸肌下方的肌腱炎與病變。
 
 <!-- FIG: Coronal and sagittal MRI of rotator cuff tear progression -->
-
+![Coronal and sagittal MRI of rotator cuff tear progression](/images/oku14/ch28_p0372_fig1.jpg)
+*Coronal and sagittal MRI of rotator cuff tear progression*
 ---
 
 ## 2. 分型系統與決策矩陣 (Classification & Decision Making)
 
 <!-- FIG: 圖 1 — Coronal (A) and sagittal (B) magnetic resonance images from a 52-year- -->
-
+![圖 1 — Coronal (A) and sagittal (B) magnetic resonance images from a 52-year-](/images/oku14/ch28_p0357_fig1.jpg)
+*圖 1 — Coronal (A) and sagittal (B) magnetic resonance images from a 52-year-*
 ### 2.1 旋轉肌袖破裂與肌肉脂肪浸潤分級
 
 旋轉肌袖巨大不可修復破裂（massive irreparable rotator cuff tear）評估需結合肌肉萎縮與脂肪浸潤分級（<span style="color:#e2e8f0">Goutallier classification</span>）：
@@ -66,7 +68,8 @@ summary: "本章全面探討肩關節常見疾病之最新實證與臨床指引�
 ### 2.3 投擲肩病理矩陣：GIRD、SLAP 與肩胛骨運動障礙
 
 <!-- FIG: 圖 4 — Grashey view (A) of a right hand-dominant 49-year-old female with calc -->
-
+![圖 4 — Grashey view (A) of a right hand-dominant 49-year-old female with calc](/images/oku14/ch28_p0360_fig4.jpg)
+*圖 4 — Grashey view (A) of a right hand-dominant 49-year-old female with calc*
 投擲運動員常見之病理解剖相互影響矩陣如下：
 
 | 病變名稱 | 定義 / 診斷標準 | 主要病理機轉 | 臨床影響與相關損傷 |
@@ -110,15 +113,18 @@ summary: "本章全面探討肩關節常見疾病之最新實證與臨床指引�
    - 關節鏡關節囊放鬆術（arthroscopic capsular release）與麻醉下鬆動術（MUA）總體功能相當，但關節鏡放鬆術在改善前屈、外展與外旋活動度上表現更佳。
 
 <!-- FIG: Preoperative magnetic resonance and intraoperative images of lower trapezius transfer -->
-
+![Preoperative magnetic resonance and intraoperative images of lower trapezius transfer](/images/oku14/ch28_p0372_fig1.jpg)
+*Preoperative magnetic resonance and intraoperative images of lower trapezius transfer*
 ---
 
 ## 4. 手術入路、技術與陷阱 (Surgical Techniques, Pearls & Pitfalls)
 
 <!-- FIG: 圖 3 — Preoperative magnetic resonance and intraoperative images ofanarthrosc -->
-
+![圖 3 — Preoperative magnetic resonance and intraoperative images ofanarthrosc](/images/oku14/ch28_p0359_fig3.jpg)
+*圖 3 — Preoperative magnetic resonance and intraoperative images ofanarthrosc*
 <!-- FIG: 圖 2 — Preoperative magnetic resonance and arthroscopic images of a superior -->
-
+![圖 2 — Preoperative magnetic resonance and arthroscopic images of a superior](/images/oku14/ch28_p0358_fig2.jpg)
+*圖 2 — Preoperative magnetic resonance and arthroscopic images of a superior*
 ### 4.1 投擲肩 SLAP 破裂與二頭肌肌腱處置
 
 對於過頭運動員之 SLAP 破裂，傳統關節鏡修復術（SLAP repair）在職業選手中返場率不佳，近年逐漸轉向二頭肌肌腱固定術（<span style="color:#e2e8f0">biceps tenodesis</span>）。
@@ -177,13 +183,15 @@ summary: "本章全面探討肩關節常見疾病之最新實證與臨床指引�
 - **預後**：手術修復（經骨縫線或縫線錨釘）後返場率達 <span style="color:#34d399">90%</span>（74% 回到受傷前水準），<span style="color:#34d399">95% 患者於術後平均 6.9 個月返回工作</span>。
 
 <!-- FIG: Algorithm for treatment of glenohumeral instability -->
-
+![Algorithm for treatment of glenohumeral instability](/images/oku14/ch28_p0372_fig1.jpg)
+*Algorithm for treatment of glenohumeral instability*
 ---
 
 ## 5. 實證更新與 OKU 14 重點 (Recent Evidence & Take-Home Points)
 
 <!-- FIG: 圖 5 — Algorithm for treatment of glenohumeral instability in the young patie -->
-
+![圖 5 — Algorithm for treatment of glenohumeral instability in the young patie](/images/oku14/ch28_p0363_fig5.jpg)
+*圖 5 — Algorithm for treatment of glenohumeral instability in the young patie*
 ### 5.1 關鍵實證研究摘要
 
 1. **旋轉肌袖小至中度破裂**：Moosmayer 等人（Level I）10 年隨機對照試驗證實，手術修復在 Constant 分數、ASES 分數、VAS 疼痛分數及無痛抬升範圍均顯著優於純物理治療。

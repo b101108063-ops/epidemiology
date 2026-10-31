@@ -19,13 +19,15 @@ summary: "本章整理髖關節早期退行性病變：涵蓋 FAI 與發育不�
 ## 1. 臨床評估與關鍵解剖 (Clinical Evaluation & Key Anatomy)
 
 <!-- FIG: 圖 3 — AP radiographs of the pelvis of a young adult patient with development -->
-
+![圖 3 — AP radiographs of the pelvis of a young adult patient with development](/images/oku14/ch40_p0517_fig3.jpg)
+*圖 3 — AP radiographs of the pelvis of a young adult patient with development*
 髖關節早期退變的核心關鍵在於辨識結構異常導致的力學失衡。正常的髖關節依賴完整的髖臼覆蓋率與完美的股骨頭球形度（sphericity）來均勻分散負重；當結構出現缺陷（覆蓋不足或撞擊過度）時，將在關節軟骨與軟骨唇過渡區（chondrolabral junction）產生集中剪應力。
 
 ### 1.1 髖關節早期退化病因與解剖力學
 
 <!-- FIG: 圖 7 — T2 Magnetic resonance image of the left hip of a patient with dysplasi -->
-
+![圖 7 — T2 Magnetic resonance image of the left hip of a patient with dysplasi](/images/oku14/ch40_p0522_fig7.jpg)
+*圖 7 — T2 Magnetic resonance image of the left hip of a patient with dysplasi*
 - <span style="color:#22d3ee">Acetabular labrum（髖臼唇）</span>：由纖維軟骨（fibrocartilage）組成的環狀結構，其功能為增加髖臼深度、維持關節穩定性，並提供關鍵的 **suction seal（流體吸附密封）**，維持關節內負壓與潤滑。
 - <span style="color:#22d3ee">Chondrolabral junction（軟骨唇過渡區）</span>：髖臼唇與髖臼透明軟骨相連的組織過渡區。在 FAI 患者中，股骨頭頸交界處的骨性突出物會在關節活動時重複撞擊此區域，導致由外向內（outside-in）的軟骨剝離；而在發育不良患者中，由於髖臼覆蓋不足，剪應力直接集中於中央軟骨，形成由內向外（inside-out）的軟骨損傷模式。
 - **力學轉變與軟骨細胞退化**：發育不良導致關節接觸面積減少、單位面積應力劇增，最早期的退化改變發生於軟骨細胞（chondrocyte）層級的基質破壞與代謝異常。
@@ -48,7 +50,8 @@ summary: "本章整理髖關節早期退行性病變：涵蓋 FAI 與發育不�
 ### 1.3 理學檢查與診斷性關節內注射
 
 <!-- FIG: 圖 6 — A, Postoperative AP radiograph of the pelvis of the patient in Figure -->
-
+![圖 6 — A, Postoperative AP radiograph of the pelvis of the patient in Figure](/images/oku14/ch40_p0522_fig6.jpg)
+*圖 6 — A, Postoperative AP radiograph of the pelvis of the patient in Figure*
 理學檢查須結合步態分析、關節活動度測量與特殊誘發測試：
 
 - **步態評估**：注意有無痛性步態（antalgic gait）或因臀中肌無力導致的 **Trendelenburg 步態**；同時評估下肢旋轉外廓及足部進展角（foot progression angle）。
@@ -154,8 +157,11 @@ FAI 的治療應循序漸進，優先採用非手術保守處置。
   - **核心血管安全**：必須極其精確地保護 <span style="color:#22d3ee">Medial Femoral Circumflex Artery (MFCA, 股深內側動脈) 深支</span>，否則會引發災難性的**股骨頭缺血性壞死（Osteonecrosis / AVN）**。
 
 <!-- FIG: 圖 4 — 髖關節鏡下觀：A 顯示髖臼唇撕裂（labral tear）；B 顯示關節鏡下髖臼唇修復（labral repair）。 -->
+![圖 4 — 髖關節鏡下觀：A 顯示髖臼唇撕裂（labral tear）；B 顯示關節鏡下髖臼唇修復（labral repair）。](/images/oku14/ch40_p0518_fig4.jpg)
+*圖 4 — 髖關節鏡下觀：A 顯示髖臼唇撕裂（labral tear）；B 顯示關節鏡下髖臼唇修復（labral repair）。*
 <!-- FIG: 圖 5 — 髖關節鏡下觀：A與B顯示股骨頭頸成形術（femoral osteochondroplasty / cam resection）。 -->
-
+![圖 5 — 髖關節鏡下觀：A與B顯示股骨頭頸成形術（femoral osteochondroplasty / cam resection）。](/images/oku14/ch40_p0519_fig5.jpg)
+*圖 5 — 髖關節鏡下觀：A與B顯示股骨頭頸成形術（femoral osteochondroplasty / cam resection）。*
 ### 4.2 伯恩斯髖臼周圍截骨術 (Bernese Periacetabular Osteotomy, PAO) 手術步驟
 
 Bernese PAO 於 1988 年由 Ganz 首創，為成人發育不良的三維髖臼再定向標準手術。

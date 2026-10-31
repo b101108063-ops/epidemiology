@@ -38,9 +38,11 @@ summary: "本章整理膝關節關節軟骨缺損與退行性病變：說明軟�
 ### 1.2 軟骨損傷的病因與病程演變
 
 <!-- FIG: 圖 6 — Schematic drawing showing the osteochondral allograft transfer techniq -->
-
+![圖 6 — Schematic drawing showing the osteochondral allograft transfer techniq](/images/oku14/ch44_p0572_fig6.jpg)
+*圖 6 — Schematic drawing showing the osteochondral allograft transfer techniq*
 <!-- FIG: 圖 3 — Schematic drawings showing the matrix-induced autologous chondrocyte i -->
-
+![圖 3 — Schematic drawings showing the matrix-induced autologous chondrocyte i](/images/oku14/ch44_p0570_fig3.jpg)
+*圖 3 — Schematic drawings showing the matrix-induced autologous chondrocyte i*
 關節軟骨缺損主要源自特發性（idiopathic）、重複性微創傷（repetitive microtrauma）或急性外傷（overt trauma），並常伴隨 <span style="color:#22d3ee">ACL tears（前十字韌帶斷裂）</span>、<span style="color:#22d3ee">Meniscus tears（半月板撕裂）</span>、<span style="color:#22d3ee">Patellar dislocation（髕骨脫位）</span> 或下肢軸線不良（malalignment）。
 
 - **流行病學**：在接受膝關節鏡檢查的患者中，高達 <span style="color:#60a5fa">三分之二（two-thirds）</span> 的人可意外發現關節軟骨缺損。
@@ -52,7 +54,8 @@ summary: "本章整理膝關節關節軟骨缺損與退行性病變：說明軟�
 ## 2. 臨床評估、分型與影像決策矩陣 (Classification & Diagnostic Imaging Matrix)
 
 <!-- FIG: 圖 5 — Schematic drawings showing the osteochondral autograft transfer techni -->
-
+![圖 5 — Schematic drawings showing the osteochondral autograft transfer techni](/images/oku14/ch44_p0571_fig5.jpg)
+*圖 5 — Schematic drawings showing the osteochondral autograft transfer techni*
 臨床診斷難點在於區分影像或關節鏡下意外發現的軟骨缺損是否為患者疼痛與功能障礙的真正主因，特別是當合併半月板功能不全、軸線不良或韌帶不穩定時。
 
 ### 2.1 臨床症狀與理學檢查
@@ -125,13 +128,16 @@ summary: "本章整理膝關節關節軟骨缺損與退行性病變：說明軟�
 - **BST-CarGel**：利用殼聚糖（Chitosan）可溶性聚合物支架強化血塊，5 年 MRI 顯示修復組織質量顯著優於單純微骨折。
 
 <!-- FIG: 說明：微骨折術（Microfracture）之手術示意圖與關節鏡下骨髓滲出穿孔影像 -->
-
+![說明：微骨折術（Microfracture）之手術示意圖與關節鏡下骨髓滲出穿孔影像](/images/oku14/ch44_p0578_fig1.jpg)
+*說明：微骨折術（Microfracture）之手術示意圖與關節鏡下骨髓滲出穿孔影像*
 ### 4.3 重建性手術：基質誘導自體軟骨細胞移植 (MACI / ACI)
 
 <!-- FIG: 圖 2 — Arthroscopic images of the microfracture technique. A, The chondral de -->
-
+![圖 2 — Arthroscopic images of the microfracture technique. A, The chondral de](/images/oku14/ch44_p0569_fig2.jpg)
+*圖 2 — Arthroscopic images of the microfracture technique. A, The chondral de*
 <!-- FIG: 圖 1 — Schematic drawings showing the microfracture technique. A, The chondra -->
-
+![圖 1 — Schematic drawings showing the microfracture technique. A, The chondra](/images/oku14/ch44_p0568_fig1.jpg)
+*圖 1 — Schematic drawings showing the microfracture technique. A, The chondra*
 MACI 屬於兩階段（two-stage）細胞再生手術，適用於大範圍全層軟骨缺損（<span style="color:#60a5fa">>3–4 cm²</span>）。
 
 #### ACI 的三代技術演進
@@ -145,11 +151,13 @@ MACI 屬於兩階段（two-stage）細胞再生手術，適用於大範圍全層
 - **復健與預後**：CPM 每天 6–8 小時使用 6 週；6–9 個月開始慢跑，<span style="color:#34d399">9–12 個月</span> 恢復劇烈體育活動。5 年 RCT 證實 MACI 在疼痛、功能及 MRI 填補率上均顯著優於微骨折術。前次微骨折失敗後再接受 ACI 的患者，失敗率顯著偏高。
 
 <!-- FIG: 說明：基質誘導自體軟骨細胞移植（MACI）第一階段軟骨採集與第二階段基質膜黏貼示意圖與實體照片 -->
-
+![說明：基質誘導自體軟骨細胞移植（MACI）第一階段軟骨採集與第二階段基質膜黏貼示意圖與實體照片](/images/oku14/ch44_p0578_fig1.jpg)
+*說明：基質誘導自體軟骨細胞移植（MACI）第一階段軟骨採集與第二階段基質膜黏貼示意圖與實體照片*
 ### 4.4 結構性骨軟骨移植：自體 (OAT/OATS) vs. 同種異體 (OCA) 移植
 
 <!-- FIG: 圖 4 — Photographs showing the matrix-induced autologous chondrocyte implanta -->
-
+![圖 4 — Photographs showing the matrix-induced autologous chondrocyte implanta](/images/oku14/ch44_p0570_fig4.jpg)
+*圖 4 — Photographs showing the matrix-induced autologous chondrocyte implanta*
 當軟骨缺損合併下骨硬化、囊腫或骨質缺失時，需採用同時包含軟骨與軟骨下骨柱的骨軟骨移植。
 
 | 手術技術 | 植體來源與保存方式 | 缺損適用規模與部位 | 臨床成功率與長追蹤結果 |

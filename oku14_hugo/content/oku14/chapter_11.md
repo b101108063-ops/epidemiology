@@ -69,13 +69,16 @@ summary: "本章回顧電腦輔助骨科手術的核心建構元素、三維定�
 ROBODOC 後來停止生產，由現代更新版本 **TSolution® One Robot**（THINK Surgical®，Inc.，Fremont, CA）取代。**現代改良方向**為整合跨領域創新：例如為較年輕與活動量大的病人開發**非骨水泥 TKA 脛骨側元件固定**並使日後翻修更容易；此方案將**創新的 TKA 脛骨元件設計（配合積層製造）與機器人**結合——輕巧敏捷的機器人手臂配備快速旋轉磨頭，於規劃階段自動程式化以準確銑削周邊固定鰭（fin）溝槽；另以較小、較輕的機器人執行植入物置入。
 
 <!-- FIG: TSolution One Robot 與 Monogram 創新非骨水泥 TKA 脛骨元件加主動機器人手臂圖示 -->
-
+![TSolution One Robot 與 Monogram 創新非骨水泥 TKA 脛骨元件加主動機器人手臂圖示](/images/oku14/ch11_p0135_fig2.jpg)
+*TSolution One Robot 與 Monogram 創新非骨水泥 TKA 脛骨元件加主動機器人手臂圖示*
 ### 2.2 半主動／觸覺導引機器人 (Semiactive, Haptically Guided)
 
 <!-- FIG: 圖 2 — Graphical model of the TSolution One Robot-an active Semiactive Surgic -->
-
+![圖 2 — Graphical model of the TSolution One Robot-an active Semiactive Surgic](/images/oku14/ch11_p0135_fig3.jpg)
+*圖 2 — Graphical model of the TSolution One Robot-an active Semiactive Surgic*
 <!-- FIG: 圖 3 — Graphical models of the Monogram innovative nonce- mented tibial compo -->
-
+![圖 3 — Graphical models of the Monogram innovative nonce- mented tibial compo](/images/oku14/ch11_p0137_fig5.jpg)
+*圖 3 — Graphical models of the Monogram innovative nonce- mented tibial compo*
 此類系統中**術者以手部操作末端執行器**（攜帶旋轉磨頭、近期為 TKA 骨鋸或 THA 擴髓器）。系統同樣預先載入手術計畫（通常為 CT 影像式骨模型加上磨頭／切除器械尖端模型，呈現於電腦螢幕）。術者手部與末端執行器之間設置**六自由度 load cell**，感測術者欲移動機器人末端方向上的力與力矩。
 
 > **Pearl**：此類系統的哲學是**「術者主導方向，機器人守住邊界」**——電腦依術者動作是否遵循術前計畫與預核准切割區域，決定「允許」或「抵抗」該動作。此概念在美國由 **Mako** 大力商業化。
@@ -99,15 +102,18 @@ Mako 起家以旋轉磨頭執行**單髁膝置換（unicompartmental knee arthro
 ### 2.4 限制器械運動之機器人 (Constrain the Motion of a Power Instrument)
 
 <!-- FIG: 圖 5 — Photograph shows the ROSA " ' Knee System with a cut- Figure 6 Graphic -->
-
+![圖 5 — Photograph shows the ROSA " ' Knee System with a cut- Figure 6 Graphic](/images/oku14/ch11_p0136_fig4.jpg)
+*圖 5 — Photograph shows the ROSA " ' Knee System with a cut- Figure 6 Graphic*
 <!-- FIG: 圖 4 — A, Graphical model of the OMNIBot bone-mounted small robot (Corin, UK) -->
-
+![圖 4 — A, Graphical model of the OMNIBot bone-mounted small robot (Corin, UK)](/images/oku14/ch11_p0152_fig1.jpg)
+*圖 4 — A, Graphical model of the OMNIBot bone-mounted small robot (Corin, UK)*
 由前述機器人系統自然演進而來的方向，是讓機器人手臂**約束動力器械（矢狀鋸）的運動**，使其只能在單一期望平面內自由活動。
 
 ### 2.5 加速度計導引系統 (Accelerometer-Based Systems)
 
 <!-- FIG: 圖 1 — Cellular constituents of bone. Histologic images and brief description -->
-
+![圖 1 — Cellular constituents of bone. Histologic images and brief description](/images/oku14/ch11_p0138_fig7.jpg)
+*圖 1 — Cellular constituents of bone. Histologic images and brief description*
 **小型、智慧的被動裝置**，於術中提供資訊。相較傳統機械器械，多數**不需要額外的 pin**，也沒有導航伴隨的視線問題；部分為拋棄式單次使用、無菌手持器械，部分僅部分如此。其運作採如智慧型手機般的**微型加速度計（accelerometry）**，量測相對於地球重力場與磁場的傾斜角度；結合**電子羅盤**與**重力方向感測**在三個互相正交的軸上運作，可裝置於單一手術器械上，多個元件並可**無線互動**。同一電子裝置亦可含**微型 load-cell 力感測器**，協助 TKA 屈曲間隙平衡與韌帶調整。系統實例包括 Lantern（OrthAlign）、iAssist（Zimmer Biomet）、Dash（Brainlab AG, Munich）。
 
 > **Danger zone（加速度計系統的固有限制）**：加速度計**固有的無力量測位置或距離**——它只導引角度，不導引位置；準確度與反應速率亦僅屬中等。不過這在關節置換中尚可接受，因其使用呈**準穩態（quasi-steady-state）**：骨與器械雖會動動，但被假設在每次瞬間讀值時為靜止。
@@ -117,7 +123,8 @@ Mako 起家以旋轉磨頭執行**單髁膝置換（unicompartmental knee arthro
 ### 2.6 徒手導航電動工具 (Freehand Navigated Power Tools)
 
 <!-- FIG: 圖 7 — Graphical models of the accelerometer-based systems. A, Lantern (Copyr -->
-
+![圖 7 — Graphical models of the accelerometer-based systems. A, Lantern (Copyr](/images/oku14/ch11_p0140_fig8.jpg)
+*圖 7 — Graphical models of the accelerometer-based systems. A, Lantern (Copyr*
 另一條根本不同的途徑，是**直接為骨切除電動工具導航**，術者如常手持並徒手操作。最早商業化者為 **Navio**（Bluebelt，現 Smith & Nephew），原用於單髁膝置換，現亦用於 TKA。此為**非影像式**導航（依賴 kinematic registration），追蹤手持裝置，並在**位置偏離手術計畫時控制速度、快速阻擋磨頭尖端**。Navio 已累積充足臨床資料，例如單髁膝置換 **128 例、平均追蹤 2.3 年、存活率 99.2%**。用於 TKA 的 Navia 系統近期接受評估，報告在機械軸、股骨冠狀面、矢狀面、旋轉、脛骨後傾與脛骨冠狀面對位等準確度上；所有鋸切面偏離計畫之**均方根誤差（root mean squared error）不超過 0.56°**。病例對照研究（70 例 Navio TKA）顯示學習曲線為 **11 例**即與標準器械等效，肢體對位與元件位置無差異。
 
 > **Pearl**：Navio 已改進為 **CORI**（Smith & Nephew），配備**快五倍**且更利於切除與牽开的磨頭，並具更快速的註冊流程；因推出極新，目前尚無已發表結果。
@@ -130,11 +137,11 @@ Mako 起家以旋轉磨頭執行**單髁膝置換（unicompartmental knee arthro
 更常見的電動工具（矢狀鋸與 reciprocating 擺動鋸、鑽頭）也已內建導航與智慧功能，且不增加太多重量或耗電、不影響無線使用的自由度、不需任何繫留的電力或訊號纜線。該技術在多次體外（in vitro）TKA 實驗（包含 2 例 cadaver 程序）中完成特性描述，骨切除時間**短於**傳統器械；詳細骨切除評估顯示表面粗糙度與植入物貼合度與傳統器械相當，而**表面對位優於**傳統器械。此技術與標準骨科鋸與鑽具直覺相容，並有潛力改善 TKA 對位、**縮短手術時間、減少手術器械數量**；器械更少、滅菌需求更低可降低 TKA 相關成本。
 
 <!-- FIG: 外接追蹤與器械上追蹤的徒手導航骨切除器械照片（Haider H, PhD） -->
-
+![外接追蹤與器械上追蹤的徒手導航骨切除器械照片（Haider H, PhD）](/images/oku14/ch11_p0141_fig10.jpg)
+*外接追蹤與器械上追蹤的徒手導航骨切除器械照片（Haider H, PhD）*
 ### 2.7 決策矩陣：如何選擇系統類型
 
 <!-- FIG: 圖 8 — Graphical models of the CORI latest freehand navigated burr system. Th -->
-
 | 考量 | 加速度計／徒手導航 | 大型機器人／導航 | PSI |
 |------|------------------|------------------|-----|
 | 學習曲線 | 較短 | 較長 | 最短（僅需熟悉切骨塊） |
@@ -191,7 +198,6 @@ Mako 起家以旋轉磨頭執行**單髁膝置換（unicompartmental knee arthro
 ### 4.2 臨床前測試與國際標準 (Preclinical Testing & International Standards)
 
 <!-- FIG: 圖 10 — Photographs show augmented reality platforms. A, mounted glasses with -->
-
 骨科植入物與醫療器械皆須經臨床前測試，並在包含臨床前驗證（verification）與確認（validation）測試的文件完整描述後，才取得 FDA 核准（clearance）。多數植入物標準由專家制定並由 **ASTM International** 或 **ISO** 出版；ASTM F04 委員會（Medical and Surgical Materials and Devices）與 ISO/TC150 委員會（Implantable Devices）的植入物委員會相對精簡，但導航與機器人橫跨更廣的委員會範圍，包括處理所有電機機械安全的 **IEC**（例如 **IEC 80601-2-77**，機器人輔助手術設備之基本安全與必要性能的特殊要求）以及 **AAMI**（Association for the Advancement of Medical Instrumentation）。
 
 **ASTM F04.38「Computer Assisted Orthopaedic Surgical Systems」小組**已制定兩項標準：**ASTM F2554**（Measurement of Positional Accuracy of Computer Assisted Surgical Systems）與 **ASTM F3107**（Measuring Accuracy after Mechanical Disturbances on Reference Frames of Computer Assisted Surgery Systems）。

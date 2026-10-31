@@ -102,7 +102,6 @@ CMS 以 Medicare 醫師費用表給付醫療服務，以 <span style="color:#e2e
 
 2008 年 CMS 推行 <span style="color:#e2e8f0">Hospital-Acquired Conditions (HACs) Initiative</span> 以強化 value-based care。HAC 定義為**入院時不存在、住院期間新發生的疾病或併發症**。
 
-<!-- FIG: Table 1 — CMS 定義的 14 項 Hospital-Acquired Conditions（手術後遺留異物、氣體栓塞、ABO 血型不相容、Stage III/IV 壓瘡、跌倒與創傷、CAUTI、導管相關血管感染、SSI 系列、血糖控制不佳之表現、DVT/PE、醫源性氣胸等）。 -->
 
 | HAC 類別 | 內容 |
 |---------|------|
@@ -218,7 +217,8 @@ HHS 設定目標：至 2016 年底至少 **30%**、2018 年底 **50%** 的 Medic
 ### 4.3 門診與 ASC 的轉移
 
 <!-- FIG: 圖 4 — Diagram shows the balanced scorecard for better performance measuremen -->
-
+![圖 4 — Diagram shows the balanced scorecard for better performance measuremen](/images/oku14/ch05_p0064_fig4.jpg)
+*圖 4 — Diagram shows the balanced scorecard for better performance measuremen*
 **門診總關節置換**：技術進步使門診 TKA／THA 安全可行。CMS 的 CY2020 Hospital Outpatient Prospective Payment System 包含關節置換支付更新；**2018 年**將 TKA、**2020 年**將 THA 移出 inpatient-only 清單，Medicare 得以不論住院與否給予支付。
 
 2017 年平均價格：TKA 住院 <span style="color:#f87171">$30,249</span> vs 門診 <span style="color:#34d399">$19,002</span>；髖置換住院 <span style="color:#f87171">$30,685</span> vs 門診 <span style="color:#34d399">$22,078</span>。
@@ -232,7 +232,8 @@ ASC 因團隊固定、熟悉術式與手術室流程及 protocols，手術時間
 ### 4.4 價格透明化 (Price Transparency)
 
 <!-- FIG: 圖 5 — Diagram shows four balanced scorecard categories of main Centers for M -->
-
+![圖 5 — Diagram shows four balanced scorecard categories of main Centers for M](/images/oku14/ch05_p0065_fig5.jpg)
+*圖 5 — Diagram shows four balanced scorecard categories of main Centers for M*
 Trump 行政支持下，兩黨議員通過立法，要求全美醫院線上公開服務價格，並揭露**折扣後現金價格、支付方特定議定價格，以及議定費率下的去識別化最高與最低收費**。
 
 - **城內價差極大**：德州 Dallas 市內髖關節置換最高收費可達同市最低價的 <span style="color:#f87171">4 倍</span>；支持方認為讓消費者比較「購物」可藉競爭壓低價格。

@@ -51,7 +51,8 @@ summary: "本章整理手與手腕屈伸肌腱損傷與肌腱病變：說明屈�
   - 當 FDP 修復處位於 A2 與 A4 滑車之間時，全屈曲狀態下修復端會向近端滑入 A2 滑車下方；若發生卡壓，需進行 **A2 滑車部分切開（venting）**。M-Tang 技術即主張經由足夠的滑車切開與無邊緣縫合的高強度核心修復，實現無阻力的早期主動活動（Early Active Motion, EAM）。
 
 <!-- FIG: 圖 1 — 屈肌腱 Zone II 修復與 A2/A4 滑車切開示意圖 -->
-
+![圖 1 — 屈肌腱 Zone II 修復與 A2/A4 滑車切開示意圖](/images/oku14/ch37_p0475_fig2.jpg)
+*圖 1 — 屈肌腱 Zone II 修復與 A2/A4 滑車切開示意圖*
 ### 1.3 屈肌腱重建與復健協定 (Rehabilitation Protocols & Reconstruction)
 
 #### 屈肌腱重建 (Tendon Reconstruction)
@@ -149,7 +150,6 @@ Zone 3 損傷係因中央束 (Central slip) 斷裂，導致 PIP 關節屈曲；�
 伸肌背側管道（Dorsal compartments 1–6）是腱鞘炎與神經/肌腱卡壓的好發部位。
 
 <!-- FIG: 圖 2 — 手腕背側第一管道（de Quervain）與第二管道交叉症候群（Intersection syndrome）解剖位置對照圖 -->
-
 ### 3.1 狄奎凡氏狹窄性腱鞘炎 (de Quervain Tenosynovitis)
 
 狄奎凡氏腱鞘炎係手腕背側 **第 1 管道 (1st Dorsal Compartment)** 的狹窄性發炎，內含 <span style="color:#22d3ee">Abductor Pollicis Longus (APL)</span> 與 <span style="color:#22d3ee">Extensor Pollicis Brevis (EPB)</span>。

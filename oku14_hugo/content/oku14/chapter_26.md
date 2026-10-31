@@ -146,7 +146,8 @@ summary: "本章系統介紹頸椎與胸腰椎脊椎創傷的解剖與生物力�
 TLICS 演算法具備外部效度（external validity）與高度的觀察者間一致性。儘管如此，部分 TLICS 個案在處置上仍有爭議，因此 Joaquim 等人提出依「脊柱不穩定」狀態為基礎的簡化、以治療為導向的分類系統。
 
 <!-- FIG: 圖 2　簡化的胸腰椎創傷治療演算法（依脊柱不穩定性分級）。改編自 Joaquim AF, Patel AA, Schroeder GD, Vaccaro AR: A simplified treatment algorithm for treating thoracic and lumbar spine trauma. J Spinal Cord Med 2019;42(4):416-422. -->
-
+![圖 2　簡化的胸腰椎創傷治療演算法（依脊柱不穩定性分級）。改編自 Joaquim AF, Patel AA, Schroeder GD, Vaccaro AR: A simplified treatment algorithm for treating thoracic and lumbar spine trauma. J Spinal Cord Med 2019;42(4):416-422.](/images/oku14/ch26_p0337_fig2.jpg)
+*圖 2　簡化的胸腰椎創傷治療演算法（依脊柱不穩定性分級）。改編自 Joaquim AF, Patel AA, Schroeder GD, Vaccaro AR: A simplified treatment algorithm for treating thoracic and lumbar spine trauma. J Spinal Cord Med 2019;42(4):416-422.*
 ### 2.5 立即不穩定 vs. 延遲不穩定：形態學決策表
 
 | 分類 | 骨折型態 |

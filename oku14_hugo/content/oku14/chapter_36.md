@@ -43,7 +43,8 @@ Mayo 分類將腕骨不穩定性依解剖與運動學機制分為四大主要類
 ### 1.3 影像學評估與診斷模組
 
 <!-- FIG: 圖 1 — Intraoperative photographs of the scapholunate 360° technique. A, Liga -->
-
+![圖 1 — Intraoperative photographs of the scapholunate 360° technique. A, Liga](/images/oku14/ch36_p0465_fig1.jpg)
+*圖 1 — Intraoperative photographs of the scapholunate 360° technique. A, Liga*
 臨床懷疑腕韌帶損傷時，應循序進行影像學檢查：
 
 | 影像檢查工具 | 評估重點與診斷標準 | 臨床應用與證據等級 |
@@ -62,7 +63,8 @@ Mayo 分類將腕骨不穩定性依解剖與運動學機制分為四大主要類
 ## 2. 分型系統與決策矩陣 (Classification & Decision Making)
 
 <!-- FIG: 圖 2 — Radiographs showing a dorsal transscaphoid perilunate fracture-disloca -->
-
+![圖 2 — Radiographs showing a dorsal transscaphoid perilunate fracture-disloca](/images/oku14/ch36_p0468_fig2.jpg)
+*圖 2 — Radiographs showing a dorsal transscaphoid perilunate fracture-disloca*
 ### 2.1 舟月骨韌帶（SL）損傷：Garcia-Elias 1–7 期分期與治療矩陣
 
 Garcia-Elias 依據韌帶破裂程度、舟骨姿態、可復位性及關節軟骨退化狀況，將 SL 撕裂分為 7 個臨床階段：

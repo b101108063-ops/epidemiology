@@ -35,9 +35,11 @@ summary: "本章整理手與腕的關鍵解剖變異、表面標記定位法、�
 ### 1.2 骨性解剖的變異性（Variability of Bony Anatomy）
 
 <!-- FIG: 圖 4 — Clinical photograph of anatomic dissection of the bifur- cation U, The -->
-
+![圖 4 — Clinical photograph of anatomic dissection of the bifur- cation U, The](/images/oku14/ch33_p0433_fig4.jpg)
+*圖 4 — Clinical photograph of anatomic dissection of the bifur- cation U, The*
 <!-- FIG: 圖 3 — Clinical photographs of surface landmarks to identify the thumb bifurc -->
-
+![圖 3 — Clinical photographs of surface landmarks to identify the thumb bifurc](/images/oku14/ch33_p0433_fig3.jpg)
+*圖 3 — Clinical photographs of surface landmarks to identify the thumb bifurc*
 手與腕的骨性形態變異，直接影響半鈎狀骨移植（hemi-hamate procedure）、舟骨手術與影像判讀。
 
 | 構造 | 關鍵數值／發現 | 臨床意義 |

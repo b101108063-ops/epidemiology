@@ -51,7 +51,8 @@ summary: "本章整理頸椎退行性疾病的臨床路徑：說明頸髓病與�
 ### 1.3 深層椎旁肌、矢狀位排列與脆弱性骨折
 
 <!-- FIG: 圖 2 — A through C, Sagittal magnetic resonance images show cord signal chang -->
-
+![圖 2 — A through C, Sagittal magnetic resonance images show cord signal chang](/images/oku14/ch53_p0677_fig2.jpg)
+*圖 2 — A through C, Sagittal magnetic resonance images show cord signal chang*
 - **深層頸椎椎旁肌的脂肪浸潤與萎縮**：頸髓病常合併深層椎旁肌的脂肪浸潤與萎縮，尤其是 <span style="color:#22d3ee">longus capitis（頭長肌）</span>、<span style="color:#22d3ee">longus colli（頸長肌）</span> 與 <span style="color:#22d3ee">multifidus（多裂肌）</span>，發生在**脊髓壓迫節段及其尾端**，並參與頸椎排列的維持。
 - **動態 X 光的排列變化**：動態攝影上矢狀位參數的變化程度，與頸髓病人的症狀嚴重度相關。2020 年研究顯示，**屈曲時 C2–C7 lordosis 大於 29°** 的病人，其結果優於屈曲時 lordosis 僅 **29° 以內**的病人，**不論接受手術或非手術治療**。
 - **脆弱性骨折（fragility fracture）**：除肌肉萎縮外，脆弱性骨折是頸髓病人**發病率與死亡率的重大貢獻因子**，且其發生率**在手術介入後下降**。
@@ -184,11 +185,13 @@ summary: "本章整理頸椎退行性疾病的臨床路徑：說明頸髓病與�
 - **Posterior cervical fusion（後方頸椎融合）**：較常保留給**年長、有頸髓病且為多節段病變**的病人；但因美國**人口老化**，以及**逐漸遠離單獨後方椎板切除**（因術後駝背風險），後方融合已日趨普遍。
 
 <!-- FIG: 圖 3 — 頸椎前方椎间盘切除融合術（ACDF）之術前（A）與術後（B）側位 X 光（Courtesy of Alan S. Hilibrand, MD, 2021.） -->
-
+![圖 3 — 頸椎前方椎间盘切除融合術（ACDF）之術前（A）與術後（B）側位 X 光（Courtesy of Alan S. Hilibrand, MD, 2021.）](/images/oku14/ch53_p0679_fig3.jpg)
+*圖 3 — 頸椎前方椎间盘切除融合術（ACDF）之術前（A）與術後（B）側位 X 光（Courtesy of Alan S. Hilibrand, MD, 2021.）*
 ### 4.3 保留活動度手術（Motion-Sparing Procedures）
 
 <!-- FIG: 圖 4 — Lateral preoperative (A) and postoperative (B) radio- graphs of a cerv -->
-
+![圖 4 — Lateral preoperative (A) and postoperative (B) radio- graphs of a cerv](/images/oku14/ch53_p0679_fig4.jpg)
+*圖 4 — Lateral preoperative (A) and postoperative (B) radio- graphs of a cerv*
 保留活動度手術包括 **foraminotomy（椎間孔切開術）**、**laminectomy（椎板切除術）**、**laminoplasty（椎板成形術）** 與 **cervical disk arthroplasty（頸椎人工椎間盤置換術）**。
 
 | 術式 | 技術要點 | 結果與爭議 |

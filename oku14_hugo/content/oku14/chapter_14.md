@@ -45,13 +45,16 @@ R_F = F_B − W_F − W_O
 > **Pearl**：自由體圖亦可用來計算不同關節在移動過程中的**節段間外力與力矩（intersegmental forces and moments）**。這正是後續步態運動學與關節接觸力估算的基礎。
 
 <!-- FIG: Figure 4 — 下肢自由體圖。A, 慣性屬性（inertial properties）；B, 節段間力與力矩（intersegmental forces and moments）。 -->
-
+![Figure 4 — 下肢自由體圖。A, 慣性屬性（inertial properties）；B, 節段間力與力矩（intersegmental forces and moments）。](/images/oku14/ch14_p0181_fig4.jpg)
+*Figure 4 — 下肢自由體圖。A, 慣性屬性（inertial properties）；B, 節段間力與力矩（intersegmental forces and moments）。*
 ### 1.2 從靜力學到動態量測的落差
 
 <!-- FIG: 圖 8 — illustration shows contact path motion of the medial tion of these tec -->
-
+![圖 8 — illustration shows contact path motion of the medial tion of these tec](/images/oku14/ch14_p0184_fig8.jpg)
+*圖 8 — illustration shows contact path motion of the medial tion of these tec*
 <!-- FIG: 圖 7 — Graphs show kinematics of the knee during the gait extremities are hig -->
-
+![圖 7 — Graphs show kinematics of the knee during the gait extremities are hig](/images/oku14/ch14_p0184_fig7.jpg)
+*圖 7 — Graphs show kinematics of the knee during the gait extremities are hig*
 自由體圖屬於**模型驅動**的分析；要回答「活體上真實的負荷是多少」，必須引入實驗量測的驗證流程。模型數值輸出必須經過**充分的驗證與確認（validation and verification）**才具有臨床效用，而儀器化植入物與遙測正是此類驗證的主要手段。
 
 > **Danger zone（解讀陷阱）**：缺乏獨立驗證的模型結果，僅為假設生成器，不可直接作為臨床決策依據。
@@ -61,9 +64,11 @@ R_F = F_B − W_F − W_O
 ## 2. 分型系統與組織力學 (Classification & Tissue Mechanics)
 
 <!-- FIG: 圖 10 — Illustration shows optical motion capture experimental setup including -->
-
+![圖 10 — Illustration shows optical motion capture experimental setup including](/images/oku14/ch14_p0186_fig10.jpg)
+*圖 10 — Illustration shows optical motion capture experimental setup including*
 <!-- FIG: 圖 9 — Graph shows hip joint contact force during gait. -->
-
+![圖 9 — Graph shows hip joint contact force during gait.](/images/oku14/ch14_p0185_fig9.jpg)
+*圖 9 — Graph shows hip joint contact force during gait.*
 ### 2.1 骨組織的階層結構與材料性質
 
 骨是肌肉骨骼系統中含量最多的組織，其組成比例為：
@@ -86,11 +91,13 @@ R_F = F_B − W_F − W_O
 > **Pearl**：日常功能活動（步行、跑步）使皮質骨**主要在縱向**受到最大負荷，因此縱向的抗力表現最具臨床意義。
 
 <!-- FIG: Figure 5 — 骨的應力－應變曲線（stress-strain curve），標示 ultimate strength、yield strength、fracture 與 Young's modulus E。 -->
-
+![Figure 5 — 骨的應力－應變曲線（stress-strain curve），標示 ultimate strength、yield strength、fracture 與 Young's modulus E。](/images/oku14/ch14_p0181_fig4.jpg)
+*Figure 5 — 骨的應力－應變曲線（stress-strain curve），標示 ultimate strength、yield strength、fracture 與 Young's modulus E。*
 ### 2.2 肌腱與韌帶力學（Tendon & Ligament Mechanics）
 
 <!-- FIG: 圖 1 — Schematic representation of fracture repair. On fracture induction (mi -->
-
+![圖 1 — Schematic representation of fracture repair. On fracture induction (mi](/images/oku14/ch14_p0194_fig1.jpg)
+*圖 1 — Schematic representation of fracture repair. On fracture induction (mi*
 肌腱與韌帶的機械行為**相似但功能不同**：韌帶連接骨與骨以提供關節穩定；肌腱連接肌肉與骨，將肌肉產生的力量傳遞至骨骼以促成運動。
 
 | 成分 | 肌腱 | 韌帶 |
@@ -144,7 +151,8 @@ R_F = F_B − W_F − W_O
 > **Pearl**：髖為**球窩關節（ball-and-socket）**，故髖旋轉必然伴隨**股骨頭相對髖臼的相對滑動（relative sliding）**。在日常功能活動中，最大滑動需求出現在**屈曲／伸展旋轉**。
 
 <!-- FIG: Figure 6 — 步態中髖關節旋轉的圖表（flexion/extension、abduction/adduction、internal/external rotation 對應 stance 與 swing phase）。 -->
-
+![Figure 6 — 步態中髖關節旋轉的圖表（flexion/extension、abduction/adduction、internal/external rotation 對應 stance 與 swing phase）。](/images/oku14/ch14_p0182_fig5.jpg)
+*Figure 6 — 步態中髖關節旋轉的圖表（flexion/extension、abduction/adduction、internal/external rotation 對應 stance 與 swing phase）。*
 ### 3.3 步態中的膝關節運動學
 
 膝關節在功能性活動中的複雜運動已有多項研究，其中以屈伸、內外旋、前後平移為代表（圖 7 數據來自病人平均值，並用於程式化膝關節模擬器以評估人工膝關節的磨耗型態）。
@@ -267,7 +275,8 @@ R_F = F_B − W_F − W_O
 ### 4.4 雙平面透視成像系統（Dual Fluoroscopy, DFIS）
 
 <!-- FIG: 圖 11 — Illustration depicts a musculoskeletal shoulder model tillator and con -->
-
+![圖 11 — Illustration depicts a musculoskeletal shoulder model tillator and con](/images/oku14/ch14_p0187_fig11.jpg)
+*圖 11 — Illustration depicts a musculoskeletal shoulder model tillator and con*
 **透視的物理原理**：透視提供即時、互動式的 X 射線投影影像，常使用**影像增強管（image intensifier）**，藉**防散射光柵（antiscatter grid）**移除散射輻射後偵測 X 射線圖型。X 射線由**碘化銫（CsI）閃爍體**捕捉並轉換為光光子，再導向閃爍體背面的**光陰極（photocathode）**。
 
 | 參數 | 數值／說明 |
@@ -313,9 +322,14 @@ R_F = F_B − W_F − W_O
 > **Pearl**：機器人與客製化植入物的「幾何還原更準確」與「功能與步態更接近原生」是**兩個不同的命題**，前者成功並不代表後者成立。
 
 <!-- FIG: Figure 12 — 透視成像系統示意（monitor、video camera、image intensifier、grid、patient、table、filtration、collimator、X-ray tube、X-ray generator）。 -->
+![Figure 12 — 透視成像系統示意（monitor、video camera、image intensifier、grid、patient、table、filtration、collimator、X-ray tube、X-ray generator）。](/images/oku14/ch14_p0183_fig6.jpg)
+*Figure 12 — 透視成像系統示意（monitor、video camera、image intensifier、grid、patient、table、filtration、collimator、X-ray tube、X-ray generator）。*
 <!-- FIG: Figure 13 — 由 CT 影像重建之單側全膝關節置換 3D 膝關節模型。 -->
+![Figure 13 — 由 CT 影像重建之單側全膝關節置換 3D 膝關節模型。](/images/oku14/ch14_p0188_fig13.jpg)
+*Figure 13 — 由 CT 影像重建之單側全膝關節置換 3D 膝關節模型。*
 <!-- FIG: Figure 14 — DFIS 設置。A, 動態活動下的 DFIS；B, 影像配準。 -->
-
+![Figure 14 — DFIS 設置。A, 動態活動下的 DFIS；B, 影像配準。](/images/oku14/ch14_p0188_fig12.jpg)
+*Figure 14 — DFIS 設置。A, 動態活動下的 DFIS；B, 影像配準。*
 ### 4.5 可穿戴裝置（Wearable Devices）
 
 可穿戴技術指所有**可佩戴於人體**的裝置。自數十年前手錶問世以來，此概念持續受到高度關注，並在**技術驅動型國家**日益普及。裝置蒐集資料並透過監測介面傳送給使用者。骨科醫師對其興趣主要來自**健身追蹤的成功先例**，以及其**簡化醫病溝通、優化病人照護、並可能降低攀升中的醫療成本**的潛力。

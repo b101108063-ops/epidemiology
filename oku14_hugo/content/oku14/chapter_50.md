@@ -86,7 +86,8 @@ summary: "本章整理足踝重建：涵蓋拇外翻、Morton 神經瘤、小趾
 ### 1.3 後足與中足：PCFD 與 Cavovarus 的解剖關鍵
 
 <!-- FIG: 圖 4 — Coronal (A) and axial (B) magnetic resonance images of a chronic synde -->
-
+![圖 4 — Coronal (A) and axial (B) magnetic resonance images of a chronic synde](/images/oku14/ch50_p0637_fig4.jpg)
+*圖 4 — Coronal (A) and axial (B) magnetic resonance images of a chronic synde*
 **Progressive collapsing foot deformity（PCFD，進行性塌陷足畸形）**
 
 - 舊稱 **adult acquired flatfoot deformity** 或 **posterior tibial tendon dysfunction**，是**足部架構一系列改變**所形成的症候群。
@@ -124,9 +125,11 @@ summary: "本章整理足踝重建：涵蓋拇外翻、Morton 神經瘤、小趾
 ## 2. 分型系統與決策矩陣 (Classification & Decision Making)
 
 <!-- FIG: 圖 5 — Sagittal view of an acute Achilles rupture on T1- weighted MRI. -->
-
+![圖 5 — Sagittal view of an acute Achilles rupture on T1- weighted MRI.](/images/oku14/ch50_p0639_fig5.jpg)
+*圖 5 — Sagittal view of an acute Achilles rupture on T1- weighted MRI.*
 <!-- FIG: 圖 3 — Weight-bearing lateral (A) and AP (B) radiographs of a cavovarus foot -->
-
+![圖 3 — Weight-bearing lateral (A) and AP (B) radiographs of a cavovarus foot](/images/oku14/ch50_p0636_fig3.jpg)
+*圖 3 — Weight-bearing lateral (A) and AP (B) radiographs of a cavovarus foot*
 ### 2.1 PCFD 新分類：Stage I（可活動）vs. Stage II（僵硬）＋ A–E 五個解剖位置
 
 | Stage | Class | 解剖位置 | 臨床表現 | 影像表現 |
@@ -318,7 +321,8 @@ summary: "本章整理足踝重建：涵蓋拇外翻、Morton 神經瘤、小趾
 > **Danger zone**：**初始 X 光正常不代表沒有 Lisfranc 損傷**——**40% 被漏診**；凡有**負重困難＋中足腫脹＋足底瘀青**者應高度懷疑並加做 CT 或 MRI。
 
 <!-- FIG: 圖 6 — 負重 AP X 光（A）顯示細微的 Lisfranc 損傷與第二跖骨骨折（fleck sign，箭號），在冠狀位 CT（B）上更清楚可見（圖示於原文 Figure 6） -->
-
+![圖 6 — 負重 AP X 光（A）顯示細微的 Lisfranc 損傷與第二跖骨骨折（fleck sign，箭號），在冠狀位 CT（B）上更清楚可見（圖示於原文 Figure 6）](/images/oku14/ch50_p0641_fig6.jpg)
+*圖 6 — 負重 AP X 光（A）顯示細微的 Lisfranc 損傷與第二跖骨骨折（fleck sign，箭號），在冠狀位 CT（B）上更清楚可見（圖示於原文 Figure 6）*
 ---
 
 ## 4. 手術入路與危險地雷 (Surgical Approach & Pearls)

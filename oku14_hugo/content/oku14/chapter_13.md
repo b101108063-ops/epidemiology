@@ -93,7 +93,8 @@ summary: "本章回顧骨科再生工程的兩大研究取向（自上而下與�
 ### 2.5 支架表面改質與生長因子載入
 
 <!-- FIG: 圖 1 — Schematic illustration depicts common scaffold fabrication techniques. -->
-
+![圖 1 — Schematic illustration depicts common scaffold fabrication techniques.](/images/oku14/ch13_p0170_fig1.jpg)
+*圖 1 — Schematic illustration depicts common scaffold fabrication techniques.*
 | 實例 | 結果 |
 |------|------|
 | 殼聚糖微球載入**阿侖膦酸鈉**（alendronate）於 PLA 支架 | 兔橈骨模型中骨再生較早且優於未載藥組 |
@@ -120,7 +121,8 @@ summary: "本章回顧骨科再生工程的兩大研究取向（自上而下與�
 > **Pearl**：電紡絲可透過同一製程產生開放互通孔或封閉孔、規則或偽隨機排列的結構，設計自由度極高。
 
 <!-- FIG: Figure 2 — PLA 支架比較載入阿侖膦酸鈉的殼聚糖微球（CM-Als 10%）與未載藥（CM-Als 0%）；放射影像顯示 10% 組骨再生較早且較佳；掃描式電子顯微鏡顯示 PLA 支架（黑箭頭）與整合的微球（白箭頭）（Adapted from Wu H, et al: Sci Rep 2017;7(1):359）。 -->
-
+![Figure 2 — PLA 支架比較載入阿侖膦酸鈉的殼聚糖微球（CM-Als 10%）與未載藥（CM-Als 0%）；放射影像顯示 10% 組骨再生較早且較佳；掃描式電子顯微鏡顯示 PLA 支架（黑箭頭）與整合的微球（白箭頭）（Adapted from Wu H, et al: Sci Rep 2017;7(1):359）。](/images/oku14/ch13_p0170_fig2.jpg)
+*Figure 2 — PLA 支架比較載入阿侖膦酸鈉的殼聚糖微球（CM-Als 10%）與未載藥（CM-Als 0%）；放射影像顯示 10% 組骨再生較早且較佳；掃描式電子顯微鏡顯示 PLA 支架（黑箭頭）與整合的微球（白箭頭）（Adapted from Wu H, et al: Sci Rep 2017;7(1):359）。*
 ### 3.2 電紡絲的階層化設計
 
 透過收集單一纖維並製成纖維墊後，可利用**逐層堆疊（layer-by-layer stacking）、3D 編織或模板注塑**重建原生肌肉骨骼組織複雜的異向性階層結構。多軸纖維結構可依需求排列為單軸平行、輻射狀平行或波浪狀。
@@ -137,7 +139,8 @@ summary: "本章回顧骨科再生工程的兩大研究取向（自上而下與�
 ### 3.3 電紡後的表面修飾與交聯
 
 <!-- FIG: 圖 3 — Images showing electrospun silk-poly(lactide-co-glycolide) scaffold wi -->
-
+![圖 3 — Images showing electrospun silk-poly(lactide-co-glycolide) scaffold wi](/images/oku14/ch13_p0172_fig3.jpg)
+*圖 3 — Images showing electrospun silk-poly(lactide-co-glycolide) scaffold wi*
 | 修飾方式 | 具體做法 | 體外／體內結果 |
 |------|----------|----------------|
 | 官能化 | PLLA 奈米纖維接上 I 型膠原蛋白、摻入 BMP | 幹細胞貼附、細胞密度與增殖增加；成骨分化↑ |
@@ -216,7 +219,8 @@ summary: "本章回顧骨科再生工程的兩大研究取向（自上而下與�
 2020 年一項研究探討**不需支架支持、直接 3D 列印幹細胞**用於軟骨再生：將脂肪來源間質幹細胞收集進入 3D 構形，待細胞密度足夠後即可操作與植入。bio-3D 列印結構植入**兔滑車溝（trochlear groove）直徑 4.8 mm 全層軟骨缺損**（full-thickness cartilage defect），植入後 3 個月評估：相較僅有全層缺損的對照標本，顯示**更佳的軟骨組織再生與移植物整合**。
 
 <!-- FIG: Figure 4 — 用於軟骨再生的生物 3D 列印脂肪來源間質幹細胞移植物。A、B 針陣堆疊後列印構形的俯視與側視照片；C、D 細胞培養 6 天後照片；E、F 兔軟骨缺損植入時與體內 3 個月後照片；G、H 移植物植入 3 個月後與未植入對照缺損的組織學影像（Adapted from Murata D, et al: Regen Ther 2020;15:77-89）。 -->
-
+![Figure 4 — 用於軟骨再生的生物 3D 列印脂肪來源間質幹細胞移植物。A、B 針陣堆疊後列印構形的俯視與側視照片；C、D 細胞培養 6 天後照片；E、F 兔軟骨缺損植入時與體內 3 個月後照片；G、H 移植物植入 3 個月後與未植入對照缺損的組織學影像（Adapted from Murata D, et al: Regen Ther 2020;15:77-89）。](/images/oku14/ch13_p0180_fig1.jpg)
+*Figure 4 — 用於軟骨再生的生物 3D 列印脂肪來源間質幹細胞移植物。A、B 針陣堆疊後列印構形的俯視與側視照片；C、D 細胞培養 6 天後照片；E、F 兔軟骨缺損植入時與體內 3 個月後照片；G、H 移植物植入 3 個月後與未植入對照缺損的組織學影像（Adapted from Murata D, et al: Regen Ther 2020;15:77-89）。*
 > **Pearl**：bio-3D 列印（needle-array 針陣）讓「無支架自體細胞移植物」在體外即可塑形成可植入構形，是目前最接近臨床可轉譯的軟骨再生途徑之一。
 
 ---

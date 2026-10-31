@@ -41,7 +41,8 @@ summary: "本章整理髖關節終末期退化與人工全髖關節置換術（T
 ### 1.2 門診 THA 與風險分層
 
 <!-- FIG: 圖 1 — Clinical photographs show how the dial test is used to aid in diagnosi -->
-
+![圖 1 — Clinical photographs show how the dial test is used to aid in diagnosi](/images/oku14/ch42_p0554_fig1.jpg)
+*圖 1 — Clinical photographs show how the dial test is used to aid in diagnosi*
 美國衛生福利部 Medicare & Medicaid 服務中心（CMS）於 2019 年底宣布，自 <span style="color:#60a5fa;font-weight:600">2020 年 1 月 1 日</span> 起將 THA 自「僅限住院手術清單（Inpatient-Only List）」中移除。隨著門診 THA（outpatient THA）日益普及，嚴格的風險分層（risk stratification）成為篩選合適病人的關鍵。
 
 - **篩選評估工具**：如門診關節置換風險評估（<span style="color:#e2e8f0">Outpatient Arthroplasty Risk Assessment, OARA</span>）與 ASA 分級，可用於辨識能安全接受當日出院（same-day discharge）的低風險患者（預測陽性率達 98.8%）。

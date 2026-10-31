@@ -34,7 +34,6 @@ summary: "本章涵蓋骨科病人術前風險分層與術後照護：以 ACS NS
 
 <span style="color:#e2e8f0">Frailty</span>（衰弱）：易受傷的狀態，介於生理缺損累積與儲備能力喪失之間。**mFI-11** 為較早的 11 項模型；**mFI-5** 為較新的 5 項模型，變項取自 <span style="color:#e2e8f0">ACS NSQIP</span> 資料庫登錄的術前狀況再外推精簡。兩版本在骨科各次專科皆有用，預測 30 天發病率、術後併發症與死亡的**一致性（concordance）表現優異**；統合分析顯示衰弱病人所有併發症與再入院比率較高，死亡率為非衰弱病人的 <span style="color:#f87171;font-weight:600">4 倍</span>。
 
-<!-- FIG: Table 2 — Five-Factor Modified Frailty Index (mFI-5) 的五個計分領域。 -->
 
 | mFI-5 計分領域 |
 |---------------|

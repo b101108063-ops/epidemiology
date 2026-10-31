@@ -38,7 +38,8 @@ summary: "本章整理肘部退行性疾病與神經病變：說明原發性骨�
 - **MRI**：於橈隧道症候群通常結果為陰性；若有異常，可見後骨間神經支配肌肉的去神經化水腫（denervation edema）、伸腕橈短肌（ECRB）邊緣增厚、旋後後返動脈（radial recurrent vessels）突出、後骨間神經腫脹或壓迫性佔位病灶。
 
 <!-- FIG: 圖 2 — 38 歲男性勞動者原發性肘骨關節炎的 AP 與 lateral plain radiographs（A）及顯示前後觀的三維 CT（B），可見造成肘活動範圍機械性阻礙的骨贅與游離體（Courtesy of Jason C. Ho, MD.） -->
-
+![圖 2 — 38 歲男性勞動者原發性肘骨關節炎的 AP 與 lateral plain radiographs（A）及顯示前後觀的三維 CT（B），可見造成肘活動範圍機械性阻礙的骨贅與游離體（Courtesy of Jason C. Ho, MD.）](/images/oku14/ch31_p0397_fig2.jpg)
+*圖 2 — 38 歲男性勞動者原發性肘骨關節炎的 AP 與 lateral plain radiographs（A）及顯示前後觀的三維 CT（B），可見造成肘活動範圍機械性阻礙的骨贅與游離體（Courtesy of Jason C. Ho, MD.）*
 ### 1.3 肘部神經的解剖邊界
 
 - <span style="color:#e2e8f0">Ulnar nerve（尺神經）</span>：可於肘部**近端、肘部本身或遠端**受壓；最常見的卡壓點為 **cubital tunnel（肘管）**，即尺神經位於肱骨內上髁（medial epicondyle）後方的空間，由 **Osborne ligament（ Osborne 韌帶）**覆蓋。
@@ -170,7 +171,8 @@ summary: "本章整理肘部退行性疾病與神經病變：說明原發性骨�
 術前會經由**有限的後內側切口（limited posteromedial skin incision）**先釋放尺神經。支持者認為其結果與相似的開放手術相當，但**恢復較快、 外觀較佳**。另有研究比較**有／無 capsulectomy** 的關節鏡清創，顯示**加上 capsulectomy 的 ROM 改善較多，併發症率無差異**。2019 年研究顯示關節鏡清創在**原發性與創傷後**肘關節炎的療效**無差異**，兩組疼痛、ROM 與功能分數均有改善。
 
 <!-- FIG: 圖 3 — 肘關節鏡臨床影像：A, 自外側向內側觀察前方關節，可見冠狀突骨刺（*）與其後之清創及遠端肱骨 osteoplasty（B）。C, 後方肘關節可見大型鷹嘴骨刺（**）與其後之清創（D）（Courtesy of Jason C. Ho, MD.） -->
-
+![圖 3 — 肘關節鏡臨床影像：A, 自外側向內側觀察前方關節，可見冠狀突骨刺（*）與其後之清創及遠端肱骨 osteoplasty（B）。C, 後方肘關節可見大型鷹嘴骨刺（**）與其後之清創（D）（Courtesy of Jason C. Ho, MD.）](/images/oku14/ch31_p0399_fig3.jpg)
+*圖 3 — 肘關節鏡臨床影像：A, 自外側向內側觀察前方關節，可見冠狀突骨刺（*）與其後之清創及遠端肱骨 osteoplasty（B）。C, 後方肘關節可見大型鷹嘴骨刺（**）與其後之清創（D）（Courtesy of Jason C. Ho, MD.）*
 ### 4.4 開放 vs. 關節鏡清創：結果比較
 
 | 研究 | 設計 | 結果 |
@@ -222,11 +224,13 @@ TEA 保留給**嚴重**肘關節炎、且關節保留已不可能滿意者。歷
 ### 4.7 肘半置換（Elbow Hemiarthroplasty）
 
 <!-- FIG: 圖 5 — Postoperative AP and lateral radiographs demon- strating the use of a -->
-
+![圖 5 — Postoperative AP and lateral radiographs demon- strating the use of a](/images/oku14/ch31_p0401_fig5.jpg)
+*圖 5 — Postoperative AP and lateral radiographs demon- strating the use of a*
 **Distal humeral replacement（遠端肱骨置換）** 為 TEA 之外的替代方案，已在**遠端肱骨骨折**有大量研究，但支持其用於**肘關節炎**的資料有限。理論優勢在於：**保留橈骨與尺骨的骨庫（bone stock）**，且因**無尺骨側組件**，術後**不需嚴格的活動限制**，因此適合年輕病人。2019 年研究報告 16 個肘、平均年齡 45 歲、平均追蹤 51 個月：ROM 明顯改善，但僅**略過半數**病人 MEPS 為 excellent 或 good；**三分之一病人需再次手術**，其中 **2 例需轉為 TEA**。
 
 <!-- FIG: 圖 6 — 創傷後肘關節炎（開放復位固定後）接受肘半置換的 5 年追蹤 AP 與 lateral radiographs（A: 術前；B: 半置換後）（Reprinted with permission from Werthel JD, Schoch B, Adams J, Steinmann S: J Am Acad Orthop Surg 2019;27(19):727-735.） -->
-
+![圖 6 — 創傷後肘關節炎（開放復位固定後）接受肘半置換的 5 年追蹤 AP 與 lateral radiographs（A: 術前；B: 半置換後）（Reprinted with permission from Werthel JD, Schoch B, Adams J, Steinmann S: J Am Acad Orthop Surg 2019;27(19):727-735.）](/images/oku14/ch31_p0402_fig6.jpg)
+*圖 6 — 創傷後肘關節炎（開放復位固定後）接受肘半置換的 5 年追蹤 AP 與 lateral radiographs（A: 術前；B: 半置換後）（Reprinted with permission from Werthel JD, Schoch B, Adams J, Steinmann S: J Am Acad Orthop Surg 2019;27(19):727-735.）*
 ### 4.8 尺神經手術：減壓、轉位與內上髥切除
 
 | 術式 | 技術要點 | 結果與爭議 |
@@ -248,7 +252,8 @@ TEA 保留給**嚴重**肘關節炎、且關節保留已不可能滿意者。歷
 > **Danger zone 4**：**後骨間神經卡壓可由腱鞘囊腫造成**（圖 7C），術中可見明顯的**沙漏狀變形與壓迫處發紅**；此類病例需完整切除囊腫並解除壓迫。
 
 <!-- FIG: 圖 7 — 肘管症候群手術治療臨床照片：A, 肘管內受壓迫的尺神經（U）與造成尺神經炎的腱鞘囊腫（*）。B, 腱鞘囊腫切除。H = 肱骨，FA = 前臂。C, 25 歲後骨間神經麻痺病人，腱鞘囊腫（A）壓迫旋後肌（S）下方的後骨間神經（P）。D, 切除後可見壓迫處嚴重神經壓迫，呈沙漏狀變形與發紅；病人術後 6 週完全恢復運動功能（Courtesy of Joseph F. Styron, MD, PhD, FAAOS.） -->
-
+![圖 7 — 肘管症候群手術治療臨床照片：A, 肘管內受壓迫的尺神經（U）與造成尺神經炎的腱鞘囊腫（*）。B, 腱鞘囊腫切除。H = 肱骨，FA = 前臂。C, 25 歲後骨間神經麻痺病人，腱鞘囊腫（A）壓迫旋後肌（S）下方的後骨間神經（P）。D, 切除後可見壓迫處嚴重神經壓迫，呈沙漏狀變形與發紅；病人術後 6 週完全恢復運動功能（Courtesy of Joseph F. Styron, MD, PhD, FAAOS.）](/images/oku14/ch31_p0403_fig7.jpg)
+*圖 7 — 肘管症候群手術治療臨床照片：A, 肘管內受壓迫的尺神經（U）與造成尺神經炎的腱鞘囊腫（*）。B, 腱鞘囊腫切除。H = 肱骨，FA = 前臂。C, 25 歲後骨間神經麻痺病人，腱鞘囊腫（A）壓迫旋後肌（S）下方的後骨間神經（P）。D, 切除後可見壓迫處嚴重神經壓迫，呈沙漏狀變形與發紅；病人術後 6 週完全恢復運動功能（Courtesy of Joseph F. Styron, MD, PhD, FAAOS.）*
 ---
 
 ## 5. 實證更新與 OKU 14 重點 (Recent Evidence & Take-Home Points)
@@ -275,7 +280,8 @@ TEA 保留給**嚴重**肘關節炎、且關節保留已不可能滿意者。歷
 ### 5.2 OKU 14 Key Study Points（本章重點整理）
 
 <!-- FIG: 圖 4 — Clinical images from a patient with elbow arthritis (A), with a dermal -->
-
+![圖 4 — Clinical images from a patient with elbow arthritis (A), with a dermal](/images/oku14/ch31_p0400_fig4.jpg)
+*圖 4 — Clinical images from a patient with elbow arthritis (A), with a dermal*
 - 肘關節炎（elbow arthrosis）最常見的三種病因是**原發性骨關節炎、創傷後關節炎與類風濕性關節炎**。
 - 治療選項必須考量**病人年齡、活動量、病變程度與期待**。
 - **肘關節清創（開放或關節鏡）** 對**輕至中度**肘關節炎可能有效；**間置關節置換與 TEA 應保留給較晚期且適當篩選的病人**。

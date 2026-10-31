@@ -66,7 +66,8 @@ summary: "本章為骨科基礎科學章節，依序介紹載荷與剛度量測�
 ### 1.4 彈性模數與材料選擇 (Elastic Modulus)
 
 <!-- FIG: 圖 3 — Graphs show stress-strain behavior. A, An idealized stress-strain curv -->
-
+![圖 3 — Graphs show stress-strain behavior. A, An idealized stress-strain curv](/images/oku14/ch08_p0099_fig3.jpg)
+*圖 3 — Graphs show stress-strain behavior. A, An idealized stress-strain curv*
 <span style="color:#e2e8f0">Young modulus</span>（彈性模數）是應力－應變曲線**彈性區的斜率**，代表材料的**剛度（stiffness）**。
 
 - 用途：比較與篩選骨科材料。
@@ -154,7 +155,8 @@ summary: "本章為骨科基礎科學章節，依序介紹載荷與剛度量測�
 ### 3.3 骨水泥：聚甲基丙烯酸甲酯 (Polymethyl Methacrylate, PMMA)
 
 <!-- FIG: 圖 1 — Portable AP radiograph obtained in the trauma bay Atraumatic Evaluatio -->
-
+![圖 1 — Portable AP radiograph obtained in the trauma bay Atraumatic Evaluatio](/images/oku14/ch08_p0106_fig1.jpg)
+*圖 1 — Portable AP radiograph obtained in the trauma bay Atraumatic Evaluatio*
 <span style="color:#e2e8f0">PMMA</span>（壓克力）是**剛性熱塑性材料**，因具備良好生物相容性而用於骨水泥。
 
 - **雖無黏著性（not adhesive）**，但可作為**空間填充劑**，並藉由**不規則骨表面與假體之間的機械性互鎖（mechanical interlock）**達到固定。
@@ -265,7 +267,8 @@ summary: "本章為骨科基礎科學章節，依序介紹載荷與剛度量測�
 - 鈍化膜**並非靜態**，而是**持續的穩態平衡**：厚度與保護能力是**侵蝕反應與生成反應**的平衡結果。
 
 <!-- FIG: Figure 4 — 腐蝕類型示意。A，基本腐蝕：氧化還原反應形成金屬氫氧化物（鏽）或金屬氧化物（鈍化膜）。B，點狀腐蝕：鈍化膜阻止腐蝕，膜上缺陷讓腐蝕得以發生。C，裂隙腐蝕：同點狀機轉但發生於密閉空間，受限擴散造成 pH 下降與氧張力降低。D，機械輔助裂隙腐蝕（MACC）：同裂隙機轉但有機械剪力跨過鈍化膜，提高腐蝕速率。（Courtesy of Kenneth Urish, MD, PhD, Pittsburgh, PA） -->
-
+![Figure 4 — 腐蝕類型示意。A，基本腐蝕：氧化還原反應形成金屬氫氧化物（鏽）或金屬氧化物（鈍化膜）。B，點狀腐蝕：鈍化膜阻止腐蝕，膜上缺陷讓腐蝕得以發生。C，裂隙腐蝕：同點狀機轉但發生於密閉空間，受限擴散造成 pH 下降與氧張力降低。D，機械輔助裂隙腐蝕（MACC）：同裂隙機轉但有機械剪力跨過鈍化膜，提高腐蝕速率。（Courtesy of Kenneth Urish, MD, PhD, Pittsburgh, PA）](/images/oku14/ch08_p0103_fig4.jpg)
+*Figure 4 — 腐蝕類型示意。A，基本腐蝕：氧化還原反應形成金屬氫氧化物（鏽）或金屬氧化物（鈍化膜）。B，點狀腐蝕：鈍化膜阻止腐蝕，膜上缺陷讓腐蝕得以發生。C，裂隙腐蝕：同點狀機轉但發生於密閉空間，受限擴散造成 pH 下降與氧張力降低。D，機械輔助裂隙腐蝕（MACC）：同裂隙機轉但有機械剪力跨過鈍化膜，提高腐蝕速率。（Courtesy of Kenneth Urish, MD, PhD, Pittsburgh, PA）*
 ### 4.3 三種腐蝕型態 (Pitting, Crevice & MACC)
 
 這三種型態皆屬於**同一連續光譜**，反映合金避免**保護性鈍化層崩解**的能力。

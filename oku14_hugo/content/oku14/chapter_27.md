@@ -36,7 +36,8 @@ summary: "本章整理肩部四大關節與旋轉肌群的解剖及生物力學�
 > **Danger zone**：僅以X光目測判讀COR，或忽略假體位置對關節線與肩胛骨的連鎖影響，是關節置換術後功能不佳的常見未被察覺因素。
 
 <!-- FIG: Figure 3 術後X光以 perfect circle 標註法判定假體旋轉中心（COR） -->
-
+![Figure 3 術後X光以 perfect circle 標註法判定假體旋轉中心（COR）](/images/oku14/ch27_p0347_fig3.jpg)
+*Figure 3 術後X光以 perfect circle 標註法判定假體旋轉中心（COR）*
 ### 1.2 肩鎖關節：旋轉貢獻與穩定結構
 
 肩鎖關節是**上肢與中軸骨骼之間的主要關節**，因此承受反覆的應力與應變，最終易發生退行性變化。
@@ -83,9 +84,11 @@ summary: "本章整理肩部四大關節與旋轉肌群的解剖及生物力學�
 > **Pearl**：肩胛骨翼狀（scapular winging）最常見的功能性解釋是斜方肌與前鋸肌失衡，也是肩袖疾病與肩峰下狹窄的生物力學上游因子。
 
 <!-- FIG: Figure 5 Beighton 評分量表組成：A 拇指觸前臂、B 腰椎屈曲使掌心觸地、C 小指掌指關節過伸、D 膝過伸、E 肘過伸 -->
-
+![Figure 5 Beighton 評分量表組成：A 拇指觸前臂、B 腰椎屈曲使掌心觸地、C 小指掌指關節過伸、D 膝過伸、E 肘過伸](/images/oku14/ch27_p0349_fig5.jpg)
+*Figure 5 Beighton 評分量表組成：A 拇指觸前臂、B 腰椎屈曲使掌心觸地、C 小指掌指關節過伸、D 膝過伸、E 肘過伸*
 <!-- FIG: Figure 6 內側翼狀（medial winging）照片，於患者主動將手臂上抬至 90° 時最清楚 -->
-
+![Figure 6 內側翼狀（medial winging）照片，於患者主動將手臂上抬至 90° 時最清楚](/images/oku14/ch27_p0350_fig6.jpg)
+*Figure 6 內側翼狀（medial winging）照片，於患者主動將手臂上抬至 90° 時最清楚*
 ### 1.5 旋轉袖複合體（Rotator Cuff）
 
 旋轉袖複合體由**棘上肌、棘下肌、肩胛下肌、小圓肌**的肌肉與肌腱構成。由於盂肱關節本身固有的不穩定性，肩部肌肉的解剖與功能重要性高於多數其他人體功能解剖。
@@ -167,7 +170,8 @@ summary: "本章整理肩部四大關節與旋轉肌群的解剖及生物力學�
 ### 2.3 理學檢查的必備要素
 
 <!-- FIG: 圖 7 — Radiographic views demonstrating examination of the shoulder. A, Tradi -->
-
+![圖 7 — Radiographic views demonstrating examination of the shoulder. A, Tradi](/images/oku14/ch27_p0351_fig7.jpg)
+*圖 7 — Radiographic views demonstrating examination of the shoulder. A, Tradi*
 肩部物理檢查的技巧近年已成為多層級醫學教育的改善重點。與其他肌肉骨骼評估相同，核心組成包括：**視診、觸診、活動度（range of motion）、肌力、神經血管檢查**。
 
 | **檢查要素** | 內容與判讀重點 |

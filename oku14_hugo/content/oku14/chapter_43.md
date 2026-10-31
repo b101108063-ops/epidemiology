@@ -38,7 +38,8 @@ summary: "本章整理膝關節韌帶損傷（ACL、PCL、MCL、PLC 及 MPFL）�
 - **<span style="color:#22d3ee">Posterolateral Corner (PLC，後外側角)</span>**：主要包含 <span style="color:#e2e8f0">LCL（外側副韌帶）</span>、<span style="color:#e2e8f0">popliteus tendon（膕肌腱）</span>、<span style="color:#e2e8f0">popliteofibular ligament (PFL，膕腓韌帶)</span>、<span style="color:#e2e8f0">iliotibial band（腸脛束）</span>與 <span style="color:#e2e8f0">biceps femoris（股二頭肌）</span>。PLC 穩定膝關節抗內翻應力與脛骨外旋。臨床上使用 **<span style="color:#60a5fa;font-weight:600">Dial test</span>** 評估（圖 1）。
 
 <!-- FIG: 圖 1 — Dial test 臨床照片，於 30° 膝屈曲時出現非對稱外旋提示單純 PLC 損傷，於 90° 膝屈曲時外旋角度更大則提示合併 PCL 損傷。 -->
-
+![圖 1 — Dial test 臨床照片，於 30° 膝屈曲時出現非對稱外旋提示單純 PLC 損傷，於 90° 膝屈曲時外旋角度更大則提示合併 PCL 損傷。](/images/oku14/ch43_p0562_fig1.jpg)
+*圖 1 — Dial test 臨床照片，於 30° 膝屈曲時出現非對稱外旋提示單純 PLC 損傷，於 90° 膝屈曲時外旋角度更大則提示合併 PCL 損傷。*
 - **<span style="color:#22d3ee">Medial Collateral Ligament (MCL，內側副韌帶)</span>**：分為深層（與內側半月板相連）與淺層（<span style="color:#e2e8f0">sMCL</span>）。sMCL 為外翻應力的主要抑制結構，源自股骨內上髁後上方，附著於關節線遠端 **6 cm** 處。
 - **<span style="color:#22d3ee">Posterior Oblique Ligament (POL，後斜韌帶)</span>**：源自股骨收肌結節（adductor tubercle），附著於脛骨後側與關節囊，控制前內側旋轉並輔助外翻穩定。
 
@@ -47,9 +48,11 @@ summary: "本章整理膝關節韌帶損傷（ACL、PCL、MCL、PLC 及 MPFL）�
 ### 1.3 髕股內側複合體與解剖易感因子
 
 <!-- FIG: 圖 8 — Schematic illustration shows techniques for posterolateral corner reco -->
-
+![圖 8 — Schematic illustration shows techniques for posterolateral corner reco](/images/oku14/ch43_p0561_fig8.jpg)
+*圖 8 — Schematic illustration shows techniques for posterolateral corner reco*
 <!-- FIG: 圖 3 — MRI shows bony contusions in the lateral femoral con- dyle and postero -->
-
+![圖 3 — MRI shows bony contusions in the lateral femoral con- dyle and postero](/images/oku14/ch43_p0556_fig3.jpg)
+*圖 3 — MRI shows bony contusions in the lateral femoral con- dyle and postero*
 髕骨為解剖上的籽骨（sesamoid bone），承受極大剪力。在女性等骨盆較寬的族群中，Q 角增大容易導致髕骨外側軌跡偏移或脫位。
 
 - **<span style="color:#22d3ee">Medial Patellofemoral Ligament (MPFL，髕股內側韌帶)</span>**：為抑制髕骨外側位移的主要靜態結構，起源自收肌結節與內上髁之間的鞍狀區（saddle region），主要附著於髕骨赤道上方（上 1/2）。其纖維亦延伸至股四頭肌腱，故更精確稱為 **<span style="color:#e2e8f0">Medial Patellofemoral Complex (MPFC)</span>**。
@@ -82,7 +85,8 @@ X 光影像為初步評估的基礎，負重照（weight-bearing radiograph）�
 ### 2.2 滑車發育不良 Dejour 分型與髕股測量
 
 <!-- FIG: 圖 2 — AP radiograph shows a Segond fracture (arrow), which is an avulsion of -->
-
+![圖 2 — AP radiograph shows a Segond fracture (arrow), which is an avulsion of](/images/oku14/ch43_p0555_fig2.jpg)
+*圖 2 — AP radiograph shows a Segond fracture (arrow), which is an avulsion of*
 髕骨不穩定患者常伴隨滑車發育不良，Dejour 分型依側位 X 光與 CT/MRI 影像特徵分為四型（圖 6）：
 
 | Dejour 分型 | 影像學特徵 (Radiographic Features) | 結構異常說明 |
@@ -105,11 +109,14 @@ X 光影像為初步評估的基礎，負重照（weight-bearing radiograph）�
 ## 3. 治療指引：保守治療與手術適應症 (Treatment Algorithm)
 
 <!-- FIG: 圖 7 — MRI showing chronic anterior cruciate ligament tears, which can overlo -->
-
+![圖 7 — MRI showing chronic anterior cruciate ligament tears, which can overlo](/images/oku14/ch43_p0559_fig7.jpg)
+*圖 7 — MRI showing chronic anterior cruciate ligament tears, which can overlo*
 <!-- FIG: 圖 6 — Drawings depict the Dejour classification of trochlear dysplasia. (Rep -->
-
+![圖 6 — Drawings depict the Dejour classification of trochlear dysplasia. (Rep](/images/oku14/ch43_p0558_fig6.jpg)
+*圖 6 — Drawings depict the Dejour classification of trochlear dysplasia. (Rep*
 <!-- FIG: 圖 4 — AP radiograph obtained with a portable trauma bay device shows capsula -->
-
+![圖 4 — AP radiograph obtained with a portable trauma bay device shows capsula](/images/oku14/ch43_p0557_fig4.jpg)
+*圖 4 — AP radiograph obtained with a portable trauma bay device shows capsula*
 膝關節韌帶損傷的治療決策取決於受損韌帶種類、鬆弛程度、患者年齡、活動需求及是否合併軟骨／半月板損傷。
 
 ### 3.1 膝關節四大主要韌帶之治療決策演算法
@@ -166,7 +173,8 @@ X 光影像為初步評估的基礎，負重照（weight-bearing radiograph）�
   3. 位於 Blumensaat 線近端。
 
 <!-- FIG: 圖 9 — 示意圖展現髕股內側韌帶（MPFL）重建術中股骨固定點之 X 光定位地標（Schöttle point）。 -->
-
+![圖 9 — 示意圖展現髕股內側韌帶（MPFL）重建術中股骨固定點之 X 光定位地標（Schöttle point）。](/images/oku14/ch43_p0562_fig9.jpg)
+*圖 9 — 示意圖展現髕股內側韌帶（MPFL）重建術中股骨固定點之 X 光定位地標（Schöttle point）。*
 ### 4.2 膝關節脫位與多重韌帶損傷 (MLKI) 處置 pearls
 
 膝關節脫位（Multiligament Knee Injury, MLKI）屬於骨科急診，處置重點如下：
@@ -181,7 +189,8 @@ X 光影像為初步評估的基礎，負重照（weight-bearing radiograph）�
 ## 5. 實證更新與 OKU 14 重點 (Recent Evidence & Take-Home Points)
 
 <!-- FIG: 圖 5 — Intraoperative fluoroscopic stress view used to deter- mine the amount -->
-
+![圖 5 — Intraoperative fluoroscopic stress view used to deter- mine the amount](/images/oku14/ch43_p0557_fig5.jpg)
+*圖 5 — Intraoperative fluoroscopic stress view used to deter- mine the amount*
 ### 5.1 膝關節韌帶損傷臨床數據與處置綜合比較表
 
 | 韌帶／疾病分類 | 關鍵解剖／影像標誌 | 核心實證數據／評估門檻 | 最佳手術處置選擇 | 臨床地雷與備註 |

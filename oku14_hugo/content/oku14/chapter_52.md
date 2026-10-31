@@ -62,11 +62,13 @@ summary: "本章整理脊椎病變的評估流程：紅旗徵狀分流、活動�
 - 感覺檢查是神經學檢查的關鍵，必須徹底理解**感覺皮節（dermatome）**分佈。
 
 <!-- FIG: 圖 1 — 上肢與下肢感覺皮節分佈示意圖（Reproduced with permission from Standaert G, Herring SA, Sinclair JD, in Rothman-Simeone and Herkowitz's The Spine, ed 7. Elsevier, 2018. Also special credit to American Spinal Injury Association: International Standards for Neurological Classification of Spinal Cord Injury, revised 2019.） -->
-
+![圖 1 — 上肢與下肢感覺皮節分佈示意圖（Reproduced with permission from Standaert G, Herring SA, Sinclair JD, in Rothman-Simeone and Herkowitz's The Spine, ed 7. Elsevier, 2018. Also special credit to American Spinal Injury Association: International Standards for Neurological Classification of Spinal Cord Injury, revised 2019.）](/images/oku14/ch52_p0667_fig1.jpg)
+*圖 1 — 上肢與下肢感覺皮節分佈示意圖（Reproduced with permission from Standaert G, Herring SA, Sinclair JD, in Rothman-Simeone and Herkowitz's The Spine, ed 7. Elsevier, 2018. Also special credit to American Spinal Injury Association: International Standards for Neurological Classification of Spinal Cord Injury, revised 2019.）*
 ### 1.5 感覺檢查：四種感覺與定位意義
 
 <!-- FIG: 圖 2 — Illustration shows motor examination for cervical (A) and lumbar (B) n -->
-
+![圖 2 — Illustration shows motor examination for cervical (A) and lumbar (B) n](/images/oku14/ch52_p0670_fig2.jpg)
+*圖 2 — Illustration shows motor examination for cervical (A) and lumbar (B) n*
 脊髓有**四條不同的感覺解剖傳導路徑**，完整檢查應評估全部四種感覺，並以**皮節模式**進行。
 
 | 感覺類型 | 檢查工具 | 定位意義 |

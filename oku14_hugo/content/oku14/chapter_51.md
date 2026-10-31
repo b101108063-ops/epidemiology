@@ -34,7 +34,8 @@ summary: "本章系統整理脊椎解剖：脊髓與腦脊髓膜、各區域頸�
 ### 1.2 脊神經根的出口規則
 
 <!-- FIG: 圖 2 — Illustrations dernonstrating vertebral development. A, Somite differen -->
-
+![圖 2 — Illustrations dernonstrating vertebral development. A, Somite differen](/images/oku14/ch51_p0649_fig2.jpg)
+*圖 2 — Illustrations dernonstrating vertebral development. A, Somite differen*
 脊神經共 **31 對**，其出口層級與離開椎管／椎間孔的位置相對應：
 
 - **頸椎段**：神經根自同編號椎弓根的**上方**（superior）出孔。
@@ -46,9 +47,11 @@ summary: "本章系統整理脊椎解剖：脊髓與腦脊髓膜、各區域頸�
 ### 1.3 腦脊髓膜與灰白質
 
 <!-- FIG: 圖 13 — Illustration shows the orientation of fibers along the vertebral body. -->
-
+![圖 13 — Illustration shows the orientation of fibers along the vertebral body.](/images/oku14/ch51_p0660_fig13.jpg)
+*圖 13 — Illustration shows the orientation of fibers along the vertebral body.*
 <!-- FIG: 圖 5 — Illustrations show sagittal (A) and coronal (B) views of the spine. -->
-
+![圖 5 — Illustrations show sagittal (A) and coronal (B) views of the spine.](/images/oku14/ch51_p0651_fig5.jpg)
+*圖 5 — Illustrations show sagittal (A) and coronal (B) views of the spine.*
 脊髓與腦一樣由**三層腦脊髓膜**覆蓋：
 
 | 層次 | 構造 | 特性 |
@@ -64,9 +67,11 @@ summary: "本章系統整理脊椎解剖：脊髓與腦脊髓膜、各區域頸�
 ### 1.4 主要傳導束與感覺運動定位
 
 <!-- FIG: 圖 8 — ||lustration shows the spinopelvic ligaments as seen from the AP view. -->
-
+![圖 8 — ||lustration shows the spinopelvic ligaments as seen from the AP view.](/images/oku14/ch51_p0655_fig8.jpg)
+*圖 8 — ||lustration shows the spinopelvic ligaments as seen from the AP view.*
 <!-- FIG: 圖 7 — A, Illustration demonstrating sagittal view of the occipitocervical ar -->
-
+![圖 7 — A, Illustration demonstrating sagittal view of the occipitocervical ar](/images/oku14/ch51_p0654_fig7.jpg)
+*圖 7 — A, Illustration demonstrating sagittal view of the occipitocervical ar*
 | 傳導束 | 功能 |
 |--------|------|
 | <span style="color:#22d3ee">Dorsal columns（後索）</span> | 振動、深部壓覺、本體感覺 |
@@ -78,7 +83,8 @@ summary: "本章系統整理脊椎解剖：脊髓與腦脊髓膜、各區域頸�
 - 上述各束內有髓鞘纖維的排列方式為：**上肢的纖維較深**，隨後是軀幹與下肢等較遠端目標的纖維**逐漸移至淺層**。
 
 <!-- FIG: 圖 4 — 頸段脊髓橫斷面解剖：1 fasciculus gracilis，2 fasciculus cuneatus，3 dorsal spinocerebellar tract，4 ventral spinocerebellar tract，5 lateral spinothalamic tract，6 spino-olivary tract，7 ventral corticospinal tract，8 tectospinal tract，9 vestibulospinal tract，10 olivospinal tract，11 propriospinal tract，12 lateral corticospinal tract -->
-
+![圖 4 — 頸段脊髓橫斷面解剖：1 fasciculus gracilis，2 fasciculus cuneatus，3 dorsal spinocerebellar tract，4 ventral spinocerebellar tract，5 lateral spinothalamic tract，6 spino-olivary tract，7 ventral corticospinal tract，8 tectospinal tract，9 vestibulospinal tract，10 olivospinal tract，11 propriospinal tract，12 lateral corticospinal tract](/images/oku14/ch51_p0650_fig4.jpg)
+*圖 4 — 頸段脊髓橫斷面解剖：1 fasciculus gracilis，2 fasciculus cuneatus，3 dorsal spinocerebellar tract，4 ventral spinocerebellar tract，5 lateral spinothalamic tract，6 spino-olivary tract，7 ventral corticospinal tract，8 tectospinal tract，9 vestibulospinal tract，10 olivospinal tract，11 propriospinal tract，12 lateral corticospinal tract*
 ### 1.5 背根與背根神經節
 
 每一脊髓節段皆有**前後根絲（rootlets）**，分別匯集為前根與後根，最後合併為同時含運動與感覺成分的**節段性神經根**。<span style="color:#e2e8f0">Dorsal root ganglion（背根神經節）</span>位於後根上，為周邊感覺神經與傳入訊號產生突觸的位置。病理狀態下成群出現的症狀組合，常可追溯為**成組白質傳導束血供被破壞**所致。
@@ -186,7 +192,8 @@ summary: "本章系統整理脊椎解剖：脊髓與腦脊髓膜、各區域頸�
 ### 3.2 肌肉控制：固有肌與外在肌
 
 <!-- FIG: 圖 6 — Illustration demonstrates the anatomic structures comprising the three -->
-
+![圖 6 — Illustration demonstrates the anatomic structures comprising the three](/images/oku14/ch51_p0652_fig6.jpg)
+*圖 6 — Illustration demonstrates the anatomic structures comprising the three*
 椎體的精巧骨性解剖構成許多肌肉的起止點：**固有肌（intrinsic）**穩定並帶動軸性骨骼本身，**外在肌（extrinsic）**則支撐並帶動附屬骨骼。
 
 | 分類 | 支配 | 範圍 |
@@ -233,9 +240,11 @@ summary: "本章系統整理脊椎解剖：脊髓與腦脊髓膜、各區域頸�
 - **Multifidus** 起自**棘突與椎板**，向下附著於**鄰近 2 至 4 個節段**並延伸至**薦骨**，伸展時提供**小節段的椎體穩定**。其獨特處為**高密度肌纖維、高被動彈性容量與短肌節長度**，故屈曲被牽伸時可產生**更大的力量**。
 
 <!-- FIG: 圖 9 — 頸段橫切面之頸部複雜肌肉構造（A）；斜方肌為頸後淺層（B）；深層頸肌淺層 splenius cervicis 與 splenius capitis（C）；外側肌層 longissimus cervicis 與 iliocostalis cervicis（D）；頸部深層（E） -->
-
+![圖 9 — 頸段橫切面之頸部複雜肌肉構造（A）；斜方肌為頸後淺層（B）；深層頸肌淺層 splenius cervicis 與 splenius capitis（C）；外側肌層 longissimus cervicis 與 iliocostalis cervicis（D）；頸部深層（E）](/images/oku14/ch51_p0656_fig9.jpg)
+*圖 9 — 頸段橫切面之頸部複雜肌肉構造（A）；斜方肌為頸後淺層（B）；深層頸肌淺層 splenius cervicis 與 splenius capitis（C）；外側肌層 longissimus cervicis 與 iliocostalis cervicis（D）；頸部深層（E）*
 <!-- FIG: 圖 10 — 背部深層肌肉 -->
-
+![圖 10 — 背部深層肌肉](/images/oku14/ch51_p0657_fig10.jpg)
+*圖 10 — 背部深層肌肉*
 #### 3.2.2 外在肌
 
 | 肌肉 | 附著 | 功能 |
@@ -270,7 +279,8 @@ summary: "本章系統整理脊椎解剖：脊髓與腦脊髓膜、各區域頸�
 - 動脈的**中膜與內膜肌層**可對由前脊髓動脈至其**中央動脈分支**的脊髓內在血流進行**自主調節**。**背側骨贅與軟骨突出物壓迫前脊髓動脈腹側**，加上其營養重要性，於**脊椎狹窄**時可能造成後果。
 
 <!-- FIG: 圖 11 — 脊髓主要動脈的起源與大致位置：前脊髓動脈、後脊髓動脈、髓質動脈、節段動脈、根動脈、椎動脈與基底動脈 -->
-
+![圖 11 — 脊髓主要動脈的起源與大致位置：前脊髓動脈、後脊髓動脈、髓質動脈、節段動脈、根動脈、椎動脈與基底動脈](/images/oku14/ch51_p0658_fig11.jpg)
+*圖 11 — 脊髓主要動脈的起源與大致位置：前脊髓動脈、後脊髓動脈、髓質動脈、節段動脈、根動脈、椎動脈與基底動脈*
 > **Danger zone**：**Adamkiewicz 動脈**是最大的前方節段性髓質動脈，供應前脊髓動脈下三分之二；涉及中下胸椎至腰椎的手術或介入，術前必須評估此血管的位置。
 
 ### 3.4 血管解剖：靜脈回流
@@ -290,7 +300,8 @@ summary: "本章系統整理脊椎解剖：脊髓與腦脊髓膜、各區域頸�
 - **下盆腔器官經靜脈逆流至脊柱，提供了一條轉移與感染傳播途徑**；同理，**咽椎靜脈（pharyngovertebral veins）**引流鼻咽，也可造成**轉移與感染向頸椎擴散**。
 
 <!-- FIG: 圖 12 — 脊椎靜脈解剖：椎體基靜脈、前外靜脈叢、前內靜脈叢、後外靜脈叢、後內靜脈叢 -->
-
+![圖 12 — 脊椎靜脈解剖：椎體基靜脈、前外靜脈叢、前內靜脈叢、後外靜脈叢、後內靜脈叢](/images/oku14/ch51_p0659_fig12.jpg)
+*圖 12 — 脊椎靜脈解剖：椎體基靜脈、前外靜脈叢、前內靜脈叢、後外靜脈叢、後內靜脈叢*
 > **Pearl**：<span style="color:#60a5fa;font-weight:600">Key point：</span>硬膜外靜脈叢**無瓣**且可因壓力變化逆流，故下盆腔與鼻咽的**感染與轉移**可循此路徑擴散至腰椎與頸椎。
 
 ---

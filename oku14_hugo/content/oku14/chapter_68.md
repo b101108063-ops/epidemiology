@@ -33,7 +33,8 @@ summary: "本章整合小兒腦性麻痺、脊髓脊膜膨出與杜氏肌失養�
 | <span style="color:#f87171;font-weight:600">GMFCS Level V</span> | 在所有環境中均需乘坐手動輪椅由他人推行移動；抗重力頭部與軀幹姿勢控制極度受限 | 無法爬升樓梯，完全依賴照顧者與特殊輔具移位 | 無法自發控制雙下肢與雙上肢之抗重力自主運動 | 全場域依賴特製輪椅與擺位系統進行被動轉運 |
 
 <!-- FIG: Gross Motor Function Classification System (GMFCS) 五級示意圖，顯示 GMFCS Level I 至 V 之步行、輔具與軀幹控制能力變化 -->
-
+![Gross Motor Function Classification System (GMFCS) 五級示意圖，顯示 GMFCS Level I 至 V 之步行、輔具與軀幹控制能力變化](/images/oku14/ch68_p0911_fig1.jpg)
+*Gross Motor Function Classification System (GMFCS) 五級示意圖，顯示 GMFCS Level I 至 V 之步行、輔具與軀幹控制能力變化*
 ### 1.2 遺傳性與先天性神經肌肉疾病矩陣 (Inheritable Neuromuscular Conditions Matrix)
 
 除了腦性麻痺之外，兒童骨科常見之神經肌肉疾病包含多種遺傳性肌病、周邊神經病變及脊髓病變。下表整理來源文本 Table 1 所列之核心遺傳性神經肌肉疾病及其基因蛋白特徵與非骨科臨床表現：
@@ -59,7 +60,8 @@ summary: "本章整合小兒腦性麻痺、脊髓脊膜膨出與杜氏肌失養�
   - **適應症**：主要用於無法行走兒童（<span style="color:#f87171;font-weight:600">GMFCS Level IV–V</span>）之重度痙攣與肌張力不全控制。英國與愛爾蘭的全國性調查顯示，高達 <span style="color:#34d399">93%</span> 的 ITB 使用對象為無法行走的兒童（其中 <span style="color:#34d399">73%</span> 診斷為腦性麻痺），凸顯建立全國性轉介與照護標準之必要性。
 
 <!-- FIG: 脊髓內巴氯芬泵浦（ITB pump）植入位置示意圖與植入後併發脊柱側彎之前後照 X 光片 -->
-
+![脊髓內巴氯芬泵浦（ITB pump）植入位置示意圖與植入後併發脊柱側彎之前後照 X 光片](/images/oku14/ch68_p0912_fig2.jpg)
+*脊髓內巴氯芬泵浦（ITB pump）植入位置示意圖與植入後併發脊柱側彎之前後照 X 光片*
 ### 2.2 選擇性脊髓後根切斷術 (Selective Dorsal Rhizotomy, SDR)
 
 - **適應症與黃金年齡**：選擇性脊髓後根切斷術（<span style="color:#e2e8f0">SDR</span>）最適合用於具行走能力、主要表現為痙攣性雙癱（<span style="color:#fbbf24;font-weight:600">Spastic Diplegia, GMFCS Level I–III</span>）且年齡介於 <span style="color:#34d399">2 至 10 歲</span> 之幼童。
@@ -99,7 +101,8 @@ summary: "本章整合小兒腦性麻痺、脊髓脊膜膨出與杜氏肌失養�
 > **Danger zone**：針對晚期痛性髖關節脫位，救援手術應**絕對避免進行髖關節融合術（Hip Arthrodesis）**。系統性回顧顯示髖關節融合術會帶來更高的疼痛發生率與顯著較高之併發症率。
 
 <!-- FIG: 6 歲痙攣性四肢麻痺女童右髖關節疼痛性脫位之術前與術後骨盤前後照 X 光片比較 -->
-
+![6 歲痙攣性四肢麻痺女童右髖關節疼痛性脫位之術前與術後骨盤前後照 X 光片比較](/images/oku14/ch68_p0915_fig4.jpg)
+*6 歲痙攣性四肢麻痺女童右髖關節疼痛性脫位之術前與術後骨盤前後照 X 光片比較*
 骨頭髖關節手術之整體併發症率高達 <span style="color:#f87171">65%</span>，但僅有 <span style="color:#34d399">15%</span> 需要重回手術室處理，<span style="color:#34d399">2%</span> 與危及生命的併發症相關，且圍手術期死亡率為 <span style="color:#34d399">0%</span>。
 
 ### 3.3 膝關節屈曲變形、Crouched Gait 與切骨矯治 (CP Knee Surgery)
@@ -113,7 +116,8 @@ summary: "本章整合小兒腦性麻痺、脊髓脊膜膨出與杜氏肌失養�
 - **第二代技術**：針對較大變形（屈膝攣縮<span style="color:#f87171">超過 20°</span>），採用<span style="color:#60a5fa;font-weight:600">股骨遠端伸直切骨術 (DFEO) 聯合髕腱推進/摺疊術 (Patellar Tendon Advancement/Imbrication, PTA)</span>。研究證實能顯著改善膝關節屈曲攣縮、支撐期伸膝角度與伸肌遲滯（<span style="color:#e2e8f0">extensor lag</span>）。
 
 <!-- FIG: 13 歲痙攣性雙癱男童雙膝嚴重屈曲攣縮與高位髕骨，接受雙側股骨遠端伸直切骨術與髕骨下移術術前術後 X 光片 -->
-
+![13 歲痙攣性雙癱男童雙膝嚴重屈曲攣縮與高位髕骨，接受雙側股骨遠端伸直切骨術與髕骨下移術術前術後 X 光片](/images/oku14/ch68_p0916_fig5.jpg)
+*13 歲痙攣性雙癱男童雙膝嚴重屈曲攣縮與高位髕骨，接受雙側股骨遠端伸直切骨術與髕骨下移術術前術後 X 光片*
 - **擺盪期關節僵硬**：股直肌（<span style="color:#22d3ee">rectus femoris</span>）痙攣所致之擺盪期膝關節僵硬，可進行股直肌轉移術（<span style="color:#e2e8f0">Rectus Femoris Transfer, RFT</span>）或肌內鬆解。系統性回顧證實 RFT 在步態動力學上具有小幅但確切的正面效益。
 
 ### 3.4 足踝變形、跟骨延長術與中足穩定 (CP Foot & Ankle Surgery)
@@ -127,7 +131,8 @@ summary: "本章整合小兒腦性麻痺、脊髓脊膜膨出與杜氏肌失養�
   - **中重度塌陷處置**：針對 GMFCS III 與 IV 型伴隨中度至重度扁平外翻塌陷之患者，採用<span style="color:#60a5fa;font-weight:600">內側柱穩定術聯合外側柱跟骨延長術</span>，其放射線學結果顯著優於單純外側柱跟骨延長術。
 
 <!-- FIG: 嚴重扁平外翻塌陷、足踝馬蹄與距舟關節未覆蓋之前後照與側照 X 光片，以及跟骨延長術聯合距舟關節融合術後影像 -->
-
+![嚴重扁平外翻塌陷、足踝馬蹄與距舟關節未覆蓋之前後照與側照 X 光片，以及跟骨延長術聯合距舟關節融合術後影像](/images/oku14/ch68_p0924_fig2.jpg)
+*嚴重扁平外翻塌陷、足踝馬蹄與距舟關節未覆蓋之前後照與側照 X 光片，以及跟骨延長術聯合距舟關節融合術後影像*
 ### 3.5 單次多階手術 (Single-Event Multilevel Surgery, SEMLS)
 
 單次多階手術（<span style="color:#e2e8f0">SEMLS</span>）為具行走能力腦性麻痺兒童（<span style="color:#34d399;font-weight:600">GMFCS Level I–III</span>）之標準醫療處置。SEMLS 結合臨床檢查、放射線影像與三維步態生物力學分析，在單一次手術中同時矯正多個解剖階層之變形。

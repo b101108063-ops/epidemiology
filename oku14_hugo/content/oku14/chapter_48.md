@@ -23,7 +23,8 @@ summary: "本章依踝關節、後足、中足與第一蹠趾關節四個層次�
 本章依原文分為兩大主軸：一是足踝的退行性關節炎（踝關節、後足、中足、第一蹠趾關節），二是足踝骨壞死（距骨、舟狀骨與 lesser metatarsals）。原文提供的文字檔自後足關節炎段落中途起始，**本章開頭關於踝關節炎流行病學、症狀與全踝關節置換（total ankle arthroplasty）臨床細節的段落為 [原文缺漏]**，僅保留圖 1 圖說與後文重點摘要中所提的原則。
 
 <!-- FIG: 圖 1 — A, 術前；B, 術後 AP 與負重側位 X 光，病人有慢性踝關節不穩定所致創傷後踝關節炎，接受了採用現代低剖面植入物的全踝關節置換。 -->
-
+![圖 1 — A, 術前；B, 術後 AP 與負重側位 X 光，病人有慢性踝關節不穩定所致創傷後踝關節炎，接受了採用現代低剖面植入物的全踝關節置換。](/images/oku14/ch48_p0609_fig1.jpg)
+*圖 1 — A, 術前；B, 術後 AP 與負重側位 X 光，病人有慢性踝關節不穩定所致創傷後踝關節炎，接受了採用現代低剖面植入物的全踝關節置換。*
 ### 1.2 各區域退行性病變的解剖與臨床定位
 
 | 區域 | 構成關節 | 典型臨床表現 | 治療主軸 |
@@ -36,7 +37,8 @@ summary: "本章依踝關節、後足、中足與第一蹠趾關節四個層次�
 ### 1.3 中足與第一 MTP 的關鍵解剖數據
 
 <!-- FIG: 圖 3 — A, Preoperative and B, postoperative AP and lateral radiographs from a -->
-
+![圖 3 — A, Preoperative and B, postoperative AP and lateral radiographs from a](/images/oku14/ch48_p0610_fig3.jpg)
+*圖 3 — A, Preoperative and B, postoperative AP and lateral radiographs from a*
 - <span style="color:#22d3ee">中足（midfoot）</span>：由跗蹠關節與舟楔關節組成；基準活動範圍相對有限，僅 **4° 至 7°**。
 - <span style="color:#22d3ee">距骨（talus）</span>：**沒有肌腱附著或肌肉起點**，因此**全部血供皆為骨外（extraosseous）**；且**超過 60% 的距骨表面為關節軟骨**，血管冗餘極少、可供血管浸潤的面積有限，因此特別容易發生骨壞死。
 - <span style="color:#22d3ee">距舟關節（talonavicular joint）</span>：獨特的**球形（spherical）關節形狀**，加上**暴露整個關節面的困難**，使此處的融合極易發生不癒合（nonunion）。
@@ -62,7 +64,8 @@ summary: "本章依踝關節、後足、中足與第一蹠趾關節四個層次�
 ### 2.2 中足：依柱別（column）決策
 
 <!-- FIG: 圖 2 — A, Preoperative and B, postoperative mortise and lateral radiographs f -->
-
+![圖 2 — A, Preoperative and B, postoperative mortise and lateral radiographs f](/images/oku14/ch48_p0609_fig2.jpg)
+*圖 2 — A, Preoperative and B, postoperative mortise and lateral radiographs f*
 | 柱別 | 手術策略 | 依據 |
 |------|----------|------|
 | **內側柱與中柱** | <span style="color:#60a5fa;font-weight:600">關節融合是外科治療的標準（standard of care）</span> | 需經常**多個切口**、**不癒合率 3% 至 7%**、且需**同時矯正外展（abduction）與足弓高度喪失**等伴隨畸形 |
@@ -163,7 +166,8 @@ summary: "本章依踝關節、後足、中足與第一蹠趾關節四個層次�
 > **Pearl**：合成軟骨植入物雖是近年的新興選項，但在與融合的直接比較中，**疼痛改善幅度明顯較差、且 15% 至 20% 因失敗而再手術**；相較之下，MTP 融合具備 **90% 至 100% 的滿意度**與 **>90% 的癒合率**，仍是重度病例的黃金標準。
 
 <!-- FIG: 圖 4 — A, 術前；B, 術後 AP 與側位 X 光，病人有拇僵直並接受跖趾關節融合。 -->
-
+![圖 4 — A, 術前；B, 術後 AP 與側位 X 光，病人有拇僵直並接受跖趾關節融合。](/images/oku14/ch48_p0612_fig4.jpg)
+*圖 4 — A, 術前；B, 術後 AP 與側位 X 光，病人有拇僵直並接受跖趾關節融合。*
 > **Danger zone**：**Cheilectomy 無法處理關節內病變**，因此不應用於以**關節內疼痛**為主的病人；原文特別提醒，關節保留手術**可能無法完全緩解疼痛**，且隨疾病進展**仍可能需要再次手術**——此點應在術前明確告知。
 
 ### 4.3 距骨骨壞死的手術階梯
@@ -184,7 +188,8 @@ summary: "本章依踝關節、後足、中足與第一蹠趾關節四個層次�
 > **Danger zone**：距骨廣泛受侵犯而接受**脛距跟融合**者，**併發症與不癒合風險仍高**：**每 5 人中約 1 人發生不癒合（1 in 5）**，**15% 需要某種形式的翻修手術**。
 
 <!-- FIG: 圖 5 — A 與 B, AP 與側位 X 光；C 與 D, MRI 矢狀位與冠狀位，來自一位距骨骨壞死病人。 -->
-
+![圖 5 — A 與 B, AP 與側位 X 光；C 與 D, MRI 矢狀位與冠狀位，來自一位距骨骨壞死病人。](/images/oku14/ch48_p0613_fig5.jpg)
+*圖 5 — A 與 B, AP 與側位 X 光；C 與 D, MRI 矢狀位與冠狀位，來自一位距骨骨壞死病人。*
 ### 4.4 舟狀骨骨壞死（Kohler 疾病、Mueller-Weiss 症候群）的手術
 
 | 面向 | 內容 |
@@ -199,7 +204,8 @@ summary: "本章依踝關節、後足、中足與第一蹠趾關節四個層次�
 > **Pearl**：舟狀骨骨壞死的手術目標是**plantigrade 且排列良好的足，並恢復內側柱**；**手術決策依症狀嚴重度，而非影像嚴重度**。
 
 <!-- FIG: 圖 6 — A, AP；B, 側位 X 光，來自一位 5 歲罹患舟狀骨 Kohler 疾病的幼兒。 -->
-
+![圖 6 — A, AP；B, 側位 X 光，來自一位 5 歲罹患舟狀骨 Kohler 疾病的幼兒。](/images/oku14/ch48_p0613_fig6.jpg)
+*圖 6 — A, AP；B, 側位 X 光，來自一位 5 歲罹患舟狀骨 Kohler 疾病的幼兒。*
 ### 4.5 Freiberg infraction 的手術選項
 
 | 術式 | 內容 |
@@ -213,7 +219,8 @@ summary: "本章依踝關節、後足、中足與第一蹠趾關節四個層次�
 > **Danger zone**：Freiberg 病**相對罕見**，因此**整體數據有限**；所有上述術式雖都有**正面報告**，但**數據稀疏**，不可將個別系列的良好結果外推為標準。
 
 <!-- FIG: 圖 7 — AP radiograph（A，左）與代表性磁共振影像（A，右與 B），來自一位 73 歲女性之 Freiberg infraction。 -->
-
+![圖 7 — AP radiograph（A，左）與代表性磁共振影像（A，右與 B），來自一位 73 歲女性之 Freiberg infraction。](/images/oku14/ch48_p0614_fig7.jpg)
+*圖 7 — AP radiograph（A，左）與代表性磁共振影像（A，右與 B），來自一位 73 歲女性之 Freiberg infraction。*
 ---
 
 ## 5. 實證更新與 OKU 14 重點 (Recent Evidence & Take-Home Points)

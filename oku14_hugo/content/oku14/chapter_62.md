@@ -487,11 +487,20 @@ Floating knee 的治療隨時間**轉向更多手術治療**。比較歷史組�
 15. Najefi AA, Najefy A, Vemulapalli K: Paediatric calcaneal fractures: A guide to management based on a review of the literature. Injury 2020;51(7):1432-1438.
 16. Lin JS, Balch Samora J: Pediatric acute compartment syndrome: A systematic review and meta-analysis. J Pediatr Orthop B 2020;29(1):90-96.
 <!-- FIG: 圖 3 — Watson-Jones 分型 I–III 型之 X 光表現，以及 Ryu／Debenham（type IV）與 McKoy／Stanitski（type V）的修正 -->
+![圖 3 — Watson-Jones 分型 I–III 型之 X 光表現，以及 Ryu／Debenham（type IV）與 McKoy／Stanitski（type V）的修正](/images/oku14/ch62_p0805_fig3.jpg)
+*圖 3 — Watson-Jones 分型 I–III 型之 X 光表現，以及 Ryu／Debenham（type IV）與 McKoy／Stanitski（type V）的修正*
 <!-- FIG: 圖 4 — 13 歲男童 type IIIB 脛骨結節骨折：受傷時側位 X 光（A）、ORIF 時解剖復位的骨突（箭頭，看似有間隙）（B）、術後 1 年（C）與 2.5 年（D）；併雙分型急性髕骨骨折，亦順利癒合 -->
+![圖 4 — 13 歲男童 type IIIB 脛骨結節骨折：受傷時側位 X 光（A）、ORIF 時解剖復位的骨突（箭頭，看似有間隙）（B）、術後 1 年（C）與 2.5 年（D）；併雙分型急性髕骨骨折，亦順利癒合](/images/oku14/ch62_p0806_fig4.jpg)
+*圖 4 — 13 歲男童 type IIIB 脛骨結節骨折：受傷時側位 X 光（A）、ORIF 時解剖復位的骨突（箭頭，看似有間隙）（B）、術後 1 年（C）與 2.5 年（D）；併雙分型急性髕骨骨折，亦順利癒合*
 <!-- FIG: 圖 5 — 三種位移型脛骨骨折固定方式：A 7 歲男童車禍致節段性脛／腓骨骨折，彈性鋼釘加石膏保留骺板，近 1 年癒合、Park-Harris 線無生長障礙；B 16 歲男童彈簧床致不穩定幹骨折，擴髓髓內釘，1 年癒合；C 12 歲男童雪橇致遠端 1/3 骨折，石膏無法維持（即便蹠屈仍陷入 recurvatum），改以鋼板固定 -->
+![圖 5 — 三種位移型脛骨骨折固定方式：A 7 歲男童車禍致節段性脛／腓骨骨折，彈性鋼釘加石膏保留骺板，近 1 年癒合、Park-Harris 線無生長障礙；B 16 歲男童彈簧床致不穩定幹骨折，擴髓髓內釘，1 年癒合；C 12 歲男童雪橇致遠端 1/3 骨折，石膏無法維持（即便蹠屈仍陷入 recurvatum），改以鋼板固定](/images/oku14/ch62_p0808_fig5.jpg)
+*圖 5 — 三種位移型脛骨骨折固定方式：A 7 歲男童車禍致節段性脛／腓骨骨折，彈性鋼釘加石膏保留骺板，近 1 年癒合、Park-Harris 線無生長障礙；B 16 歲男童彈簧床致不穩定幹骨折，擴髓髓內釘，1 年癒合；C 12 歲男童雪橇致遠端 1/3 骨折，石膏無法維持（即便蹠屈仍陷入 recurvatum），改以鋼板固定*
 <!-- FIG: 圖 6 — 11 歲女童左側遠端脛骨 Salter-Harris II 骨折（A）；開放復位／經皮鋼釘固定，Kirschner 針跨越骺板 5 次，4 週拔除（B）；1 年後有骺板骨橋但無成角（C）；2 年後 varus 成角（D）；CT 確認前內側大範圍骨橋（E）；負重 X 光（F）；脛／腓骨完全性骨骺阻滯併矯正截骨（G）；1 年後截骨癒合、踝排列中立（H） -->
+![圖 6 — 11 歲女童左側遠端脛骨 Salter-Harris II 骨折（A）；開放復位／經皮鋼釘固定，Kirschner 針跨越骺板 5 次，4 週拔除（B）；1 年後有骺板骨橋但無成角（C）；2 年後 varus 成角（D）；CT 確認前內側大範圍骨橋（E）；負重 X 光（F）；脛／腓骨完全性骨骺阻滯併矯正截骨（G）；1 年後截骨癒合、踝排列中立（H）](/images/oku14/ch62_p0811_fig6.jpg)
+*圖 6 — 11 歲女童左側遠端脛骨 Salter-Harris II 骨折（A）；開放復位／經皮鋼釘固定，Kirschner 針跨越骺板 5 次，4 週拔除（B）；1 年後有骺板骨橋但無成角（C）；2 年後 varus 成角（D）；CT 確認前內側大範圍骨橋（E）；負重 X 光（F）；脛／腓骨完全性骨骺阻滯併矯正截骨（G）；1 年後截骨癒合、踝排列中立（H）*
 <!-- FIG: 圖 7 — Dias-Tachdjian 踝骨折分型示意圖（旋前外翻外旋 PER、旋前蹠屈、旋前外旋 SER、旋前內翻） -->
-
+![圖 7 — Dias-Tachdjian 踝骨折分型示意圖（旋前外翻外旋 PER、旋前蹠屈、旋前外旋 SER、旋前內翻）](/images/oku14/ch62_p0812_fig7.jpg)
+*圖 7 — Dias-Tachdjian 踝骨折分型示意圖（旋前外翻外旋 PER、旋前蹠屈、旋前外旋 SER、旋前內翻）*
 ---
 
 ## Summary

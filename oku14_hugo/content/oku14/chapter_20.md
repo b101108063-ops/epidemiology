@@ -40,13 +40,15 @@ summary: "本章以骨科視角串連發炎與免疫學：先鋸 Toll-like recep
 - **核內轉錄因子**：<span style="color:#60a5fa">NF-κB（nuclear factor kappa B）、IRF（interferon regulatory factors）、MAPK</span> 活化，導致促發炎細胞激素（proinflammatory cytokines）與趨化因子（chemokines）合成，啟動組織發炎。
 
 <!-- FIG: 圖 1　Toll-like receptor（TLR）訊息傳遞示意（PAMP／DAMP → TLR → MYD88／TRIF → NF-κB、IRF、MAPK） -->
-
+![圖 1　Toll-like receptor（TLR）訊息傳遞示意（PAMP／DAMP → TLR → MYD88／TRIF → NF-κB、IRF、MAPK）](/images/oku14/ch20_p0253_fig1.jpg)
+*圖 1　Toll-like receptor（TLR）訊息傳遞示意（PAMP／DAMP → TLR → MYD88／TRIF → NF-κB、IRF、MAPK）*
 > **Pearl**：TLR 訊息傳遞是「發炎」的總開關——不論病原體入侵或細胞壞死，最後都收斂到 NF-κB／IRF 這條共同下游路徑。
 
 ### 1.3 促發炎細胞激素的訊息傳遞與生物製劑介入點
 
 <!-- FIG: 圖 2 — Illustration of proinflammatory cytokine signaling and biologic therap -->
-
+![圖 2 — Illustration of proinflammatory cytokine signaling and biologic therap](/images/oku14/ch20_p0254_fig2.jpg)
+*圖 2 — Illustration of proinflammatory cytokine signaling and biologic therap*
 TNF 位於促發炎級聯的頂端（apex），經由 TNF 受體相關因子（TRAF）活化 NF-κB，並透過 TNF 受體相關死亡區域蛋白（TRADD）啟動細胞凋亡程式。Interferon 與 interleukin 則經由 <span style="color:#fbbf24">JAK（Janus kinase）／STAT（signal transducer and activator of transcription）</span> 蛋白傳遞訊息；此等路徑在類風濕性關節炎（RA）、乾癬性關節炎與強直性脊椎炎中同樣過度活化。
 
 | 治療類別 | 代表藥物 | 標的 |
@@ -69,7 +71,8 @@ TNF 位於促發炎級聯的頂端（apex），經由 TNF 受體相關因子（T
 > **Danger zone**：RA 是最常見的免疫介導發炎疾病——成人盛行率 0.5%～1%，55 歲以上族群達 4.5%，每年每 10 萬人新增 5～50 例；且目前<b>沒有治癒方法</b>，這也是多數 FDA 核准生物製劑的第一適應症來源。
 
 <!-- FIG: 圖 3　類風濕性關節炎之生物製劑治療標的示意（細胞激素、受體、特定細胞類型） -->
-
+![圖 3　類風濕性關節炎之生物製劑治療標的示意（細胞激素、受體、特定細胞類型）](/images/oku14/ch20_p0257_fig3.jpg)
+*圖 3　類風濕性關節炎之生物製劑治療標的示意（細胞激素、受體、特定細胞類型）*
 ---
 
 ## 2. 骨科疾病中的發炎性與免疫性疾病 (Inflammatory & Immunologic Disorders)
@@ -119,7 +122,8 @@ TNF 位於促發炎級聯的頂端（apex），經由 TNF 受體相關因子（T
 > **Danger zone**：免疫記憶的「歸巢（homing）」特性是疫苗與 CAR-T 療效持久的關鍵——CAR-T 的記憶細胞可自行回到骨髓並在復發時自行反應。
 
 <!-- FIG: 圖 4　內源性（MHC I → CD8+ T 細胞）與外源性（MHC II → 輔助 T 細胞）抗原呈現路徑對照 -->
-
+![圖 4　內源性（MHC I → CD8+ T 細胞）與外源性（MHC II → 輔助 T 細胞）抗原呈現路徑對照](/images/oku14/ch20_p0259_fig4.jpg)
+*圖 4　內源性（MHC I → CD8+ T 細胞）與外源性（MHC II → 輔助 T 細胞）抗原呈現路徑對照*
 ### 3.3 免疫耐受與自體免疫：兩訊號假說
 
 - <span style="color:#e2e8f0">Central tolerance（中央耐受）</span>：骨髓的 B 細胞 clonal deletion 與胸腺的 T 細胞 negative selection，在造血發育中清除自體反應性淋巴球。
@@ -150,8 +154,11 @@ TNF 位於促發炎級聯的頂端（apex），經由 TNF 受體相關因子（T
 > **Pearl**：CAR-T 相較放射、化學治療與生物製劑的優勢，在於**單次給藥即設計為終身有效**（記憶型 CAR-T 可歸巢並存留於骨髓，在復發時自行反應）；但 lymphodepletion 與自體免疫相關的嚴重不良事件不可輕忽。
 
 <!-- FIG: 圖 5　免疫檢查點抑制劑（CTLA-4、PD-1／PD-L1）與抗體拮抗劑 -->
+![圖 5　免疫檢查點抑制劑（CTLA-4、PD-1／PD-L1）與抗體拮抗劑](/images/oku14/ch20_p0260_fig5.jpg)
+*圖 5　免疫檢查點抑制劑（CTLA-4、PD-1／PD-L1）與抗體拮抗劑*
 <!-- FIG: 圖 6　CAR-T 細胞療法之結構與治療流程 -->
-
+![圖 6　CAR-T 細胞療法之結構與治療流程](/images/oku14/ch20_p0261_fig6.jpg)
+*圖 6　CAR-T 細胞療法之結構與治療流程*
 ---
 
 ## 4. 疫苗、感染防治與骨科決策的陷阱與爭議 (Vaccination, Infection & Pitfalls)
@@ -167,7 +174,8 @@ TNF 位於促發炎級聯的頂端（apex），經由 TNF 受體相關因子（T
 ### 4.2 主動免疫的六種疫苗平台
 
 <!-- FIG: 圖 8 — Illustration of different types of vectors for active immunization. Si -->
-
+![圖 8 — Illustration of different types of vectors for active immunization. Si](/images/oku14/ch20_p0263_fig8.jpg)
+*圖 8 — Illustration of different types of vectors for active immunization. Si*
 | 平台 | 原理 | 目前核准的人用疫苗 | 現況 |
 |------|------|----------------------|------|
 | <span style="color:#60a5fa">RNA</span> | 編碼棘蛋白的 RNA 被宿主細胞攝入並轉譯，誘發免疫反應 | — | 尚無核准人用疫苗；但 mRNA 疫苗（BNT162b2、mRNA-1273）效力最優 |
@@ -184,7 +192,8 @@ TNF 位於促發炎級聯的頂端（apex），經由 TNF 受體相關因子（T
 ### 4.3 抗體依賴性感染增強（ADE）與細胞激素風暴
 
 <!-- FIG: 圖 7　中和性抗體與非中和性抗體、抗原漂移與 ADE、細胞激素風暴 -->
-
+![圖 7　中和性抗體與非中和性抗體、抗原漂移與 ADE、細胞激素風暴](/images/oku14/ch20_p0262_fig7.jpg)
+*圖 7　中和性抗體與非中和性抗體、抗原漂移與 ADE、細胞激素風暴*
 - **保護性免疫**：特定中和性抗體透過 (1) 抑制病毒附著宿主細胞（COVID-19 中棘蛋白無法結合 ACE2）與 (2) opsonophagocytosis（抗體結合病毒，經 CD32 即 FcγRII 受體介導內吞，於溶酶體內立即破壞）兩種機制清除病毒。
 - <span style="color:#f87171">ADE</span>：病毒抗原突變後，既往暴露或接種所產生的抗體與病毒形成不完美複合體；此不穩定複合體與免疫細胞的 FcγRII 受體結合後，病毒可在與溶酶體融合前逃出內體，開始毒性複製週期。
 - **細胞激素風暴**：大量病毒複製產生大量 PAMP，加上感染壞死細胞釋出 DAMP，可同時大規模活化先天與適應性免疫，造成表現為 SARS、敗血性休克或猝死的細胞激素風暴。

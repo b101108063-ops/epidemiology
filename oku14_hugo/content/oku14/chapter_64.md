@@ -392,15 +392,32 @@ Idiopathic tibia vara（<span style="color:#e2e8f0">Blount disease（Blount 疾�
 10. Simon AL, Seringe R, Badina A, et al: Long term results of the revisited Meary closing wedge tarsectomy for the treatment of the fixed cavovarus foot in adolescent with Charcot-Marie-Tooth disease. Foot Ankle Surg 2019;25(6):834-841.
 
 <!-- FIG: 圖 1 — 膝部 AP X 光顯示機械軸分區 -->
+![圖 1 — 膝部 AP X 光顯示機械軸分區](/images/oku14/ch64_p0841_fig1.jpg)
+*圖 1 — 膝部 AP X 光顯示機械軸分區*
 <!-- FIG: 圖 2 — 嬰兒型 Blount 疾病下肢 AP X 光，顯示幹骺端喙狀突起；幹骺端—幹角度 37° -->
+![圖 2 — 嬰兒型 Blount 疾病下肢 AP X 光，顯示幹骺端喙狀突起；幹骺端—幹角度 37°](/images/oku14/ch64_p0842_fig2.jpg)
+*圖 2 — 嬰兒型 Blount 疾病下肢 AP X 光，顯示幹骺端喙狀突起；幹骺端—幹角度 37°*
 <!-- FIG: 圖 3 — 先天性股骨缺損的 Paley 分型 -->
+![圖 3 — 先天性股骨缺損的 Paley 分型](/images/oku14/ch64_p0843_fig3.jpg)
+*圖 3 — 先天性股骨缺損的 Paley 分型*
 <!-- FIG: 圖 4 — 左側 Paley type 1A 先天性股骨缺損重建前 X 光：coxa vara、髂臼發育不良、左近端股骨縮小；A 骨盆 AP，B 蛙式側位 -->
+![圖 4 — 左側 Paley type 1A 先天性股骨缺損重建前 X 光：coxa vara、髂臼發育不良、左近端股骨縮小；A 骨盆 AP，B 蛙式側位](/images/oku14/ch64_p0844_fig4.jpg)
+*圖 4 — 左側 Paley type 1A 先天性股骨缺損重建前 X 光：coxa vara、髂臼發育不良、左近端股骨縮小；A 骨盆 AP，B 蛙式側位*
 <!-- FIG: 圖 5 — 嚴重腓骨缺損：腓骨缺如、嚴重馬蹄畸形、扁平足及足部多處缺損 -->
+![圖 5 — 嚴重腓骨缺損：腓骨缺如、嚴重馬蹄畸形、扁平足及足部多處缺損](/images/oku14/ch64_p0844_fig5.jpg)
+*圖 5 — 嚴重腓骨缺損：腓骨缺如、嚴重馬蹄畸形、扁平足及足部多處缺損*
 <!-- FIG: 圖 6 — 脛骨半缺的 Jones 分型（依各部分脛骨存在與缺如劃分；OCR 表格毀損） -->
+![圖 6 — 脛骨半缺的 Jones 分型（依各部分脛骨存在與缺如劃分；OCR 表格毀損）](/images/oku14/ch64_p0845_fig6.jpg)
+*圖 6 — 脛骨半缺的 Jones 分型（依各部分脛骨存在與缺如劃分；OCR 表格毀損）*
 <!-- FIG: 圖 7 — 脛骨後內彎曲：A 8 歲時變形持續，造成 5 公分長度差；B 六足式外固定架矯正與延長；C 多年後維持矯正，餘輕微長度差以健側骨骺阻滯處理 -->
+![圖 7 — 脛骨後內彎曲：A 8 歲時變形持續，造成 5 公分長度差；B 六足式外固定架矯正與延長；C 多年後維持矯正，餘輕微長度差以健側骨骺阻滯處理](/images/oku14/ch64_p0846_fig7.jpg)
+*圖 7 — 脛骨後內彎曲：A 8 歲時變形持續，造成 5 公分長度差；B 六足式外固定架矯正與延長；C 多年後維持矯正，餘輕微長度差以健側骨骺阻滯處理*
 <!-- FIG: 圖 8 — 右側先天性垂直距骨：A 9 個月 AP 顯示前足外展；B 側位垂直距骨與第一跖骨不共線；C 兩次石膏後改善；D 距舟釘固定與阿基里斯腱切斷後透視；E、F 3 歲負重 X 光 -->
+![圖 8 — 右側先天性垂直距骨：A 9 個月 AP 顯示前足外展；B 側位垂直距骨與第一跖骨不共線；C 兩次石膏後改善；D 距舟釘固定與阿基里斯腱切斷後透視；E、F 3 歲負重 X 光](/images/oku14/ch64_p0847_fig8.jpg)
+*圖 8 — 右側先天性垂直距骨：A 9 個月 AP 顯示前足外展；B 側位垂直距骨與第一跖骨不共線；C 兩次石膏後改善；D 距舟釘固定與阿基里斯腱切斷後透視；E、F 3 歲負重 X 光*
 <!-- FIG: 圖 9 — A 12 歲男童斜位 X 光示跟舟 coalition；B 14 歲男童側位 X 光示 C sign，提示距跟 coalition -->
-
+![圖 9 — A 12 歲男童斜位 X 光示跟舟 coalition；B 14 歲男童側位 X 光示 C sign，提示距跟 coalition](/images/oku14/ch64_p0848_fig9.jpg)
+*圖 9 — A 12 歲男童斜位 X 光示跟舟 coalition；B 14 歲男童側位 X 光示 C sign，提示距跟 coalition*
 ---
 
 ## Summary

@@ -114,7 +114,8 @@ summary: "本章整理小兒骨盆、髖部與股骨創傷：骨盆環穩定性�
 **Ju 修正**（圖 4）：將 **Type I** 細分為 **type IA**——**經骨骺型骨折且股骨頭仍留在髖臼內**；**type IB**——**股骨頭自髖臼脫出**。
 
 <!-- FIG: 圖 4 — 小兒股骨頸骨折 Delbet 分型示意圖，含 Ju 修正：Type I 分為 type IA（股骨頭仍留在髖臼內）與 type IB（股骨頭自髖臼脫出）（Ju, Pediatr Orthop B 2016） -->
-
+![圖 4 — 小兒股骨頸骨折 Delbet 分型示意圖，含 Ju 修正：Type I 分為 type IA（股骨頭仍留在髖臼內）與 type IB（股骨頭自髖臼脫出）（Ju, Pediatr Orthop B 2016）](/images/oku14/ch61_p0794_fig4.jpg)
+*圖 4 — 小兒股骨頸骨折 Delbet 分型示意圖，含 Ju 修正：Type I 分為 type IA（股骨頭仍留在髖臼內）與 type IB（股骨頭自髖臼脫出）（Ju, Pediatr Orthop B 2016）*
 > **Pearl**：**Type I 骨壞死風險 38%**，因**血流無法通過骨骺板**，此型也最直接壓迫由股骨內旋動脈發出的骨骺血管。
 
 ### 2.4 股骨幹骨折的「原則式」分類系統（2020）
@@ -303,7 +304,8 @@ AAOS 更新版臨床指引因**高品質文獻稀少**，委員會在 **14 項�
 ### 5.2 OKU 14 Key Study Points（本章重點整理）
 
 <!-- FIG: 圖 6 — Schematic shows the principle-based classification system to help guid -->
-
+![圖 6 — Schematic shows the principle-based classification system to help guid](/images/oku14/ch61_p0797_fig6.jpg)
+*圖 6 — Schematic shows the principle-based classification system to help guid*
 - **兒童骨盆骨折最常見是與運動相關的撕脫性傷害**；**多數可非手術處理**，但**不穩定的骨盆環傷害需手術固定**。
 - **髖脫位或股骨頸骨折後最常見且最令人擔憂的併發症是骨壞死**；復位應**仔細且緊急**。
 - **小兒股骨骨折的治療取決於骨折型態、位置、病人年齡與體重**。
@@ -326,17 +328,22 @@ AAOS 更新版臨床指引因**高品質文獻稀少**，委員會在 **14 項�
 ---
 
 <!-- FIG: 圖 2 — AP (A) and lateral (B) radiographs from a 2-year-old girl with a left -->
-
+![圖 2 — AP (A) and lateral (B) radiographs from a 2-year-old girl with a left](/images/oku14/ch61_p0792_fig2.jpg)
+*圖 2 — AP (A) and lateral (B) radiographs from a 2-year-old girl with a left*
 <!-- FIG: 圖 3 — Illustration shows the proximal femur vascularization. The primary blo -->
-
+![圖 3 — Illustration shows the proximal femur vascularization. The primary blo](/images/oku14/ch61_p0793_fig3.jpg)
+*圖 3 — Illustration shows the proximal femur vascularization. The primary blo*
 ## 參考文獻 (Annotated References)
 
 <!-- FIG: 圖 1 — Plain lateral radiograph from a 12-year-old boy with patellar sleeve f -->
-
+![圖 1 — Plain lateral radiograph from a 12-year-old boy with patellar sleeve f](/images/oku14/ch61_p0804_fig1.jpg)
+*圖 1 — Plain lateral radiograph from a 12-year-old boy with patellar sleeve f*
 <!-- FIG: 圖 7 — AP (A) and lateral (B) radiographs of the left knee of a 6-year-old gi -->
-
+![圖 7 — AP (A) and lateral (B) radiographs of the left knee of a 6-year-old gi](/images/oku14/ch61_p0799_fig7.jpg)
+*圖 7 — AP (A) and lateral (B) radiographs of the left knee of a 6-year-old gi*
 <!-- FIG: 圖 5 — AP (A) and lateral (B) radiographs of the left femur of an 8-year-old -->
-
+![圖 5 — AP (A) and lateral (B) radiographs of the left femur of an 8-year-old](/images/oku14/ch61_p0796_fig5.jpg)
+*圖 5 — AP (A) and lateral (B) radiographs of the left femur of an 8-year-old*
 1. Guillaume JM, Pesenti S, Jouve JL, Launay F: Pelvic fractures in children (pelvic ring and acetabulum). Orthop Traumatol Surg Res 2020;106(1 Suppl):S125-S133.
 
 2. Torode I, Zieg D: Pelvic fractures in children. J Pediatr Orthop 1985;5(1):76-84.

@@ -62,8 +62,11 @@ OA 時內膜層**增生**、細胞深度增厚達數倍，並浸潤 **CD68+ 巨�
 - 全球而言，**膝 OA 佔整體 OA 負擔的 85%**，也是與肥胖相關變項關聯最密切的部位。
 
 <!-- FIG: 圖 3A——以膝關節為例，軟骨、骨、滑膜與結締組織（韌帶、肌腱）參與退化起始與進展並互相溝通的示意圖 -->
+![圖 3A——以膝關節為例，軟骨、骨、滑膜與結締組織（韌帶、肌腱）參與退化起始與進展並互相溝通的示意圖](/images/oku14/ch16_p0204_fig3.jpg)
+*圖 3A——以膝關節為例，軟骨、骨、滑膜與結締組織（韌帶、肌腱）參與退化起始與進展並互相溝通的示意圖*
 <!-- FIG: 圖 2——骨關節炎病因示意：genetics、aging、sex、obesity、injury -->
-
+![圖 2——骨關節炎病因示意：genetics、aging、sex、obesity、injury](/images/oku14/ch16_p0203_fig2.jpg)
+*圖 2——骨關節炎病因示意：genetics、aging、sex、obesity、injury*
 ---
 
 ## 2. 病因系統與決策矩陣 (Etiologies & Decision Matrix)

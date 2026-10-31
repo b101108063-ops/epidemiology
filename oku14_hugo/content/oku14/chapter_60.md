@@ -434,15 +434,32 @@ BPBI 為產程中臂神經叢的**牽引性損傷**，發生率全球 **每 1,00
 14. Pondaag W, Malessy MJA: Evidence that nerve surgery improves functional outcome for obstetric brachial plexus injury. J Hand Surg Eur 2021;46(3):229-236.
 
 <!-- FIG: 圖 2 — 18 個月病患右側手 symbrachydactyly 合併胸大肌發育不全（Kevin J. Little, MD.） -->
+![圖 2 — 18 個月病患右側手 symbrachydactyly 合併胸大肌發育不全（Kevin J. Little, MD.）](/images/oku14/ch60_p0773_fig2.jpg)
+*圖 2 — 18 個月病患右側手 symbrachydactyly 合併胸大肌發育不全（Kevin J. Little, MD.）*
 <!-- FIG: 圖 3 — 3 歲 type IV RLD 合併拇指發育不全（A）與 Evans 雙葉皮瓣正中化術後（B）（Andrea H.W. Chan, MD.） -->
+![圖 3 — 3 歲 type IV RLD 合併拇指發育不全（A）與 Evans 雙葉皮瓣正中化術後（B）（Andrea H.W. Chan, MD.）](/images/oku14/ch60_p0775_fig3.jpg)
+*圖 3 — 3 歲 type IV RLD 合併拇指發育不全（A）與 Evans 雙葉皮瓣正中化術後（B）（Andrea H.W. Chan, MD.）*
 <!-- FIG: 圖 4 — 2 歲右拇指 Blauth type IIIB（A）與拇指切除、示指拇指化術後（B）（Kevin J. Little, MD.） -->
+![圖 4 — 2 歲右拇指 Blauth type IIIB（A）與拇指切除、示指拇指化術後（B）（Kevin J. Little, MD.）](/images/oku14/ch60_p0776_fig4.jpg)
+*圖 4 — 2 歲右拇指 Blauth type IIIB（A）與拇指切除、示指拇指化術後（B）（Kevin J. Little, MD.）*
 <!-- FIG: 圖 5 — preaxial polydactyly 的 Wassel 分型示意圖 -->
+![圖 5 — preaxial polydactyly 的 Wassel 分型示意圖](/images/oku14/ch60_p0777_fig5.jpg)
+*圖 5 — preaxial polydactyly 的 Wassel 分型示意圖*
 <!-- FIG: 圖 6 — 5 歲 complex syndactyly：A 臨床照片、B 掌骨 X 光、C 鬆解後（Andrea H.W. Chan, MD.） -->
+![圖 6 — 5 歲 complex syndactyly：A 臨床照片、B 掌骨 X 光、C 鬆解後（Andrea H.W. Chan, MD.）](/images/oku14/ch60_p0779_fig6.jpg)
+*圖 6 — 5 歲 complex syndactyly：A 臨床照片、B 掌骨 X 光、C 鬆解後（Andrea H.W. Chan, MD.）*
 <!-- FIG: 圖 7 — 5 歲 bracket epiphysis 小指斜指：A 36° 角變形、B physiolysis、C 術後 3 年重塑為 14°（Kevin J. Little, MD.） -->
+![圖 7 — 5 歲 bracket epiphysis 小指斜指：A 36° 角變形、B physiolysis、C 術後 3 年重塑為 14°（Kevin J. Little, MD.）](/images/oku14/ch60_p0780_fig7.jpg)
+*圖 7 — 5 歲 bracket epiphysis 小指斜指：A 36° 角變形、B physiolysis、C 術後 3 年重塑為 14°（Kevin J. Little, MD.）*
 <!-- FIG: 圖 8 — 9 歲無名指與中指 PIP 屈曲攣縮，以四葉 Z-plasty 治療（Kevin J. Little, MD.） -->
+![圖 8 — 9 歲無名指與中指 PIP 屈曲攣縮，以四葉 Z-plasty 治療（Kevin J. Little, MD.）](/images/oku14/ch60_p0780_fig8.jpg)
+*圖 8 — 9 歲無名指與中指 PIP 屈曲攣縮，以四葉 Z-plasty 治療（Kevin J. Little, MD.）*
 <!-- FIG: 圖 9 — 18 個月男童裂手：中指射線缺損（A）與皮瓣轉位重建後 3 年（B）（Kevin J. Little, MD.） -->
+![圖 9 — 18 個月男童裂手：中指射線缺損（A）與皮瓣轉位重建後 3 年（B）（Kevin J. Little, MD.）](/images/oku14/ch60_p0782_fig9.jpg)
+*圖 9 — 18 個月男童裂手：中指射線缺損（A）與皮瓣轉位重建後 3 年（B）（Kevin J. Little, MD.）*
 <!-- FIG: 圖 10 — 3 日齡嬰兒羊膜帶症候群合併 acrosyndactyly 與食指指尖充血，箭頭示羊膜帶殘留（Kevin J. Little, MD.） -->
-
+![圖 10 — 3 日齡嬰兒羊膜帶症候群合併 acrosyndactyly 與食指指尖充血，箭頭示羊膜帶殘留（Kevin J. Little, MD.）](/images/oku14/ch60_p0782_fig10.jpg)
+*圖 10 — 3 日齡嬰兒羊膜帶症候群合併 acrosyndactyly 與食指指尖充血，箭頭示羊膜帶殘留（Kevin J. Little, MD.）*
 ---
 
 ## Summary

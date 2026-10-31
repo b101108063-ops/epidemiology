@@ -37,7 +37,8 @@ summary: "本章整理脊椎柱感染：化膿性脊椎骨隨炎與椎間盤炎�
 ### 1.2 化膿性脊椎骨隨炎／椎間盤炎（PVO）
 
 <!-- FIG: 圖 1 — |llustration shows the Weinstein, Boriani, and Biagini classification -->
-
+![圖 1 — |llustration shows the Weinstein, Boriani, and Biagini classification](/images/oku14/ch56_p0725_fig1.jpg)
+*圖 1 — |llustration shows the Weinstein, Boriani, and Biagini classification*
 > **原文缺漏**：PVO 的臨床定義、流行病學與診斷段落不在來源文字中，以下僅整理來源中可見的治療與檢驗數據。
 
 | 項目 | 原文數據 |
@@ -99,7 +100,8 @@ summary: "本章整理脊椎柱感染：化膿性脊椎骨隨炎與椎間盤炎�
 ### 1.4 SEA 的實驗室與影像檢查
 
 <!-- FIG: 圖 2 — Magnetic resonance images from a 62-year-old man with methicillin-susc -->
-
+![圖 2 — Magnetic resonance images from a 62-year-old man with methicillin-susc](/images/oku14/ch56_p0714_fig2.jpg)
+*圖 2 — Magnetic resonance images from a 62-year-old man with methicillin-susc*
 | 檢查 | 原文重點 |
 |------|----------|
 | **初始實驗室** | **WBC 計數、ESR、CRP 與血液培養**；發炎指標通常**一項以上明顯升高**，但**未升高並不能排除 SEA** |

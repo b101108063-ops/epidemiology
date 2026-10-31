@@ -31,7 +31,8 @@ summary: "本章系統梳理肩關節炎的病因分類、臨床評估與影像�
 > **Pearl**：缺血性壞死的治療由**致病原因能否逆轉**、**影像上是否已出現軟骨下塌陷**、以及**盂骨是否受累**三者共同決定。分類採用<span style="color:#e2e8f0">Modified Ficat scheme</span>（改良 Ficat 分期方案）：軟骨下塌陷明顯前可做核心減壓（<span style="color:#e2e8f0">core decompression</span>）；單極性（unipolar）病變可考慮半關節置換；**盂骨一旦受累即保留給全肩置換（TSA）**。
 
 <!-- FIG: Figure 1 — 肩關節病變的臨床與影像對照（A 至 D）；D 為缺血性壞死造成肱骨頭血管供應中斷、軟骨塌陷與盂肱一致性喪失 -->
-
+![Figure 1 — 肩關節病變的臨床與影像對照（A 至 D）；D 為缺血性壞死造成肱骨頭血管供應中斷、軟骨塌陷與盂肱一致性喪失](/images/oku14/ch29_p0373_fig2.jpg)
+*Figure 1 — 肩關節病變的臨床與影像對照（A 至 D）；D 為缺血性壞死造成肱骨頭血管供應中斷、軟骨塌陷與盂肱一致性喪失*
 ### 1.2 病史與理學檢查（Presentation and Physical Examination）
 
 **病史重點**：發病起始、有無外傷、既往手術史、曾嘗試的非手術治療、功能障礙的性質與進展速度；全身或多關節表現（敗血症、退化性關節病、類風濕性關節炎）可提供線索；類固醇或酒精史提示缺血性壞死；外傷、骨折或穩定手術史提示創傷後或 postcapsulorrhaphy 關節病。
@@ -63,13 +64,15 @@ summary: "本章系統梳理肩關節炎的病因分類、臨床評估與影像�
 > **Pearl**：這四個投影可顯示肱骨頭與盂骨的形態、**盂肱關節間隙喪失程度**、肱骨頭相對盂骨的位置，並可記錄骨赘（osteophyte）、畸形、半脫位與侵蝕。若見**肱骨頭近端移位（proximal migration）**，幾乎可以斷定存在慢性巨大旋轉袖撕裂。
 
 <!-- FIG: Figure 2 — 肩部四標準 X 光投影：True AP (A)、AP (B)、axillary (C)、scapular Y (D) -->
-
+![Figure 2 — 肩部四標準 X 光投影：True AP (A)、AP (B)、axillary (C)、scapular Y (D)](/images/oku14/ch29_p0375_fig4.jpg)
+*Figure 2 — 肩部四標準 X 光投影：True AP (A)、AP (B)、axillary (C)、scapular Y (D)*
 **CT 的角色**：可量化複雜關節炎病例的骨質與骨幾何形態；<span style="color:#e2e8f0">Walch classification</span>（Walch 肩胛盂分型，依磨損型態與版本角 version）以 CT 評估最佳；亦可用於**三維術前規劃**與**病人特製植入物（patient-specific implants）**的製造。
 
 **MRI／CT arthrogram／超音波**：僅在旋轉袖評估會改變處置時才執行；在盂肱關節炎的情境下，**病史、理學檢查與 X 光通常已足以評估旋轉袖**。
 
 <!-- FIG: Figure 3 — Walch 肩胛盂分型示意圖（依 version 與磨損型態） -->
-
+![Figure 3 — Walch 肩胛盂分型示意圖（依 version 與磨損型態）](/images/oku14/ch29_p0385_fig2.jpg)
+*Figure 3 — Walch 肩胛盂分型示意圖（依 version 與磨損型態）*
 ## 2. 分型系統與決策矩陣 (Classification & Decision Making)
 
 ### 2.1 Walch 肩胛盂分型（Glenoid Morphology Classification）

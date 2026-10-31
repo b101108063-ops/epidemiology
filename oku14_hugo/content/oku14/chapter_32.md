@@ -41,7 +41,8 @@ summary: "本章全面探討肘關節上髁炎、遠端肱二頭肌與肱三頭�
 3. **後方剪力 (Posterior Shear)**：鷹嘴尖端與鷹嘴窩後內側壁摩擦碰撞，形成 `<span style="color:#e2e8f0">Valgus Extension Overload (VEO) Syndrome</span>` 及後內側骨刺（Osteophytes）。
 
 <!-- FIG: 投擲動作 late cocking 期肘關節外翻應力與受力分佈示意圖 -->
-
+![投擲動作 late cocking 期肘關節外翻應力與受力分佈示意圖](/images/oku14/ch32_p0411_fig1.jpg)
+*投擲動作 late cocking 期肘關節外翻應力與受力分佈示意圖*
 ---
 
 ## 2. 分型系統與決策矩陣 (Classification & Diagnosis)
@@ -99,7 +100,8 @@ summary: "本章全面探討肘關節上髁炎、遠端肱二頭肌與肱三頭�
    - 傷後 >4-6 週之慢性退縮病例，若無法直接拉回橈骨粗隆，可採用自體或異體肌腱（如 Semitendinosus autograft / Achilles allograft）進行解剖重建。實證顯示儘管延遲 primary repair 技術難度高，其 PREE 與 MEPS 評分仍略優於肌腱移植重建。
 
 <!-- FIG: 遠端肱二頭肌腱皮質按鈕固定示意圖 -->
-
+![遠端肱二頭肌腱皮質按鈕固定示意圖](/images/oku14/ch32_p0420_fig5.jpg)
+*遠端肱二頭肌腱皮質按鈕固定示意圖*
 ### 4.2 尺骨副韌帶重建術式比較 (UCL Reconstruction Techniques)
 
 UCL 重建術（Tommy John Surgery）的核心在於解剖重建前束的前支（Anterior band of anterior bundle）：
@@ -114,7 +116,8 @@ UCL 重建術（Tommy John Surgery）的核心在於解剖重建前束的前支�
 > **Danger zone**：取取自體 `<span style="color:#22d3ee">Palmaris Longus</span>` 肌腱前，術前必須理學檢查確認其存在。人口統計顯示，單側缺損率約 16%、雙側缺損率約 9%。若術前未察覺先天性缺損而盲目切開，極易誤割 `<span style="color:#f87171">Median Nerve</span>`（正中神經），造成災難性醫療事故！
 
 <!-- FIG: UCL 重建術中移植物固定與隧道打孔位置示意圖 -->
-
+![UCL 重建術中移植物固定與隧道打孔位置示意圖](/images/oku14/ch32_p0432_fig1.jpg)
+*UCL 重建術中移植物固定與隧道打孔位置示意圖*
 ---
 
 ## 5. 實證更新、復健協定與 Take-Home Points

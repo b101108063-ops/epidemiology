@@ -125,7 +125,8 @@ summary: "本章涵蓋上肢壓迫性神經病變與手部小關節炎的診斷�
 > 若僅單純行**軟組織重建（Soft-tissue reconstruction）**來處置脫位，**成功率僅 28%**（多數再次脫位）；而改行**矽膠人工關節再置換（Revision arthroplasty to silicone）**結合軟組織穩定，成功率高達 **71%**。
 
 <!-- FIG: 掌側背側入路與 MCP 關節 Dorsal capsule interposition 示意圖 -->
-
+![掌側背側入路與 MCP 關節 Dorsal capsule interposition 示意圖](/images/oku14/ch35_p0454_fig2.jpg)
+*掌側背側入路與 MCP 關節 Dorsal capsule interposition 示意圖*
 ---
 
 ## 5. 實證更新與 OKU 14 重點 (Recent Evidence & Take-Home Points)

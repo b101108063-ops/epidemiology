@@ -372,15 +372,32 @@ FAI 是**生理活動範圍內近端股骨與髖臼之間撞擊**的結果。最
 17. Saadat E, Martin SD, Thornhill TS, et al: Factors associated with the failure of surgical treatment for femoroacetabular impingement. Am J Sports Med 2014;42(6):1487-1495.
 
 <!-- FIG: 圖 5 — 1.5 歲幼兒左側 DDH 合併脫位：A 骨盆 AP；B 左髖關節攝影；C 顯示復位阻礙（肥厚唇狀物、pulvinar 與 ligamentum teres） -->
+![圖 5 — 1.5 歲幼兒左側 DDH 合併脫位：A 骨盆 AP；B 左髖關節攝影；C 顯示復位阻礙（肥厚唇狀物、pulvinar 與 ligamentum teres）](/images/oku14/ch63_p0821_fig5.jpg)
+*圖 5 — 1.5 歲幼兒左側 DDH 合併脫位：A 骨盆 AP；B 左髖關節攝影；C 顯示復位阻礙（肥厚唇狀物、pulvinar 與 ligamentum teres）*
 <!-- FIG: 圖 6 — A, FEAR 指數：角度向內側開啟表示髖關節可能穩定，向外側開啟可能不穩定；C, 三維 CT 呈現發育性髖關節發育不良的三維病態（Copyright San Diego Pediatric Orthopedics） -->
+![圖 6 — A, FEAR 指數：角度向內側開啟表示髖關節可能穩定，向外側開啟可能不穩定；C, 三維 CT 呈現發育性髖關節發育不良的三維病態（Copyright San Diego Pediatric Orthopedics）](/images/oku14/ch63_p0824_fig6.jpg)
+*圖 6 — A, FEAR 指數：角度向內側開啟表示髖關節可能穩定，向外側開啟可能不穩定；C, 三維 CT 呈現發育性髖關節發育不良的三維病態（Copyright San Diego Pediatric Orthopedics）*
 <!-- FIG: 圖 7 — A, 8 至 15 歲股骨頭骺板表面解剖生長圖表；B, 三維 CT：epiphyseal tubercle（黑箭頭）位於骨骺後上象限，epiphyseal cupping（白箭頭）為骨骺向骨幹的周邊骨質延伸（Reprinted from Novais EN, et al: Orthop J Sports Med 2018;6[6]:2325967118781579） -->
+![圖 7 — A, 8 至 15 歲股骨頭骺板表面解剖生長圖表；B, 三維 CT：epiphyseal tubercle（黑箭頭）位於骨骺後上象限，epiphyseal cupping（白箭頭）為骨骺向骨幹的周邊骨質延伸（Reprinted from Novais EN, et al: Orthop J Sports Med 2018;6\[6\]:2325967118781579）](/images/oku14/ch63_p0825_fig7.jpg)
+*圖 7 — A, 8 至 15 歲股骨頭骺板表面解剖生長圖表；B, 三維 CT：epiphyseal tubercle（黑箭頭）位於骨骺後上象限，epiphyseal cupping（白箭頭）為骨骺向骨幹的周邊骨質延伸（Reprinted from Novais EN, et al: Orthop J Sports Med 2018;6\[6\]:2325967118781579）*
 <!-- FIG: 圖 8 — 12 歲女童 SCFE：A、B 術前 AP 與側位；C、D 原位骨骺阻滯術後仍殘餘骨幹變形；E、F 拔除螺釘後 CT 與 MRI 顯示 cam 畸形與唇狀異常 -->
+![圖 8 — 12 歲女童 SCFE：A、B 術前 AP 與側位；C、D 原位骨骺阻滯術後仍殘餘骨幹變形；E、F 拔除螺釘後 CT 與 MRI 顯示 cam 畸形與唇狀異常](/images/oku14/ch63_p0828_fig8.jpg)
+*圖 8 — 12 歲女童 SCFE：A、B 術前 AP 與側位；C、D 原位骨骺阻滯術後仍殘餘骨幹變形；E、F 拔除螺釘後 CT 與 MRI 顯示 cam 畸形與唇狀異常*
 <!-- FIG: 圖 9 — Legg-Calvé-Perthes 疾病致病機轉假說示意（Copyright 2010, Texas Scottish Rite Hospital for Children, Dallas, Texas） -->
+![圖 9 — Legg-Calvé-Perthes 疾病致病機轉假說示意（Copyright 2010, Texas Scottish Rite Hospital for Children, Dallas, Texas）](/images/oku14/ch63_p0829_fig9.jpg)
+*圖 9 — Legg-Calvé-Perthes 疾病致病機轉假說示意（Copyright 2010, Texas Scottish Rite Hospital for Children, Dallas, Texas）*
 <!-- FIG: 圖 10 — 改良 Waldenström 分期各期的右髖 AP 與 frog-leg 側位影像與示意圖（Reprinted with permission from Hyman JE, et al: J Bone Joint Surg Am 2015;97[8]:643-650） -->
+![圖 10 — 改良 Waldenström 分期各期的右髖 AP 與 frog-leg 側位影像與示意圖（Reprinted with permission from Hyman JE, et al: J Bone Joint Surg Am 2015;97\[8\]:643-650）](/images/oku14/ch63_p0831_fig10.jpg)
+*圖 10 — 改良 Waldenström 分期各期的右髖 AP 與 frog-leg 側位影像與示意圖（Reprinted with permission from Hyman JE, et al: J Bone Joint Surg Am 2015;97\[8\]:643-650）*
 <!-- FIG: 圖 11 — 8 歲男童右髖 LCP：A AP（中央壞死、骨受累 <50%，Salter-Thompson group A；外側柱受累約 50%，Herring group B）；B CT；C MRI；D 三維重建 -->
+![圖 11 — 8 歲男童右髖 LCP：A AP（中央壞死、骨受累 <50%，Salter-Thompson group A；外側柱受累約 50%，Herring group B）；B CT；C MRI；D 三維重建](/images/oku14/ch63_p0832_fig11.jpg)
+*圖 11 — 8 歲男童右髖 LCP：A AP（中央壞死、骨受累 <50%，Salter-Thompson group A；外側柱受累約 50%，Herring group B）；B CT；C MRI；D 三維重建*
 <!-- FIG: 圖 12 — 8 歲女童右髖 LCP 伴廣泛壞死：A、B 術前 AP 與 frog-leg；C 冠狀 MRI 確認壞死比例 >50%；D 起始 abduction orthosis；E 追蹤 6 個月後股骨頭塌陷與上方外側擠出；F 外展位 AP 關節攝影確認 hinged abduction；H 11 歲時髖近乎球形、相稱且同心 -->
+![圖 12 — 8 歲女童右髖 LCP 伴廣泛壞死：A、B 術前 AP 與 frog-leg；C 冠狀 MRI 確認壞死比例 >50%；D 起始 abduction orthosis；E 追蹤 6 個月後股骨頭塌陷與上方外側擠出；F 外展位 AP 關節攝影確認 hinged abduction；H 11 歲時髖近乎球形、相稱且同心](/images/oku14/ch63_p0833_fig12.jpg)
+*圖 12 — 8 歲女童右髖 LCP 伴廣泛壞死：A、B 術前 AP 與 frog-leg；C 冠狀 MRI 確認壞死比例 >50%；D 起始 abduction orthosis；E 追蹤 6 個月後股骨頭塌陷與上方外側擠出；F 外展位 AP 關節攝影確認 hinged abduction；H 11 歲時髖近乎球形、相稱且同心*
 <!-- FIG: 圖 13 — 12 歲時發生 SCFE 患者的左髖：A 14 歲無對側滑脫徵象；B 16 歲出現右髖痛，X 光與 CT 顯示股骨頸骨膜反應與上方骨化；C 冠狀 CT 重建；D 17 歲 MRI 顯示明顯 cam 畸形與唇狀撕裂 -->
-
+![圖 13 — 12 歲時發生 SCFE 患者的左髖：A 14 歲無對側滑脫徵象；B 16 歲出現右髖痛，X 光與 CT 顯示股骨頸骨膜反應與上方骨化；C 冠狀 CT 重建；D 17 歲 MRI 顯示明顯 cam 畸形與唇狀撕裂](/images/oku14/ch63_p0834_fig13.jpg)
+*圖 13 — 12 歲時發生 SCFE 患者的左髖：A 14 歲無對側滑脫徵象；B 16 歲出現右髖痛，X 光與 CT 顯示股骨頸骨膜反應與上方骨化；C 冠狀 CT 重建；D 17 歲 MRI 顯示明顯 cam 畸形與唇狀撕裂*
 ---
 
 ## Summary

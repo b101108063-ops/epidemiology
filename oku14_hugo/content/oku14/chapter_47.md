@@ -30,9 +30,11 @@ summary: "本章整理足踝解剖結構、距骨血供與生物力學機制，�
 > **Danger zone**：近年在距骨實施 <span style="color:#f87171">subchondroplasty（次軟骨塑形術/注射磷酸鈣骨水泥）</span> 治療急慢性骨髓水腫或韌帶損傷後病灶，研究發現可能破壞骨外血供及細緻的骨內微血管網絡，導致高率的 <span style="color:#f87171">talar osteonecrosis（距骨缺血性壞死/AVN）</span> 及嚴重的關節面塌陷（Figure 3）。
 
 <!-- FIG: 圖 2 — 距骨血管供應解剖示意圖。A，矢狀切面顯示供應距骨的三條主要動脈網絡。B，後側冠狀切面顯示 deltoid branch 與 tarsal canal branch 之分布。 -->
-
+![圖 2 — 距骨血管供應解剖示意圖。A，矢狀切面顯示供應距骨的三條主要動脈網絡。B，後側冠狀切面顯示 deltoid branch 與 tarsal canal branch 之分布。](/images/oku14/ch47_p0597_fig2.jpg)
+*圖 2 — 距骨血管供應解剖示意圖。A，矢狀切面顯示供應距骨的三條主要動脈網絡。B，後側冠狀切面顯示 deltoid branch 與 tarsal canal branch 之分布。*
 <!-- FIG: 圖 3 — 31 歲女性於距骨接受次軟骨塑形術 3 個月後之冠狀面 CT 影像，箭頭指示距骨關節面碎裂與壞死塌陷區域。 -->
-
+![圖 3 — 31 歲女性於距骨接受次軟骨塑形術 3 個月後之冠狀面 CT 影像，箭頭指示距骨關節面碎裂與壞死塌陷區域。](/images/oku14/ch47_p0597_fig3.jpg)
+*圖 3 — 31 歲女性於距骨接受次軟骨塑形術 3 個月後之冠狀面 CT 影像，箭頭指示距骨關節面碎裂與壞死塌陷區域。*
 ### 1.2 足踝韌帶與肌腱複合體解剖
 
 | 韌帶／肌腱複合體 | 組成構造與解剖特徵 | 臨床與生物力學意義 |
@@ -68,7 +70,8 @@ summary: "本章整理足踝解剖結構、距骨血供與生物力學機制，�
 - **3D 移動式 C 臂（Intraoperative 3D fluoroscopy）**：2020 年前瞻性隨機對照研究（Halm 等）指出，在跟骨骨折手術中使用 3D C 臂會增加手術時間，但對骨折復位品質與臨床預後並無顯著改善。
 
 <!-- FIG: 圖 4 — A，足部 AP 內斜位 X 光顯示 II 型副舟骨。B，籽骨位 X 光顯示雙分脛側籽骨（bipartite tibial sesamoid）。 -->
-
+![圖 4 — A，足部 AP 內斜位 X 光顯示 II 型副舟骨。B，籽骨位 X 光顯示雙分脛側籽骨（bipartite tibial sesamoid）。](/images/oku14/ch47_p0598_fig4.jpg)
+*圖 4 — A，足部 AP 內斜位 X 光顯示 II 型副舟骨。B，籽骨位 X 光顯示雙分脛側籽骨（bipartite tibial sesamoid）。*
 ### 2.2 負重 CT (Weight-Bearing CT, WBCT) 的臨床革命
 
 傳統 CT 能提供良好的三維骨骼結構，但缺乏生理負重下的動態資訊。Cone-beam 技術發展的 WBCT 具有以下優勢與適應症：
@@ -79,14 +82,16 @@ summary: "本章整理足踝解剖結構、距骨血供與生物力學機制，�
 4. **輻射與效率優勢**：相較於傳統 X 光加傳統 CT，WBCT 減少 <span style="color:#34d399">10% 輻射劑量</span>，並縮短 <span style="color:#34d399">77% 影像擷取時間</span>（Richter 等）。
 
 <!-- FIG: 圖 5 — A，WBCT 軸向切面顯示內側楔骨與第二跖骨基底間 Lisfranc 關節微細增寬。B，矢狀面 WBCT 顯示第二跖骨基底向背側半脫位。 -->
-
+![圖 5 — A，WBCT 軸向切面顯示內側楔骨與第二跖骨基底間 Lisfranc 關節微細增寬。B，矢狀面 WBCT 顯示第二跖骨基底向背側半脫位。](/images/oku14/ch47_p0599_fig5.jpg)
+*圖 5 — A，WBCT 軸向切面顯示內側楔骨與第二跖骨基底間 Lisfranc 關節微細增寬。B，矢狀面 WBCT 顯示第二跖骨基底向背側半脫位。*
 ### 2.3 高級磁振造影 (MRI) 與定量 MRI
 
 - **3T MRI 優先於 1.5T**：高解析度能更清晰顯示足踝微小結構。在 T2 抑脂序列中對神經病變及 Morton 神經瘤診斷價值極高。
 - **定量 MRI（Quantitative MRI / Parametric mapping: T2, T2*, T1 Rho）**：能在標準 MRI 出現異常前，提前偵測關節軟骨早期的退化與組織分解；可用於評估微骨折術（microfracture）或軟骨移植術後的軟骨修復品質（圖 6/Figure 6）。
 
 <!-- FIG: 圖 6 — T2 mapping MRI 顯示軟骨骨骼自體移植術（OATS）後之透明軟骨分布情況。 -->
-
+![圖 6 — T2 mapping MRI 顯示軟骨骨骼自體移植術（OATS）後之透明軟骨分布情況。](/images/oku14/ch47_p0599_fig6.jpg)
+*圖 6 — T2 mapping MRI 顯示軟骨骨骼自體移植術（OATS）後之透明軟骨分布情況。*
 ### 2.4 核子醫學與 SPECT-CT
 
 - **三相骨掃描（3-phase bone scan）**：偵測骨成型活性（如應力性骨折、CRPS 全三相瀰漫性攝取增強、骨術後感染）。
@@ -94,7 +99,8 @@ summary: "本章整理足踝解剖結構、距骨血供與生物力學機制，�
 - **SPECT-CT**：結合生理代謝與解剖 CT。在 <span style="color:#60a5fa;font-weight:600">痛性全踝關節置換（painful TAA）</span> 的診斷準確度高達 89.2%（Gurbani 等），顯著優於 MRI；能準確區分溝衝擊（gutter impingement）、假體周圍應力骨折及無菌性鬆動（aseptic loosening，表現為假體-骨介面瀰漫性攝取增加）。
 
 <!-- FIG: 圖 7 — 痛性全踝關節置換患者之 X 光與 SPECT-CT 影像，顯示脛骨與距骨假體下方骨溶素與放射性攝取增加，證實為假體鬆動。 -->
-
+![圖 7 — 痛性全踝關節置換患者之 X 光與 SPECT-CT 影像，顯示脛骨與距骨假體下方骨溶素與放射性攝取增加，證實為假體鬆動。](/images/oku14/ch47_p0600_fig7.jpg)
+*圖 7 — 痛性全踝關節置換患者之 X 光與 SPECT-CT 影像，顯示脛骨與距骨假體下方骨溶素與放射性攝取增加，證實為假體鬆動。*
 ---
 
 ## 3. 臨床生物力學與韌帶/肌腱重建機制 (Clinical Biomechanics & Reconstruction)

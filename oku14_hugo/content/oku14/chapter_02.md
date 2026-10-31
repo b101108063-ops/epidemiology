@@ -21,7 +21,8 @@ summary: "本章介紹骨科研究的描述性與分析性設計、病人報告�
 本章非解剖學章節，其「關鍵結構」為**研究設計的證據架構**：不同設計能回答的問題不同，推論範圍也不同。
 
 <!-- FIG: Figure 2 — 研究設計分類圖（Analytic：RCT／Retrospective case-control／Cohort；Descriptive：Cross-sectional／Correlational／Case series & case reports）。 -->
-
+![Figure 2 — 研究設計分類圖（Analytic：RCT／Retrospective case-control／Cohort；Descriptive：Cross-sectional／Correlational／Case series & case reports）。](/images/oku14/ch02_p0021_fig2.jpg)
+*Figure 2 — 研究設計分類圖（Analytic：RCT／Retrospective case-control／Cohort；Descriptive：Cross-sectional／Correlational／Case series & case reports）。*
 ### 1.1 描述性研究 (Descriptive Studies)
 
 描述性研究只描述狀況或事件，**不提供變數間關係的解釋**，但可提供假設供後續研究。骨科文獻中最常見的報告形式即 case series。
