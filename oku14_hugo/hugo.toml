@@ -1,0 +1,39 @@
+baseURL = "/oku14/"
+languageCode = "zh-tw"
+title = "OKU 14 骨科筆記"
+theme = "PaperMod"
+
+# Files starting with "_" are working/partial files, not pages.
+# Without this, Hugo parses them as content pages and a malformed
+# frontmatter in a half-written partial fails the whole site build.
+ignoreFiles = ["content/oku14/_[^/]*$"]
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+
+[params]
+env = "production"
+defaultTheme = "system"
+ShowReadingTime = true
+ShowToc = true
+TocOpen = true
+ShowBreadCrumbs = true
+ShowWordCount = true
+ShowProgressBar = true
+summaryLength = 30
+description = "Orthopaedic Knowledge Update 14 結構化中文筆記"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "首頁"
+    url = "/"
+    weight = 5
+  [[menu.main]]
+    identifier = "oku14"
+    name = "OKU 14"
+    url = "/oku14/"
+    weight = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
