@@ -3,10 +3,10 @@ languageCode = "zh-tw"
 title = "OKU 14 骨科筆記"
 theme = "PaperMod"
 
-# Files starting with "_" are working/partial files, not pages.
-# Without this, Hugo parses them as content pages and a malformed
-# frontmatter in a half-written partial fails the whole site build.
-ignoreFiles = ["content/oku14/_[^/]*$"]
+# Hugo ignores "_"-prefixed content files by default, so partial/working
+# files under content/oku14/ are already excluded from the build. An
+# ignoreFiles regex used to live here; it matched nothing useful and the same
+# pattern broke the home page in oku14_site by also matching _index.md.
 
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]
