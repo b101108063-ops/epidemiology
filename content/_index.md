@@ -7,6 +7,10 @@ description: "Gordis Epidemiology 5th Edition 繁體中文學習指南"
 
 **Gordis Epidemiology, 5th Edition** 繁體中文學習指南。
 
+## 其他醫學筆記
+
+- [OKU 14 骨科筆記](https://b101108063-ops.github.io/oku14/) — Orthopaedic Knowledge Update 14 繁體中文結構化筆記，共 75 章。
+
 ## 章節導覽
 
 - [CH1 緒論](https://b101108063-ops.github.io/epidemiology/docs/ch1_introduction/)
